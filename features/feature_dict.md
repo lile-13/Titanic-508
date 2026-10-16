@@ -1,6 +1,11 @@
 # 派生特征说明
 
-由 `export_features.py` 生成，与 `notebooks/*.ipynb` 中的口径一致。
+由 `python -m scripts.export_features` 生成，与 `notebooks/*.ipynb` 中的口径一致。
+
+当前导出策略：`rule_group`。人数计数使用公开 train+test 无标签特征池。
+
+**用途：最终全量训练与测试预测，或检查数据。不要直接在此表上做正式 CV。**
+交叉验证请从原始数据构建未填补特征，按 folds.csv 的 PassengerId 映射取行，再调用 `src.preprocess.prepare_fold_matrices`，每折独立拟合填补器。
 
 ## 清洗后表里的派生列
 
@@ -34,13 +39,15 @@
 | `IsChild` | 是否 13 岁以下 |
 | `AgeBand` | 年龄段分箱 |
 
-## 建模矩阵（`preprocess.make_model_matrix`）
+## 建模矩阵（`src.preprocess.make_model_matrix`）
 
 - 数值/布尔列（23 个）原样进入
 - 分类列（HomePlanet, Destination, Deck, Side, AgeBand, MaxAmenity）做 one-hot
 - 最终特征维度：**53**
+- indicator 策略会额外纳入原始字段缺失标记（最多 12 列），标签不参与。
 
 ## 折划分（`folds.csv`）
 
 按 `GroupId` 切的 5 折（`StratifiedGroupKFold`，seed=42）。
 **不要自己重新随机切分**——同组乘客跨 fold 会造成泄漏，本地分数虚高。
+按 PassengerId 关联，不依赖 CSV 当前行号；读取 GroupId 时使用字符串以保留前导零。

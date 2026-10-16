@@ -102,7 +102,7 @@
 0108_01,Earth,True,TRAPPIST-1e,23.0,False,0.0,0.0,0.0,0.0,0.0,False,0108,1,G,19.0,S,Handertiz,Natald,3,False,True,False,0.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 0108_02,Earth,False,TRAPPIST-1e,31.0,False,562.0,0.0,326.0,0.0,0.0,False,0108,2,G,19.0,S,,,3,False,False,False,0.5,1.0,1.0,1,False,888.0,6.790097235513905,False,326.0,562.0,3,2,0.36711711711711714,RoomService,False,26-35
 0108_03,Earth,False,TRAPPIST-1e,0.0,False,0.0,0.0,0.0,0.0,0.0,True,0108,3,G,19.0,S,Handertiz,Oline,3,False,False,True,1.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
-0110_01,Europa,False,TRAPPIST-1e,32.0,False,0.0,410.0,6.0,3929.0,764.0,False,0110,1,B,5.0,P,Aloubtled,Graviph,4,False,True,False,0.0,7.0,7.0,2,True,5109.0,8.53895468319775,False,4699.0,410.0,1,4,0.9197494617341946,Spa,False,26-35
+0110_01,Europa,False,TRAPPIST-1e,32.0,False,0.0,410.0,6.0,3929.0,764.0,False,0110,1,F,5.0,P,Aloubtled,Graviph,4,False,True,False,0.0,7.0,7.0,2,True,5109.0,8.53895468319775,False,4699.0,410.0,1,4,0.9197494617341946,Spa,False,26-35
 0110_02,Europa,False,TRAPPIST-1e,40.0,False,0.0,331.0,0.0,0.0,1687.0,False,0110,2,B,5.0,P,Bootious,Aldeba,4,False,False,False,0.3333333333333333,2.0,2.0,2,True,2018.0,7.610357618312838,False,1687.0,331.0,3,2,0.83597621407334,VRDeck,False,36-50
 0110_03,Europa,False,TRAPPIST-1e,42.0,False,2209.0,11418.0,0.0,1868.0,445.0,True,0110,3,B,5.0,P,Aloubtled,Alaratz,4,False,False,False,0.6666666666666666,7.0,7.0,2,True,15940.0,9.676649685633647,False,2313.0,13627.0,1,4,0.14510664993726474,FoodCourt,False,36-50
 0110_04,Europa,True,TRAPPIST-1e,28.0,False,0.0,0.0,0.0,0.0,0.0,True,0110,4,B,5.0,P,Aloubtled,Izark,4,False,False,True,1.0,7.0,7.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -250,7 +250,7 @@
 0270_01,Earth,False,TRAPPIST-1e,63.0,False,0.0,25.0,128.0,0.0,1240.0,False,0270,1,F,59.0,P,Fryersonis,Cathya,1,True,True,True,0.0,14.0,14.0,1,False,1393.0,7.2399325913204695,False,1368.0,25.0,2,3,0.9820531227566404,VRDeck,False,51-65
 0275_01,Europa,True,55 Cancri e,33.0,False,0.0,0.0,0.0,0.0,0.0,True,0275,1,D,9.0,S,Obnoble,Terf,1,True,True,True,0.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 0277_01,Earth,False,55 Cancri e,50.0,False,44.0,2390.0,0.0,53.0,0.0,True,0277,1,F,61.0,P,Mcdanield,Byront,1,True,True,True,0.0,7.0,7.0,1,False,2487.0,7.81923445385907,False,53.0,2434.0,2,3,0.021310816244471252,FoodCourt,False,36-50
-0278_01,Earth,False,TRAPPIST-1e,35.0,False,0.0,0.0,0.0,888.0,333.0,False,0278,1,G,45.0,P,Beachez,Judya,2,False,True,False,0.0,7.0,7.0,1,False,1221.0,7.108244139731541,False,1221.0,0.0,3,2,1.0,Spa,False,26-35
+0278_01,Earth,False,TRAPPIST-1e,35.0,False,0.0,0.0,0.0,888.0,333.0,False,0278,1,F,45.0,P,Beachez,Judya,2,False,True,False,0.0,7.0,7.0,1,False,1221.0,7.108244139731541,False,1221.0,0.0,3,2,1.0,Spa,False,26-35
 0278_02,Earth,False,TRAPPIST-1e,45.0,False,0.0,97.0,0.0,14.0,333.0,False,0278,2,G,45.0,P,Beachez,Marice,2,False,False,True,1.0,7.0,7.0,1,False,444.0,6.09807428216624,False,347.0,97.0,2,3,0.7815315315315315,VRDeck,False,36-50
 0281_01,Earth,False,TRAPPIST-1e,19.0,False,0.0,0.0,2078.0,0.0,0.0,True,0281,1,F,63.0,P,Pierry,Derine,1,True,True,True,0.0,8.0,8.0,1,False,2078.0,7.639642287858013,False,2078.0,0.0,4,1,1.0,ShoppingMall,False,18-25
 0282_01,Earth,False,TRAPPIST-1e,21.0,False,0.0,918.0,0.0,0.0,0.0,True,0282,1,F,54.0,S,Baketton,Valex,1,True,True,True,0.0,6.0,6.0,1,False,918.0,6.823286122355687,False,0.0,918.0,4,1,0.0,FoodCourt,False,18-25
@@ -259,7 +259,7 @@
 0285_01,Europa,True,TRAPPIST-1e,14.0,False,0.0,0.0,0.0,0.0,0.0,True,0285,1,E,16.0,P,Invebodene,Krabik,2,False,True,False,0.0,11.0,11.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 0285_02,Europa,True,55 Cancri e,42.0,False,0.0,0.0,0.0,0.0,0.0,True,0285,2,E,16.0,P,Invebodene,Grasath,2,False,False,True,1.0,11.0,11.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 0286_01,Earth,False,55 Cancri e,57.0,False,3.0,1281.0,29.0,162.0,13.0,False,0286,1,F,65.0,P,Jimes,Carita,1,True,True,True,0.0,6.0,6.0,1,False,1488.0,7.305860032684009,False,204.0,1284.0,0,5,0.13709677419354838,FoodCourt,False,51-65
-0287_01,Europa,True,55 Cancri e,39.0,False,0.0,0.0,0.0,0.0,0.0,True,0287,1,B,12.0,P,Bootty,Tetra,2,False,True,False,0.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
+0287_01,Europa,True,55 Cancri e,39.0,False,0.0,0.0,0.0,0.0,0.0,True,0287,1,F,12.0,P,Bootty,Tetra,2,False,True,False,0.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 0287_02,Europa,False,TRAPPIST-1e,28.0,False,0.0,587.0,32.0,6.0,1460.0,False,0287,2,B,12.0,P,Bootty,Alasym,2,False,False,True,1.0,4.0,4.0,1,False,2085.0,7.643003635560718,False,1498.0,587.0,1,4,0.7184652278177458,VRDeck,False,26-35
 0288_01,Earth,False,55 Cancri e,19.0,False,0.0,0.0,0.0,0.0,828.0,False,0288,1,F,55.0,S,Delez,Gory,1,True,True,True,0.0,5.0,5.0,1,False,828.0,6.720220155135295,False,828.0,0.0,4,1,1.0,VRDeck,False,18-25
 0289_01,Europa,True,55 Cancri e,19.0,False,0.0,0.0,0.0,0.0,0.0,True,0289,1,C,12.0,S,Objeciane,Furuson,1,True,True,True,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
@@ -313,7 +313,7 @@
 0346_01,Earth,True,55 Cancri e,15.0,False,0.0,0.0,0.0,0.0,0.0,True,0346,1,G,59.0,P,Chanan,Lynney,1,True,True,True,0.0,11.0,11.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 0347_01,Mars,False,TRAPPIST-1e,27.0,False,434.0,0.0,1434.0,0.0,0.0,False,0347,1,F,64.0,S,Kraie,Cousk,1,True,True,True,0.0,6.0,6.0,1,False,1868.0,7.533158807455563,False,1434.0,434.0,3,2,0.7676659528907923,ShoppingMall,False,26-35
 0348_01,Mars,False,TRAPPIST-1e,22.0,False,142.0,2876.0,202.0,3.0,0.0,True,0348,1,D,12.0,P,Mane,Stray,2,False,True,False,0.0,4.0,4.0,1,False,3223.0,8.07837810362652,False,205.0,3018.0,1,4,0.0636053366428793,FoodCourt,False,18-25
-0348_02,Mars,False,TRAPPIST-1e,36.0,False,520.0,0.0,1865.0,0.0,0.0,True,0348,2,D,12.0,P,Mane,Weet,2,False,False,True,1.0,4.0,4.0,1,False,2385.0,7.777373602657861,False,1865.0,520.0,3,2,0.7819706498951782,ShoppingMall,False,36-50
+0348_02,Mars,False,TRAPPIST-1e,36.0,False,520.0,0.0,1865.0,0.0,0.0,True,0348,2,F,12.0,P,Mane,Weet,2,False,False,True,1.0,4.0,4.0,1,False,2385.0,7.777373602657861,False,1865.0,520.0,3,2,0.7819706498951782,ShoppingMall,False,36-50
 0350_01,Earth,True,PSO J318.5-22,14.0,False,0.0,0.0,0.0,0.0,0.0,True,0350,1,G,60.0,P,Burchanez,Loresa,1,True,True,True,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 0352_01,Mars,False,TRAPPIST-1e,23.0,False,2001.0,0.0,2975.0,0.0,0.0,False,0352,1,F,78.0,P,Strad,Hits,1,True,True,True,0.0,2.0,2.0,1,False,4976.0,8.512582578858554,False,2975.0,2001.0,3,2,0.5978697749196141,ShoppingMall,False,18-25
 0355_01,Earth,True,TRAPPIST-1e,18.0,False,0.0,0.0,0.0,0.0,0.0,True,0355,1,F,427.0,S,Warrison,Tricky,1,True,True,True,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
@@ -414,7 +414,7 @@
 0449_01,Earth,True,TRAPPIST-1e,11.0,False,0.0,0.0,0.0,0.0,0.0,True,0449,1,G,64.0,S,Moongton,Nathy,1,True,True,True,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 0452_01,Mars,True,TRAPPIST-1e,22.0,False,0.0,0.0,0.0,0.0,0.0,True,0452,1,E,26.0,S,Ecart,Swafox,1,True,True,True,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 0453_01,Europa,True,TRAPPIST-1e,19.0,False,0.0,0.0,0.0,0.0,0.0,True,0453,1,B,14.0,S,Taptiritty,Aldun,3,False,True,False,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
-0453_02,Europa,True,55 Cancri e,34.0,False,0.0,0.0,0.0,0.0,0.0,True,0453,2,B,14.0,S,Taptiritty,Minopus,3,False,False,False,0.5,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
+0453_02,Europa,True,55 Cancri e,34.0,False,0.0,0.0,0.0,0.0,0.0,True,0453,2,F,14.0,S,Taptiritty,Minopus,3,False,False,False,0.5,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 0453_03,Europa,True,TRAPPIST-1e,74.0,False,0.0,0.0,0.0,0.0,0.0,True,0453,3,B,14.0,S,Taptiritty,Wezena,3,False,False,True,1.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,66+
 0454_01,Europa,False,55 Cancri e,28.0,True,5.0,4288.0,0.0,745.0,5.0,True,0454,1,B,15.0,S,Geoconne,Tabius,3,False,True,False,0.0,5.0,5.0,2,True,5043.0,8.52595469708481,False,750.0,4293.0,1,4,0.148720999405116,FoodCourt,False,26-35
 0454_02,Europa,True,TRAPPIST-1e,42.0,False,0.0,0.0,0.0,0.0,0.0,True,0454,2,B,15.0,S,Fushausive,Etair,3,False,False,False,0.5,9.0,9.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
@@ -455,7 +455,7 @@
 0487_01,Europa,False,TRAPPIST-1e,39.0,False,172.0,1794.0,12.0,4303.0,246.0,False,0487,1,C,19.0,S,Obeaded,Sadirak,1,True,True,True,0.0,8.0,8.0,1,False,6527.0,8.783855896643942,False,4561.0,1966.0,0,5,0.6987896430212962,Spa,False,36-50
 0488_01,Earth,True,PSO J318.5-22,28.0,False,0.0,0.0,0.0,0.0,0.0,False,0488,1,G,76.0,P,Vantonson,Chery,1,True,True,True,0.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 0490_01,Earth,True,TRAPPIST-1e,14.0,False,0.0,0.0,0.0,0.0,0.0,True,0490,1,G,71.0,S,Kirklander,Hanne,1,True,True,True,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
-0498_01,Europa,True,55 Cancri e,27.0,False,0.0,0.0,0.0,0.0,0.0,True,0498,1,B,18.0,S,Preent,Batomam,2,False,True,False,0.0,2.0,2.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
+0498_01,Europa,True,55 Cancri e,27.0,False,0.0,0.0,0.0,0.0,0.0,True,0498,1,F,18.0,S,Preent,Batomam,2,False,True,False,0.0,2.0,2.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 0498_02,Europa,True,55 Cancri e,46.0,False,0.0,0.0,0.0,0.0,0.0,True,0498,2,B,18.0,S,Preent,Kastrak,2,False,False,True,1.0,2.0,2.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 0499_01,Mars,True,55 Cancri e,27.0,False,0.0,0.0,0.0,0.0,0.0,True,0499,1,F,89.0,S,Meake,Eclass,2,False,True,False,0.0,11.0,11.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 0499_02,Mars,False,TRAPPIST-1e,21.0,False,0.0,0.0,0.0,0.0,0.0,False,0499,2,E,29.0,S,Meake,Yogark,2,False,False,True,1.0,11.0,11.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
@@ -467,7 +467,7 @@
 0503_03,Mars,False,TRAPPIST-1e,42.0,False,1246.0,35.0,16.0,0.0,0.0,False,0503,3,E,31.0,S,Fone,Pios,3,False,False,True,1.0,11.0,11.0,1,False,1297.0,7.168579897264035,False,16.0,1281.0,2,3,0.01233616037008481,RoomService,False,36-50
 0504_01,Europa,True,55 Cancri e,18.0,False,0.0,0.0,0.0,0.0,0.0,True,0504,1,B,19.0,S,Unpasine,Thabius,6,False,True,False,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 0504_02,Europa,True,55 Cancri e,54.0,False,0.0,0.0,0.0,0.0,0.0,True,0504,2,B,19.0,S,Unpasine,Mirfar,6,False,False,False,0.2,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
-0504_03,Europa,True,55 Cancri e,24.0,False,0.0,0.0,0.0,0.0,0.0,True,0504,3,B,19.0,S,Unpasine,Sterops,6,False,False,False,0.4,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
+0504_03,Europa,True,TRAPPIST-1e,24.0,False,0.0,0.0,0.0,0.0,0.0,True,0504,3,B,19.0,S,Unpasine,Sterops,6,False,False,False,0.4,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 0504_04,Europa,False,TRAPPIST-1e,64.0,False,0.0,1737.0,11.0,401.0,752.0,False,0504,4,B,19.0,S,Unpasine,Tauria,6,False,False,False,0.6,8.0,8.0,1,False,2901.0,7.973155433444133,False,1164.0,1737.0,1,4,0.4012409513960703,FoodCourt,False,51-65
 0504_05,Europa,True,55 Cancri e,18.0,False,0.0,0.0,0.0,0.0,0.0,True,0504,5,B,19.0,S,Unpasine,Azharga,6,False,False,False,0.8,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 0504_06,Europa,True,55 Cancri e,53.0,False,0.0,0.0,0.0,0.0,0.0,True,0504,6,B,19.0,S,Unpasine,Alheneb,6,False,False,True,1.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
@@ -528,7 +528,7 @@
 0563_01,Mars,False,55 Cancri e,33.0,False,840.0,642.0,402.0,21.0,0.0,False,0563,1,F,114.0,P,Petie,Hamsp,1,True,True,True,0.0,2.0,2.0,1,False,1905.0,7.552762084214147,False,423.0,1482.0,1,4,0.2220472440944882,RoomService,False,26-35
 0564_01,Europa,True,55 Cancri e,32.0,False,0.0,0.0,0.0,0.0,0.0,True,0564,1,B,24.0,P,Dinsprody,Bath,3,False,True,False,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 0564_02,Europa,True,TRAPPIST-1e,28.0,False,0.0,0.0,0.0,0.0,0.0,True,0564,2,B,24.0,P,Dinsprody,Taura,3,False,False,False,0.5,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
-0564_03,Europa,False,55 Cancri e,28.0,False,0.0,410.0,2.0,1354.0,3695.0,False,0564,3,B,24.0,P,Dinsprody,Aldibi,3,False,False,True,1.0,5.0,5.0,1,False,5461.0,8.60557030203365,False,5051.0,410.0,1,4,0.9249221754257462,VRDeck,False,26-35
+0564_03,Europa,False,TRAPPIST-1e,28.0,False,0.0,410.0,2.0,1354.0,3695.0,False,0564,3,B,24.0,P,Dinsprody,Aldibi,3,False,False,True,1.0,5.0,5.0,1,False,5461.0,8.60557030203365,False,5051.0,410.0,1,4,0.9249221754257462,VRDeck,False,26-35
 0565_01,Mars,False,TRAPPIST-1e,31.0,False,697.0,0.0,612.0,0.0,0.0,False,0565,1,F,115.0,P,Ble,Cines,1,True,True,True,0.0,9.0,9.0,1,False,1309.0,7.177782416195197,False,612.0,697.0,3,2,0.4675324675324675,RoomService,False,26-35
 0566_01,Mars,True,TRAPPIST-1e,13.0,False,0.0,0.0,0.0,0.0,0.0,True,0566,1,E,37.0,S,Mish,Muls,1,True,True,True,0.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 0567_01,Earth,True,TRAPPIST-1e,14.0,False,0.0,0.0,0.0,0.0,0.0,True,0567,1,G,83.0,S,Munozanson,Jeron,1,True,True,True,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
@@ -539,7 +539,7 @@
 0571_01,Europa,True,55 Cancri e,22.0,False,0.0,0.0,0.0,0.0,0.0,True,0571,1,C,21.0,P,Ousious,Branev,7,False,True,False,0.0,14.0,14.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 0571_02,Europa,True,TRAPPIST-1e,19.0,False,0.0,0.0,0.0,0.0,0.0,False,0571,2,C,21.0,P,Ousious,Alchium,7,False,False,False,0.16666666666666666,14.0,14.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 0571_03,Europa,True,TRAPPIST-1e,42.0,False,0.0,0.0,0.0,0.0,0.0,True,0571,3,C,21.0,P,Ousious,Bahoton,7,False,False,False,0.3333333333333333,14.0,14.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
-0571_04,Europa,True,55 Cancri e,30.0,False,0.0,0.0,0.0,0.0,0.0,True,0571,4,C,21.0,P,Hednigic,Izark,7,False,False,False,0.5,8.0,8.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
+0571_04,Europa,True,TRAPPIST-1e,30.0,False,0.0,0.0,0.0,0.0,0.0,True,0571,4,C,21.0,P,Hednigic,Izark,7,False,False,False,0.5,8.0,8.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 0571_05,Europa,True,55 Cancri e,16.0,False,0.0,0.0,0.0,0.0,0.0,True,0571,5,C,21.0,P,Ousious,Polam,7,False,False,False,0.6666666666666666,14.0,14.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 0571_06,Europa,False,TRAPPIST-1e,55.0,False,0.0,1542.0,0.0,1814.0,1568.0,False,0571,6,C,21.0,P,Ousious,Hasich,7,False,False,False,0.8333333333333334,14.0,14.0,2,True,4924.0,8.502079553606189,False,3382.0,1542.0,2,3,0.6868399675060926,Spa,False,51-65
 0571_07,Europa,True,TRAPPIST-1e,55.0,False,0.0,0.0,0.0,0.0,0.0,True,0571,7,C,21.0,P,Ousious,Isoton,7,False,False,True,1.0,14.0,14.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
@@ -664,11 +664,11 @@
 0691_01,Mars,False,TRAPPIST-1e,19.0,False,164.0,0.0,783.0,0.0,0.0,False,0691,1,E,49.0,S,Potte,Bubbix,3,False,True,False,0.0,8.0,8.0,1,False,947.0,6.854354502255021,False,783.0,164.0,3,2,0.8268215417106652,ShoppingMall,False,18-25
 0691_02,Mars,False,TRAPPIST-1e,21.0,False,505.0,0.0,1952.0,0.0,0.0,False,0691,2,F,123.0,S,Potte,Fis,3,False,False,False,0.5,8.0,8.0,1,False,2457.0,7.80710329012598,False,1952.0,505.0,3,2,0.7944647944647945,ShoppingMall,False,18-25
 0691_03,Mars,True,TRAPPIST-1e,23.0,False,0.0,0.0,0.0,0.0,0.0,True,0691,3,E,49.0,S,Potte,Moss,3,False,False,True,1.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
-0693_01,Europa,True,55 Cancri e,35.0,False,0.0,0.0,0.0,0.0,0.0,True,0693,1,C,27.0,S,Dedometeel,Mothab,2,False,True,False,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
+0693_01,Europa,True,55 Cancri e,35.0,False,0.0,0.0,0.0,0.0,0.0,True,0693,1,F,27.0,S,Dedometeel,Mothab,2,False,True,False,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 0693_02,Europa,False,TRAPPIST-1e,34.0,False,0.0,3488.0,0.0,4343.0,38.0,False,0693,2,C,27.0,S,Dedometeel,Tetraix,2,False,False,True,1.0,8.0,8.0,1,False,7869.0,8.970813341411448,False,4381.0,3488.0,2,3,0.5567416444275003,Spa,False,26-35
 0696_01,Earth,False,TRAPPIST-1e,22.0,False,0.0,581.0,226.0,74.0,0.0,True,0696,1,G,107.0,S,Haydenzier,Stany,1,True,True,True,0.0,16.0,16.0,1,False,881.0,6.782192056006791,False,300.0,581.0,2,3,0.340522133938706,FoodCourt,False,18-25
 0697_01,Earth,False,55 Cancri e,24.0,False,21.0,0.0,689.0,12.0,0.0,True,0697,1,F,147.0,P,Buchansen,Dixiel,1,True,True,True,0.0,12.0,12.0,1,False,722.0,6.583409222158765,False,701.0,21.0,2,3,0.9709141274238227,ShoppingMall,False,18-25
-0699_01,Mars,True,55 Cancri e,18.0,False,0.0,0.0,0.0,0.0,0.0,True,0699,1,F,126.0,S,Sha,Roswal,2,False,True,False,0.0,3.0,3.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
+0699_01,Mars,True,TRAPPIST-1e,18.0,False,0.0,0.0,0.0,0.0,0.0,True,0699,1,F,126.0,S,Sha,Roswal,2,False,True,False,0.0,3.0,3.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 0699_02,Mars,False,55 Cancri e,24.0,False,2698.0,0.0,301.0,8.0,5.0,False,0699,2,D,24.0,S,Rhuba,Flyros,2,False,False,True,1.0,5.0,5.0,2,True,3012.0,8.0106915391303,False,314.0,2698.0,1,4,0.10424966799468792,RoomService,False,18-25
 0701_01,Europa,True,TRAPPIST-1e,33.0,False,0.0,0.0,0.0,0.0,0.0,True,0701,1,D,25.0,S,Voliat,Menkibi,1,True,True,True,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 0702_01,Earth,False,TRAPPIST-1e,24.0,False,121.0,237.0,4.0,387.0,54.0,False,0702,1,F,127.0,S,Sellahaney,Briane,1,True,True,True,0.0,10.0,10.0,1,False,803.0,6.6895992691789665,False,445.0,358.0,0,5,0.5541718555417185,Spa,False,18-25
@@ -678,14 +678,14 @@
 0707_01,Earth,True,TRAPPIST-1e,44.0,False,0.0,0.0,0.0,0.0,0.0,True,0707,1,G,109.0,S,Haydenzier,Jorgie,1,True,True,True,0.0,16.0,16.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 0709_01,Europa,False,55 Cancri e,25.0,False,0.0,4949.0,0.0,452.0,15.0,True,0709,1,A,7.0,S,Missefle,Astorux,3,False,True,False,0.0,4.0,4.0,1,False,5416.0,8.597297435657898,False,467.0,4949.0,2,3,0.08622599704579025,FoodCourt,False,18-25
 0709_02,Europa,True,55 Cancri e,25.0,False,0.0,0.0,0.0,0.0,0.0,True,0709,2,A,7.0,S,Missefle,Thaban,3,False,False,False,0.5,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
-0709_03,Europa,True,55 Cancri e,23.0,False,0.0,0.0,0.0,0.0,0.0,True,0709,3,A,7.0,S,Missefle,Props,3,False,False,True,1.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
+0709_03,Europa,True,55 Cancri e,23.0,False,0.0,0.0,0.0,0.0,0.0,True,0709,3,F,7.0,S,Missefle,Props,3,False,False,True,1.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 0710_01,Mars,False,TRAPPIST-1e,23.0,False,1695.0,0.0,0.0,31.0,349.0,False,0710,1,E,42.0,P,Coflé,Nute,1,True,True,True,0.0,5.0,5.0,1,False,2075.0,7.638198244285779,False,380.0,1695.0,2,3,0.18313253012048192,RoomService,False,18-25
 0712_01,Mars,False,TRAPPIST-1e,20.0,False,457.0,0.0,170.0,1132.0,0.0,False,0712,1,F,150.0,P,Apeau,Pik,2,False,True,False,0.0,5.0,5.0,1,False,1759.0,7.473069088032197,False,1302.0,457.0,2,3,0.740193291642979,Spa,False,18-25
 0712_02,Mars,False,TRAPPIST-1e,2.0,False,0.0,0.0,0.0,0.0,0.0,True,0712,2,F,150.0,P,Apeau,Crans,2,False,False,True,1.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 0713_01,Earth,False,TRAPPIST-1e,26.0,False,1577.0,2.0,0.0,30.0,0.0,False,0713,1,E,50.0,S,Stantiagord,Vivia,1,True,True,True,0.0,7.0,7.0,1,False,1609.0,7.383989457978509,False,30.0,1579.0,2,3,0.018645121193287758,RoomService,False,26-35
 0714_01,Earth,True,PSO J318.5-22,38.0,False,0.0,0.0,0.0,0.0,0.0,True,0714,1,G,109.0,P,Rilley,Erie,7,False,True,False,0.0,15.0,15.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 0714_02,Earth,False,TRAPPIST-1e,1.0,False,0.0,0.0,0.0,0.0,0.0,False,0714,2,G,109.0,P,Rilley,Claine,7,False,False,False,0.16666666666666666,15.0,15.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-0714_03,Earth,False,PSO J318.5-22,12.0,False,0.0,0.0,0.0,0.0,0.0,True,0714,3,G,109.0,P,Rilley,Sony,7,False,False,False,0.3333333333333333,15.0,15.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
+0714_03,Earth,False,TRAPPIST-1e,12.0,False,0.0,0.0,0.0,0.0,0.0,True,0714,3,G,109.0,P,Rilley,Sony,7,False,False,False,0.3333333333333333,15.0,15.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 0714_04,Earth,True,PSO J318.5-22,2.0,False,0.0,0.0,0.0,0.0,0.0,False,0714,4,G,109.0,P,Rilley,Charry,7,False,False,False,0.5,15.0,15.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 0714_05,Earth,True,PSO J318.5-22,25.0,False,0.0,0.0,0.0,0.0,0.0,False,0714,5,G,109.0,P,Rilley,Jeanny,7,False,False,False,0.6666666666666666,15.0,15.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 0714_06,Earth,True,55 Cancri e,1.0,False,0.0,0.0,0.0,0.0,0.0,True,0714,6,G,109.0,P,Rilley,Man,7,False,False,False,0.8333333333333334,15.0,15.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
@@ -710,9 +710,9 @@
 0743_01,Earth,True,TRAPPIST-1e,14.0,False,0.0,0.0,0.0,0.0,0.0,True,0743,1,G,111.0,S,Brighttt,Loree,1,True,True,True,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 0746_01,Earth,True,TRAPPIST-1e,19.0,False,0.0,0.0,0.0,0.0,0.0,False,0746,1,G,112.0,S,Waltonnedy,Milyla,1,True,True,True,0.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 0750_01,Earth,False,55 Cancri e,22.0,False,15.0,142.0,0.0,41.0,493.0,False,0750,1,F,140.0,S,Kramosley,Tiney,1,True,True,True,0.0,10.0,10.0,1,False,691.0,6.539585955617669,False,534.0,157.0,1,4,0.7727930535455861,VRDeck,False,18-25
-0753_01,Europa,True,55 Cancri e,34.0,False,0.0,0.0,0.0,0.0,0.0,True,0753,1,A,4.0,P,Ennalve,Mesarix,3,False,True,False,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
+0753_01,Europa,True,TRAPPIST-1e,34.0,False,0.0,0.0,0.0,0.0,0.0,True,0753,1,A,4.0,P,Ennalve,Mesarix,3,False,True,False,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 0753_02,Europa,False,55 Cancri e,65.0,False,19.0,1344.0,4.0,3190.0,8.0,False,0753,2,A,4.0,P,,,3,False,False,False,0.5,1.0,1.0,1,False,4565.0,8.42639282708974,False,3202.0,1363.0,0,5,0.7014238773274918,Spa,False,51-65
-0753_03,Europa,True,55 Cancri e,42.0,False,0.0,0.0,0.0,0.0,0.0,True,0753,3,A,4.0,P,Ennalve,Matan,3,False,False,True,1.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
+0753_03,Europa,True,55 Cancri e,42.0,False,0.0,0.0,0.0,0.0,0.0,True,0753,3,F,4.0,P,Ennalve,Matan,3,False,False,True,1.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 0754_01,Europa,True,55 Cancri e,22.0,False,0.0,0.0,0.0,0.0,0.0,True,0754,1,D,31.0,P,Fusimodent,Atikard,1,True,True,True,0.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 0756_01,Europa,True,55 Cancri e,54.0,False,0.0,0.0,0.0,0.0,0.0,True,0756,1,B,27.0,S,Ainserfle,Ashelik,3,False,True,False,0.0,12.0,12.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 0756_02,Europa,False,TRAPPIST-1e,34.0,False,47.0,287.0,0.0,4302.0,0.0,False,0756,2,B,27.0,S,Geraing,Ranon,3,False,False,False,0.5,5.0,5.0,2,True,4636.0,8.441822884391462,False,4302.0,334.0,2,3,0.9279551337359793,Spa,False,26-35
@@ -784,7 +784,7 @@
 0820_02,Earth,False,TRAPPIST-1e,18.0,False,751.0,0.0,0.0,0.0,0.0,False,0820,2,G,122.0,S,Strongers,Sus,2,False,False,True,1.0,11.0,11.0,1,False,751.0,6.62273632394984,False,0.0,751.0,4,1,0.0,RoomService,False,18-25
 0822_01,Earth,False,TRAPPIST-1e,19.0,False,0.0,561.0,10.0,0.0,161.0,True,0822,1,F,156.0,S,Sweeton,Scotte,1,True,True,True,0.0,4.0,4.0,1,False,732.0,6.597145701886651,False,171.0,561.0,2,3,0.2336065573770492,FoodCourt,False,18-25
 0823_01,Earth,True,55 Cancri e,4.0,False,0.0,0.0,0.0,0.0,0.0,True,0823,1,G,123.0,S,Carrishley,Chadie,2,False,True,False,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-0823_02,Earth,False,55 Cancri e,42.0,False,0.0,0.0,739.0,0.0,0.0,True,0823,2,G,123.0,S,Carrishley,Wenten,2,False,False,True,1.0,7.0,7.0,1,False,739.0,6.606650186198215,False,739.0,0.0,4,1,1.0,ShoppingMall,False,36-50
+0823_02,Earth,False,55 Cancri e,42.0,False,0.0,0.0,739.0,0.0,0.0,True,0823,2,F,123.0,S,Carrishley,Wenten,2,False,False,True,1.0,7.0,7.0,1,False,739.0,6.606650186198215,False,739.0,0.0,4,1,1.0,ShoppingMall,False,36-50
 0824_01,Mars,False,TRAPPIST-1e,51.0,False,815.0,0.0,343.0,55.0,0.0,False,0824,1,F,158.0,S,Chpie,Teda,1,True,True,True,0.0,6.0,6.0,1,False,1213.0,7.101675971619444,False,398.0,815.0,2,3,0.3281121187139324,RoomService,False,51-65
 0825_01,Earth,True,TRAPPIST-1e,13.0,False,0.0,0.0,0.0,0.0,0.0,True,0825,1,G,120.0,P,Wardendez,Alendy,1,True,True,True,0.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 0826_01,Earth,False,TRAPPIST-1e,27.0,False,174.0,653.0,0.0,0.0,0.0,True,0826,1,F,427.0,S,Hoopez,Danna,1,True,True,True,0.0,8.0,8.0,1,False,827.0,6.71901315438526,False,0.0,827.0,3,2,0.0,FoodCourt,False,26-35
@@ -927,7 +927,7 @@
 0992_01,Europa,False,TRAPPIST-1e,49.0,False,31.0,2727.0,0.0,184.0,135.0,True,0992,1,D,35.0,S,Kiling,Zino,6,False,True,False,0.0,11.0,11.0,2,True,3077.0,8.032035314398824,False,319.0,2758.0,1,4,0.10367240818979526,FoodCourt,False,36-50
 0992_02,Europa,False,TRAPPIST-1e,29.0,False,387.0,942.0,0.0,9927.0,1341.0,False,0992,2,D,35.0,S,Kiling,Tareson,6,False,False,False,0.2,11.0,11.0,2,True,12597.0,9.441293350181875,False,11268.0,1329.0,1,4,0.8944986901643248,Spa,False,26-35
 0992_03,Europa,False,55 Cancri e,46.0,False,1192.0,1736.0,17.0,21.0,0.0,True,0992,3,D,35.0,S,Herpumble,Matan,6,False,False,False,0.4,3.0,3.0,2,True,2966.0,7.995306620290822,False,38.0,2928.0,1,4,0.012811867835468645,FoodCourt,False,36-50
-0992_04,Europa,False,55 Cancri e,35.0,True,8030.0,300.0,0.0,0.0,1436.0,False,0992,4,D,35.0,S,Herpumble,Naosa,6,False,False,False,0.6,3.0,3.0,2,True,9766.0,9.186764635447478,False,1436.0,8330.0,2,3,0.14704075363506042,RoomService,False,26-35
+0992_04,Europa,False,55 Cancri e,35.0,True,8030.0,300.0,0.0,0.0,1436.0,False,0992,4,F,35.0,S,Herpumble,Naosa,6,False,False,False,0.6,3.0,3.0,2,True,9766.0,9.186764635447478,False,1436.0,8330.0,2,3,0.14704075363506042,RoomService,False,26-35
 0992_05,Europa,True,55 Cancri e,17.0,False,0.0,0.0,0.0,0.0,0.0,True,0992,5,D,35.0,S,Kiling,Sinon,6,False,False,False,0.8,11.0,11.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 0992_06,Europa,False,55 Cancri e,37.0,False,4301.0,791.0,0.0,1748.0,91.0,False,0992,6,D,35.0,S,Kiling,Weidus,6,False,False,True,1.0,11.0,11.0,2,True,6931.0,8.843903650835497,False,1839.0,5092.0,1,4,0.26532967825710574,RoomService,False,36-50
 0993_01,Earth,False,55 Cancri e,24.0,False,252.0,0.0,0.0,449.0,0.0,False,0993,1,F,184.0,S,Miltongson,Juanie,1,True,True,True,0.0,8.0,8.0,1,False,701.0,6.553933404025811,False,449.0,252.0,3,2,0.6405135520684736,Spa,False,18-25
@@ -945,10 +945,10 @@
 1005_01,Earth,False,TRAPPIST-1e,20.0,False,0.0,0.0,4.0,9.0,773.0,False,1005,1,G,156.0,S,Juartis,Coreee,1,True,True,True,0.0,6.0,6.0,1,False,786.0,6.668228248417403,False,786.0,0.0,2,3,1.0,VRDeck,False,18-25
 1006_01,Earth,False,TRAPPIST-1e,21.0,False,0.0,0.0,0.0,0.0,791.0,False,1006,1,E,74.0,S,Summington,Velyne,3,False,True,False,0.0,10.0,10.0,1,False,791.0,6.674561391814426,False,791.0,0.0,4,1,1.0,VRDeck,False,18-25
 1006_02,Earth,True,TRAPPIST-1e,5.0,False,0.0,0.0,0.0,0.0,0.0,True,1006,2,E,74.0,S,Summington,Stany,3,False,False,False,0.5,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-1006_03,Earth,False,TRAPPIST-1e,12.0,False,0.0,0.0,0.0,0.0,0.0,True,1006,3,E,74.0,S,Summington,Stenny,3,False,False,True,1.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
+1006_03,Earth,False,TRAPPIST-1e,12.0,False,0.0,0.0,0.0,0.0,0.0,True,1006,3,F,74.0,S,Summington,Stenny,3,False,False,True,1.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 1008_01,Europa,True,55 Cancri e,39.0,False,0.0,0.0,0.0,0.0,0.0,True,1008,1,C,39.0,S,Spistory,Wasatz,2,False,True,False,0.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 1008_02,Europa,True,TRAPPIST-1e,60.0,False,0.0,0.0,0.0,0.0,0.0,True,1008,2,C,39.0,S,Spistory,Wimpha,2,False,False,True,1.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
-1011_01,Earth,False,TRAPPIST-1e,31.0,False,1633.0,4.0,49.0,6.0,0.0,False,1011,1,G,148.0,P,Prinson,Camie,2,False,True,False,0.0,6.0,6.0,1,False,1692.0,7.4342573821331355,False,55.0,1637.0,1,4,0.03250591016548463,RoomService,False,26-35
+1011_01,Earth,False,TRAPPIST-1e,31.0,False,1633.0,4.0,49.0,6.0,0.0,False,1011,1,F,148.0,P,Prinson,Camie,2,False,True,False,0.0,6.0,6.0,1,False,1692.0,7.4342573821331355,False,55.0,1637.0,1,4,0.03250591016548463,RoomService,False,26-35
 1011_02,Earth,True,TRAPPIST-1e,58.0,False,0.0,0.0,0.0,0.0,0.0,False,1011,2,G,148.0,P,Prinson,Kaye,2,False,False,True,1.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 1012_01,Earth,True,TRAPPIST-1e,19.0,False,0.0,0.0,0.0,0.0,0.0,True,1012,1,G,149.0,P,Hubbarton,Valey,1,True,True,True,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 1013_01,Earth,True,TRAPPIST-1e,29.0,False,0.0,0.0,0.0,0.0,0.0,False,1013,1,G,158.0,S,Farleyatton,Weslie,1,True,True,True,0.0,11.0,11.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -1048,7 +1048,7 @@
 1114_02,Mars,False,TRAPPIST-1e,31.0,False,0.0,0.0,0.0,0.0,0.0,False,1114,2,E,79.0,S,Kidne,Apple,2,False,False,True,1.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 1115_01,Earth,True,TRAPPIST-1e,34.0,False,0.0,0.0,0.0,0.0,0.0,True,1115,1,G,173.0,S,Oneidson,Arl,1,True,True,True,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 1116_01,Earth,False,TRAPPIST-1e,9.0,False,0.0,0.0,0.0,0.0,0.0,True,1116,1,G,174.0,S,Barnolaney,Rickie,3,False,True,False,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-1116_02,Earth,False,TRAPPIST-1e,36.0,False,0.0,3011.0,0.0,0.0,98.0,True,1116,2,G,174.0,S,Barnolaney,Evane,3,False,False,False,0.5,8.0,8.0,1,False,3109.0,8.04237800517328,False,98.0,3011.0,3,2,0.03152138951431328,FoodCourt,False,36-50
+1116_02,Earth,False,TRAPPIST-1e,36.0,False,0.0,3011.0,0.0,0.0,98.0,True,1116,2,F,174.0,S,Barnolaney,Evane,3,False,False,False,0.5,8.0,8.0,1,False,3109.0,8.04237800517328,False,98.0,3011.0,3,2,0.03152138951431328,FoodCourt,False,36-50
 1116_03,Earth,True,TRAPPIST-1e,26.0,False,0.0,0.0,0.0,0.0,0.0,True,1116,3,G,174.0,S,Barnolaney,Colly,3,False,False,True,1.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 1117_01,Earth,False,TRAPPIST-1e,18.0,False,855.0,0.0,51.0,0.0,0.0,False,1117,1,E,63.0,P,Andackson,Jimen,1,True,True,True,0.0,8.0,8.0,1,False,906.0,6.810142450115136,False,51.0,855.0,3,2,0.056291390728476824,RoomService,False,18-25
 1121_01,Earth,False,PSO J318.5-22,55.0,False,98.0,46.0,0.0,743.0,0.0,True,1121,1,F,229.0,P,Burnerez,Lynez,1,True,True,True,0.0,9.0,9.0,1,False,887.0,6.78897174299217,False,743.0,144.0,2,3,0.8376550169109357,Spa,False,51-65
@@ -1074,8 +1074,8 @@
 1148_01,Europa,True,55 Cancri e,22.0,False,0.0,0.0,0.0,0.0,0.0,True,1148,1,C,42.0,P,Clugete,Bosonon,7,False,True,False,0.0,13.0,13.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 1148_02,Europa,False,55 Cancri e,29.5,False,0.0,122.0,2138.0,7368.0,1213.0,False,1148,2,C,42.0,P,Clugete,Axinon,7,False,False,False,0.16666666666666666,13.0,13.0,1,False,10841.0,9.291182759820284,False,10719.0,122.0,1,4,0.9887464256064938,Spa,False,26-35
 1148_03,Europa,False,TRAPPIST-1e,30.0,False,0.0,5225.0,0.0,8.0,1933.0,False,1148,3,C,42.0,P,Clugete,Caia,7,False,False,False,0.3333333333333333,13.0,13.0,1,False,7166.0,8.877242435993919,False,1941.0,5225.0,2,3,0.27086240580519116,FoodCourt,False,26-35
-1148_04,Europa,False,55 Cancri e,39.0,False,0.0,5212.0,2.0,118.0,61.0,True,1148,4,C,42.0,P,Clugete,Azet,7,False,False,False,0.5,13.0,13.0,1,False,5393.0,8.593042503699674,False,181.0,5212.0,1,4,0.03356202484702392,FoodCourt,False,36-50
-1148_05,Europa,True,55 Cancri e,14.0,False,0.0,0.0,0.0,0.0,0.0,True,1148,5,C,42.0,P,Clugete,Halleth,7,False,False,False,0.6666666666666666,13.0,13.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
+1148_04,Europa,False,55 Cancri e,39.0,False,0.0,5212.0,2.0,118.0,61.0,True,1148,4,F,42.0,P,Clugete,Azet,7,False,False,False,0.5,13.0,13.0,1,False,5393.0,8.593042503699674,False,181.0,5212.0,1,4,0.03356202484702392,FoodCourt,False,36-50
+1148_05,Europa,True,TRAPPIST-1e,14.0,False,0.0,0.0,0.0,0.0,0.0,True,1148,5,C,42.0,P,Clugete,Halleth,7,False,False,False,0.6666666666666666,13.0,13.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 1148_06,Europa,True,TRAPPIST-1e,29.0,False,0.0,0.0,0.0,0.0,0.0,True,1148,6,C,42.0,P,Clugete,Batares,7,False,False,False,0.8333333333333334,13.0,13.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 1148_07,Europa,False,55 Cancri e,34.0,False,2386.0,841.0,76.0,26.0,1693.0,False,1148,7,C,42.0,P,Clugete,Edaron,7,False,False,True,1.0,13.0,13.0,1,False,5022.0,8.521782643750045,False,1795.0,3227.0,0,5,0.3574273197929112,RoomService,False,26-35
 1149_01,Earth,False,55 Cancri e,8.0,False,0.0,0.0,0.0,0.0,0.0,True,1149,1,G,178.0,S,Logannon,Lyne,5,False,True,False,0.0,14.0,14.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
@@ -1159,7 +1159,7 @@
 1222_01,Earth,False,TRAPPIST-1e,75.0,False,0.0,493.0,0.0,131.0,132.0,False,1222,1,G,183.0,P,Hubert,Evenna,1,True,True,True,0.0,2.0,2.0,1,False,756.0,6.6293632534374485,False,263.0,493.0,2,3,0.3478835978835979,FoodCourt,False,66+
 1223_01,Europa,True,55 Cancri e,24.0,False,0.0,0.0,0.0,0.0,0.0,True,1223,1,C,48.0,S,Coweboded,Terope,1,True,True,True,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 1225_01,Earth,False,TRAPPIST-1e,18.0,False,2.0,1311.0,60.0,28.0,1.0,True,1225,1,F,244.0,P,Morrodgers,Margia,1,True,True,True,0.0,7.0,7.0,1,False,1402.0,7.246368080102461,False,89.0,1313.0,0,5,0.06348074179743224,FoodCourt,False,18-25
-1228_01,Mars,True,TRAPPIST-1e,21.0,False,0.0,0.0,0.0,0.0,0.0,True,1228,1,E,89.0,S,Purle,Snich,2,False,True,False,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
+1228_01,Mars,True,TRAPPIST-1e,21.0,False,0.0,0.0,0.0,0.0,0.0,True,1228,1,F,89.0,S,Purle,Snich,2,False,True,False,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 1228_02,Mars,False,TRAPPIST-1e,59.0,False,142.0,0.0,907.0,0.0,0.0,True,1228,2,E,89.0,S,Purle,Newtch,2,False,False,True,1.0,7.0,7.0,1,False,1049.0,6.956545443151569,False,907.0,142.0,3,2,0.8646329837940896,ShoppingMall,False,51-65
 1229_01,Earth,False,TRAPPIST-1e,27.0,False,0.0,0.0,863.0,33.0,2.0,True,1229,1,F,245.0,P,Floydendley,Nelsie,1,True,True,True,0.0,5.0,5.0,1,False,898.0,6.80128303447162,False,898.0,0.0,2,3,1.0,ShoppingMall,False,26-35
 1230_01,Earth,False,TRAPPIST-1e,38.0,False,354.0,34.0,0.0,291.0,229.0,False,1230,1,G,189.0,S,Gainebergan,Catha,1,True,True,True,0.0,16.0,16.0,1,False,908.0,6.812345094177479,False,520.0,388.0,1,4,0.5726872246696035,RoomService,False,36-50
@@ -1231,7 +1231,7 @@
 1306_01,Europa,False,TRAPPIST-1e,44.0,False,0.0,3863.0,1.0,1010.0,514.0,True,1306,1,B,56.0,S,Irintious,Zaurah,2,False,True,False,0.0,4.0,4.0,1,False,5388.0,8.592115117933497,False,1525.0,3863.0,1,4,0.2830363771343727,FoodCourt,False,36-50
 1306_02,Europa,False,55 Cancri e,11.0,False,0.0,0.0,0.0,0.0,0.0,True,1306,2,B,56.0,S,Irintious,Alsham,2,False,False,True,1.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 1307_01,Earth,True,TRAPPIST-1e,22.0,False,0.0,0.0,0.0,0.0,0.0,False,1307,1,G,193.0,P,Norrison,Andrey,1,True,True,True,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
-1308_01,Europa,True,55 Cancri e,40.0,False,0.0,0.0,0.0,0.0,0.0,True,1308,1,E,94.0,S,Plegred,Diram,4,False,True,False,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
+1308_01,Europa,True,55 Cancri e,40.0,False,0.0,0.0,0.0,0.0,0.0,True,1308,1,F,94.0,S,Plegred,Diram,4,False,True,False,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 1308_02,Europa,False,55 Cancri e,30.0,False,278.0,3300.0,0.0,8145.0,2519.0,False,1308,2,E,94.0,S,Plegred,Tachba,4,False,False,False,0.3333333333333333,7.0,7.0,1,False,14242.0,9.564020836934587,False,10664.0,3578.0,1,4,0.7487712399943828,Spa,False,26-35
 1308_03,Europa,False,55 Cancri e,37.0,False,0.0,439.0,0.0,3198.0,6.0,False,1308,3,E,94.0,S,Plegred,Grafi,4,False,False,False,0.6666666666666666,7.0,7.0,1,False,3643.0,8.200837258379849,False,3204.0,439.0,2,3,0.8794949217677738,Spa,False,36-50
 1308_04,Europa,True,55 Cancri e,26.0,False,0.0,0.0,0.0,0.0,0.0,True,1308,4,E,94.0,S,Plegred,Medib,4,False,False,True,1.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -1326,7 +1326,7 @@
 1402_02,Earth,True,55 Cancri e,33.0,False,0.0,0.0,0.0,0.0,0.0,True,1402,2,G,215.0,S,Blacks,Leony,2,False,False,True,1.0,14.0,14.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 1403_01,Earth,False,TRAPPIST-1e,18.0,False,1656.0,0.0,0.0,0.0,0.0,False,1403,1,E,86.0,P,Coopelandez,Bobbyn,1,True,True,True,0.0,9.0,9.0,1,False,1656.0,7.4127640174265625,False,0.0,1656.0,4,1,0.0,RoomService,False,18-25
 1404_01,Europa,False,TRAPPIST-1e,47.0,False,1.0,734.0,28.0,78.0,3471.0,False,1404,1,B,60.0,S,Mornaned,Alaton,2,False,True,False,0.0,2.0,2.0,1,False,4312.0,8.369388996647842,False,3577.0,735.0,0,5,0.8295454545454546,VRDeck,False,36-50
-1404_02,Europa,False,TRAPPIST-1e,42.0,False,0.0,51.0,0.0,4170.0,13.0,False,1404,2,B,60.0,S,Mornaned,Arkard,2,False,False,True,1.0,2.0,2.0,1,False,4234.0,8.351138607086154,False,4183.0,51.0,2,3,0.987954652810581,Spa,False,36-50
+1404_02,Europa,False,TRAPPIST-1e,42.0,False,0.0,51.0,0.0,4170.0,13.0,False,1404,2,F,60.0,S,Mornaned,Arkard,2,False,False,True,1.0,2.0,2.0,1,False,4234.0,8.351138607086154,False,4183.0,51.0,2,3,0.987954652810581,Spa,False,36-50
 1406_01,Mars,False,TRAPPIST-1e,17.0,False,36.0,0.0,1013.0,0.0,0.0,False,1406,1,E,106.0,S,Gres,Muffs,1,True,True,True,0.0,5.0,5.0,1,False,1049.0,6.956545443151569,False,1013.0,36.0,3,2,0.9656816015252622,ShoppingMall,False,13-17
 1407_01,Earth,False,TRAPPIST-1e,21.0,False,737.0,4.0,27.0,8.0,0.0,False,1407,1,F,278.0,P,Foxter,Lerome,2,False,True,False,0.0,10.0,10.0,1,False,776.0,6.655440350367647,False,35.0,741.0,1,4,0.045103092783505154,RoomService,False,18-25
 1407_02,Earth,False,PSO J318.5-22,17.0,False,8.0,222.0,3.0,401.0,0.0,True,1407,2,F,278.0,P,Foxter,Derina,2,False,False,True,1.0,10.0,10.0,1,False,634.0,6.453624998892692,False,404.0,230.0,1,4,0.637223974763407,Spa,False,13-17
@@ -1361,7 +1361,7 @@
 1431_01,Earth,False,TRAPPIST-1e,23.0,False,0.0,0.0,4.0,0.0,965.0,True,1431,1,G,221.0,P,Ments,Tonioe,1,True,True,True,0.0,4.0,4.0,1,False,969.0,6.877296071497429,False,969.0,0.0,3,2,1.0,VRDeck,False,18-25
 1433_01,Earth,True,TRAPPIST-1e,51.0,False,0.0,0.0,0.0,0.0,0.0,False,1433,1,G,219.0,S,Noeley,Allene,1,True,True,True,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 1434_01,Earth,False,TRAPPIST-1e,20.0,False,0.0,258.0,331.0,133.0,0.0,False,1434,1,G,222.0,P,Cartez,Dandy,3,False,True,False,0.0,14.0,14.0,1,False,722.0,6.583409222158765,False,464.0,258.0,2,3,0.6426592797783933,ShoppingMall,False,18-25
-1434_02,Earth,False,TRAPPIST-1e,0.0,False,0.0,0.0,0.0,0.0,0.0,True,1434,2,G,222.0,P,Cartez,Hughan,3,False,False,False,0.5,14.0,14.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
+1434_02,Earth,False,TRAPPIST-1e,0.0,False,0.0,0.0,0.0,0.0,0.0,True,1434,2,F,222.0,P,Cartez,Hughan,3,False,False,False,0.5,14.0,14.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
 1434_03,Earth,True,TRAPPIST-1e,0.0,False,0.0,0.0,0.0,0.0,0.0,False,1434,3,G,222.0,P,Cartez,Emilla,3,False,False,True,1.0,14.0,14.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
 1435_01,Earth,False,TRAPPIST-1e,23.0,False,0.0,20.0,26.0,0.0,659.0,False,1435,1,G,223.0,P,Gilleranks,Gabrin,1,True,True,True,0.0,10.0,10.0,1,False,705.0,6.559615237493242,False,685.0,20.0,2,3,0.9716312056737588,VRDeck,False,18-25
 1438_01,Earth,False,TRAPPIST-1e,24.0,False,181.0,224.0,0.0,195.0,191.0,False,1438,1,E,89.0,P,Sancasey,Anae,1,True,True,True,0.0,15.0,15.0,1,False,791.0,6.674561391814426,False,386.0,405.0,1,4,0.4879898862199747,FoodCourt,False,18-25
@@ -1378,7 +1378,7 @@
 1451_01,Europa,False,55 Cancri e,46.0,False,202.0,484.0,0.0,3208.0,2485.0,False,1451,1,C,56.0,S,Proorbeng,Zinor,2,False,True,False,0.0,4.0,4.0,1,False,6379.0,8.760923376338836,False,5693.0,686.0,1,4,0.8924596331713435,Spa,False,36-50
 1451_02,Europa,True,TRAPPIST-1e,39.0,False,0.0,0.0,0.0,0.0,0.0,True,1451,2,C,56.0,S,Proorbeng,Unukath,2,False,False,True,1.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 1452_01,Europa,False,TRAPPIST-1e,21.0,False,5.0,251.0,10.0,26.0,3384.0,False,1452,1,C,53.0,P,Distured,Arkar,5,False,True,False,0.0,13.0,13.0,1,False,3676.0,8.209852481301272,False,3420.0,256.0,0,5,0.9303590859630033,VRDeck,False,18-25
-1452_02,Europa,True,TRAPPIST-1e,70.0,False,0.0,0.0,0.0,0.0,0.0,True,1452,2,C,53.0,P,Distured,Gorab,5,False,False,False,0.25,13.0,13.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,66+
+1452_02,Europa,True,TRAPPIST-1e,70.0,False,0.0,0.0,0.0,0.0,0.0,True,1452,2,F,53.0,P,Distured,Gorab,5,False,False,False,0.25,13.0,13.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,66+
 1452_03,Europa,False,55 Cancri e,34.0,False,0.0,1646.0,0.0,51.0,1462.0,False,1452,3,C,53.0,P,Distured,Alzird,5,False,False,False,0.5,13.0,13.0,1,False,3159.0,8.058327306580958,False,1513.0,1646.0,2,3,0.4789490345045901,FoodCourt,False,26-35
 1452_04,Europa,False,TRAPPIST-1e,33.0,False,0.0,774.0,0.0,6255.0,6.0,False,1452,4,C,53.0,P,Distured,Hamak,5,False,False,False,0.75,13.0,13.0,1,False,7035.0,8.85879510585745,False,6261.0,774.0,2,3,0.8899786780383795,Spa,False,26-35
 1452_05,Europa,True,55 Cancri e,44.0,False,0.0,0.0,0.0,0.0,0.0,True,1452,5,C,53.0,P,Distured,Gimph,5,False,False,True,1.0,13.0,13.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
@@ -1392,7 +1392,7 @@
 1455_05,Europa,False,55 Cancri e,76.0,False,0.0,2732.0,422.0,16594.0,330.0,False,1455,5,B,62.0,S,Wassird,Antino,5,False,False,True,1.0,8.0,8.0,2,True,20078.0,9.907429771768753,False,17346.0,2732.0,1,4,0.8639306703854965,Spa,False,66+
 1457_01,Earth,False,TRAPPIST-1e,61.0,False,0.0,368.0,3.0,4422.0,0.0,False,1457,1,E,110.0,S,Combson,Bra,1,True,True,True,0.0,5.0,5.0,1,False,4793.0,8.475120414994329,False,4425.0,368.0,2,3,0.9232213644898811,Spa,False,51-65
 1458_01,Earth,False,TRAPPIST-1e,46.0,False,0.0,0.0,2020.0,323.0,0.0,False,1458,1,G,223.0,S,Mccarveymon,Arllia,1,True,True,True,0.0,14.0,14.0,1,False,2343.0,7.759614150696903,False,2343.0,0.0,3,2,1.0,ShoppingMall,False,36-50
-1460_01,Earth,False,PSO J318.5-22,19.0,False,0.0,905.0,387.0,0.0,0.0,True,1460,1,F,285.0,P,Williotters,Bony,2,False,True,False,0.0,6.0,6.0,1,False,1292.0,7.164720378771857,False,387.0,905.0,3,2,0.2995356037151703,FoodCourt,False,18-25
+1460_01,Earth,False,TRAPPIST-1e,19.0,False,0.0,905.0,387.0,0.0,0.0,True,1460,1,F,285.0,P,Williotters,Bony,2,False,True,False,0.0,6.0,6.0,1,False,1292.0,7.164720378771857,False,387.0,905.0,3,2,0.2995356037151703,FoodCourt,False,18-25
 1460_02,Earth,True,PSO J318.5-22,13.0,False,0.0,0.0,0.0,0.0,0.0,True,1460,2,G,230.0,P,Williotters,Eduana,2,False,False,True,1.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 1461_01,Earth,True,TRAPPIST-1e,23.0,False,0.0,0.0,0.0,0.0,0.0,False,1461,1,G,224.0,S,Gordond,Naomin,1,True,True,True,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 1462_01,Earth,True,TRAPPIST-1e,30.0,False,0.0,0.0,0.0,0.0,0.0,True,1462,1,G,231.0,P,Webstes,Timmie,1,True,True,True,0.0,2.0,2.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -1466,7 +1466,7 @@
 1548_01,Europa,True,55 Cancri e,51.0,False,0.0,0.0,0.0,0.0,0.0,True,1548,1,B,50.0,P,Unicting,Okulk,2,False,True,False,0.0,2.0,2.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 1548_02,Europa,True,TRAPPIST-1e,18.0,False,0.0,0.0,0.0,0.0,0.0,True,1548,2,B,50.0,P,Stivelte,Sarid,2,False,False,True,1.0,2.0,2.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 1550_01,Europa,False,TRAPPIST-1e,26.0,False,1.0,230.0,0.0,42.0,4030.0,False,1550,1,C,58.0,S,Supiensive,Marin,2,False,True,False,0.0,3.0,3.0,1,False,4303.0,8.36730010184162,False,4072.0,231.0,1,4,0.9463165233557983,VRDeck,False,26-35
-1550_02,Europa,False,55 Cancri e,53.0,True,5022.0,2376.0,0.0,0.0,235.0,False,1550,2,C,58.0,S,Supiensive,Coxaton,2,False,False,True,1.0,3.0,3.0,1,False,7633.0,8.940367233305174,False,235.0,7398.0,2,3,0.03078737062753832,RoomService,False,51-65
+1550_02,Europa,False,55 Cancri e,53.0,True,5022.0,2376.0,0.0,0.0,235.0,False,1550,2,F,58.0,S,Supiensive,Coxaton,2,False,False,True,1.0,3.0,3.0,1,False,7633.0,8.940367233305174,False,235.0,7398.0,2,3,0.03078737062753832,RoomService,False,51-65
 1551_01,Europa,False,TRAPPIST-1e,30.0,False,0.0,1376.0,43.0,0.0,1460.0,True,1551,1,E,96.0,P,Clidly,Skyrmak,1,True,True,True,0.0,2.0,2.0,1,False,2879.0,7.965545573129992,False,1503.0,1376.0,2,3,0.5220562695380341,VRDeck,False,26-35
 1552_01,Earth,True,TRAPPIST-1e,37.0,False,0.0,0.0,0.0,0.0,0.0,False,1552,1,G,240.0,S,Batestonley,Millie,1,True,True,True,0.0,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 1555_01,Europa,False,TRAPPIST-1e,45.0,False,0.0,1389.0,0.0,2987.0,0.0,False,1555,1,A,18.0,S,Spistory,Alcorix,1,True,True,True,0.0,4.0,4.0,1,False,4376.0,8.384118837190895,False,2987.0,1389.0,3,2,0.6825868372943327,Spa,False,36-50
@@ -1477,7 +1477,7 @@
 1564_01,Mars,True,TRAPPIST-1e,23.0,False,0.0,0.0,0.0,0.0,0.0,False,1564,1,F,303.0,S,Merie,Weers,1,True,True,True,0.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 1565_01,Earth,False,PSO J318.5-22,16.0,False,0.0,1519.0,0.0,0.0,766.0,False,1565,1,F,304.0,S,Fitzgerson,Gordo,1,True,True,True,0.0,8.0,8.0,1,False,2285.0,7.734558844354756,False,766.0,1519.0,3,2,0.33522975929978116,FoodCourt,False,13-17
 1567_01,Europa,True,TRAPPIST-1e,37.0,False,0.0,0.0,0.0,0.0,0.0,True,1567,1,B,53.0,P,Replic,Tark,1,True,True,True,0.0,1.0,1.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
-1568_01,Earth,False,TRAPPIST-1e,22.0,False,1018.0,100.0,0.0,9.0,0.0,False,1568,1,G,248.0,P,Burchrison,Idace,2,False,True,False,0.0,10.0,10.0,1,False,1127.0,7.028201432058005,False,9.0,1118.0,2,3,0.007985803016858917,RoomService,False,18-25
+1568_01,Earth,False,TRAPPIST-1e,22.0,False,1018.0,100.0,0.0,9.0,0.0,False,1568,1,F,248.0,P,Burchrison,Idace,2,False,True,False,0.0,10.0,10.0,1,False,1127.0,7.028201432058005,False,9.0,1118.0,2,3,0.007985803016858917,RoomService,False,18-25
 1568_02,Earth,True,PSO J318.5-22,18.0,False,0.0,0.0,0.0,0.0,0.0,True,1568,2,G,248.0,P,Burchrison,Samany,2,False,False,True,1.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 1569_01,Mars,True,TRAPPIST-1e,25.0,False,0.0,0.0,0.0,0.0,0.0,True,1569,1,F,308.0,P,Hac,Tors,1,True,True,True,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 1572_01,Earth,False,TRAPPIST-1e,26.0,False,758.0,17.0,11.0,0.0,0.0,False,1572,1,G,249.0,P,Shephendry,Karie,2,False,True,False,0.0,8.0,8.0,2,True,786.0,6.668228248417403,False,11.0,775.0,2,3,0.013994910941475827,RoomService,False,26-35
@@ -1586,12 +1586,12 @@
 1677_01,Earth,False,TRAPPIST-1e,19.0,False,5.0,87.0,0.0,0.0,0.0,False,1677,1,E,103.0,P,Robins,Warry,1,True,True,True,0.0,5.0,5.0,1,False,92.0,4.532599493153256,False,0.0,92.0,3,2,0.0,FoodCourt,False,18-25
 1681_01,Earth,False,TRAPPIST-1e,34.0,False,1.0,89.0,0.0,793.0,0.0,False,1681,1,G,261.0,S,Englence,Tonia,1,True,True,True,0.0,9.0,9.0,1,False,883.0,6.784457062637643,False,793.0,90.0,2,3,0.8980747451868629,Spa,False,26-35
 1682_01,Mars,True,TRAPPIST-1e,38.0,False,0.0,0.0,0.0,0.0,0.0,True,1682,1,F,331.0,P,Watte,Miten,1,True,True,True,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
-1685_01,Earth,False,55 Cancri e,51.0,False,0.0,260.0,91.0,0.0,264.0,False,1685,1,G,272.0,P,Dillestron,Sanda,3,False,True,False,0.0,10.0,10.0,1,False,615.0,6.423246963533519,False,355.0,260.0,2,3,0.5772357723577236,VRDeck,False,51-65
+1685_01,Earth,False,55 Cancri e,51.0,False,0.0,260.0,91.0,0.0,264.0,False,1685,1,F,272.0,P,Dillestron,Sanda,3,False,True,False,0.0,10.0,10.0,1,False,615.0,6.423246963533519,False,355.0,260.0,2,3,0.5772357723577236,VRDeck,False,51-65
 1685_02,Earth,False,55 Cancri e,7.0,False,0.0,0.0,0.0,0.0,0.0,False,1685,2,G,272.0,P,Dillestron,Vana,3,False,False,False,0.5,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 1685_03,Earth,True,TRAPPIST-1e,3.0,False,0.0,0.0,0.0,0.0,0.0,True,1685,3,G,272.0,P,Dillestron,Camina,3,False,False,True,1.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 1687_01,Mars,False,TRAPPIST-1e,26.0,True,714.0,450.0,208.0,0.0,44.0,False,1687,1,F,334.0,P,Batte,Bases,1,True,True,True,0.0,5.0,5.0,1,False,1416.0,7.256297239690681,False,252.0,1164.0,1,4,0.17796610169491525,RoomService,False,26-35
 1688_01,Earth,False,TRAPPIST-1e,27.0,False,233.0,554.0,0.0,0.0,0.0,False,1688,1,E,124.0,S,Webstenson,Tyle,3,False,True,False,0.0,6.0,6.0,1,False,787.0,6.669498089857879,False,0.0,787.0,3,2,0.0,FoodCourt,False,26-35
-1688_02,Earth,True,TRAPPIST-1e,7.0,False,0.0,0.0,0.0,0.0,0.0,False,1688,2,E,193.0,S,Webstenson,Claura,3,False,False,False,0.5,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
+1688_02,Earth,True,TRAPPIST-1e,7.0,False,0.0,0.0,0.0,0.0,0.0,False,1688,2,F,193.0,S,Webstenson,Claura,3,False,False,False,0.5,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 1688_03,Earth,True,TRAPPIST-1e,19.0,False,0.0,0.0,0.0,0.0,0.0,True,1688,3,G,262.0,S,Webstenson,Line,3,False,False,True,1.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 1690_01,Earth,False,TRAPPIST-1e,28.0,False,0.0,26.0,88.0,5.0,754.0,False,1690,1,F,335.0,P,Paulllegory,Heryle,1,True,True,True,0.0,5.0,5.0,1,False,873.0,6.773080375655535,False,847.0,26.0,1,4,0.9702176403207331,VRDeck,False,26-35
 1691_01,Mars,False,TRAPPIST-1e,27.0,False,3482.0,1234.0,1155.0,0.0,0.0,False,1691,1,F,321.0,S,Giba,Sesh,1,True,True,True,0.0,4.0,4.0,1,False,5871.0,8.677950570294351,False,1155.0,4716.0,2,3,0.19672968829841594,RoomService,False,26-35
@@ -1629,7 +1629,7 @@
 1723_01,Earth,False,TRAPPIST-1e,15.0,False,852.0,0.0,0.0,135.0,0.0,False,1723,1,E,128.0,S,Holcompson,Ivaney,1,True,True,True,0.0,10.0,10.0,1,False,987.0,6.895682697747868,False,135.0,852.0,3,2,0.13677811550151975,RoomService,False,13-17
 1724_01,Europa,False,55 Cancri e,59.0,False,8.0,1563.0,0.0,73.0,31.0,True,1724,1,A,21.0,S,Diateous,Hekark,1,True,True,True,0.0,6.0,6.0,1,False,1675.0,7.424165281042028,False,104.0,1571.0,1,4,0.06208955223880597,FoodCourt,False,51-65
 1725_01,Earth,False,TRAPPIST-1e,24.0,False,0.0,201.0,0.0,0.0,603.0,False,1725,1,F,328.0,S,Wheelez,Breney,1,True,True,True,0.0,7.0,7.0,1,False,804.0,6.690842277418564,False,603.0,201.0,3,2,0.75,VRDeck,False,18-25
-1727_01,Mars,True,55 Cancri e,52.0,False,0.0,0.0,0.0,0.0,0.0,True,1727,1,F,342.0,P,Barte,Gibil,2,False,True,False,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
+1727_01,Mars,True,TRAPPIST-1e,52.0,False,0.0,0.0,0.0,0.0,0.0,True,1727,1,F,342.0,P,Barte,Gibil,2,False,True,False,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 1727_02,Mars,False,55 Cancri e,52.0,False,1279.0,0.0,1061.0,359.0,0.0,False,1727,2,D,54.0,P,Barte,Emoles,2,False,False,True,1.0,7.0,7.0,1,False,2699.0,7.90100705199242,False,1420.0,1279.0,2,3,0.5261207854761023,RoomService,False,51-65
 1728_01,Earth,False,TRAPPIST-1e,38.0,False,553.0,0.0,0.0,87.0,243.0,False,1728,1,G,280.0,P,Bakerson,Elle,1,True,True,True,0.0,10.0,10.0,1,False,883.0,6.784457062637643,False,330.0,553.0,2,3,0.3737259343148358,RoomService,False,36-50
 1729_01,Earth,False,TRAPPIST-1e,26.0,False,21.0,0.0,499.0,568.0,0.0,True,1729,1,F,343.0,P,Merce,Billya,1,True,True,True,0.0,11.0,11.0,1,False,1088.0,6.9930151229329605,False,1067.0,21.0,2,3,0.9806985294117647,Spa,False,26-35
@@ -1659,7 +1659,7 @@
 1760_01,Earth,False,TRAPPIST-1e,50.0,False,742.0,21.0,10.0,26.0,4.0,False,1760,1,F,336.0,S,Cardsay,Elicey,1,True,True,True,0.0,6.0,6.0,1,False,803.0,6.6895992691789665,False,40.0,763.0,0,5,0.049813200498132,RoomService,False,36-50
 1761_01,Earth,False,55 Cancri e,23.0,False,145.0,490.0,17.0,49.0,1.0,False,1761,1,F,347.0,P,Sweekstarks,Ine,1,True,True,True,0.0,7.0,7.0,1,False,702.0,6.555356891810665,False,67.0,635.0,0,5,0.09544159544159544,FoodCourt,False,18-25
 1762_01,Earth,False,PSO J318.5-22,21.0,False,2400.0,7.0,0.0,20.0,0.0,True,1762,1,E,132.0,S,Casez,Sylvin,2,False,True,False,0.0,14.0,14.0,1,False,2427.0,7.794823152179389,False,20.0,2407.0,2,3,0.008240626287597858,RoomService,False,18-25
-1762_02,Earth,False,PSO J318.5-22,15.0,False,104.0,7.0,0.0,174.0,253.0,False,1762,2,G,275.0,S,Casez,Thery,2,False,False,True,1.0,14.0,14.0,1,False,538.0,6.289715570908998,False,427.0,111.0,1,4,0.7936802973977695,VRDeck,False,13-17
+1762_02,Earth,False,TRAPPIST-1e,15.0,False,104.0,7.0,0.0,174.0,253.0,False,1762,2,G,275.0,S,Casez,Thery,2,False,False,True,1.0,14.0,14.0,1,False,538.0,6.289715570908998,False,427.0,111.0,1,4,0.7936802973977695,VRDeck,False,13-17
 1763_01,Europa,False,TRAPPIST-1e,41.0,False,0.0,3240.0,0.0,59.0,0.0,True,1763,1,E,133.0,S,Stering,Diskeon,1,True,True,True,0.0,1.0,1.0,1,False,3299.0,8.101677747454572,False,59.0,3240.0,3,2,0.017884207335556228,FoodCourt,False,36-50
 1764_01,Mars,True,TRAPPIST-1e,59.0,False,0.0,0.0,0.0,0.0,0.0,True,1764,1,F,337.0,S,Laai,Gies,2,False,True,False,0.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 1764_02,Mars,False,TRAPPIST-1e,18.0,False,0.0,0.0,0.0,0.0,0.0,False,1764,2,E,134.0,S,Laai,Cin,2,False,False,True,1.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
@@ -1770,7 +1770,7 @@
 1880_01,Earth,False,55 Cancri e,20.0,False,470.0,128.0,0.0,0.0,9.0,False,1880,1,F,376.0,P,Clean,Valey,1,True,True,True,0.0,5.0,5.0,1,False,607.0,6.410174881966167,False,9.0,598.0,2,3,0.014827018121911038,RoomService,False,18-25
 1881_01,Earth,False,TRAPPIST-1e,20.0,False,2215.0,0.0,0.0,86.0,0.0,True,1881,1,F,377.0,P,Valey,Samie,1,True,True,True,0.0,4.0,4.0,1,False,2301.0,7.741533589281828,False,86.0,2215.0,3,2,0.03737505432420687,RoomService,False,18-25
 1882_01,Europa,False,55 Cancri e,18.0,False,0.0,16263.0,72.0,0.0,15.0,True,1882,1,C,71.0,S,Antcal,Magnon,2,False,True,False,0.0,7.0,7.0,1,False,16350.0,9.702044336534586,False,87.0,16263.0,2,3,0.005321100917431192,FoodCourt,False,18-25
-1882_02,Europa,True,55 Cancri e,17.0,False,0.0,0.0,0.0,0.0,0.0,True,1882,2,C,71.0,S,Antcal,Phonons,2,False,False,True,1.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
+1882_02,Europa,True,55 Cancri e,17.0,False,0.0,0.0,0.0,0.0,0.0,True,1882,2,F,71.0,S,Antcal,Phonons,2,False,False,True,1.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 1884_01,Mars,True,TRAPPIST-1e,48.0,False,0.0,0.0,0.0,0.0,0.0,False,1884,1,E,140.0,S,Meake,Whers,1,True,True,True,0.0,11.0,11.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 1886_01,Earth,False,TRAPPIST-1e,26.0,False,0.0,3.0,176.0,611.0,0.0,False,1886,1,E,141.0,S,Morrows,Briane,1,True,True,True,0.0,6.0,6.0,1,False,790.0,6.673297967767654,False,787.0,3.0,2,3,0.9962025316455696,Spa,False,26-35
 1887_01,Earth,False,TRAPPIST-1e,35.0,False,0.0,88.0,718.0,46.0,0.0,False,1887,1,G,295.0,S,Pooley,Wilmay,1,True,True,True,0.0,6.0,6.0,1,False,852.0,6.748759547491679,False,764.0,88.0,2,3,0.8967136150234741,ShoppingMall,False,26-35
@@ -1780,7 +1780,7 @@
 1890_01,Earth,True,55 Cancri e,43.0,False,0.0,0.0,0.0,0.0,0.0,False,1890,1,G,308.0,P,Englence,Beathy,1,True,True,True,0.0,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 1891_01,Mars,True,TRAPPIST-1e,52.0,False,0.0,0.0,0.0,0.0,0.0,False,1891,1,E,142.0,S,,,1,True,True,True,0.0,1.0,1.0,0,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 1892_01,Europa,False,TRAPPIST-1e,50.0,False,5.0,809.0,0.0,309.0,731.0,True,1892,1,D,59.0,P,Couseced,Coxark,3,False,True,False,0.0,5.0,5.0,2,True,1854.0,7.5256399750415355,False,1040.0,814.0,1,4,0.5609492988133765,FoodCourt,False,36-50
-1892_02,Europa,False,TRAPPIST-1e,29.0,False,4.0,841.0,0.0,363.0,1107.0,True,1892,2,D,59.0,P,Stpingepid,Ashira,3,False,False,False,0.5,7.0,7.0,2,True,2315.0,7.7475968386928855,False,1470.0,845.0,1,4,0.6349892008639308,VRDeck,False,26-35
+1892_02,Europa,False,TRAPPIST-1e,29.0,False,4.0,841.0,0.0,363.0,1107.0,True,1892,2,F,59.0,P,Stpingepid,Ashira,3,False,False,False,0.5,7.0,7.0,2,True,2315.0,7.7475968386928855,False,1470.0,845.0,1,4,0.6349892008639308,VRDeck,False,26-35
 1892_03,Europa,False,55 Cancri e,19.0,False,0.0,748.0,158.0,5037.0,44.0,False,1892,3,D,59.0,P,Stpingepid,Schird,3,False,False,True,1.0,7.0,7.0,2,True,5987.0,8.69751274553952,False,5239.0,748.0,1,4,0.8750626357107065,Spa,False,18-25
 1897_01,Europa,False,55 Cancri e,39.0,False,0.0,10153.0,1.0,78.0,5063.0,True,1897,1,C,72.0,S,Gocent,Zaurion,2,False,True,False,0.0,6.0,6.0,1,False,15295.0,9.635346635291183,False,5142.0,10153.0,1,4,0.3361882968290291,FoodCourt,False,36-50
 1897_02,Europa,False,TRAPPIST-1e,38.0,False,0.0,354.0,0.0,1806.0,0.0,True,1897,2,C,72.0,S,Gocent,Arino,2,False,False,True,1.0,6.0,6.0,1,False,2160.0,7.6783263565068856,False,1806.0,354.0,3,2,0.8361111111111111,Spa,False,36-50
@@ -1957,7 +1957,7 @@
 2091_01,Earth,False,TRAPPIST-1e,33.0,False,356.0,0.0,0.0,245.0,0.0,False,2091,1,F,414.0,P,Woodwinez,Arlie,1,True,True,True,0.0,10.0,10.0,1,False,601.0,6.400257445308821,False,245.0,356.0,3,2,0.40765391014975044,RoomService,False,26-35
 2092_01,Mars,False,TRAPPIST-1e,18.0,False,29.0,0.0,2315.0,0.0,1.0,True,2092,1,D,70.0,S,Blan,Muffs,5,False,True,False,0.0,7.0,7.0,2,True,2345.0,7.76046702921342,False,2316.0,29.0,2,3,0.9876332622601279,ShoppingMall,False,18-25
 2092_02,Mars,False,TRAPPIST-1e,43.0,False,546.0,0.0,41.0,710.0,0.0,False,2092,2,E,153.0,S,Stpie,Wins,5,False,False,False,0.25,6.0,6.0,2,True,1297.0,7.168579897264035,False,751.0,546.0,2,3,0.5790285273708559,Spa,False,36-50
-2092_03,Mars,False,TRAPPIST-1e,13.0,False,6726.0,0.0,1605.0,1266.0,0.0,False,2092,3,D,111.5,S,Stpie,Cray,5,False,False,False,0.5,6.0,6.0,2,True,9597.0,9.169310022418191,False,2871.0,6726.0,2,3,0.2991559862457018,RoomService,False,13-17
+2092_03,Mars,False,TRAPPIST-1e,13.0,False,6726.0,0.0,1605.0,1266.0,0.0,False,2092,3,F,111.5,S,Stpie,Cray,5,False,False,False,0.5,6.0,6.0,2,True,9597.0,9.169310022418191,False,2871.0,6726.0,2,3,0.2991559862457018,RoomService,False,13-17
 2092_04,Mars,False,TRAPPIST-1e,26.0,False,1751.0,0.0,0.0,0.0,0.0,False,2092,4,F,410.0,S,,,5,False,False,False,0.75,1.0,1.0,2,True,1751.0,7.468513271496337,False,0.0,1751.0,4,1,0.0,RoomService,False,26-35
 2092_05,Mars,False,TRAPPIST-1e,22.0,False,2300.0,0.0,22.0,256.0,0.0,False,2092,5,D,70.0,S,Stpie,Jur,5,False,False,True,1.0,6.0,6.0,2,True,2578.0,7.8551570058813445,False,278.0,2300.0,2,3,0.1078355314197052,RoomService,False,18-25
 2094_01,Mars,True,TRAPPIST-1e,21.0,False,0.0,0.0,0.0,0.0,0.0,True,2094,1,F,415.0,P,Buncy,Lles,1,True,True,True,0.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
@@ -2069,7 +2069,7 @@
 2215_01,Europa,False,55 Cancri e,41.0,True,0.0,29813.0,0.0,1257.0,6.0,True,2215,1,A,27.0,S,Quidedbolt,Pulchib,4,False,True,False,0.0,3.0,3.0,2,True,31076.0,10.344223274726211,False,1263.0,29813.0,2,3,0.04064229630583087,FoodCourt,False,36-50
 2215_02,Europa,False,TRAPPIST-1e,43.0,False,2.0,2229.0,33.0,6.0,198.0,True,2215,2,A,27.0,S,,,4,False,False,False,0.3333333333333333,1.0,1.0,2,True,2468.0,7.81156848934518,False,237.0,2231.0,0,5,0.0960291734197731,FoodCourt,False,36-50
 2215_03,Europa,True,TRAPPIST-1e,32.0,False,0.0,0.0,0.0,0.0,0.0,True,2215,3,A,27.0,S,Quidedbolt,Grafi,4,False,False,False,0.6666666666666666,3.0,3.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
-2215_04,Europa,False,55 Cancri e,36.0,False,0.0,3206.0,0.0,698.0,72.0,False,2215,4,A,27.0,S,Ingent,Ranons,4,False,False,True,1.0,9.0,9.0,2,True,3976.0,8.28828304520769,False,770.0,3206.0,2,3,0.1936619718309859,FoodCourt,False,36-50
+2215_04,Europa,False,TRAPPIST-1e,36.0,False,0.0,3206.0,0.0,698.0,72.0,False,2215,4,A,27.0,S,Ingent,Ranons,4,False,False,True,1.0,9.0,9.0,2,True,3976.0,8.28828304520769,False,770.0,3206.0,2,3,0.1936619718309859,FoodCourt,False,36-50
 2219_01,Earth,True,55 Cancri e,18.0,False,0.0,0.0,0.0,0.0,0.0,True,2219,1,F,427.0,S,Woodwin,Milda,1,True,True,True,0.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 2220_01,Earth,False,TRAPPIST-1e,47.0,False,0.0,0.0,880.0,0.0,2.0,True,2220,1,G,357.0,S,Acobsond,Ralda,1,True,True,True,0.0,8.0,8.0,1,False,882.0,6.78332520060396,False,882.0,0.0,3,2,1.0,ShoppingMall,False,36-50
 2221_01,Earth,True,PSO J318.5-22,29.0,False,0.0,0.0,0.0,0.0,0.0,True,2221,1,G,355.0,P,Fisherry,Andrey,1,True,True,True,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -2117,7 +2117,7 @@
 2269_01,Mars,True,TRAPPIST-1e,26.0,False,0.0,0.0,0.0,0.0,0.0,True,2269,1,F,458.0,P,Blees,Ork,1,True,True,True,0.0,1.0,1.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 2270_01,Mars,False,TRAPPIST-1e,46.0,False,171.0,0.0,1257.0,5.0,0.0,True,2270,1,F,459.0,P,Fla,Spuffs,1,True,True,True,0.0,11.0,11.0,1,False,1433.0,7.2682230211595655,False,1262.0,171.0,2,3,0.8806699232379623,ShoppingMall,False,36-50
 2272_01,Earth,False,TRAPPIST-1e,3.0,False,0.0,0.0,0.0,0.0,0.0,True,2272,1,G,367.0,P,,,3,False,True,False,0.0,1.0,1.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-2272_02,Earth,True,55 Cancri e,21.0,False,0.0,0.0,0.0,0.0,0.0,True,2272,2,G,367.0,P,Quinnerettt,Mela,3,False,False,False,0.5,8.0,8.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
+2272_02,Earth,True,55 Cancri e,21.0,False,0.0,0.0,0.0,0.0,0.0,True,2272,2,F,367.0,P,Quinnerettt,Mela,3,False,False,False,0.5,8.0,8.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 2272_03,Earth,False,TRAPPIST-1e,1.0,False,0.0,0.0,0.0,0.0,0.0,True,2272,3,G,367.0,P,Kirks,Ricard,3,False,False,True,1.0,8.0,8.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 2273_01,Earth,False,TRAPPIST-1e,22.0,False,0.0,0.0,0.0,10.0,778.0,False,2273,1,E,162.0,S,Hanner,Timmy,1,True,True,True,0.0,13.0,13.0,1,False,788.0,6.670766320845874,False,788.0,0.0,3,2,1.0,VRDeck,False,18-25
 2274_01,Europa,True,55 Cancri e,27.0,False,0.0,0.0,0.0,0.0,0.0,True,2274,1,C,79.0,P,Proorbeng,Alrairk,2,False,True,False,0.0,4.0,4.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -2205,7 +2205,7 @@
 2357_01,Earth,False,TRAPPIST-1e,20.0,False,0.0,409.0,994.0,215.0,0.0,False,2357,1,E,139.0,P,Whitez,Vandy,1,True,True,True,0.0,8.0,8.0,1,False,1618.0,7.389563953677635,False,1209.0,409.0,2,3,0.7472187886279357,ShoppingMall,False,18-25
 2360_01,Earth,True,TRAPPIST-1e,24.0,False,0.0,0.0,0.0,0.0,0.0,True,2360,1,G,379.0,P,Boyersons,Dorene,1,True,True,True,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 2361_01,Earth,True,PSO J318.5-22,3.0,False,0.0,0.0,0.0,0.0,0.0,False,2361,1,G,380.0,P,Belley,Teryla,2,False,True,False,0.0,19.0,19.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-2361_02,Earth,False,PSO J318.5-22,29.0,False,0.0,0.0,792.0,0.0,0.0,True,2361,2,F,481.0,P,Belley,Megany,2,False,False,True,1.0,19.0,19.0,1,False,792.0,6.675823221634848,False,792.0,0.0,4,1,1.0,ShoppingMall,False,26-35
+2361_02,Earth,False,TRAPPIST-1e,29.0,False,0.0,0.0,792.0,0.0,0.0,True,2361,2,F,481.0,P,Belley,Megany,2,False,False,True,1.0,19.0,19.0,1,False,792.0,6.675823221634848,False,792.0,0.0,4,1,1.0,ShoppingMall,False,26-35
 2363_01,Europa,False,TRAPPIST-1e,28.0,False,2416.0,8926.0,41.0,1.0,462.0,True,2363,1,C,85.0,S,Unregul,Castab,1,True,True,True,0.0,5.0,5.0,1,False,11846.0,9.37982994995476,False,504.0,11342.0,0,5,0.04254600709100118,FoodCourt,False,26-35
 2364_01,Earth,False,TRAPPIST-1e,44.0,False,0.0,4.0,6.0,864.0,33.0,True,2364,1,G,381.0,P,Roachez,Sta,1,True,True,True,0.0,6.0,6.0,1,False,907.0,6.811244378601294,False,903.0,4.0,1,4,0.9955898566703418,Spa,False,36-50
 2365_01,Europa,True,TRAPPIST-1e,50.0,False,0.0,0.0,0.0,0.0,0.0,True,2365,1,D,71.0,P,Clunic,Spuri,1,True,True,True,0.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
@@ -2226,7 +2226,7 @@
 2384_04,Earth,False,TRAPPIST-1e,4.0,False,0.0,0.0,0.0,0.0,0.0,True,2384,4,G,383.0,S,Cleachrand,Loreen,7,False,False,False,0.5,9.0,9.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 2384_05,Earth,True,TRAPPIST-1e,17.0,False,0.0,0.0,0.0,0.0,0.0,False,2384,5,G,383.0,S,Pollarkeeks,Ronia,7,False,False,False,0.6666666666666666,12.0,12.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 2384_06,Earth,True,TRAPPIST-1e,30.0,False,0.0,0.0,0.0,0.0,0.0,False,2384,6,G,383.0,S,Cleachrand,Lerome,7,False,False,False,0.8333333333333334,9.0,9.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
-2384_07,Earth,True,TRAPPIST-1e,11.0,False,0.0,0.0,0.0,0.0,0.0,True,2384,7,G,383.0,S,Pollarkeeks,Neila,7,False,False,True,1.0,12.0,12.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
+2384_07,Earth,True,TRAPPIST-1e,11.0,False,0.0,0.0,0.0,0.0,0.0,True,2384,7,F,383.0,S,Pollarkeeks,Neila,7,False,False,True,1.0,12.0,12.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 2385_01,Mars,False,TRAPPIST-1e,23.0,False,1773.0,0.0,78.0,0.0,3.0,False,2385,1,F,461.0,S,Pité,Jacats,1,True,True,True,0.0,3.0,3.0,1,False,1854.0,7.5256399750415355,False,81.0,1773.0,2,3,0.043689320388349516,RoomService,False,18-25
 2387_01,Earth,False,TRAPPIST-1e,58.0,False,0.0,400.0,0.0,690.0,490.0,True,2387,1,E,142.0,P,Estiagosen,Debony,1,True,True,True,0.0,6.0,6.0,1,False,1580.0,7.365812837209472,False,1180.0,400.0,2,3,0.7468354430379747,Spa,False,51-65
 2389_01,Earth,False,TRAPPIST-1e,22.0,False,0.0,46.0,0.0,676.0,0.0,False,2389,1,G,384.0,S,Solon,Annon,1,True,True,True,0.0,13.0,13.0,1,False,722.0,6.583409222158765,False,676.0,46.0,3,2,0.9362880886426593,Spa,False,18-25
@@ -2362,7 +2362,7 @@
 2544_02,Europa,False,TRAPPIST-1e,42.0,False,41.0,1912.0,0.0,1899.0,43.0,False,2544,2,B,97.0,S,Sernator,Alinon,2,False,False,True,1.0,2.0,2.0,1,False,3895.0,8.267705664762426,False,1942.0,1953.0,1,4,0.4985879332477535,FoodCourt,False,36-50
 2545_01,Earth,True,55 Cancri e,78.0,False,0.0,0.0,0.0,0.0,0.0,False,2545,1,G,410.0,P,Hoppernardy,Joycey,1,True,True,True,0.0,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,66+
 2546_01,Earth,False,TRAPPIST-1e,36.0,False,548.0,179.0,24.0,0.0,77.0,False,2546,1,F,491.0,S,Shawatson,Etha,1,True,True,True,0.0,2.0,2.0,1,False,828.0,6.720220155135295,False,101.0,727.0,1,4,0.12198067632850242,RoomService,False,36-50
-2547_01,Europa,False,55 Cancri e,37.0,False,0.0,100.0,0.0,1402.0,1462.0,False,2547,1,A,20.0,P,Sometery,Alatrix,2,False,True,False,0.0,5.0,5.0,1,False,2964.0,7.994632311431825,False,2864.0,100.0,2,3,0.9662618083670715,VRDeck,False,36-50
+2547_01,Europa,False,55 Cancri e,37.0,False,0.0,100.0,0.0,1402.0,1462.0,False,2547,1,F,20.0,P,Sometery,Alatrix,2,False,True,False,0.0,5.0,5.0,1,False,2964.0,7.994632311431825,False,2864.0,100.0,2,3,0.9662618083670715,VRDeck,False,36-50
 2547_02,Europa,False,55 Cancri e,41.0,False,0.0,12809.0,2.0,2835.0,1514.0,True,2547,2,A,20.0,P,Sometery,Coxak,2,False,False,True,1.0,5.0,5.0,1,False,17160.0,9.750394646402302,False,4351.0,12809.0,1,4,0.25355477855477854,FoodCourt,False,36-50
 2548_01,Earth,False,TRAPPIST-1e,18.0,False,852.0,48.0,0.0,7.0,0.0,False,2548,1,G,407.0,S,Vincenton,Emmax,1,True,True,True,0.0,15.0,15.0,1,False,907.0,6.811244378601294,False,7.0,900.0,2,3,0.007717750826901874,RoomService,False,18-25
 2549_01,Mars,False,TRAPPIST-1e,62.0,False,1663.0,0.0,23.0,2.0,12.0,False,2549,1,F,522.0,P,Prin,Wafox,3,False,True,False,0.0,8.0,8.0,1,False,1700.0,7.438971592395862,False,37.0,1663.0,1,4,0.02176470588235294,RoomService,False,51-65
@@ -2640,7 +2640,7 @@
 2822_01,Earth,True,55 Cancri e,3.0,False,0.0,0.0,0.0,0.0,0.0,True,2822,1,G,450.0,S,Harverez,Patsya,5,False,True,False,0.0,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 2822_02,Earth,True,TRAPPIST-1e,5.0,False,0.0,0.0,0.0,0.0,0.0,False,2822,2,G,450.0,S,Harverez,Salley,5,False,False,False,0.25,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 2822_03,Earth,True,55 Cancri e,3.0,False,0.0,0.0,0.0,0.0,0.0,True,2822,3,G,450.0,S,Harverez,Rayne,5,False,False,False,0.5,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-2822_04,Earth,True,55 Cancri e,18.0,False,0.0,0.0,0.0,0.0,0.0,True,2822,4,G,450.0,S,Harverez,Annaha,5,False,False,False,0.75,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
+2822_04,Earth,True,TRAPPIST-1e,18.0,False,0.0,0.0,0.0,0.0,0.0,True,2822,4,G,450.0,S,Harverez,Annaha,5,False,False,False,0.75,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 2822_05,Earth,True,TRAPPIST-1e,8.0,False,0.0,0.0,0.0,0.0,0.0,False,2822,5,G,450.0,S,Harverez,Melvia,5,False,False,True,1.0,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 2823_01,Mars,True,TRAPPIST-1e,21.0,False,0.0,0.0,0.0,0.0,0.0,True,2823,1,F,587.0,P,Parté,Smark,1,True,True,True,0.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 2824_01,Europa,True,55 Cancri e,35.0,False,0.0,0.0,0.0,0.0,0.0,True,2824,1,C,104.0,S,Rinicapead,Shain,1,True,True,True,0.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -2860,7 +2860,7 @@
 3087_01,Earth,False,TRAPPIST-1e,35.0,False,0.0,0.0,0.0,0.0,0.0,True,3087,1,G,505.0,P,Flyncharlan,Chadie,1,True,True,True,0.0,2.0,2.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 3088_01,Europa,False,TRAPPIST-1e,28.0,False,0.0,0.0,0.0,0.0,0.0,False,3088,1,A,25.0,P,Dishearly,Dscha,1,True,True,True,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 3090_01,Europa,False,TRAPPIST-1e,27.0,True,0.0,6013.0,0.0,820.0,31.0,True,3090,1,B,115.0,S,Myling,Minoces,1,True,True,True,0.0,9.0,9.0,1,False,6864.0,8.834191318202071,False,851.0,6013.0,2,3,0.12398018648018648,FoodCourt,False,26-35
-3091_01,Europa,False,TRAPPIST-1e,14.0,False,0.0,946.0,0.0,7860.0,384.0,False,3091,1,D,102.0,S,Wingcoling,Kitakan,2,False,True,False,0.0,4.0,4.0,1,False,9190.0,9.12598002335811,False,8244.0,946.0,2,3,0.8970620239390642,Spa,False,13-17
+3091_01,Europa,False,TRAPPIST-1e,14.0,False,0.0,946.0,0.0,7860.0,384.0,False,3091,1,F,102.0,S,Wingcoling,Kitakan,2,False,True,False,0.0,4.0,4.0,1,False,9190.0,9.12598002335811,False,8244.0,946.0,2,3,0.8970620239390642,Spa,False,13-17
 3091_02,Europa,True,TRAPPIST-1e,26.0,False,0.0,0.0,0.0,0.0,0.0,True,3091,2,D,102.0,S,Wingcoling,Shaiaz,2,False,False,True,1.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 3092_01,Earth,False,TRAPPIST-1e,22.0,False,0.0,0.0,102.0,43.0,700.0,False,3092,1,G,506.0,P,Solivers,Stace,1,True,True,True,0.0,7.0,7.0,1,False,845.0,6.740519359606223,False,845.0,0.0,2,3,1.0,VRDeck,False,18-25
 3093_01,Mars,False,55 Cancri e,22.0,False,2229.0,0.0,1349.0,121.0,0.0,True,3093,1,E,194.0,P,Terte,Berk,1,True,True,True,0.0,6.0,6.0,1,False,3699.0,8.216088098632316,False,1470.0,2229.0,2,3,0.39740470397404704,RoomService,False,18-25
@@ -2947,7 +2947,7 @@
 3195_02,Earth,False,PSO J318.5-22,60.0,False,0.0,31.0,6.0,223.0,356.0,False,3195,2,G,505.0,S,Litthews,Fredy,6,False,False,False,0.2,16.0,16.0,1,False,616.0,6.424869023905388,False,585.0,31.0,1,4,0.9496753246753247,VRDeck,False,51-65
 3195_03,Earth,False,55 Cancri e,28.0,False,0.0,0.0,675.0,31.0,0.0,True,3195,3,G,505.0,S,Litthews,Fery,6,False,False,False,0.4,16.0,16.0,1,False,706.0,6.561030665896573,False,706.0,0.0,3,2,1.0,ShoppingMall,False,26-35
 3195_04,Earth,False,PSO J318.5-22,11.0,False,0.0,0.0,0.0,0.0,0.0,False,3195,4,G,505.0,S,Litthews,Ralda,6,False,False,False,0.6,16.0,16.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-3195_05,Earth,False,55 Cancri e,0.0,False,0.0,0.0,0.0,0.0,0.0,False,3195,5,G,505.0,S,Litthews,Allena,6,False,False,False,0.8,16.0,16.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
+3195_05,Earth,False,55 Cancri e,0.0,False,0.0,0.0,0.0,0.0,0.0,False,3195,5,F,505.0,S,Litthews,Allena,6,False,False,False,0.8,16.0,16.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
 3195_06,Earth,True,TRAPPIST-1e,9.0,False,0.0,0.0,0.0,0.0,0.0,False,3195,6,G,505.0,S,Litthews,Violan,6,False,False,True,1.0,16.0,16.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 3196_01,Mars,False,TRAPPIST-1e,38.0,False,1046.0,0.0,1553.0,0.0,0.0,False,3196,1,F,667.0,P,Chate,Flats,1,True,True,True,0.0,10.0,10.0,1,False,2599.0,7.8632667240095735,False,1553.0,1046.0,3,2,0.5975375144286263,ShoppingMall,False,36-50
 3197_01,Earth,False,55 Cancri e,18.0,False,0.0,0.0,0.0,588.0,0.0,False,3197,1,F,668.0,P,Ryanga,Molley,1,True,True,True,0.0,8.0,8.0,1,False,588.0,6.3784261836515865,False,588.0,0.0,4,1,1.0,Spa,False,18-25
@@ -3039,11 +3039,11 @@
 3284_01,Earth,True,PSO J318.5-22,17.0,False,0.0,0.0,0.0,0.0,0.0,True,3284,1,G,535.0,P,Holsen,Kaye,2,False,True,False,0.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 3284_02,Earth,True,PSO J318.5-22,29.0,False,0.0,0.0,0.0,0.0,0.0,True,3284,2,G,535.0,P,Holsen,Olgary,2,False,False,True,1.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 3287_01,Earth,False,PSO J318.5-22,2.0,False,359.0,0.0,0.0,0.0,0.0,True,3287,1,G,522.0,S,Carlsonney,Jeron,3,False,True,False,0.0,6.0,6.0,1,False,359.0,5.886104031450156,False,0.0,359.0,4,1,0.0,RoomService,True,1-12
-3287_02,Earth,False,TRAPPIST-1e,22.0,False,718.0,2.0,50.0,0.0,0.0,True,3287,2,G,571.5,S,Carlsonney,Jerrye,3,False,False,False,0.5,6.0,6.0,1,False,770.0,6.647688373563329,False,50.0,720.0,2,3,0.06493506493506493,RoomService,False,18-25
+3287_02,Earth,False,TRAPPIST-1e,22.0,False,718.0,2.0,50.0,0.0,0.0,True,3287,2,F,571.5,S,Carlsonney,Jerrye,3,False,False,False,0.5,6.0,6.0,1,False,770.0,6.647688373563329,False,50.0,720.0,2,3,0.06493506493506493,RoomService,False,18-25
 3287_03,Earth,False,55 Cancri e,18.0,False,0.0,1.0,14.0,625.0,0.0,False,3287,3,F,621.0,S,Carlsonney,Therie,3,False,False,True,1.0,6.0,6.0,1,False,640.0,6.46302945692067,False,639.0,1.0,2,3,0.9984375,Spa,False,18-25
 3289_01,Earth,True,TRAPPIST-1e,16.0,False,0.0,0.0,0.0,0.0,0.0,True,3289,1,G,536.0,P,Whitez,Jaye,1,True,True,True,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 3292_01,Europa,True,TRAPPIST-1e,52.0,False,0.0,0.0,0.0,0.0,0.0,True,3292,1,B,121.0,S,Dianket,Sarino,5,False,True,False,0.0,10.0,10.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
-3292_02,Europa,False,55 Cancri e,52.0,False,13.0,6074.0,0.0,10385.0,299.0,False,3292,2,B,121.0,S,Dianket,Auvab,5,False,False,False,0.25,10.0,10.0,3,True,16771.0,9.727466108290653,False,10684.0,6087.0,1,4,0.6370520541410769,Spa,False,51-65
+3292_02,Europa,False,55 Cancri e,52.0,False,13.0,6074.0,0.0,10385.0,299.0,False,3292,2,F,121.0,S,Dianket,Auvab,5,False,False,False,0.25,10.0,10.0,3,True,16771.0,9.727466108290653,False,10684.0,6087.0,1,4,0.6370520541410769,Spa,False,51-65
 3292_03,Europa,True,55 Cancri e,14.0,False,0.0,0.0,0.0,0.0,0.0,True,3292,3,B,121.0,S,Brakepined,Coxak,5,False,False,False,0.5,4.0,4.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 3292_04,Europa,False,TRAPPIST-1e,25.0,True,0.0,0.0,0.0,0.0,0.0,True,3292,4,B,121.0,S,Discuous,Acruxon,5,False,False,False,0.75,2.0,2.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 3292_05,Europa,True,TRAPPIST-1e,34.0,False,0.0,0.0,0.0,0.0,0.0,True,3292,5,B,121.0,S,Dianket,Golaron,5,False,False,True,1.0,10.0,10.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -3277,8 +3277,8 @@
 3519_02,Earth,True,TRAPPIST-1e,0.0,False,0.0,0.0,0.0,0.0,0.0,True,3519,2,G,577.0,P,Swanardy,Kenny,3,False,False,False,0.5,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
 3519_03,Earth,True,TRAPPIST-1e,0.0,False,0.0,0.0,0.0,0.0,0.0,True,3519,3,G,577.0,P,Swanardy,Gracia,3,False,False,True,1.0,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
 3520_01,Earth,False,TRAPPIST-1e,26.0,False,0.0,597.0,0.0,0.0,212.0,False,3520,1,G,578.0,P,Wartyson,Lesley,2,False,True,False,0.0,12.0,12.0,1,False,809.0,6.697034247666484,False,212.0,597.0,3,2,0.2620519159456119,FoodCourt,False,26-35
-3520_02,Earth,True,PSO J318.5-22,13.0,False,0.0,0.0,0.0,0.0,0.0,True,3520,2,G,578.0,P,Wartyson,Lyny,2,False,False,True,1.0,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
-3521_01,Europa,True,55 Cancri e,23.0,False,0.0,0.0,0.0,0.0,0.0,True,3521,1,B,135.0,S,Radisiouss,Minoton,2,False,True,False,0.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
+3520_02,Earth,True,PSO J318.5-22,13.0,False,0.0,0.0,0.0,0.0,0.0,True,3520,2,F,578.0,P,Wartyson,Lyny,2,False,False,True,1.0,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
+3521_01,Europa,True,55 Cancri e,23.0,False,0.0,0.0,0.0,0.0,0.0,True,3521,1,F,135.0,S,Radisiouss,Minoton,2,False,True,False,0.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 3521_02,Europa,True,TRAPPIST-1e,70.0,False,0.0,0.0,0.0,0.0,0.0,True,3521,2,B,135.0,S,Radisiouss,Atrinon,2,False,False,True,1.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,66+
 3523_01,Earth,True,TRAPPIST-1e,21.0,False,0.0,0.0,0.0,0.0,0.0,True,3523,1,F,664.0,S,Tité,Frohs,1,True,True,True,0.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 3525_01,Mars,True,TRAPPIST-1e,40.0,False,0.0,0.0,0.0,0.0,0.0,True,3525,1,F,727.0,P,Shrie,Honda,1,True,True,True,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
@@ -3383,7 +3383,7 @@
 3640_02,Earth,True,TRAPPIST-1e,41.0,False,0.0,0.0,0.0,0.0,0.0,False,3640,2,G,589.0,S,Schwardson,Troya,2,False,False,True,1.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 3641_01,Earth,True,PSO J318.5-22,23.0,False,0.0,0.0,0.0,0.0,0.0,True,3641,1,G,595.0,P,Pacerty,Erick,3,False,True,False,0.0,8.0,8.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 3641_02,Earth,False,TRAPPIST-1e,48.0,False,0.0,0.0,1.0,0.0,0.0,False,3641,2,G,595.0,P,Powery,Lilasa,3,False,False,False,0.5,14.0,14.0,2,True,1.0,0.6931471805599453,False,1.0,0.0,4,1,1.0,ShoppingMall,False,36-50
-3641_03,Earth,False,TRAPPIST-1e,0.0,False,0.0,0.0,0.0,0.0,0.0,True,3641,3,G,595.0,P,Powery,Mathy,3,False,False,True,1.0,14.0,14.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
+3641_03,Earth,False,TRAPPIST-1e,0.0,False,0.0,0.0,0.0,0.0,0.0,True,3641,3,F,595.0,P,Powery,Mathy,3,False,False,True,1.0,14.0,14.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
 3642_01,Earth,False,TRAPPIST-1e,46.0,False,105.0,335.0,0.0,72.0,388.0,False,3642,1,F,757.0,P,Rodricker,Tricky,1,True,True,True,0.0,6.0,6.0,1,False,900.0,6.803505257608338,False,460.0,440.0,1,4,0.5111111111111111,VRDeck,False,36-50
 3644_01,Mars,True,TRAPPIST-1e,36.0,False,0.0,0.0,0.0,0.0,0.0,True,3644,1,F,686.0,S,Bun,Carde,1,True,True,True,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 3645_01,Mars,True,TRAPPIST-1e,42.0,False,0.0,0.0,0.0,0.0,0.0,True,3645,1,D,124.0,P,Pepie,Masal,5,False,True,False,0.0,11.0,11.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
@@ -3494,7 +3494,7 @@
 3752_01,Europa,False,TRAPPIST-1e,52.0,False,0.0,5.0,0.0,108.0,1788.0,False,3752,1,D,120.0,S,Femoused,Tarrak,1,True,True,True,0.0,4.0,4.0,1,False,1901.0,7.550661243105336,False,1896.0,5.0,2,3,0.997369805365597,VRDeck,False,51-65
 3753_01,Earth,False,55 Cancri e,55.0,False,0.0,519.0,131.0,63.0,3.0,False,3753,1,F,776.0,P,,,1,True,True,True,0.0,1.0,1.0,0,False,716.0,6.57507584059962,False,197.0,519.0,1,4,0.2751396648044693,FoodCourt,False,51-65
 3754_01,Earth,True,TRAPPIST-1e,43.0,False,0.0,0.0,0.0,0.0,0.0,True,3754,1,G,611.0,P,Sterson,Naomin,1,True,True,True,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
-3755_01,Earth,True,TRAPPIST-1e,24.0,False,0.0,0.0,0.0,0.0,0.0,False,3755,1,G,612.0,P,Gallencis,Stendy,2,False,True,False,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
+3755_01,Earth,True,TRAPPIST-1e,24.0,False,0.0,0.0,0.0,0.0,0.0,False,3755,1,F,612.0,P,Gallencis,Stendy,2,False,True,False,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 3755_02,Earth,True,PSO J318.5-22,8.0,False,0.0,0.0,0.0,0.0,0.0,False,3755,2,G,612.0,P,,,2,False,False,True,1.0,1.0,1.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 3756_01,Mars,True,TRAPPIST-1e,18.0,False,0.0,0.0,0.0,0.0,0.0,True,3756,1,F,707.0,S,Snoaf,Blus,1,True,True,True,0.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 3757_01,Earth,True,TRAPPIST-1e,38.0,False,0.0,0.0,0.0,0.0,0.0,True,3757,1,G,617.0,S,Hubbarrison,Loresa,1,True,True,True,0.0,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
@@ -3638,7 +3638,7 @@
 3911_02,Earth,False,TRAPPIST-1e,20.0,False,9.0,0.0,1462.0,94.0,54.0,True,3911,2,E,260.0,S,Pentss,France,3,False,False,False,0.5,9.0,9.0,2,True,1619.0,7.3901814282264295,False,1610.0,9.0,1,4,0.9944410129709698,ShoppingMall,False,18-25
 3911_03,Earth,True,PSO J318.5-22,18.0,False,0.0,0.0,0.0,0.0,0.0,True,3911,3,G,640.0,S,,,3,False,False,True,1.0,1.0,1.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 3912_01,Earth,False,TRAPPIST-1e,15.0,False,309.0,28.0,496.0,20.0,49.0,True,3912,1,F,737.0,S,Cartiz,Carona,1,True,True,True,0.0,9.0,9.0,1,False,902.0,6.805722553416985,False,565.0,337.0,0,5,0.6263858093126385,ShoppingMall,False,13-17
-3913_01,Earth,False,PSO J318.5-22,23.0,False,0.0,93.0,1.0,0.0,542.0,False,3913,1,F,738.0,S,Waterson,Catha,2,False,True,False,0.0,7.0,7.0,1,False,636.0,6.456769655572163,False,543.0,93.0,2,3,0.8537735849056604,VRDeck,False,18-25
+3913_01,Earth,False,TRAPPIST-1e,23.0,False,0.0,93.0,1.0,0.0,542.0,False,3913,1,F,738.0,S,Waterson,Catha,2,False,True,False,0.0,7.0,7.0,1,False,636.0,6.456769655572163,False,543.0,93.0,2,3,0.8537735849056604,VRDeck,False,18-25
 3913_02,Earth,False,PSO J318.5-22,29.0,False,0.0,2.0,553.0,44.0,0.0,False,3913,2,F,738.0,S,Waterson,Ermank,2,False,False,True,1.0,7.0,7.0,1,False,599.0,6.396929655216146,False,597.0,2.0,2,3,0.996661101836394,ShoppingMall,False,26-35
 3915_01,Earth,True,TRAPPIST-1e,33.0,False,0.0,0.0,0.0,0.0,0.0,True,3915,1,G,641.0,S,Mayods,Leondy,1,True,True,True,0.0,15.0,15.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 3916_01,Europa,False,TRAPPIST-1e,14.0,False,2.0,881.0,0.0,578.0,214.0,False,3916,1,D,128.0,S,Ciplanke,Cellus,2,False,True,False,0.0,4.0,4.0,1,False,1675.0,7.424165281042028,False,792.0,883.0,1,4,0.4728358208955224,FoodCourt,False,13-17
@@ -3654,7 +3654,7 @@
 3926_01,Earth,False,TRAPPIST-1e,18.0,False,716.0,0.0,0.0,0.0,0.0,False,3926,1,F,810.0,P,Fowlesterez,Wine,1,True,True,True,0.0,18.0,18.0,1,False,716.0,6.57507584059962,False,0.0,716.0,4,1,0.0,RoomService,False,18-25
 3927_01,Europa,False,55 Cancri e,38.0,False,55.0,1258.0,0.0,650.0,10786.0,False,3927,1,C,142.0,S,Tionstious,Skyrmak,2,False,True,False,0.0,5.0,5.0,1,False,12749.0,9.453286550586572,False,11436.0,1313.0,1,4,0.8970115303161033,VRDeck,False,36-50
 3927_02,Europa,False,55 Cancri e,42.0,False,0.0,1249.0,0.0,1313.0,1148.0,True,3927,2,C,142.0,S,Tionstious,Alar,2,False,False,True,1.0,5.0,5.0,1,False,3710.0,8.219056661060598,False,2461.0,1249.0,2,3,0.6633423180592992,Spa,False,36-50
-3928_01,Europa,False,55 Cancri e,28.0,False,3.0,1300.0,0.0,1250.0,1148.0,False,3928,1,E,264.0,S,Witeronfus,Anchird,2,False,True,False,0.0,6.0,6.0,1,False,3701.0,8.216628493133443,False,2398.0,1303.0,1,4,0.6479329910834909,FoodCourt,False,26-35
+3928_01,Europa,False,TRAPPIST-1e,28.0,False,3.0,1300.0,0.0,1250.0,1148.0,False,3928,1,E,264.0,S,Witeronfus,Anchird,2,False,True,False,0.0,6.0,6.0,1,False,3701.0,8.216628493133443,False,2398.0,1303.0,1,4,0.6479329910834909,FoodCourt,False,26-35
 3928_02,Europa,True,55 Cancri e,37.0,False,0.0,0.0,0.0,0.0,0.0,True,3928,2,E,264.0,S,Witeronfus,Alrak,2,False,False,True,1.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 3930_01,Earth,False,55 Cancri e,29.0,False,0.0,0.0,0.0,1819.0,1.0,False,3930,1,F,740.0,S,Mcguirez,Dell,1,True,True,True,0.0,7.0,7.0,1,False,1820.0,7.507141079727608,False,1820.0,0.0,3,2,1.0,Spa,False,26-35
 3931_01,Earth,False,55 Cancri e,42.0,False,0.0,218.0,0.0,481.0,2.0,False,3931,1,F,811.0,P,Sandry,Denis,1,True,True,True,0.0,4.0,4.0,1,False,701.0,6.553933404025811,False,483.0,218.0,2,3,0.6890156918687589,Spa,False,36-50
@@ -3738,7 +3738,7 @@
 4005_01,Earth,False,TRAPPIST-1e,8.0,False,0.0,0.0,0.0,0.0,0.0,True,4005,1,G,657.0,P,Castannison,Jonaye,8,False,True,False,0.0,14.0,14.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 4005_02,Earth,False,TRAPPIST-1e,17.0,False,3.0,83.0,927.0,0.0,1.0,True,4005,2,G,657.0,P,Castannison,Aarone,8,False,False,False,0.14285714285714285,14.0,14.0,3,True,1014.0,6.922643891475888,False,928.0,86.0,1,4,0.9151873767258383,ShoppingMall,False,13-17
 4005_03,Earth,False,TRAPPIST-1e,4.0,False,0.0,0.0,0.0,0.0,0.0,False,4005,3,G,657.0,P,Castannison,Cliney,8,False,False,False,0.2857142857142857,14.0,14.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-4005_04,Earth,True,TRAPPIST-1e,12.0,False,0.0,0.0,0.0,0.0,0.0,False,4005,4,G,657.0,P,Spentley,Dia,8,False,False,False,0.42857142857142855,6.0,6.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
+4005_04,Earth,True,TRAPPIST-1e,12.0,False,0.0,0.0,0.0,0.0,0.0,False,4005,4,F,657.0,P,Spentley,Dia,8,False,False,False,0.42857142857142855,6.0,6.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 4005_05,Earth,True,PSO J318.5-22,40.0,False,0.0,0.0,0.0,0.0,0.0,True,4005,5,G,657.0,P,River,Lorian,8,False,False,False,0.5714285714285714,15.0,15.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 4005_06,Earth,False,PSO J318.5-22,16.0,False,4.0,0.0,2278.0,2.0,0.0,True,4005,6,F,829.0,P,River,Son,8,False,False,False,0.7142857142857143,15.0,15.0,3,True,2284.0,7.734121303328305,False,2280.0,4.0,2,3,0.9982486865148862,ShoppingMall,False,13-17
 4005_07,Earth,True,TRAPPIST-1e,41.0,False,0.0,0.0,0.0,0.0,0.0,True,4005,7,G,657.0,P,Castannison,Bobina,8,False,False,False,0.8571428571428571,14.0,14.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
@@ -3769,7 +3769,7 @@
 4026_01,Europa,True,55 Cancri e,42.0,False,0.0,0.0,0.0,0.0,0.0,True,4026,1,B,154.0,S,Chsere,Azham,1,True,True,True,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 4027_01,Earth,True,PSO J318.5-22,29.0,False,0.0,0.0,0.0,0.0,0.0,True,4027,1,G,659.0,P,Patthews,Benry,1,True,True,True,0.0,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 4030_01,Earth,False,TRAPPIST-1e,2.0,False,0.0,0.0,0.0,0.0,0.0,True,4030,1,G,661.0,S,Flowensley,Evaley,5,False,True,False,0.0,10.0,10.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-4030_02,Earth,True,TRAPPIST-1e,10.0,False,0.0,0.0,0.0,0.0,0.0,False,4030,2,G,661.0,S,Carpennels,Luise,5,False,False,False,0.25,9.0,9.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
+4030_02,Earth,True,TRAPPIST-1e,10.0,False,0.0,0.0,0.0,0.0,0.0,False,4030,2,F,661.0,S,Carpennels,Luise,5,False,False,False,0.25,9.0,9.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 4030_03,Earth,False,TRAPPIST-1e,0.0,False,0.0,0.0,0.0,0.0,0.0,False,4030,3,G,661.0,S,Carpennels,Gleney,5,False,False,False,0.5,9.0,9.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
 4030_04,Earth,True,TRAPPIST-1e,21.0,False,0.0,0.0,0.0,0.0,0.0,False,4030,4,G,661.0,S,Carpennels,Beula,5,False,False,False,0.75,9.0,9.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 4030_05,Earth,False,TRAPPIST-1e,8.0,False,0.0,0.0,0.0,0.0,0.0,False,4030,5,G,661.0,S,Carpennels,Terina,5,False,False,True,1.0,9.0,9.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
@@ -3810,7 +3810,7 @@
 4066_02,Europa,True,TRAPPIST-1e,22.0,False,0.0,0.0,0.0,0.0,0.0,True,4066,2,B,155.0,S,Objeciane,Diramak,2,False,False,True,1.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 4068_01,Europa,False,TRAPPIST-1e,27.0,False,0.0,1381.0,0.0,148.0,2181.0,False,4068,1,D,131.0,S,Pirejus,Dnocese,1,True,True,True,0.0,11.0,11.0,1,False,3710.0,8.219056661060598,False,2329.0,1381.0,2,3,0.6277628032345014,VRDeck,False,26-35
 4069_01,Earth,False,55 Cancri e,24.0,False,0.0,0.0,2433.0,0.0,53.0,True,4069,1,F,768.0,S,Chenson,Hen,1,True,True,True,0.0,2.0,2.0,1,False,2486.0,7.818832443803404,False,2486.0,0.0,3,2,1.0,ShoppingMall,False,18-25
-4071_01,Europa,True,55 Cancri e,22.0,False,0.0,0.0,0.0,0.0,0.0,True,4071,1,B,127.0,P,Watuald,Alurope,2,False,True,False,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
+4071_01,Europa,True,TRAPPIST-1e,22.0,False,0.0,0.0,0.0,0.0,0.0,True,4071,1,B,127.0,P,Watuald,Alurope,2,False,True,False,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 4071_02,Europa,True,55 Cancri e,22.0,False,0.0,0.0,0.0,0.0,0.0,True,4071,2,B,127.0,P,Watuald,Tachir,2,False,False,True,1.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 4072_01,Earth,True,TRAPPIST-1e,60.0,False,0.0,0.0,0.0,0.0,0.0,True,4072,1,G,671.0,S,Chasey,Mael,1,True,True,True,0.0,2.0,2.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 4075_01,Europa,False,TRAPPIST-1e,38.0,False,1901.0,1276.0,0.0,7561.0,12.0,False,4075,1,C,145.0,S,Nateansive,Anchira,1,True,True,True,0.0,4.0,4.0,1,False,10750.0,9.282754052485227,False,7573.0,3177.0,1,4,0.7044651162790697,Spa,False,36-50
@@ -3913,7 +3913,7 @@
 4179_02,Europa,True,TRAPPIST-1e,23.0,False,0.0,0.0,0.0,0.0,0.0,True,4179,2,A,50.0,S,Pleele,Alrais,2,False,False,True,1.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 4181_01,Europa,False,TRAPPIST-1e,4.0,False,0.0,0.0,0.0,0.0,0.0,True,4181,1,C,133.0,P,Frattyring,Okulas,6,False,True,False,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 4181_02,Europa,False,TRAPPIST-1e,0.0,False,0.0,0.0,0.0,0.0,0.0,True,4181,2,C,133.0,P,Frattyring,Meron,6,False,False,False,0.2,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
-4181_03,Europa,True,TRAPPIST-1e,17.0,False,0.0,0.0,0.0,0.0,0.0,True,4181,3,C,133.0,P,Frattyring,Terope,6,False,False,False,0.4,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
+4181_03,Europa,True,TRAPPIST-1e,17.0,False,0.0,0.0,0.0,0.0,0.0,True,4181,3,F,133.0,P,Frattyring,Terope,6,False,False,False,0.4,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 4181_04,Europa,True,TRAPPIST-1e,44.0,False,0.0,0.0,0.0,0.0,0.0,True,4181,4,C,133.0,P,Frattyring,Ashir,6,False,False,False,0.6,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 4181_05,Europa,False,55 Cancri e,31.0,False,2.0,8747.0,0.0,4840.0,14485.0,False,4181,5,C,133.0,P,Frattyring,Wezena,6,False,False,False,0.8,6.0,6.0,1,False,28074.0,10.242634779606645,False,19325.0,8749.0,1,4,0.6883593360404645,VRDeck,False,26-35
 4181_06,Europa,False,55 Cancri e,41.0,True,0.0,9463.0,0.0,1022.0,1562.0,True,4181,6,C,133.0,P,Frattyring,Ranan,6,False,False,True,1.0,6.0,6.0,1,False,12047.0,9.396653950039674,False,2584.0,9463.0,2,3,0.2144932348302482,FoodCourt,False,36-50
@@ -4021,7 +4021,7 @@
 4293_01,Earth,False,TRAPPIST-1e,52.0,False,0.0,559.0,0.0,0.0,0.0,True,4293,1,F,801.0,S,Carsoning,Willy,1,True,True,True,0.0,8.0,8.0,1,False,559.0,6.327936783729195,False,0.0,559.0,4,1,0.0,FoodCourt,False,51-65
 4294_01,Earth,False,TRAPPIST-1e,29.0,False,646.0,91.0,13.0,0.0,0.0,True,4294,1,G,702.0,S,Charpelaney,Gayla,1,True,True,True,0.0,8.0,8.0,1,False,750.0,6.621405651764134,False,13.0,737.0,2,3,0.017333333333333333,RoomService,False,26-35
 4295_01,Mars,False,55 Cancri e,23.0,False,49.0,0.0,2716.0,0.0,0.0,True,4295,1,D,147.0,P,Manda,Sweal,2,False,True,False,0.0,3.0,3.0,1,False,2765.0,7.925157512224703,False,2716.0,49.0,3,2,0.9822784810126582,ShoppingMall,False,18-25
-4295_02,Mars,True,TRAPPIST-1e,32.0,False,0.0,0.0,0.0,0.0,0.0,True,4295,2,D,147.0,P,Manda,Rowne,2,False,False,True,1.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
+4295_02,Mars,True,TRAPPIST-1e,32.0,False,0.0,0.0,0.0,0.0,0.0,True,4295,2,F,147.0,P,Manda,Rowne,2,False,False,True,1.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 4296_01,Earth,True,TRAPPIST-1e,35.0,False,0.0,0.0,0.0,0.0,0.0,False,4296,1,G,703.0,S,Whitersone,Eriney,1,True,True,True,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 4297_01,Europa,False,55 Cancri e,41.0,False,14.0,6777.0,81.0,604.0,2936.0,False,4297,1,B,138.0,P,Taketiatim,Asellan,1,True,True,True,0.0,2.0,2.0,1,False,10412.0,9.250810304529896,False,3621.0,6791.0,0,5,0.3477718017671917,FoodCourt,False,36-50
 4300_01,Earth,True,PSO J318.5-22,16.0,False,0.0,0.0,0.0,0.0,0.0,True,4300,1,G,704.0,S,Loway,Felia,1,True,True,True,0.0,13.0,13.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
@@ -4057,7 +4057,7 @@
 4335_01,Mars,True,TRAPPIST-1e,34.0,False,0.0,0.0,0.0,0.0,0.0,False,4335,1,E,281.0,S,Paska,Oareel,1,True,True,True,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 4336_01,Europa,False,TRAPPIST-1e,29.0,True,267.0,1418.0,257.0,843.0,0.0,True,4336,1,C,155.0,S,Gloother,Zedasim,4,False,True,False,0.0,5.0,5.0,1,False,2785.0,7.932362154339751,False,1100.0,1685.0,1,4,0.39497307001795334,FoodCourt,False,26-35
 4336_02,Europa,True,TRAPPIST-1e,14.0,False,0.0,0.0,0.0,0.0,0.0,True,4336,2,C,155.0,S,Gloother,Terope,4,False,False,False,0.3333333333333333,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
-4336_03,Europa,False,TRAPPIST-1e,36.0,False,0.0,563.0,0.0,1301.0,830.0,True,4336,3,C,155.0,S,Gloother,Ziba,4,False,False,False,0.6666666666666666,5.0,5.0,1,False,2694.0,7.899153483343097,False,2131.0,563.0,2,3,0.7910170749814402,Spa,False,36-50
+4336_03,Europa,False,TRAPPIST-1e,36.0,False,0.0,563.0,0.0,1301.0,830.0,True,4336,3,F,155.0,S,Gloother,Ziba,4,False,False,False,0.6666666666666666,5.0,5.0,1,False,2694.0,7.899153483343097,False,2131.0,563.0,2,3,0.7910170749814402,Spa,False,36-50
 4336_04,Europa,False,55 Cancri e,40.0,False,2320.0,0.0,4874.0,3131.0,498.0,True,4336,4,C,155.0,S,Gloother,Krazet,4,False,False,True,1.0,5.0,5.0,1,False,10823.0,9.289521169850625,False,8503.0,2320.0,1,4,0.7856416889956575,ShoppingMall,False,36-50
 4337_01,Mars,False,TRAPPIST-1e,49.0,False,22.0,0.0,1129.0,0.0,77.0,True,4337,1,F,813.0,S,Gele,Book,1,True,True,True,0.0,8.0,8.0,1,False,1228.0,7.113956109566034,False,1206.0,22.0,2,3,0.9820846905537459,ShoppingMall,False,36-50
 4338_01,Europa,False,TRAPPIST-1e,51.0,False,0.0,0.0,0.0,0.0,0.0,True,4338,1,C,156.0,S,Gealloyalt,Leshmet,3,False,True,False,0.0,5.0,5.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
@@ -4339,7 +4339,7 @@
 4624_01,Mars,False,TRAPPIST-1e,58.0,False,1246.0,0.0,66.0,36.0,0.0,False,4624,1,F,868.0,S,Gelle,Giamon,1,True,True,True,0.0,4.0,4.0,1,False,1348.0,7.207118856207756,False,102.0,1246.0,2,3,0.07566765578635015,RoomService,False,51-65
 4625_01,Europa,False,TRAPPIST-1e,31.0,False,0.0,2520.0,1.0,1.0,0.0,True,4625,1,B,183.0,S,Ineedeve,Mothab,7,False,True,False,0.0,9.0,9.0,1,False,2522.0,7.833203948641057,False,2.0,2520.0,2,3,0.0007930214115781126,FoodCourt,False,26-35
 4625_02,Europa,True,55 Cancri e,24.0,False,0.0,0.0,0.0,0.0,0.0,True,4625,2,B,183.0,S,Ineedeve,Naosa,7,False,False,False,0.16666666666666666,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
-4625_03,Europa,False,TRAPPIST-1e,52.0,False,0.0,3275.0,111.0,51.0,18.0,True,4625,3,B,183.0,S,Ineedeve,Shaton,7,False,False,False,0.3333333333333333,9.0,9.0,1,False,3455.0,8.147867129923947,False,180.0,3275.0,1,4,0.05209840810419682,FoodCourt,False,51-65
+4625_03,Europa,False,TRAPPIST-1e,52.0,False,0.0,3275.0,111.0,51.0,18.0,True,4625,3,F,183.0,S,Ineedeve,Shaton,7,False,False,False,0.3333333333333333,9.0,9.0,1,False,3455.0,8.147867129923947,False,180.0,3275.0,1,4,0.05209840810419682,FoodCourt,False,51-65
 4625_04,Europa,True,55 Cancri e,25.0,False,0.0,0.0,0.0,0.0,0.0,True,4625,4,B,183.0,S,Ineedeve,Auvara,7,False,False,False,0.5,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 4625_05,Europa,True,TRAPPIST-1e,17.0,False,0.0,0.0,0.0,0.0,0.0,True,4625,5,B,183.0,S,Ineedeve,Azharga,7,False,False,False,0.6666666666666666,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 4625_06,Europa,False,TRAPPIST-1e,27.0,False,0.0,453.0,137.0,1331.0,1660.0,False,4625,6,B,183.0,S,Ineedeve,Sabih,7,False,False,False,0.8333333333333334,9.0,9.0,1,False,3581.0,8.183676582620658,False,3128.0,453.0,1,4,0.8734990226193801,VRDeck,False,26-35
@@ -4380,7 +4380,7 @@
 4658_01,Europa,False,TRAPPIST-1e,26.0,False,0.0,823.0,0.0,1821.0,1508.0,False,4658,1,D,147.0,S,Bradiary,Taurah,2,False,True,False,0.0,5.0,5.0,1,False,4152.0,8.331586243630754,False,3329.0,823.0,2,3,0.8017822736030829,Spa,False,26-35
 4658_02,Europa,False,TRAPPIST-1e,38.0,False,0.0,93.0,0.0,0.0,7303.0,False,4658,2,D,147.0,S,Bradiary,Ruchban,2,False,False,True,1.0,5.0,5.0,1,False,7396.0,8.908829791587868,False,7303.0,93.0,3,2,0.9874256354786372,VRDeck,False,36-50
 4659_01,Earth,False,TRAPPIST-1e,24.0,False,703.0,0.0,0.0,0.0,0.0,False,4659,1,F,876.0,S,Hayerson,Mael,1,True,True,True,0.0,7.0,7.0,1,False,703.0,6.556778356158042,False,0.0,703.0,4,1,0.0,RoomService,False,18-25
-4661_01,Earth,False,55 Cancri e,30.0,False,77.0,2325.0,5.0,117.0,1.0,True,4661,1,F,948.0,P,Moodman,Mamina,7,False,True,False,0.0,14.0,14.0,3,True,2525.0,7.8343923029104365,False,123.0,2402.0,0,5,0.048712871287128715,FoodCourt,False,26-35
+4661_01,Earth,False,TRAPPIST-1e,30.0,False,77.0,2325.0,5.0,117.0,1.0,True,4661,1,F,948.0,P,Moodman,Mamina,7,False,True,False,0.0,14.0,14.0,3,True,2525.0,7.8343923029104365,False,123.0,2402.0,0,5,0.048712871287128715,FoodCourt,False,26-35
 4661_02,Earth,True,55 Cancri e,2.0,False,0.0,0.0,0.0,0.0,0.0,False,4661,2,G,757.0,P,Moodman,Sharie,7,False,False,False,0.16666666666666666,14.0,14.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 4661_03,Earth,True,TRAPPIST-1e,4.0,False,0.0,0.0,0.0,0.0,0.0,True,4661,3,G,757.0,P,Walston,Fery,7,False,False,False,0.3333333333333333,3.0,3.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 4661_04,Earth,True,TRAPPIST-1e,9.0,False,0.0,0.0,0.0,0.0,0.0,False,4661,4,G,757.0,P,Moodman,Denne,7,False,False,False,0.5,14.0,14.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
@@ -4389,7 +4389,7 @@
 4661_07,Earth,False,TRAPPIST-1e,2.0,False,0.0,0.0,0.0,0.0,0.0,False,4661,7,G,757.0,P,Moodman,Ianna,7,False,False,True,1.0,14.0,14.0,3,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 4662_01,Europa,False,TRAPPIST-1e,32.0,False,45.0,985.0,0.0,0.0,6803.0,False,4662,1,C,148.0,P,Uningably,Dirk,3,False,True,False,0.0,3.0,3.0,2,True,7833.0,8.966228514225776,False,6803.0,1030.0,2,3,0.8685050427677774,VRDeck,False,26-35
 4662_02,Europa,True,TRAPPIST-1e,53.0,False,0.0,0.0,0.0,0.0,0.0,True,4662,2,C,148.0,P,Uningably,Batares,3,False,False,False,0.5,3.0,3.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
-4662_03,Europa,False,TRAPPIST-1e,46.0,False,0.0,3856.0,0.0,1.0,312.0,True,4662,3,C,148.0,P,Ingwhed,Dyonium,3,False,False,True,1.0,5.0,5.0,2,True,4169.0,8.335671314792847,False,313.0,3856.0,2,3,0.07507795634444711,FoodCourt,False,36-50
+4662_03,Europa,False,TRAPPIST-1e,46.0,False,0.0,3856.0,0.0,1.0,312.0,True,4662,3,F,148.0,P,Ingwhed,Dyonium,3,False,False,True,1.0,5.0,5.0,2,True,4169.0,8.335671314792847,False,313.0,3856.0,2,3,0.07507795634444711,FoodCourt,False,36-50
 4663_01,Earth,True,TRAPPIST-1e,2.0,False,0.0,0.0,0.0,0.0,0.0,True,4663,1,G,765.0,S,Cartez,Lonna,6,False,True,False,0.0,14.0,14.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 4663_02,Earth,True,TRAPPIST-1e,1.0,False,0.0,0.0,0.0,0.0,0.0,True,4663,2,G,765.0,S,Cartez,Dia,6,False,False,False,0.2,14.0,14.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 4663_03,Earth,True,TRAPPIST-1e,11.0,False,0.0,0.0,0.0,0.0,0.0,True,4663,3,G,765.0,S,Roachoanand,Nelsie,6,False,False,False,0.4,7.0,7.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
@@ -4415,7 +4415,7 @@
 4686_01,Earth,False,TRAPPIST-1e,38.0,False,0.0,172.0,615.0,0.0,0.0,True,4686,1,G,768.0,S,Russon,Fany,1,True,True,True,0.0,5.0,5.0,1,False,787.0,6.669498089857879,False,615.0,172.0,3,2,0.7814485387547649,ShoppingMall,False,36-50
 4689_01,Europa,False,TRAPPIST-1e,28.0,True,0.0,3119.0,0.0,1404.0,366.0,True,4689,1,C,182.0,S,Persoffly,Stra,1,True,True,True,0.0,3.0,3.0,1,False,4889.0,8.494947582468917,False,1770.0,3119.0,2,3,0.36203722642667213,FoodCourt,False,26-35
 4690_01,Europa,True,TRAPPIST-1e,35.0,False,0.0,0.0,0.0,0.0,0.0,True,4690,1,B,156.0,P,Dishocatal,Mediah,2,False,True,False,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
-4690_02,Europa,False,TRAPPIST-1e,27.0,False,14327.0,1487.0,0.0,1.0,0.0,False,4690,2,B,156.0,P,Dishocatal,Tope,2,False,False,True,1.0,5.0,5.0,1,False,15815.0,9.668777364850452,False,1.0,15814.0,2,3,6.323110970597533e-05,RoomService,False,26-35
+4690_02,Europa,False,TRAPPIST-1e,27.0,False,14327.0,1487.0,0.0,1.0,0.0,False,4690,2,F,156.0,P,Dishocatal,Tope,2,False,False,True,1.0,5.0,5.0,1,False,15815.0,9.668777364850452,False,1.0,15814.0,2,3,6.323110970597533e-05,RoomService,False,26-35
 4691_01,Earth,False,TRAPPIST-1e,15.0,False,0.0,7.0,0.0,749.0,0.0,False,4691,1,G,769.0,S,Buckentry,Fayey,1,True,True,True,0.0,19.0,19.0,1,False,756.0,6.6293632534374485,False,749.0,7.0,3,2,0.9907407407407407,Spa,False,13-17
 4693_01,Europa,False,TRAPPIST-1e,29.0,True,0.0,920.0,0.0,2052.0,3687.0,False,4693,1,B,186.0,S,Rewmid,Atrino,2,False,True,False,0.0,5.0,5.0,1,False,6659.0,8.803874763534434,False,5739.0,920.0,2,3,0.8618411172848776,VRDeck,False,26-35
 4693_02,Europa,True,55 Cancri e,65.0,False,0.0,0.0,0.0,0.0,0.0,True,4693,2,B,186.0,S,Rewmid,Schird,2,False,False,True,1.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
@@ -4494,7 +4494,7 @@
 4778_01,Europa,False,TRAPPIST-1e,31.0,False,588.0,1261.0,0.0,228.0,6.0,False,4778,1,A,58.0,S,Skenginne,Furus,1,True,True,True,0.0,1.0,1.0,1,False,2083.0,7.642044402873258,False,234.0,1849.0,1,4,0.11233797407585214,FoodCourt,False,26-35
 4780_01,Mars,False,TRAPPIST-1e,20.0,False,845.0,0.0,46.0,123.0,0.0,False,4780,1,E,309.0,S,Teake,Hont,2,False,True,False,0.0,6.0,6.0,1,False,1014.0,6.922643891475888,False,169.0,845.0,2,3,0.16666666666666666,RoomService,False,18-25
 4780_02,Mars,True,TRAPPIST-1e,25.0,False,0.0,0.0,0.0,0.0,0.0,True,4780,2,E,309.0,S,Teake,Ranutz,2,False,False,True,1.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
-4782_01,Europa,True,55 Cancri e,23.0,False,0.0,0.0,0.0,0.0,0.0,True,4782,1,C,189.0,S,Maxled,Sabiton,5,False,True,False,0.0,4.0,4.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
+4782_01,Europa,True,55 Cancri e,23.0,False,0.0,0.0,0.0,0.0,0.0,True,4782,1,F,189.0,S,Maxled,Sabiton,5,False,True,False,0.0,4.0,4.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 4782_02,Europa,False,TRAPPIST-1e,53.0,False,50.0,11552.0,0.0,2998.0,4334.0,False,4782,2,C,189.0,S,Maxled,Errak,5,False,False,False,0.25,4.0,4.0,2,True,18934.0,9.848767340335895,False,7332.0,11602.0,1,4,0.38723988591950986,FoodCourt,False,51-65
 4782_03,Europa,False,55 Cancri e,32.0,False,0.0,225.0,0.0,3873.0,240.0,False,4782,3,C,189.0,S,Maxled,Algenif,5,False,False,False,0.5,4.0,4.0,2,True,4338.0,8.37539918579835,False,4113.0,225.0,2,3,0.9481327800829875,Spa,False,26-35
 4782_04,Europa,True,55 Cancri e,27.0,False,0.0,0.0,0.0,0.0,0.0,True,4782,4,C,189.0,S,Slable,Hadirk,5,False,False,False,0.75,8.0,8.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -4512,7 +4512,7 @@
 4793_02,Europa,False,TRAPPIST-1e,20.0,False,0.0,1131.0,3783.0,161.0,0.0,True,4793,2,E,310.0,S,Brailidy,Chargin,2,False,False,True,1.0,4.0,4.0,1,False,5075.0,8.532278828834277,False,3944.0,1131.0,2,3,0.7771428571428571,ShoppingMall,False,18-25
 4794_01,Earth,False,TRAPPIST-1e,63.0,False,0.0,104.0,0.0,599.0,0.0,False,4794,1,F,974.0,P,Hortis,Dia,1,True,True,True,0.0,9.0,9.0,1,False,703.0,6.556778356158042,False,599.0,104.0,3,2,0.8520625889046942,Spa,False,51-65
 4795_01,Earth,False,TRAPPIST-1e,50.0,False,138.0,706.0,0.0,18.0,40.0,True,4795,1,F,905.0,S,Simstravery,Ton,1,True,True,True,0.0,8.0,8.0,1,False,902.0,6.805722553416985,False,58.0,844.0,1,4,0.06430155210643015,FoodCourt,False,36-50
-4796_01,Mars,False,TRAPPIST-1e,13.0,False,21.0,0.0,1564.0,0.0,1.0,True,4796,1,E,311.0,S,Cre,Fis,2,False,True,False,0.0,7.0,7.0,1,False,1586.0,7.369600720526409,False,1565.0,21.0,2,3,0.9867591424968474,ShoppingMall,False,13-17
+4796_01,Mars,False,TRAPPIST-1e,13.0,False,21.0,0.0,1564.0,0.0,1.0,True,4796,1,F,311.0,S,Cre,Fis,2,False,True,False,0.0,7.0,7.0,1,False,1586.0,7.369600720526409,False,1565.0,21.0,2,3,0.9867591424968474,ShoppingMall,False,13-17
 4796_02,Mars,True,TRAPPIST-1e,43.0,False,0.0,0.0,0.0,0.0,0.0,True,4796,2,E,311.0,S,Cre,Stmeal,2,False,False,True,1.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 4797_01,Earth,True,PSO J318.5-22,16.0,False,0.0,0.0,0.0,0.0,0.0,True,4797,1,G,783.0,S,Hendrewsons,Aude,1,True,True,True,0.0,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 4798_01,Mars,True,TRAPPIST-1e,31.0,False,0.0,0.0,0.0,0.0,0.0,True,4798,1,F,975.0,P,Terry,Lus,3,False,True,False,0.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -4663,7 +4663,7 @@
 4973_01,Earth,False,TRAPPIST-1e,43.0,False,957.0,0.0,1.0,0.0,39.0,False,4973,1,E,309.0,P,Stephendsey,Paulie,2,False,True,False,0.0,7.0,7.0,1,False,997.0,6.905753276311464,False,40.0,957.0,2,3,0.04012036108324975,RoomService,False,36-50
 4973_02,Earth,True,55 Cancri e,3.0,False,0.0,0.0,0.0,0.0,0.0,True,4973,2,G,803.0,P,Stephendsey,Brence,2,False,False,True,1.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 4974_01,Europa,False,TRAPPIST-1e,56.0,False,0.0,10.0,0.0,9319.0,1225.0,False,4974,1,A,44.0,P,Vendeck,Thabih,2,False,True,False,0.0,4.0,4.0,1,False,10554.0,9.264354960282422,False,10544.0,10.0,2,3,0.9990524919461815,Spa,False,51-65
-4974_02,Europa,True,55 Cancri e,45.0,False,0.0,0.0,0.0,0.0,0.0,True,4974,2,A,44.0,P,Vendeck,Lesat,2,False,False,True,1.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
+4974_02,Europa,True,55 Cancri e,45.0,False,0.0,0.0,0.0,0.0,0.0,True,4974,2,F,44.0,P,Vendeck,Lesat,2,False,False,True,1.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 4975_01,Earth,True,PSO J318.5-22,25.0,False,0.0,0.0,0.0,0.0,0.0,True,4975,1,G,813.0,S,Wartyson,Olgary,3,False,True,False,0.0,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 4975_02,Earth,False,TRAPPIST-1e,12.0,False,0.0,0.0,0.0,0.0,0.0,True,4975,2,G,813.0,S,Wartyson,Gerly,3,False,False,False,0.5,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 4975_03,Earth,True,PSO J318.5-22,2.0,False,0.0,0.0,0.0,0.0,0.0,True,4975,3,G,813.0,S,Wartyson,Celis,3,False,False,True,1.0,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
@@ -4928,7 +4928,7 @@
 5253_01,Earth,False,TRAPPIST-1e,24.0,False,290.0,64.0,413.0,35.0,0.0,True,5253,1,F,1009.0,S,Ashipeck,Annard,1,True,True,True,0.0,4.0,4.0,1,False,802.0,6.688354713946762,False,448.0,354.0,1,4,0.5586034912718204,ShoppingMall,False,18-25
 5254_01,Europa,True,TRAPPIST-1e,31.0,False,0.0,0.0,0.0,0.0,0.0,True,5254,1,B,202.0,S,Pressive,Celeon,4,False,True,False,0.0,7.0,7.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 5254_02,Europa,True,TRAPPIST-1e,16.0,False,0.0,0.0,0.0,0.0,0.0,True,5254,2,B,202.0,S,Pickleve,Photons,4,False,False,False,0.3333333333333333,5.0,5.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
-5254_03,Europa,True,TRAPPIST-1e,28.0,False,0.0,0.0,0.0,0.0,0.0,True,5254,3,B,202.0,S,Pressive,Sargah,4,False,False,False,0.6666666666666666,7.0,7.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
+5254_03,Europa,True,TRAPPIST-1e,28.0,False,0.0,0.0,0.0,0.0,0.0,True,5254,3,F,202.0,S,Pressive,Sargah,4,False,False,False,0.6666666666666666,7.0,7.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 5254_04,Europa,False,55 Cancri e,8.0,False,0.0,0.0,0.0,0.0,0.0,True,5254,4,B,202.0,S,Pressive,Sceleon,4,False,False,True,1.0,7.0,7.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 5255_01,Mars,True,TRAPPIST-1e,20.0,False,0.0,0.0,0.0,0.0,0.0,True,5255,1,F,1010.0,S,Peate,Clow,1,True,True,True,0.0,1.0,1.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 5256_01,Mars,False,TRAPPIST-1e,26.0,False,41.0,0.0,444.0,572.0,0.0,False,5256,1,D,159.0,S,Tirt,Luse,1,True,True,True,0.0,6.0,6.0,1,False,1057.0,6.964135612418245,False,1016.0,41.0,2,3,0.9612109744560076,Spa,False,26-35
@@ -4968,7 +4968,7 @@
 5300_01,Earth,True,55 Cancri e,51.0,False,0.0,0.0,0.0,0.0,0.0,True,5300,1,G,864.0,S,Klindsayer,Healle,1,True,True,True,0.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 5301_01,Europa,True,TRAPPIST-1e,21.0,False,0.0,0.0,0.0,0.0,0.0,True,5301,1,B,181.0,P,Pretive,Altara,2,False,True,False,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 5301_02,Europa,True,55 Cancri e,31.0,False,0.0,0.0,0.0,0.0,0.0,True,5301,2,B,181.0,P,Pretive,Sadares,2,False,False,True,1.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
-5303_01,Earth,False,TRAPPIST-1e,9.0,False,0.0,0.0,0.0,0.0,0.0,False,5303,1,G,857.0,P,Hoffergess,Patoya,5,False,True,False,0.0,8.0,8.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
+5303_01,Earth,False,TRAPPIST-1e,9.0,False,0.0,0.0,0.0,0.0,0.0,False,5303,1,F,857.0,P,Hoffergess,Patoya,5,False,True,False,0.0,8.0,8.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 5303_02,Earth,False,TRAPPIST-1e,7.0,False,0.0,0.0,0.0,0.0,0.0,True,5303,2,G,857.0,P,Hoffergess,Loree,5,False,False,False,0.25,8.0,8.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 5303_03,Earth,False,TRAPPIST-1e,3.0,False,0.0,0.0,0.0,0.0,0.0,True,5303,3,G,857.0,P,Lambleyoun,Jimmyn,5,False,False,False,0.5,7.0,7.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 5303_04,Earth,True,TRAPPIST-1e,2.0,False,0.0,0.0,0.0,0.0,0.0,True,5303,4,G,857.0,P,Lambleyoun,Yvonna,5,False,False,False,0.75,7.0,7.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
@@ -5246,7 +5246,7 @@
 5599_01,Europa,False,55 Cancri e,36.0,False,380.0,686.0,0.0,295.0,1247.0,False,5599,1,E,364.0,S,Caming,Saxino,1,True,True,True,0.0,1.0,1.0,1,False,2608.0,7.866722285136729,False,1542.0,1066.0,1,4,0.5912576687116564,VRDeck,False,36-50
 5601_01,Earth,True,TRAPPIST-1e,3.0,False,0.0,0.0,0.0,0.0,0.0,True,5601,1,G,904.0,S,Vandan,Bertle,5,False,True,False,0.0,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 5601_02,Earth,False,TRAPPIST-1e,6.0,False,0.0,0.0,0.0,0.0,0.0,True,5601,2,G,904.0,S,Vandan,Fery,5,False,False,False,0.25,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-5601_03,Earth,False,55 Cancri e,4.0,False,0.0,0.0,0.0,0.0,0.0,True,5601,3,G,904.0,S,Vandan,Jacque,5,False,False,False,0.5,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
+5601_03,Earth,False,55 Cancri e,4.0,False,0.0,0.0,0.0,0.0,0.0,True,5601,3,F,904.0,S,Vandan,Jacque,5,False,False,False,0.5,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 5601_04,Earth,False,TRAPPIST-1e,21.0,False,958.0,1668.0,82.0,0.0,78.0,True,5601,4,F,1069.0,S,Vandan,Vanney,5,False,False,False,0.75,12.0,12.0,1,False,2786.0,7.932721027481948,False,160.0,2626.0,1,4,0.057430007178750894,FoodCourt,False,18-25
 5601_05,Earth,True,55 Cancri e,8.0,False,0.0,0.0,0.0,0.0,0.0,True,5601,5,G,904.0,S,Vandan,Maya,5,False,False,True,1.0,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 5602_01,Europa,True,TRAPPIST-1e,35.0,False,0.0,0.0,0.0,0.0,0.0,True,5602,1,B,190.0,P,Sedece,Castab,2,False,True,False,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -5281,8 +5281,8 @@
 5637_01,Earth,False,TRAPPIST-1e,43.0,False,1.0,8.0,0.0,0.0,715.0,False,5637,1,F,1168.0,P,Simson,Sonard,1,True,True,True,0.0,10.0,10.0,1,False,724.0,6.586171654854675,False,715.0,9.0,2,3,0.9875690607734806,VRDeck,False,36-50
 5639_01,Earth,False,TRAPPIST-1e,22.0,False,19.0,9.0,0.0,0.0,594.0,True,5639,1,G,913.0,S,Ewins,Bel,1,True,True,True,0.0,6.0,6.0,1,False,622.0,6.434546518787453,False,594.0,28.0,2,3,0.954983922829582,VRDeck,False,18-25
 5640_01,Europa,True,TRAPPIST-1e,27.0,False,0.0,0.0,0.0,0.0,0.0,True,5640,1,E,368.0,S,Rinicapead,Kaffias,1,True,True,True,0.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
-5642_01,Europa,True,55 Cancri e,35.0,False,0.0,0.0,0.0,0.0,0.0,True,5642,1,B,216.0,S,Supred,Geonkaa,2,False,True,False,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
-5642_02,Europa,True,55 Cancri e,37.0,False,0.0,0.0,0.0,0.0,0.0,True,5642,2,B,216.0,S,Supred,Isoton,2,False,False,True,1.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
+5642_01,Europa,True,TRAPPIST-1e,35.0,False,0.0,0.0,0.0,0.0,0.0,True,5642,1,B,216.0,S,Supred,Geonkaa,2,False,True,False,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
+5642_02,Europa,True,55 Cancri e,37.0,False,0.0,0.0,0.0,0.0,0.0,True,5642,2,F,216.0,S,Supred,Isoton,2,False,False,True,1.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 5643_01,Mars,False,TRAPPIST-1e,24.0,False,158.0,0.0,1594.0,1.0,0.0,True,5643,1,F,1077.0,S,Karte,Latsts,3,False,True,False,0.0,4.0,4.0,1,False,1753.0,7.469654172932128,False,1595.0,158.0,2,3,0.9098687963491158,ShoppingMall,False,18-25
 5643_02,Mars,False,55 Cancri e,18.0,False,2803.0,0.0,17.0,0.0,0.0,False,5643,2,F,1077.0,S,,,3,False,False,False,0.5,1.0,1.0,1,False,2820.0,7.944846711001996,False,17.0,2803.0,3,2,0.006028368794326241,RoomService,False,18-25
 5643_03,Mars,False,TRAPPIST-1e,15.0,False,643.0,0.0,45.0,0.0,10.0,False,5643,3,F,1077.0,S,Karte,Eaturs,3,False,False,True,1.0,4.0,4.0,1,False,698.0,6.54965074223381,False,55.0,643.0,2,3,0.07879656160458452,RoomService,False,13-17
@@ -5320,7 +5320,7 @@
 5684_03,Europa,False,55 Cancri e,38.0,False,0.0,1198.0,48.0,278.0,1244.0,False,5684,3,B,218.0,S,Busive,Genubik,4,False,False,False,0.6666666666666666,9.0,9.0,2,True,2768.0,7.926241523170962,False,1570.0,1198.0,1,4,0.5671965317919075,VRDeck,False,36-50
 5684_04,Europa,True,TRAPPIST-1e,62.0,False,0.0,0.0,0.0,0.0,0.0,True,5684,4,B,218.0,S,Folhal,Okulus,4,False,False,True,1.0,8.0,8.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 5685_01,Earth,True,TRAPPIST-1e,19.0,False,0.0,0.0,0.0,0.0,0.0,False,5685,1,G,910.0,P,Bryants,Ianne,1,True,True,True,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
-5686_01,Mars,False,55 Cancri e,44.0,False,2267.0,0.0,107.0,0.0,0.0,False,5686,1,D,180.0,P,Cry,Lix,2,False,True,False,0.0,4.0,4.0,1,False,2374.0,7.772752716468742,False,107.0,2267.0,3,2,0.04507160909856782,RoomService,False,36-50
+5686_01,Mars,False,55 Cancri e,44.0,False,2267.0,0.0,107.0,0.0,0.0,False,5686,1,F,180.0,P,Cry,Lix,2,False,True,False,0.0,4.0,4.0,1,False,2374.0,7.772752716468742,False,107.0,2267.0,3,2,0.04507160909856782,RoomService,False,36-50
 5686_02,Mars,False,55 Cancri e,25.0,False,1410.0,123.0,26.0,9.0,812.0,False,5686,2,D,180.0,P,Cry,Pil,2,False,False,True,1.0,4.0,4.0,1,False,2380.0,7.7752758464868625,False,847.0,1533.0,0,5,0.3558823529411765,RoomService,False,18-25
 5687_01,Earth,False,TRAPPIST-1e,15.0,False,348.0,1627.0,0.0,0.0,0.0,False,5687,1,F,1179.0,P,Mccarry,Erie,1,True,True,True,0.0,7.0,7.0,1,False,1975.0,7.588829878307813,False,0.0,1975.0,3,2,0.0,FoodCourt,False,13-17
 5688_01,Earth,False,TRAPPIST-1e,20.0,False,12.0,177.0,1110.0,0.0,0.0,True,5688,1,F,1084.0,S,Newtontoss,Isaacy,1,True,True,True,0.0,7.0,7.0,1,False,1299.0,7.170119543449628,False,1110.0,189.0,2,3,0.8545034642032333,ShoppingMall,False,18-25
@@ -5367,7 +5367,7 @@
 5730_01,Earth,False,TRAPPIST-1e,25.0,False,2029.0,1.0,0.0,0.0,121.0,False,5730,1,F,1187.0,P,Moodman,Karlen,1,True,True,True,0.0,14.0,14.0,1,False,2151.0,7.674152921281675,False,121.0,2030.0,2,3,0.05625290562529056,RoomService,False,18-25
 5732_01,Earth,False,TRAPPIST-1e,20.0,False,0.0,0.0,53.0,2.0,754.0,False,5732,1,G,921.0,P,Ocherman,Brancy,1,True,True,True,0.0,7.0,7.0,1,False,809.0,6.697034247666484,False,809.0,0.0,2,3,1.0,VRDeck,False,18-25
 5733_01,Earth,False,55 Cancri e,34.0,False,0.0,1745.0,6.0,5.0,37.0,True,5733,1,G,922.0,P,Kerrealds,Billia,2,False,True,False,0.0,9.0,9.0,2,True,1793.0,7.492203042618741,False,48.0,1745.0,1,4,0.026770775237032907,FoodCourt,False,26-35
-5733_02,Earth,False,55 Cancri e,28.0,False,0.0,0.0,0.0,1191.0,109.0,False,5733,2,F,1188.0,P,Buckeelez,Tricky,2,False,False,True,1.0,6.0,6.0,2,True,1300.0,7.170888478512505,False,1300.0,0.0,3,2,1.0,Spa,False,26-35
+5733_02,Earth,False,TRAPPIST-1e,28.0,False,0.0,0.0,0.0,1191.0,109.0,False,5733,2,F,1188.0,P,Buckeelez,Tricky,2,False,False,True,1.0,6.0,6.0,2,True,1300.0,7.170888478512505,False,1300.0,0.0,3,2,1.0,Spa,False,26-35
 5735_01,Earth,True,TRAPPIST-1e,23.0,False,0.0,0.0,0.0,0.0,0.0,True,5735,1,E,362.0,P,Peterstarks,Myrace,1,True,True,True,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 5736_01,Earth,False,TRAPPIST-1e,23.0,False,1.0,0.0,1.0,0.0,618.0,False,5736,1,F,1189.0,P,Maynardner,Ton,1,True,True,True,0.0,9.0,9.0,1,False,620.0,6.431331081933479,False,619.0,1.0,2,3,0.9983870967741936,VRDeck,False,18-25
 5737_01,Europa,False,TRAPPIST-1e,39.0,False,0.0,11856.0,13.0,39.0,3.0,True,5737,1,C,216.0,S,Inicont,Mintard,2,False,True,False,0.0,3.0,3.0,1,False,11911.0,9.385301574363845,False,55.0,11856.0,1,4,0.004617580387876753,FoodCourt,False,36-50
@@ -5523,7 +5523,7 @@
 5886_01,Mars,False,TRAPPIST-1e,24.0,False,10.0,49.0,0.0,1497.0,10.0,False,5886,1,F,1216.0,P,Fate,Swack,2,False,True,False,0.0,3.0,3.0,1,False,1566.0,7.356918242356021,False,1507.0,59.0,1,4,0.9623243933588761,Spa,False,18-25
 5886_02,Mars,True,TRAPPIST-1e,30.0,False,0.0,0.0,0.0,0.0,0.0,False,5886,2,E,373.0,P,Fate,Cird,2,False,False,True,1.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 5887_01,Earth,False,PSO J318.5-22,50.0,False,781.0,2.0,0.0,61.0,0.0,True,5887,1,E,374.0,P,Cochrisons,Adrie,2,False,True,False,0.0,9.0,9.0,1,False,844.0,6.739336627357174,False,61.0,783.0,2,3,0.07227488151658767,RoomService,False,36-50
-5887_02,Earth,False,PSO J318.5-22,51.0,False,201.0,574.0,40.0,0.0,11.0,False,5887,2,F,1217.0,P,Cochrisons,Ryanne,2,False,False,True,1.0,9.0,9.0,1,False,826.0,6.717804695023691,False,51.0,775.0,1,4,0.06174334140435835,FoodCourt,False,51-65
+5887_02,Earth,False,TRAPPIST-1e,51.0,False,201.0,574.0,40.0,0.0,11.0,False,5887,2,F,1217.0,P,Cochrisons,Ryanne,2,False,False,True,1.0,9.0,9.0,1,False,826.0,6.717804695023691,False,51.0,775.0,1,4,0.06174334140435835,FoodCourt,False,51-65
 5888_01,Mars,False,55 Cancri e,27.0,False,1331.0,0.0,0.0,0.0,0.0,False,5888,1,F,1218.0,P,Blate,Yogal,2,False,True,False,0.0,4.0,4.0,1,False,1331.0,7.194436851100335,False,0.0,1331.0,4,1,0.0,RoomService,False,26-35
 5888_02,Mars,False,TRAPPIST-1e,35.0,False,750.0,0.0,0.0,0.0,1065.0,False,5888,2,F,1218.0,P,Blate,Wifel,2,False,False,True,1.0,4.0,4.0,1,False,1815.0,7.504391559161238,False,1065.0,750.0,3,2,0.5867768595041323,VRDeck,False,26-35
 5889_01,Earth,False,TRAPPIST-1e,48.0,False,0.0,0.0,790.0,2368.0,1292.0,False,5889,1,G,954.0,P,Perrerojass,Leony,1,True,True,True,0.0,3.0,3.0,1,False,4450.0,8.400884069015854,False,4450.0,0.0,2,3,1.0,Spa,False,36-50
@@ -5560,7 +5560,7 @@
 5925_02,Europa,False,TRAPPIST-1e,16.0,False,0.0,2002.0,0.0,96.0,69.0,True,5925,2,B,226.0,S,Rotter,Medib,3,False,False,False,0.5,4.0,4.0,1,False,2167.0,7.681560362559537,False,165.0,2002.0,2,3,0.07614213197969544,FoodCourt,False,13-17
 5925_03,Europa,False,TRAPPIST-1e,32.0,False,0.0,0.0,0.0,241.0,4757.0,False,5925,3,B,226.0,S,Rotter,Tark,3,False,False,True,1.0,4.0,4.0,1,False,4998.0,8.51699317141357,False,4998.0,0.0,3,2,1.0,VRDeck,False,26-35
 5927_01,Europa,False,55 Cancri e,24.0,False,0.0,2421.0,0.0,725.0,2300.0,False,5927,1,B,201.0,P,Sysilstict,Duhrak,7,False,True,False,0.0,10.0,10.0,2,True,5446.0,8.602820277383675,False,3025.0,2421.0,2,3,0.5554535438854205,FoodCourt,False,18-25
-5927_02,Europa,False,55 Cancri e,23.0,False,0.0,109.0,0.0,4810.0,25.0,False,5927,2,B,201.0,P,Sysilstict,Naviton,7,False,False,False,0.16666666666666666,10.0,10.0,2,True,4944.0,8.506132244056813,False,4835.0,109.0,2,3,0.977953074433657,Spa,False,18-25
+5927_02,Europa,False,TRAPPIST-1e,23.0,False,0.0,109.0,0.0,4810.0,25.0,False,5927,2,B,201.0,P,Sysilstict,Naviton,7,False,False,False,0.16666666666666666,10.0,10.0,2,True,4944.0,8.506132244056813,False,4835.0,109.0,2,3,0.977953074433657,Spa,False,18-25
 5927_03,Europa,True,55 Cancri e,46.0,False,0.0,0.0,0.0,0.0,0.0,True,5927,3,B,201.0,P,Sysilstict,Kraban,7,False,False,False,0.3333333333333333,10.0,10.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 5927_04,Europa,False,55 Cancri e,49.0,False,0.0,1264.0,0.0,5474.0,104.0,False,5927,4,B,201.0,P,Sysilstict,Alcoran,7,False,False,False,0.5,10.0,10.0,2,True,6842.0,8.830981510952498,False,5578.0,1264.0,2,3,0.8152586962876351,Spa,False,36-50
 5927_05,Europa,True,TRAPPIST-1e,17.0,False,0.0,0.0,0.0,0.0,0.0,True,5927,5,B,201.0,P,Ballexy,Taurak,7,False,False,False,0.6666666666666666,2.0,2.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
@@ -5642,7 +5642,7 @@
 5995_01,Earth,True,PSO J318.5-22,33.0,False,0.0,0.0,0.0,0.0,0.0,True,5995,1,G,967.0,P,Burtiz,Raque,1,True,True,True,0.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 5998_01,Earth,False,TRAPPIST-1e,30.0,False,477.0,0.0,8.0,0.0,323.0,True,5998,1,G,977.0,S,Haydenzier,Mara,1,True,True,True,0.0,16.0,16.0,1,False,808.0,6.695798917058491,False,331.0,477.0,2,3,0.40965346534653463,RoomService,False,26-35
 5999_01,Earth,False,TRAPPIST-1e,32.0,False,0.0,104.0,2.0,0.0,801.0,True,5999,1,G,968.0,P,Hermane,Becca,1,True,True,True,0.0,4.0,4.0,1,False,907.0,6.811244378601294,False,803.0,104.0,2,3,0.8853362734288864,VRDeck,False,26-35
-6000_01,Mars,False,TRAPPIST-1e,19.0,False,781.0,0.0,295.0,613.0,0.0,False,6000,1,D,189.0,P,Bart,Forms,2,False,True,False,0.0,4.0,4.0,1,False,1689.0,7.432483807917119,False,908.0,781.0,2,3,0.5375962107756068,RoomService,False,18-25
+6000_01,Mars,False,TRAPPIST-1e,19.0,False,781.0,0.0,295.0,613.0,0.0,False,6000,1,F,189.0,P,Bart,Forms,2,False,True,False,0.0,4.0,4.0,1,False,1689.0,7.432483807917119,False,908.0,781.0,2,3,0.5375962107756068,RoomService,False,18-25
 6000_02,Mars,False,TRAPPIST-1e,41.0,False,1.0,0.0,808.0,0.0,0.0,False,6000,2,D,189.0,P,Bart,Rhex,2,False,False,True,1.0,4.0,4.0,1,False,809.0,6.697034247666484,False,808.0,1.0,3,2,0.9987639060568603,ShoppingMall,False,36-50
 6001_01,Earth,True,TRAPPIST-1e,50.0,False,0.0,0.0,0.0,0.0,0.0,False,6001,1,G,969.0,P,Coolez,Greggy,1,True,True,True,0.0,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 6003_01,Earth,False,TRAPPIST-1e,36.0,False,9.0,247.0,0.0,482.0,16.0,False,6003,1,G,970.0,P,Spencervan,Delley,1,True,True,True,0.0,12.0,12.0,1,False,754.0,6.626717749249025,False,498.0,256.0,1,4,0.6604774535809018,Spa,False,36-50
@@ -5676,7 +5676,7 @@
 6028_01,Europa,False,55 Cancri e,27.0,False,0.0,1801.0,0.0,304.0,1393.0,False,6028,1,A,57.0,P,Preeldy,Wasatz,5,False,True,False,0.0,12.0,12.0,1,False,3498.0,8.160232492367689,False,1697.0,1801.0,2,3,0.4851343624928531,FoodCourt,False,26-35
 6028_02,Europa,False,TRAPPIST-1e,32.0,True,0.0,792.0,0.0,1.0,1335.0,False,6028,2,A,57.0,P,Preeldy,Cherkab,5,False,False,False,0.25,12.0,12.0,1,False,2128.0,7.663407664893479,False,1336.0,792.0,2,3,0.6278195488721805,VRDeck,False,26-35
 6028_03,Europa,False,55 Cancri e,11.0,False,0.0,0.0,0.0,0.0,0.0,True,6028,3,A,57.0,P,Preeldy,Nusakar,5,False,False,False,0.5,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-6028_04,Europa,False,TRAPPIST-1e,26.0,True,0.0,3638.0,0.0,1043.0,0.0,True,6028,4,A,57.0,P,Preeldy,Kumark,5,False,False,False,0.75,12.0,12.0,1,False,4681.0,8.451480648050856,False,1043.0,3638.0,3,2,0.2228156376842555,FoodCourt,False,26-35
+6028_04,Europa,False,TRAPPIST-1e,26.0,True,0.0,3638.0,0.0,1043.0,0.0,True,6028,4,F,57.0,P,Preeldy,Kumark,5,False,False,False,0.75,12.0,12.0,1,False,4681.0,8.451480648050856,False,1043.0,3638.0,3,2,0.2228156376842555,FoodCourt,False,26-35
 6028_05,Europa,False,TRAPPIST-1e,28.0,False,0.0,6921.0,0.0,29.0,45.0,True,6028,5,A,57.0,P,Preeldy,Shelik,5,False,False,True,1.0,12.0,12.0,1,False,6995.0,8.853093836138493,False,74.0,6921.0,2,3,0.010578984989278055,FoodCourt,False,26-35
 6029_01,Earth,False,TRAPPIST-1e,25.0,False,0.0,30.0,20.0,0.0,941.0,False,6029,1,E,396.0,S,Balderts,Gwenda,1,True,True,True,0.0,9.0,9.0,1,False,991.0,6.899723107284872,False,961.0,30.0,2,3,0.9697275479313825,VRDeck,False,18-25
 6030_01,Earth,False,TRAPPIST-1e,5.0,False,0.0,0.0,0.0,0.0,0.0,True,6030,1,G,981.0,S,Ellson,Armen,7,False,True,False,0.0,9.0,9.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
@@ -5767,7 +5767,7 @@
 6110_01,Earth,False,55 Cancri e,57.0,False,0.0,0.0,0.0,0.0,642.0,True,6110,1,E,389.0,P,Warrishales,Sus,1,True,True,True,0.0,10.0,10.0,1,False,642.0,6.466144724237619,False,642.0,0.0,4,1,1.0,VRDeck,False,51-65
 6111_01,Europa,True,TRAPPIST-1e,32.0,False,0.0,0.0,0.0,0.0,0.0,True,6111,1,A,58.0,P,Folumorly,Hyaduma,5,False,True,False,0.0,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 6111_02,Europa,False,TRAPPIST-1e,32.0,False,0.0,0.0,0.0,4588.0,0.0,False,6111,2,A,58.0,P,Folumorly,Fomalik,5,False,False,False,0.25,9.0,9.0,1,False,4588.0,8.431417414394833,False,4588.0,0.0,4,1,1.0,Spa,False,26-35
-6111_03,Europa,True,55 Cancri e,21.0,False,0.0,0.0,0.0,0.0,0.0,True,6111,3,A,58.0,P,Folumorly,Ainkard,5,False,False,False,0.5,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
+6111_03,Europa,True,55 Cancri e,21.0,False,0.0,0.0,0.0,0.0,0.0,True,6111,3,F,58.0,P,Folumorly,Ainkard,5,False,False,False,0.5,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 6111_04,Europa,True,55 Cancri e,34.0,False,0.0,0.0,0.0,0.0,0.0,True,6111,4,A,58.0,P,Folumorly,Hezenif,5,False,False,False,0.75,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 6111_05,Europa,False,TRAPPIST-1e,33.0,False,0.0,2110.0,0.0,773.0,10.0,True,6111,5,A,58.0,P,Folumorly,Sabiton,5,False,False,True,1.0,9.0,9.0,1,False,2893.0,7.970394907191429,False,783.0,2110.0,2,3,0.270653301071552,FoodCourt,False,26-35
 6112_01,Mars,True,TRAPPIST-1e,36.0,False,0.0,0.0,0.0,0.0,0.0,True,6112,1,F,1264.0,P,Sad,Ber,1,True,True,True,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
@@ -5805,7 +5805,7 @@
 6139_05,Europa,True,55 Cancri e,51.0,False,0.0,0.0,0.0,0.0,0.0,True,6139,5,C,230.0,S,Reedall,Sinon,6,False,False,False,0.8,9.0,9.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 6139_06,Europa,True,55 Cancri e,37.0,False,0.0,0.0,0.0,0.0,0.0,True,6139,6,C,230.0,S,Reedall,Alphact,6,False,False,True,1.0,9.0,9.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 6141_01,Earth,False,PSO J318.5-22,17.0,False,0.0,20.0,0.0,14.0,884.0,False,6141,1,F,1174.0,S,Haydenzier,Natald,2,False,True,False,0.0,16.0,16.0,1,False,918.0,6.823286122355687,False,898.0,20.0,2,3,0.9782135076252724,VRDeck,False,13-17
-6141_02,Earth,False,PSO J318.5-22,21.0,False,28.0,0.0,0.0,662.0,0.0,False,6141,2,F,1174.0,S,,,2,False,False,True,1.0,1.0,1.0,1,False,690.0,6.53813982376767,False,662.0,28.0,3,2,0.9594202898550724,Spa,False,18-25
+6141_02,Earth,False,TRAPPIST-1e,21.0,False,28.0,0.0,0.0,662.0,0.0,False,6141,2,F,1174.0,S,,,2,False,False,True,1.0,1.0,1.0,1,False,690.0,6.53813982376767,False,662.0,28.0,3,2,0.9594202898550724,Spa,False,18-25
 6143_01,Earth,False,TRAPPIST-1e,23.0,False,3.0,791.0,0.0,362.0,0.0,True,6143,1,F,1175.0,S,Browlerson,Willah,1,True,True,True,0.0,15.0,15.0,1,False,1156.0,7.053585727193677,False,362.0,794.0,2,3,0.31314878892733566,FoodCourt,False,18-25
 6145_01,Europa,False,55 Cancri e,33.0,False,3478.0,10.0,0.0,105.0,2383.0,False,6145,1,C,231.0,S,Asolipery,Benebah,1,True,True,True,0.0,4.0,4.0,1,False,5976.0,8.695674048824253,False,2488.0,3488.0,1,4,0.41633199464524767,RoomService,False,26-35
 6146_01,Europa,False,TRAPPIST-1e,31.0,False,0.0,0.0,0.0,0.0,0.0,False,6146,1,B,207.0,P,Groforacid,Scelava,1,True,True,True,0.0,1.0,1.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -5965,7 +5965,7 @@
 6322_01,Earth,False,TRAPPIST-1e,16.0,False,0.0,68.0,1541.0,0.0,0.0,True,6322,1,E,419.0,S,Cooperkins,Yvonna,1,True,True,True,0.0,12.0,12.0,1,False,1609.0,7.383989457978509,False,1541.0,68.0,3,2,0.9577377252952144,ShoppingMall,False,13-17
 6323_01,Europa,False,55 Cancri e,48.0,False,3.0,4089.0,0.0,4368.0,147.0,False,6323,1,C,235.0,S,Tionstious,Aldeba,2,False,True,False,0.0,5.0,5.0,2,True,8607.0,9.060447282401565,False,4515.0,4092.0,1,4,0.5245730219588707,Spa,False,36-50
 6323_02,Europa,False,TRAPPIST-1e,33.0,False,2.0,4742.0,0.0,34.0,0.0,True,6323,2,C,235.0,S,Unkcal,Arinon,2,False,False,True,1.0,3.0,3.0,2,True,4778.0,8.471986598578159,False,34.0,4744.0,2,3,0.007115948095437421,FoodCourt,False,26-35
-6324_01,Earth,False,55 Cancri e,31.0,False,19.0,509.0,0.0,0.0,177.0,False,6324,1,E,420.0,S,Hinetthews,Lesley,3,False,True,False,0.0,10.0,10.0,1,False,705.0,6.559615237493242,False,177.0,528.0,2,3,0.251063829787234,FoodCourt,False,26-35
+6324_01,Earth,False,TRAPPIST-1e,31.0,False,19.0,509.0,0.0,0.0,177.0,False,6324,1,E,420.0,S,Hinetthews,Lesley,3,False,True,False,0.0,10.0,10.0,1,False,705.0,6.559615237493242,False,177.0,528.0,2,3,0.251063829787234,FoodCourt,False,26-35
 6324_02,Earth,False,55 Cancri e,44.0,False,0.0,0.0,0.0,0.0,0.0,True,6324,2,G,1025.0,S,Hinetthews,Murie,3,False,False,False,0.5,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 6324_03,Earth,False,TRAPPIST-1e,40.0,False,1.0,0.0,895.0,10.0,0.0,True,6324,3,G,1025.0,S,Hinetthews,Eleah,3,False,False,True,1.0,10.0,10.0,1,False,906.0,6.810142450115136,False,905.0,1.0,2,3,0.9988962472406181,ShoppingMall,False,36-50
 6325_01,Earth,True,TRAPPIST-1e,34.0,False,0.0,0.0,0.0,0.0,0.0,True,6325,1,G,1026.0,S,Benney,Adamie,2,False,True,False,0.0,13.0,13.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -6009,7 +6009,7 @@
 6360_02,Europa,True,TRAPPIST-1e,27.0,False,0.0,0.0,0.0,0.0,0.0,True,6360,2,A,75.0,S,Clumsty,Glueba,3,False,False,False,0.5,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 6360_03,Europa,True,TRAPPIST-1e,40.0,False,0.0,0.0,0.0,0.0,0.0,True,6360,3,A,75.0,S,Clumsty,Becruxa,3,False,False,True,1.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 6361_01,Earth,False,TRAPPIST-1e,44.0,False,0.0,509.0,129.0,246.0,0.0,True,6361,1,G,1031.0,S,Barbes,Alvia,1,True,True,True,0.0,14.0,14.0,1,False,884.0,6.785587645007929,False,375.0,509.0,2,3,0.4242081447963801,FoodCourt,False,36-50
-6363_01,Earth,True,TRAPPIST-1e,36.0,False,0.0,0.0,0.0,0.0,0.0,False,6363,1,G,1026.0,P,Gouldensen,Denis,7,False,True,False,0.0,11.0,11.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
+6363_01,Earth,True,TRAPPIST-1e,36.0,False,0.0,0.0,0.0,0.0,0.0,False,6363,1,F,1026.0,P,Gouldensen,Denis,7,False,True,False,0.0,11.0,11.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 6363_02,Earth,True,55 Cancri e,3.0,False,0.0,0.0,0.0,0.0,0.0,True,6363,2,G,1026.0,P,Gouldensen,Dwindy,7,False,False,False,0.16666666666666666,11.0,11.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 6363_03,Earth,True,TRAPPIST-1e,9.0,False,0.0,0.0,0.0,0.0,0.0,False,6363,3,G,1026.0,P,Gouldensen,Isaacy,7,False,False,False,0.3333333333333333,11.0,11.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 6363_04,Earth,True,TRAPPIST-1e,1.0,False,0.0,0.0,0.0,0.0,0.0,False,6363,4,G,1026.0,P,Gouldensen,Alancy,7,False,False,False,0.5,11.0,11.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
@@ -6056,10 +6056,10 @@
 6402_05,Earth,False,TRAPPIST-1e,11.0,False,0.0,0.0,0.0,0.0,0.0,False,6402,5,G,1032.0,P,Knoxonway,Elene,5,False,False,True,1.0,8.0,8.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 6404_01,Earth,False,TRAPPIST-1e,18.0,False,0.0,20.0,790.0,0.0,0.0,True,6404,1,G,1038.0,S,Drakeekss,Deaney,1,True,True,True,0.0,9.0,9.0,1,False,810.0,6.698268054115413,False,790.0,20.0,3,2,0.9753086419753086,ShoppingMall,False,18-25
 6405_01,Earth,False,PSO J318.5-22,19.0,False,54.0,0.0,0.0,42.0,986.0,False,6405,1,F,1224.0,S,Toddleton,Rayne,4,False,True,False,0.0,10.0,10.0,1,False,1082.0,6.9874902470009905,False,1028.0,54.0,2,3,0.9500924214417745,VRDeck,False,18-25
-6405_02,Earth,False,PSO J318.5-22,2.0,False,0.0,0.0,0.0,0.0,0.0,True,6405,2,F,1039.0,S,Toddleton,Feline,4,False,False,False,0.3333333333333333,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
+6405_02,Earth,False,TRAPPIST-1e,2.0,False,0.0,0.0,0.0,0.0,0.0,True,6405,2,F,1039.0,S,Toddleton,Feline,4,False,False,False,0.3333333333333333,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 6405_03,Earth,True,TRAPPIST-1e,25.0,False,0.0,0.0,0.0,0.0,0.0,True,6405,3,G,1039.0,S,Toddleton,Andary,4,False,False,False,0.6666666666666666,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 6405_04,Earth,False,55 Cancri e,0.0,False,0.0,0.0,0.0,0.0,0.0,True,6405,4,G,1039.0,S,Toddleton,Diandy,4,False,False,True,1.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
-6406_01,Europa,True,55 Cancri e,27.0,False,0.0,0.0,0.0,0.0,0.0,True,6406,1,B,249.0,S,Belstrut,Arkeb,2,False,True,False,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
+6406_01,Europa,True,55 Cancri e,27.0,False,0.0,0.0,0.0,0.0,0.0,True,6406,1,F,249.0,S,Belstrut,Arkeb,2,False,True,False,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 6406_02,Europa,True,55 Cancri e,34.0,False,0.0,0.0,0.0,0.0,0.0,True,6406,2,B,249.0,S,Belstrut,Giedir,2,False,False,True,1.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 6407_01,Earth,True,TRAPPIST-1e,19.0,False,0.0,0.0,0.0,0.0,0.0,True,6407,1,G,1033.0,P,,,1,True,True,True,0.0,1.0,1.0,0,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 6408_01,Earth,False,PSO J318.5-22,22.0,False,431.0,40.0,0.0,10.0,0.0,False,6408,1,G,1034.0,P,Crosbornes,Naomin,1,True,True,True,0.0,4.0,4.0,1,False,481.0,6.1779441140506,False,10.0,471.0,2,3,0.02079002079002079,RoomService,False,18-25
@@ -6073,7 +6073,7 @@
 6418_01,Earth,False,TRAPPIST-1e,27.0,False,93.0,0.0,0.0,0.0,772.0,False,6418,1,F,1329.0,P,Beachez,Gerly,1,True,True,True,0.0,7.0,7.0,1,False,865.0,6.763884908562435,False,772.0,93.0,3,2,0.892485549132948,VRDeck,False,26-35
 6419_01,Earth,False,TRAPPIST-1e,31.0,False,0.0,0.0,873.0,0.0,0.0,True,6419,1,E,428.0,S,Holcompson,Estina,1,True,True,True,0.0,10.0,10.0,1,False,873.0,6.773080375655535,False,873.0,0.0,4,1,1.0,ShoppingMall,False,26-35
 6421_01,Europa,True,55 Cancri e,28.0,False,0.0,0.0,0.0,0.0,0.0,True,6421,1,C,197.0,P,Redand,Azhab,2,False,True,False,0.0,2.0,2.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
-6421_02,Europa,False,TRAPPIST-1e,29.0,False,0.0,577.0,0.0,5568.0,432.0,False,6421,2,C,197.0,P,Redand,Saxino,2,False,False,True,1.0,2.0,2.0,1,False,6577.0,8.791486026749002,False,6000.0,577.0,2,3,0.9122700319294511,Spa,False,26-35
+6421_02,Europa,False,TRAPPIST-1e,29.0,False,0.0,577.0,0.0,5568.0,432.0,False,6421,2,F,197.0,P,Redand,Saxino,2,False,False,True,1.0,2.0,2.0,1,False,6577.0,8.791486026749002,False,6000.0,577.0,2,3,0.9122700319294511,Spa,False,26-35
 6422_01,Mars,False,TRAPPIST-1e,23.0,False,1533.0,0.0,858.0,297.0,0.0,False,6422,1,F,1330.0,P,Panie,Hones,4,False,True,False,0.0,7.0,7.0,2,True,2688.0,7.896924656268864,False,1155.0,1533.0,2,3,0.4296875,RoomService,False,18-25
 6422_02,Mars,True,TRAPPIST-1e,11.0,False,0.0,0.0,0.0,0.0,0.0,True,6422,2,F,1330.0,P,Panie,Oats,4,False,False,False,0.3333333333333333,7.0,7.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 6422_03,Mars,False,TRAPPIST-1e,23.0,False,1233.0,0.0,527.0,0.0,0.0,False,6422,3,F,1330.0,P,Peake,Tote,4,False,False,False,0.6666666666666666,6.0,6.0,2,True,1760.0,7.473637108496206,False,527.0,1233.0,3,2,0.2994318181818182,RoomService,False,18-25
@@ -6266,7 +6266,7 @@
 6631_01,Europa,False,TRAPPIST-1e,27.0,False,0.0,1891.0,0.0,2167.0,0.0,False,6631,1,C,208.0,P,Suasharic,Etamino,1,True,True,True,0.0,6.0,6.0,1,False,4058.0,8.308691916838898,False,2167.0,1891.0,3,2,0.5340068999507146,Spa,False,26-35
 6633_01,Europa,False,TRAPPIST-1e,26.0,False,0.0,0.0,0.0,0.0,0.0,True,6633,1,B,255.0,S,Motive,Nunkib,1,True,True,True,0.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 6634_01,Europa,True,55 Cancri e,46.0,False,0.0,0.0,0.0,0.0,0.0,True,6634,1,B,219.0,P,Dischod,Gorabih,2,False,True,False,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
-6634_02,Europa,True,TRAPPIST-1e,64.0,False,0.0,0.0,0.0,0.0,0.0,True,6634,2,B,219.0,P,Dischod,Alasmon,2,False,False,True,1.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
+6634_02,Europa,True,TRAPPIST-1e,64.0,False,0.0,0.0,0.0,0.0,0.0,True,6634,2,F,219.0,P,Dischod,Alasmon,2,False,False,True,1.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 6635_01,Europa,False,TRAPPIST-1e,17.0,False,0.0,1339.0,26.0,244.0,15.0,False,6635,1,C,209.0,P,Entratable,Giebara,2,False,True,False,0.0,3.0,3.0,1,False,1624.0,7.393263094763838,False,285.0,1339.0,1,4,0.17549261083743842,FoodCourt,False,13-17
 6635_02,Europa,False,55 Cancri e,45.0,False,0.0,313.0,1791.0,414.0,1675.0,False,6635,2,C,209.0,P,Entratable,Nusakab,2,False,False,True,1.0,3.0,3.0,1,False,4193.0,8.341410211461865,False,3880.0,313.0,1,4,0.9253517767708085,ShoppingMall,False,36-50
 6637_01,Mars,False,TRAPPIST-1e,27.0,False,1228.0,0.0,0.0,0.0,0.0,False,6637,1,F,1271.0,S,Sinda,Tibers,1,True,True,True,0.0,7.0,7.0,1,False,1228.0,7.113956109566034,False,0.0,1228.0,4,1,0.0,RoomService,False,26-35
@@ -6448,7 +6448,7 @@
 6808_01,Earth,False,TRAPPIST-1e,27.0,False,0.0,0.0,192.0,38.0,599.0,False,6808,1,F,1416.0,P,Santantines,Yolas,1,True,True,True,0.0,9.0,9.0,1,False,829.0,6.721425700790643,False,829.0,0.0,2,3,1.0,VRDeck,False,26-35
 6810_01,Mars,True,TRAPPIST-1e,20.0,False,0.0,0.0,0.0,0.0,0.0,True,6810,1,E,450.0,S,Knik,Yots,5,False,True,False,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 6810_02,Mars,False,TRAPPIST-1e,30.0,False,768.0,11.0,2010.0,0.0,0.0,True,6810,2,E,450.0,S,Knik,Cruses,5,False,False,False,0.25,7.0,7.0,1,False,2789.0,7.933796874815411,False,2010.0,779.0,2,3,0.7206884187880961,ShoppingMall,False,26-35
-6810_03,Mars,True,TRAPPIST-1e,16.0,False,0.0,0.0,0.0,0.0,0.0,True,6810,3,E,450.0,S,Knik,Cings,5,False,False,False,0.5,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
+6810_03,Mars,True,TRAPPIST-1e,16.0,False,0.0,0.0,0.0,0.0,0.0,True,6810,3,F,450.0,S,Knik,Cings,5,False,False,False,0.5,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 6810_04,Mars,True,TRAPPIST-1e,36.0,False,0.0,0.0,0.0,0.0,0.0,True,6810,4,E,450.0,S,Knik,Shex,5,False,False,False,0.75,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 6810_05,Mars,True,55 Cancri e,68.0,False,0.0,0.0,0.0,0.0,0.0,True,6810,5,E,450.0,S,Knik,Dors,5,False,False,True,1.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,66+
 6813_01,Earth,False,55 Cancri e,22.0,False,38.0,19.0,348.0,217.0,115.0,False,6813,1,F,1417.0,P,Newtontoss,Thell,1,True,True,True,0.0,7.0,7.0,1,False,737.0,6.6039438246004725,False,680.0,57.0,0,5,0.9226594301221167,ShoppingMall,False,18-25
@@ -6600,7 +6600,7 @@
 6967_01,Europa,False,55 Cancri e,37.0,False,0.0,9965.0,0.0,5697.0,676.0,False,6967,1,C,256.0,S,Oilpfulle,Winon,1,True,True,True,0.0,2.0,2.0,1,False,16338.0,9.701310167030824,False,6373.0,9965.0,2,3,0.39007222426245564,FoodCourt,False,36-50
 6968_01,Earth,False,TRAPPIST-1e,13.0,False,0.0,114.0,682.0,0.0,7.0,False,6968,1,F,1447.0,P,Yanton,Dandra,2,False,True,False,0.0,8.0,8.0,1,False,803.0,6.6895992691789665,False,689.0,114.0,2,3,0.8580323785803238,ShoppingMall,False,13-17
 6968_02,Earth,False,PSO J318.5-22,20.0,False,0.0,114.0,0.0,0.0,1318.0,False,6968,2,F,1447.0,P,Yanton,Randa,2,False,False,True,1.0,8.0,8.0,1,False,1432.0,7.267525427828172,False,1318.0,114.0,3,2,0.9203910614525139,VRDeck,False,18-25
-6970_01,Mars,False,TRAPPIST-1e,65.0,False,3358.0,1.0,12.0,0.0,0.0,False,6970,1,E,465.0,S,Gin,Ret,2,False,True,False,0.0,5.0,5.0,2,True,3371.0,8.123261319121745,False,12.0,3359.0,2,3,0.0035597745476119848,RoomService,False,51-65
+6970_01,Mars,False,TRAPPIST-1e,65.0,False,3358.0,1.0,12.0,0.0,0.0,False,6970,1,F,465.0,S,Gin,Ret,2,False,True,False,0.0,5.0,5.0,2,True,3371.0,8.123261319121745,False,12.0,3359.0,2,3,0.0035597745476119848,RoomService,False,51-65
 6970_02,Mars,False,TRAPPIST-1e,29.0,False,456.0,230.0,363.0,0.0,0.0,False,6970,2,E,465.0,S,Pread,Coakey,2,False,False,True,1.0,11.0,11.0,2,True,1049.0,6.956545443151569,False,363.0,686.0,2,3,0.34604385128693993,RoomService,False,26-35
 6971_01,Europa,False,TRAPPIST-1e,0.0,False,0.0,0.0,0.0,0.0,0.0,True,6971,1,C,225.0,P,Distured,Alcoran,6,False,True,False,0.0,13.0,13.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
 6971_02,Europa,False,TRAPPIST-1e,4.0,False,0.0,0.0,0.0,0.0,0.0,True,6971,2,C,225.0,P,Distured,Chard,6,False,False,False,0.2,13.0,13.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
@@ -6777,7 +6777,7 @@
 7156_02,Mars,False,TRAPPIST-1e,11.0,False,0.0,0.0,0.0,0.0,0.0,True,7156,2,E,475.0,S,Ramad,Repart,4,False,False,False,0.3333333333333333,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 7156_03,Mars,True,TRAPPIST-1e,31.0,False,0.0,0.0,0.0,0.0,0.0,True,7156,3,E,475.0,S,Ramad,Pigars,4,False,False,False,0.6666666666666666,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 7156_04,Mars,False,TRAPPIST-1e,11.0,False,0.0,0.0,0.0,0.0,0.0,True,7156,4,E,475.0,S,Ramad,Mele,4,False,False,True,1.0,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-7157_01,Mars,True,TRAPPIST-1e,27.0,False,0.0,0.0,0.0,0.0,0.0,True,7157,1,D,219.0,S,Must,Unchex,2,False,True,False,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
+7157_01,Mars,True,TRAPPIST-1e,27.0,False,0.0,0.0,0.0,0.0,0.0,True,7157,1,F,219.0,S,Must,Unchex,2,False,True,False,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 7157_02,Mars,False,TRAPPIST-1e,33.0,False,1631.0,0.0,754.0,0.0,0.0,False,7157,2,D,219.0,S,Must,Terek,2,False,False,True,1.0,6.0,6.0,1,False,2385.0,7.777373602657861,False,754.0,1631.0,3,2,0.3161425576519916,RoomService,False,26-35
 7159_01,Europa,True,PSO J318.5-22,32.0,False,0.0,0.0,0.0,0.0,0.0,True,7159,1,C,263.0,S,Perable,Alrairk,1,True,True,True,0.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 7160_01,Earth,True,TRAPPIST-1e,20.0,False,0.0,0.0,0.0,0.0,0.0,True,7160,1,G,1152.0,P,Headardyer,Pennie,1,True,True,True,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
@@ -6832,7 +6832,7 @@
 7219_01,Europa,False,TRAPPIST-1e,0.0,False,0.0,0.0,0.0,0.0,0.0,True,7219,1,C,235.0,P,Arible,Taraid,6,False,True,False,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
 7219_02,Europa,True,TRAPPIST-1e,2.0,False,0.0,0.0,0.0,0.0,0.0,False,7219,2,C,235.0,P,Arible,Pheino,6,False,False,False,0.2,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 7219_03,Europa,True,TRAPPIST-1e,64.0,False,0.0,0.0,0.0,0.0,0.0,True,7219,3,C,235.0,P,Arible,Dirk,6,False,False,False,0.4,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
-7219_04,Europa,False,TRAPPIST-1e,24.0,False,0.0,2921.0,5.0,795.0,3155.0,False,7219,4,C,235.0,P,Arible,Atinon,6,False,False,False,0.6,7.0,7.0,1,False,6876.0,8.835937789319836,False,3955.0,2921.0,1,4,0.5751890634089587,VRDeck,False,18-25
+7219_04,Europa,False,TRAPPIST-1e,24.0,False,0.0,2921.0,5.0,795.0,3155.0,False,7219,4,F,235.0,P,Arible,Atinon,6,False,False,False,0.6,7.0,7.0,1,False,6876.0,8.835937789319836,False,3955.0,2921.0,1,4,0.5751890634089587,VRDeck,False,18-25
 7219_05,Europa,True,TRAPPIST-1e,40.0,False,0.0,0.0,0.0,0.0,0.0,True,7219,5,C,235.0,P,Arible,Anchab,6,False,False,False,0.8,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 7219_06,Europa,False,TRAPPIST-1e,32.0,False,0.0,163.0,0.0,6953.0,50.0,False,7219,6,C,235.0,P,Arible,Isoton,6,False,False,True,1.0,7.0,7.0,1,False,7166.0,8.877242435993919,False,7003.0,163.0,2,3,0.9772536980184203,Spa,False,26-35
 7221_01,Europa,False,55 Cancri e,54.0,True,0.0,316.0,1.0,2038.0,388.0,False,7221,1,B,239.0,P,Sonofmory,Sulatik,1,True,True,True,0.0,1.0,1.0,1,False,2743.0,7.917171988845776,False,2427.0,316.0,1,4,0.8847976667881882,Spa,False,51-65
@@ -6932,7 +6932,7 @@
 7351_01,Europa,True,55 Cancri e,36.0,False,0.0,0.0,0.0,0.0,0.0,True,7351,1,D,221.0,S,Loring,Sularon,1,True,True,True,0.0,2.0,2.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 7353_01,Europa,False,TRAPPIST-1e,60.0,False,0.0,3435.0,0.0,5458.0,10.0,False,7353,1,C,269.0,S,Openduave,Gorabba,3,False,True,False,0.0,10.0,10.0,1,False,8903.0,9.094255892955381,False,5468.0,3435.0,2,3,0.6141749971919578,Spa,False,51-65
 7353_02,Europa,True,TRAPPIST-1e,46.0,False,0.0,0.0,0.0,0.0,0.0,True,7353,2,C,269.0,S,Openduave,Sularon,3,False,False,False,0.5,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
-7353_03,Europa,False,TRAPPIST-1e,58.0,False,0.0,1386.0,2.0,128.0,2577.0,True,7353,3,C,269.0,S,Openduave,Auvam,3,False,False,True,1.0,10.0,10.0,1,False,4093.0,8.317277766221235,False,2707.0,1386.0,1,4,0.6613730759833862,VRDeck,False,51-65
+7353_03,Europa,False,TRAPPIST-1e,58.0,False,0.0,1386.0,2.0,128.0,2577.0,True,7353,3,F,269.0,S,Openduave,Auvam,3,False,False,True,1.0,10.0,10.0,1,False,4093.0,8.317277766221235,False,2707.0,1386.0,1,4,0.6613730759833862,VRDeck,False,51-65
 7356_01,Earth,True,TRAPPIST-1e,40.0,False,0.0,0.0,0.0,0.0,0.0,False,7356,1,G,1181.0,P,Merkins,Eline,2,False,True,False,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 7356_02,Earth,True,TRAPPIST-1e,3.0,False,0.0,0.0,0.0,0.0,0.0,True,7356,2,G,1181.0,P,Merkins,Herry,2,False,False,True,1.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 7358_01,Earth,False,55 Cancri e,23.0,False,3.0,0.0,2.0,61.0,634.0,False,7358,1,F,1522.0,P,Mirez,Len,1,True,True,True,0.0,8.0,8.0,1,False,700.0,6.55250788703459,False,697.0,3.0,1,4,0.9957142857142857,VRDeck,False,18-25
@@ -6997,7 +6997,7 @@
 7437_03,Europa,True,TRAPPIST-1e,60.0,False,0.0,0.0,0.0,0.0,0.0,True,7437,3,B,279.0,S,Clumshangs,Sadalm,3,False,False,True,1.0,6.0,6.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 7438_01,Earth,False,55 Cancri e,42.0,False,0.0,279.0,30.0,409.0,0.0,True,7438,1,E,483.0,P,Hanner,Gaylah,1,True,True,True,0.0,13.0,13.0,1,False,718.0,6.577861357721047,False,439.0,279.0,2,3,0.6114206128133705,Spa,False,36-50
 7442_01,Earth,False,TRAPPIST-1e,43.0,False,20.0,0.0,726.0,0.0,0.0,False,7442,1,E,495.0,S,Morrencis,Antony,2,False,True,False,0.0,8.0,8.0,1,False,746.0,6.616065185132817,False,726.0,20.0,3,2,0.9731903485254692,ShoppingMall,False,36-50
-7442_02,Earth,True,PSO J318.5-22,17.0,False,0.0,0.0,0.0,0.0,0.0,False,7442,2,E,495.0,S,Morrencis,Franda,2,False,False,True,1.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
+7442_02,Earth,True,PSO J318.5-22,17.0,False,0.0,0.0,0.0,0.0,0.0,False,7442,2,F,495.0,S,Morrencis,Franda,2,False,False,True,1.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 7444_01,Earth,True,TRAPPIST-1e,17.0,False,0.0,0.0,0.0,0.0,0.0,False,7444,1,G,1203.0,P,Thorney,Kenny,1,True,True,True,0.0,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 7445_01,Earth,True,TRAPPIST-1e,20.0,False,0.0,0.0,0.0,0.0,0.0,False,7445,1,G,1208.0,S,Hoppers,Coreen,1,True,True,True,0.0,13.0,13.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 7446_01,Earth,False,TRAPPIST-1e,18.0,False,960.0,672.0,0.0,0.0,168.0,False,7446,1,G,1204.0,P,Hopez,Mamina,1,True,True,True,0.0,8.0,8.0,1,False,1800.0,7.496097345175956,False,168.0,1632.0,2,3,0.09333333333333334,RoomService,False,18-25
@@ -7282,7 +7282,7 @@
 7785_01,Earth,False,TRAPPIST-1e,13.0,False,406.0,0.0,52.0,0.0,387.0,False,7785,1,G,1261.0,S,Bucklandez,Luise,1,True,True,True,0.0,12.0,12.0,1,False,845.0,6.740519359606223,False,439.0,406.0,2,3,0.5195266272189349,RoomService,False,13-17
 7786_01,Earth,False,TRAPPIST-1e,38.0,False,0.0,0.0,0.0,45.0,3372.0,False,7786,1,F,1616.0,P,Adkinson,Stelle,1,True,True,True,0.0,4.0,4.0,1,False,3417.0,8.136810863675537,False,3417.0,0.0,3,2,1.0,VRDeck,False,36-50
 7787_01,Europa,False,55 Cancri e,39.0,False,258.0,1541.0,0.0,0.0,621.0,False,7787,1,B,301.0,S,Cousel,Polari,2,False,True,False,0.0,5.0,5.0,1,False,2420.0,7.791935956938058,False,621.0,1799.0,2,3,0.2566115702479339,FoodCourt,False,36-50
-7787_02,Europa,True,TRAPPIST-1e,18.0,False,0.0,0.0,0.0,0.0,0.0,True,7787,2,B,301.0,S,Cousel,Sular,2,False,False,True,1.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
+7787_02,Europa,True,TRAPPIST-1e,18.0,False,0.0,0.0,0.0,0.0,0.0,True,7787,2,F,301.0,S,Cousel,Sular,2,False,False,True,1.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 7788_01,Earth,False,PSO J318.5-22,43.0,False,0.0,0.0,110.0,538.0,0.0,False,7788,1,F,1488.0,S,Guerson,Julin,1,True,True,True,0.0,14.0,14.0,1,False,648.0,6.47543271670409,False,648.0,0.0,3,2,1.0,Spa,False,36-50
 7789_01,Earth,False,TRAPPIST-1e,32.0,False,0.0,368.0,0.0,304.0,741.0,False,7789,1,F,1489.0,S,Whitledges,Pattie,1,True,True,True,0.0,7.0,7.0,1,False,1413.0,7.254177846456518,False,1045.0,368.0,2,3,0.7395612172682237,VRDeck,False,26-35
 7790_01,Mars,True,TRAPPIST-1e,29.0,False,0.0,0.0,0.0,0.0,0.0,False,7790,1,F,1490.0,S,Casty,Pold,3,False,True,False,0.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -7381,7 +7381,7 @@
 7890_02,Earth,True,55 Cancri e,17.0,False,0.0,0.0,0.0,0.0,0.0,True,7890,2,G,1273.0,S,Reenez,Edgary,3,False,False,False,0.5,11.0,11.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 7890_03,Earth,True,TRAPPIST-1e,16.0,False,0.0,0.0,0.0,0.0,0.0,True,7890,3,F,1390.5,S,Scottney,Sonnie,3,False,False,True,1.0,6.0,6.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 7891_01,Earth,True,55 Cancri e,2.0,False,0.0,0.0,0.0,0.0,0.0,True,7891,1,G,1274.0,S,Duffmaney,Guada,2,False,True,False,0.0,4.0,4.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-7891_02,Earth,False,TRAPPIST-1e,13.0,False,34.0,1.0,0.0,824.0,29.0,False,7891,2,G,1274.0,S,Duffmaney,Rosey,2,False,False,True,1.0,4.0,4.0,1,False,888.0,6.790097235513905,False,853.0,35.0,1,4,0.9605855855855856,Spa,False,13-17
+7891_02,Earth,False,TRAPPIST-1e,13.0,False,34.0,1.0,0.0,824.0,29.0,False,7891,2,F,1274.0,S,Duffmaney,Rosey,2,False,False,True,1.0,4.0,4.0,1,False,888.0,6.790097235513905,False,853.0,35.0,1,4,0.9605855855855856,Spa,False,13-17
 7892_01,Mars,False,TRAPPIST-1e,18.0,False,196.0,0.0,744.0,0.0,0.0,True,7892,1,F,1636.0,P,Mity,Colax,1,True,True,True,0.0,6.0,6.0,1,False,940.0,6.846943139585379,False,744.0,196.0,3,2,0.7914893617021277,ShoppingMall,False,18-25
 7894_01,Earth,False,55 Cancri e,29.0,False,46.0,68.0,589.0,88.0,0.0,True,7894,1,E,519.0,S,Jacostarks,Jenne,1,True,True,True,0.0,9.0,9.0,1,False,791.0,6.674561391814426,False,677.0,114.0,1,4,0.8558786346396966,ShoppingMall,False,26-35
 7895_01,Earth,False,55 Cancri e,21.0,False,102.0,9.0,21.0,464.0,104.0,False,7895,1,F,1509.0,S,Brooke,Lynez,1,True,True,True,0.0,10.0,10.0,1,False,700.0,6.55250788703459,False,589.0,111.0,0,5,0.8414285714285714,Spa,False,18-25
@@ -7395,7 +7395,7 @@
 7902_03,Earth,True,TRAPPIST-1e,49.0,False,0.0,0.0,0.0,0.0,0.0,False,7902,3,G,1276.0,P,Georgasey,Jodye,4,False,False,False,0.6666666666666666,16.0,16.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 7902_04,Earth,False,TRAPPIST-1e,23.0,False,1.0,700.0,0.0,7.0,136.0,False,7902,4,G,1276.0,P,Villenson,Luison,4,False,False,True,1.0,11.0,11.0,2,True,844.0,6.739336627357174,False,143.0,701.0,1,4,0.16943127962085308,FoodCourt,False,18-25
 7903_01,Earth,False,TRAPPIST-1e,39.0,False,472.0,0.0,0.0,173.0,0.0,False,7903,1,F,1638.0,P,Weberton,Ricard,1,True,True,True,0.0,5.0,5.0,1,False,645.0,6.470799503782602,False,173.0,472.0,3,2,0.2682170542635659,RoomService,False,36-50
-7904_01,Earth,True,TRAPPIST-1e,53.0,False,0.0,0.0,0.0,0.0,0.0,True,7904,1,G,1277.0,P,Pughlinsons,Joelan,2,False,True,False,0.0,13.0,13.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
+7904_01,Earth,True,TRAPPIST-1e,53.0,False,0.0,0.0,0.0,0.0,0.0,True,7904,1,F,1277.0,P,Pughlinsons,Joelan,2,False,True,False,0.0,13.0,13.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 7904_02,Earth,False,TRAPPIST-1e,26.0,False,485.0,8.0,3958.0,0.0,0.0,True,7904,2,G,1277.0,P,Pughlinsons,Hilia,2,False,False,True,1.0,13.0,13.0,1,False,4451.0,8.401108712395436,False,3958.0,493.0,2,3,0.8892383733992362,ShoppingMall,False,26-35
 7905_01,Europa,False,TRAPPIST-1e,31.0,False,0.0,87.0,0.0,2263.0,224.0,False,7905,1,C,296.0,S,Axlentindy,Zinor,3,False,True,False,0.0,3.0,3.0,1,False,2574.0,7.853604813097837,False,2487.0,87.0,2,3,0.9662004662004662,Spa,False,26-35
 7905_02,Europa,True,TRAPPIST-1e,48.0,False,0.0,0.0,0.0,0.0,0.0,True,7905,2,C,296.0,S,Axlentindy,Menkibi,3,False,False,False,0.5,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
@@ -7526,7 +7526,7 @@
 8046_01,Earth,True,PSO J318.5-22,22.0,False,0.0,0.0,0.0,0.0,0.0,True,8046,1,G,1300.0,P,Haynard,Pennie,1,True,True,True,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 8049_01,Earth,False,TRAPPIST-1e,22.0,False,6.0,21.0,0.0,782.0,0.0,False,8049,1,G,1301.0,P,Workmans,Bonya,1,True,True,True,0.0,9.0,9.0,1,False,809.0,6.697034247666484,False,782.0,27.0,2,3,0.9666254635352287,Spa,False,18-25
 8050_01,Earth,False,PSO J318.5-22,30.0,False,0.0,34.0,143.0,275.0,0.0,False,8050,1,G,1300.0,S,Frazie,Annya,3,False,True,False,0.0,8.0,8.0,1,False,452.0,6.115892125483034,False,418.0,34.0,2,3,0.9247787610619469,Spa,False,26-35
-8050_02,Earth,True,TRAPPIST-1e,1.0,False,0.0,0.0,0.0,0.0,0.0,True,8050,2,G,1300.0,S,Frazie,Ivanne,3,False,False,False,0.5,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
+8050_02,Earth,True,TRAPPIST-1e,1.0,False,0.0,0.0,0.0,0.0,0.0,True,8050,2,F,1300.0,S,Frazie,Ivanne,3,False,False,False,0.5,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 8050_03,Earth,True,PSO J318.5-22,0.0,False,0.0,0.0,0.0,0.0,0.0,True,8050,3,G,1300.0,S,Frazie,Netty,3,False,False,True,1.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
 8052_01,Earth,False,TRAPPIST-1e,9.0,False,0.0,0.0,0.0,0.0,0.0,False,8052,1,G,1302.0,S,Serry,Duana,2,False,True,False,0.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 8052_02,Earth,False,PSO J318.5-22,18.0,False,0.0,0.0,0.0,1.0,335.0,False,8052,2,G,1302.0,S,Serry,Perryl,2,False,False,True,1.0,10.0,10.0,1,False,336.0,5.820082930352362,False,336.0,0.0,3,2,1.0,VRDeck,False,18-25
@@ -7542,7 +7542,7 @@
 8060_01,Mars,False,TRAPPIST-1e,39.0,False,1369.0,259.0,960.0,1.0,29.0,False,8060,1,F,1541.0,S,Chman,Pot,2,False,True,False,0.0,6.0,6.0,1,False,2618.0,7.870547844507712,False,990.0,1628.0,0,5,0.37815126050420167,RoomService,False,36-50
 8060_02,Mars,True,TRAPPIST-1e,37.0,False,0.0,0.0,0.0,0.0,0.0,True,8060,2,F,1541.0,S,Chman,Colatz,2,False,False,True,1.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 8063_01,Earth,False,TRAPPIST-1e,20.0,False,0.0,25.0,0.0,11.0,0.0,False,8063,1,F,1543.0,S,Loway,Paulie,1,True,True,True,0.0,13.0,13.0,1,False,36.0,3.6109179126442243,False,11.0,25.0,3,2,0.3055555555555556,FoodCourt,False,18-25
-8064_01,Mars,True,TRAPPIST-1e,40.0,False,0.0,0.0,0.0,0.0,0.0,True,8064,1,E,534.0,S,Erte,Yales,3,False,True,False,0.0,4.0,4.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
+8064_01,Mars,True,TRAPPIST-1e,40.0,False,0.0,0.0,0.0,0.0,0.0,True,8064,1,F,534.0,S,Erte,Yales,3,False,True,False,0.0,4.0,4.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 8064_02,Mars,False,TRAPPIST-1e,0.0,False,0.0,0.0,0.0,0.0,0.0,True,8064,2,E,534.0,S,Erte,Elos,3,False,False,False,0.5,4.0,4.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
 8064_03,Mars,True,TRAPPIST-1e,33.0,False,0.0,0.0,0.0,0.0,0.0,False,8064,3,E,534.0,S,Swin,Chees,3,False,False,True,1.0,6.0,6.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 8066_01,Mars,True,TRAPPIST-1e,23.0,False,0.0,0.0,0.0,0.0,0.0,True,8066,1,F,1544.0,S,Min,Cinch,1,True,True,True,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
@@ -7604,7 +7604,7 @@
 8123_01,Earth,True,TRAPPIST-1e,45.0,False,0.0,0.0,0.0,0.0,0.0,False,8123,1,G,1312.0,P,Newtontoss,Violan,1,True,True,True,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 8124_01,Earth,False,TRAPPIST-1e,44.0,False,0.0,903.0,0.0,0.0,0.0,False,8124,1,F,1681.0,P,Paynard,Ryany,1,True,True,True,0.0,7.0,7.0,1,False,903.0,6.806829360392176,False,0.0,903.0,4,1,0.0,FoodCourt,False,36-50
 8128_01,Mars,True,TRAPPIST-1e,24.0,False,0.0,0.0,0.0,0.0,0.0,True,8128,1,F,1682.0,P,Queke,Mele,1,True,True,True,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
-8129_01,Earth,True,55 Cancri e,13.0,False,0.0,0.0,0.0,0.0,0.0,True,8129,1,G,1498.0,P,Casonston,Eline,5,False,True,False,0.0,18.0,18.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
+8129_01,Earth,True,55 Cancri e,13.0,False,0.0,0.0,0.0,0.0,0.0,True,8129,1,F,1498.0,P,Casonston,Eline,5,False,True,False,0.0,18.0,18.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 8129_02,Earth,False,TRAPPIST-1e,4.0,False,0.0,0.0,0.0,0.0,0.0,True,8129,2,G,1313.0,P,Casonston,Frey,5,False,False,False,0.25,18.0,18.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 8129_03,Earth,False,TRAPPIST-1e,24.0,False,381.0,925.0,342.0,0.0,642.0,False,8129,3,F,1683.0,P,Casonston,Eulah,5,False,False,False,0.5,18.0,18.0,1,False,2290.0,7.736743682453495,False,984.0,1306.0,1,4,0.42969432314410483,FoodCourt,False,18-25
 8129_04,Earth,False,55 Cancri e,27.0,False,3.0,13.0,0.0,0.0,788.0,False,8129,4,F,1683.0,P,Casonston,Millie,5,False,False,False,0.75,18.0,18.0,1,False,804.0,6.690842277418564,False,788.0,16.0,2,3,0.9800995024875622,VRDeck,False,26-35
@@ -7628,7 +7628,7 @@
 8144_03,Europa,False,TRAPPIST-1e,28.0,False,0.0,3317.0,77.0,0.0,130.0,True,8144,3,B,270.0,P,Chsere,Muonus,4,False,False,False,0.6666666666666666,5.0,5.0,2,True,3524.0,8.16763571524637,False,207.0,3317.0,2,3,0.058740068104426786,FoodCourt,False,26-35
 8144_04,Europa,False,TRAPPIST-1e,5.0,False,0.0,0.0,0.0,0.0,0.0,True,8144,4,B,270.0,P,Donotaked,Dhena,4,False,False,True,1.0,6.0,6.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 8147_01,Earth,False,TRAPPIST-1e,20.0,False,0.0,142.0,0.0,3528.0,92.0,False,8147,1,G,1317.0,P,Pittler,Everly,4,False,True,False,0.0,12.0,12.0,1,False,3762.0,8.232971790593437,False,3620.0,142.0,2,3,0.962254120148857,Spa,False,18-25
-8147_02,Earth,True,TRAPPIST-1e,2.0,False,0.0,0.0,0.0,0.0,0.0,True,8147,2,G,1317.0,P,Pittler,Mabley,4,False,False,False,0.3333333333333333,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
+8147_02,Earth,True,TRAPPIST-1e,2.0,False,0.0,0.0,0.0,0.0,0.0,True,8147,2,F,1317.0,P,Pittler,Mabley,4,False,False,False,0.3333333333333333,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 8147_03,Earth,False,TRAPPIST-1e,42.0,False,18.0,5.0,470.0,356.0,57.0,False,8147,3,G,1317.0,P,Pittler,Jeroy,4,False,False,False,0.6666666666666666,12.0,12.0,1,False,906.0,6.810142450115136,False,883.0,23.0,0,5,0.9746136865342163,ShoppingMall,False,36-50
 8147_04,Earth,False,55 Cancri e,0.0,False,0.0,0.0,0.0,0.0,0.0,True,8147,4,G,1317.0,P,Pittler,Cline,4,False,False,True,1.0,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,0
 8148_01,Earth,False,TRAPPIST-1e,18.0,False,0.0,508.0,0.0,44.0,257.0,False,8148,1,G,1318.0,P,Cartez,Jarena,1,True,True,True,0.0,14.0,14.0,1,False,809.0,6.697034247666484,False,301.0,508.0,2,3,0.3720642768850433,FoodCourt,False,18-25
@@ -7796,7 +7796,7 @@
 8319_01,Earth,False,TRAPPIST-1e,24.0,False,0.0,0.0,729.0,0.0,75.0,False,8319,1,F,1712.0,P,Leblanchez,Royce,1,True,True,True,0.0,8.0,8.0,1,False,804.0,6.690842277418564,False,804.0,0.0,3,2,1.0,ShoppingMall,False,18-25
 8320_01,Earth,True,PSO J318.5-22,19.0,False,0.0,0.0,0.0,0.0,0.0,True,8320,1,G,1352.0,P,Mckinsond,Beula,1,True,True,True,0.0,13.0,13.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 8321_01,Earth,False,TRAPPIST-1e,23.0,False,0.0,0.0,0.0,0.0,693.0,False,8321,1,F,1713.0,P,Farrez,Hillie,1,True,True,True,0.0,7.0,7.0,1,False,693.0,6.542471960506805,False,693.0,0.0,4,1,1.0,VRDeck,False,18-25
-8322_01,Europa,False,PSO J318.5-22,45.0,True,0.0,49.0,0.0,4864.0,3902.0,False,8322,1,C,312.0,S,Briouse,Hamelik,2,False,True,False,0.0,3.0,3.0,1,False,8815.0,9.084323531392696,False,8766.0,49.0,2,3,0.9944412932501419,Spa,False,36-50
+8322_01,Europa,False,PSO J318.5-22,45.0,True,0.0,49.0,0.0,4864.0,3902.0,False,8322,1,F,312.0,S,Briouse,Hamelik,2,False,True,False,0.0,3.0,3.0,1,False,8815.0,9.084323531392696,False,8766.0,49.0,2,3,0.9944412932501419,Spa,False,36-50
 8322_02,Europa,True,55 Cancri e,52.0,False,0.0,0.0,0.0,0.0,0.0,True,8322,2,C,312.0,S,Briouse,Adharan,2,False,False,True,1.0,3.0,3.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 8323_01,Earth,False,PSO J318.5-22,55.0,False,0.0,465.0,277.0,48.0,0.0,True,8323,1,E,546.0,S,Sawyerson,Isaacy,1,True,True,True,0.0,9.0,9.0,1,False,790.0,6.673297967767654,False,325.0,465.0,2,3,0.41139240506329117,FoodCourt,False,51-65
 8324_01,Earth,True,PSO J318.5-22,24.0,False,0.0,0.0,0.0,0.0,0.0,False,8324,1,G,1353.0,P,Sextones,Edgary,1,True,True,True,0.0,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
@@ -7835,7 +7835,7 @@
 8363_02,Europa,False,TRAPPIST-1e,26.0,False,0.0,690.0,1.0,1030.0,2273.0,False,8363,2,A,101.0,S,Crelaxle,Dira,2,False,False,True,1.0,2.0,2.0,1,False,3994.0,8.292798858200374,False,3304.0,690.0,1,4,0.8272408612919379,VRDeck,False,26-35
 8365_01,Earth,True,55 Cancri e,25.0,False,0.0,0.0,0.0,0.0,0.0,True,8365,1,G,1363.0,P,Bardina,Katiey,1,True,True,True,0.0,5.0,5.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 8366_01,Earth,False,TRAPPIST-1e,2.0,False,0.0,0.0,0.0,0.0,0.0,False,8366,1,G,1364.0,P,Burnewman,Irmark,5,False,True,False,0.0,5.0,5.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
-8366_02,Earth,False,TRAPPIST-1e,7.0,False,0.0,0.0,0.0,0.0,0.0,False,8366,2,G,1364.0,P,,,5,False,False,False,0.25,1.0,1.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
+8366_02,Earth,False,TRAPPIST-1e,7.0,False,0.0,0.0,0.0,0.0,0.0,False,8366,2,F,1364.0,P,,,5,False,False,False,0.25,1.0,1.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 8366_03,Earth,True,TRAPPIST-1e,2.0,False,0.0,0.0,0.0,0.0,0.0,True,8366,3,G,1364.0,P,Russon,Jodia,5,False,False,False,0.5,5.0,5.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 8366_04,Earth,False,TRAPPIST-1e,19.0,False,0.0,0.0,0.0,0.0,616.0,False,8366,4,G,1364.0,P,Burnewman,Violan,5,False,False,False,0.75,5.0,5.0,2,True,616.0,6.424869023905388,False,616.0,0.0,4,1,1.0,VRDeck,False,18-25
 8366_05,Earth,False,TRAPPIST-1e,1.0,False,0.0,0.0,0.0,0.0,0.0,False,8366,5,G,1364.0,P,Burnewman,Dorah,5,False,False,True,1.0,5.0,5.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
@@ -8033,7 +8033,7 @@
 8597_01,Earth,True,TRAPPIST-1e,23.0,False,0.0,0.0,0.0,0.0,0.0,True,8597,1,G,1382.0,S,Moreman,Patoya,1,True,True,True,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 8598_01,Earth,False,55 Cancri e,6.0,False,0.0,0.0,0.0,0.0,0.0,True,8598,1,G,1394.0,P,Mcbriggins,Garley,3,False,True,False,0.0,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 8598_02,Earth,True,PSO J318.5-22,39.0,False,0.0,0.0,0.0,0.0,0.0,True,8598,2,G,1394.0,P,Mcbriggins,Eriana,3,False,False,False,0.5,6.0,6.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
-8598_03,Earth,False,55 Cancri e,26.0,False,12.0,71.0,0.0,103.0,624.0,False,8598,3,G,1394.0,P,Mcbriggins,Brada,3,False,False,True,1.0,6.0,6.0,1,False,810.0,6.698268054115413,False,727.0,83.0,1,4,0.8975308641975308,VRDeck,False,26-35
+8598_03,Earth,False,55 Cancri e,26.0,False,12.0,71.0,0.0,103.0,624.0,False,8598,3,F,1394.0,P,Mcbriggins,Brada,3,False,False,True,1.0,6.0,6.0,1,False,810.0,6.698268054115413,False,727.0,83.0,1,4,0.8975308641975308,VRDeck,False,26-35
 8599_01,Earth,False,55 Cancri e,14.0,False,547.0,145.0,5.0,0.0,9.0,False,8599,1,G,1383.0,S,Scottuez,Lynnie,1,True,True,True,0.0,7.0,7.0,1,False,706.0,6.561030665896573,False,14.0,692.0,1,4,0.019830028328611898,RoomService,False,13-17
 8602_01,Earth,True,TRAPPIST-1e,3.0,False,0.0,0.0,0.0,0.0,0.0,False,8602,1,G,1396.0,P,Weissey,Robina,3,False,True,False,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 8602_02,Earth,False,PSO J318.5-22,21.0,False,10.0,1028.0,3.0,2519.0,0.0,False,8602,2,G,1396.0,P,Weissey,Yvonna,3,False,False,False,0.5,7.0,7.0,1,False,3560.0,8.177796683277778,False,2522.0,1038.0,1,4,0.7084269662921349,Spa,False,18-25
@@ -8042,7 +8042,7 @@
 8604_01,Mars,False,TRAPPIST-1e,37.0,False,50.0,0.0,343.0,2205.0,0.0,False,8604,1,F,1765.0,P,Stité,Crat,2,False,True,False,0.0,9.0,9.0,1,False,2598.0,7.8628820346414905,False,2548.0,50.0,2,3,0.9807544264819091,Spa,False,36-50
 8604_02,Mars,True,TRAPPIST-1e,21.0,False,0.0,0.0,0.0,0.0,0.0,True,8604,2,F,1765.0,P,Stité,Halesh,2,False,False,True,1.0,9.0,9.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 8605_01,Europa,False,TRAPPIST-1e,67.0,False,0.0,82.0,0.0,2279.0,293.0,False,8605,1,C,324.0,S,Netshaless,Suhain,5,False,True,False,0.0,7.0,7.0,1,False,2654.0,7.884199933676039,False,2572.0,82.0,2,3,0.9691032403918614,Spa,False,66+
-8605_02,Europa,True,TRAPPIST-1e,28.0,False,0.0,0.0,0.0,0.0,0.0,True,8605,2,C,324.0,S,Netshaless,Mera,5,False,False,False,0.25,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
+8605_02,Europa,True,TRAPPIST-1e,28.0,False,0.0,0.0,0.0,0.0,0.0,True,8605,2,F,324.0,S,Netshaless,Mera,5,False,False,False,0.25,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
 8605_03,Europa,True,55 Cancri e,13.0,False,0.0,0.0,0.0,0.0,0.0,True,8605,3,C,324.0,S,Netshaless,Spuri,5,False,False,False,0.5,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
 8605_04,Europa,False,TRAPPIST-1e,26.0,False,0.0,226.0,0.0,436.0,4051.0,False,8605,4,C,324.0,S,Netshaless,Aldibah,5,False,False,False,0.75,7.0,7.0,1,False,4713.0,8.458292083496076,False,4487.0,226.0,2,3,0.952047528113728,VRDeck,False,26-35
 8605_05,Europa,True,55 Cancri e,33.0,False,0.0,0.0,0.0,0.0,0.0,True,8605,5,C,324.0,S,Netshaless,Pleion,5,False,False,True,1.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
@@ -8109,7 +8109,7 @@
 8659_01,Earth,False,TRAPPIST-1e,19.0,False,125.0,556.0,23.0,0.0,0.0,True,8659,1,F,1781.0,P,Ryanglasey,Coley,1,True,True,True,0.0,3.0,3.0,1,False,704.0,6.558197802812269,False,23.0,681.0,2,3,0.032670454545454544,FoodCourt,False,18-25
 8661_01,Earth,False,TRAPPIST-1e,19.0,False,886.0,0.0,0.0,1587.0,12.0,False,8661,1,F,1675.0,S,Pierry,Herina,1,True,True,True,0.0,8.0,8.0,1,False,2485.0,7.818430272070656,False,1599.0,886.0,2,3,0.6434607645875251,Spa,False,18-25
 8663_01,Earth,False,TRAPPIST-1e,14.0,False,450.0,4791.0,896.0,0.0,0.0,True,8663,1,G,1394.0,S,Hurchrisong,Fery,2,False,True,False,0.0,7.0,7.0,1,False,6137.0,8.722254235179681,False,896.0,5241.0,2,3,0.1459996741078703,FoodCourt,False,13-17
-8663_02,Earth,True,55 Cancri e,40.0,False,0.0,0.0,0.0,0.0,0.0,True,8663,2,G,1394.0,S,Hurchrisong,Donnie,2,False,False,True,1.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
+8663_02,Earth,True,55 Cancri e,40.0,False,0.0,0.0,0.0,0.0,0.0,True,8663,2,F,1394.0,S,Hurchrisong,Donnie,2,False,False,True,1.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 8664_01,Earth,False,TRAPPIST-1e,40.0,False,909.0,0.0,0.0,0.0,0.0,False,8664,1,G,1395.0,S,Hallahaney,Loisey,1,True,True,True,0.0,5.0,5.0,1,False,909.0,6.813444599510896,False,0.0,909.0,4,1,0.0,RoomService,False,36-50
 8667_01,Mars,False,TRAPPIST-1e,20.0,False,733.0,0.0,455.0,0.0,0.0,False,8667,1,F,1676.0,S,Kad,Koat,1,True,True,True,0.0,5.0,5.0,1,False,1188.0,7.080867896690782,False,455.0,733.0,3,2,0.382996632996633,RoomService,False,18-25
 8668_01,Mars,True,TRAPPIST-1e,6.0,False,0.0,0.0,0.0,0.0,0.0,True,8668,1,F,1783.0,P,Rapie,Mall,3,False,True,False,0.0,8.0,8.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
@@ -8208,7 +8208,7 @@
 8770_07,Earth,False,TRAPPIST-1e,17.0,False,0.0,810.0,66.0,0.0,0.0,True,8770,7,F,1808.0,P,Waderoachez,Raque,7,False,False,True,1.0,9.0,9.0,2,True,876.0,6.776506992372183,False,66.0,810.0,3,2,0.07534246575342465,FoodCourt,False,13-17
 8771_01,Earth,False,TRAPPIST-1e,58.0,False,0.0,805.0,3.0,3.0,0.0,False,8771,1,G,1421.0,P,Boyersons,Ebonya,1,True,True,True,0.0,8.0,8.0,1,False,811.0,6.699500340161678,False,6.0,805.0,2,3,0.007398273736128237,FoodCourt,False,51-65
 8772_01,Europa,True,55 Cancri e,15.0,False,0.0,0.0,0.0,0.0,0.0,True,8772,1,B,339.0,S,,,2,False,True,False,0.0,1.0,1.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,13-17
-8772_02,Europa,False,55 Cancri e,53.0,False,0.0,1127.0,0.0,3939.0,0.0,False,8772,2,B,339.0,S,Motled,Naosura,2,False,False,True,1.0,5.0,5.0,1,False,5066.0,8.53050420547591,False,3939.0,1127.0,3,2,0.7775365179628898,Spa,False,51-65
+8772_02,Europa,False,55 Cancri e,53.0,False,0.0,1127.0,0.0,3939.0,0.0,False,8772,2,F,339.0,S,Motled,Naosura,2,False,False,True,1.0,5.0,5.0,1,False,5066.0,8.53050420547591,False,3939.0,1127.0,3,2,0.7775365179628898,Spa,False,51-65
 8773_01,Mars,False,TRAPPIST-1e,29.0,False,257.0,0.0,782.0,8.0,3.0,False,8773,1,D,274.0,P,Ica,Gorn,1,True,True,True,0.0,3.0,3.0,1,False,1050.0,6.957497370876951,False,793.0,257.0,1,4,0.7552380952380953,ShoppingMall,False,26-35
 8774_01,Earth,True,TRAPPIST-1e,24.0,False,0.0,0.0,0.0,0.0,0.0,True,8774,1,G,1412.0,S,Gentledges,Jennyn,1,True,True,True,0.0,7.0,7.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 8776_01,Earth,False,TRAPPIST-1e,40.0,False,0.0,0.0,286.0,6.0,570.0,True,8776,1,E,574.0,S,Headardyer,Winia,1,True,True,True,0.0,6.0,6.0,1,False,862.0,6.760414691083428,False,862.0,0.0,2,3,1.0,VRDeck,False,36-50
@@ -8474,7 +8474,7 @@
 9049_01,Europa,True,TRAPPIST-1e,41.0,False,0.0,0.0,0.0,0.0,0.0,True,9049,1,C,336.0,S,Grentual,Luxion,1,True,True,True,0.0,2.0,2.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
 9052_01,Earth,False,TRAPPIST-1e,36.0,False,0.0,17.0,204.0,559.0,3.0,False,9052,1,G,1457.0,S,Hestes,Adamy,2,False,True,False,0.0,9.0,9.0,1,False,783.0,6.664409020350408,False,766.0,17.0,1,4,0.9782886334610472,Spa,False,36-50
 9052_02,Earth,False,55 Cancri e,33.0,False,1006.0,0.0,1357.0,45.0,6.0,False,9052,2,F,1752.0,S,Hestes,Stendy,2,False,False,True,1.0,9.0,9.0,1,False,2414.0,7.789454566086673,False,1408.0,1006.0,1,4,0.5832642916321458,ShoppingMall,False,26-35
-9057_01,Europa,False,55 Cancri e,36.0,True,132.0,3479.0,0.0,3786.0,0.0,False,9057,1,B,296.0,P,Statch,Coxan,2,False,True,False,0.0,2.0,2.0,1,False,7397.0,8.908964972392399,False,3786.0,3611.0,2,3,0.5118291199134785,Spa,False,36-50
+9057_01,Europa,False,55 Cancri e,36.0,True,132.0,3479.0,0.0,3786.0,0.0,False,9057,1,F,296.0,P,Statch,Coxan,2,False,True,False,0.0,2.0,2.0,1,False,7397.0,8.908964972392399,False,3786.0,3611.0,2,3,0.5118291199134785,Spa,False,36-50
 9057_02,Europa,True,TRAPPIST-1e,55.0,False,0.0,0.0,0.0,0.0,0.0,True,9057,2,B,296.0,P,Statch,Sitron,2,False,False,True,1.0,2.0,2.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,51-65
 9059_01,Earth,False,TRAPPIST-1e,16.0,False,866.0,0.0,0.0,184.0,0.0,False,9059,1,F,1753.0,S,Gregordy,Anda,1,True,True,True,0.0,6.0,6.0,1,False,1050.0,6.957497370876951,False,184.0,866.0,3,2,0.17523809523809525,RoomService,False,13-17
 9060_01,Earth,False,TRAPPIST-1e,28.0,False,0.0,8.0,338.0,135.0,390.0,False,9060,1,F,1853.0,P,Charryerry,Annard,1,True,True,True,0.0,3.0,3.0,1,False,871.0,6.77078942390898,False,863.0,8.0,1,4,0.9908151549942594,VRDeck,False,26-35
@@ -8484,7 +8484,7 @@
 9068_01,Europa,False,TRAPPIST-1e,31.0,False,1062.0,1605.0,0.0,2718.0,1674.0,False,9068,1,C,337.0,S,Clinarfork,Alurops,1,True,True,True,0.0,5.0,5.0,1,False,7059.0,8.862200330487287,False,4392.0,2667.0,1,4,0.6221844453888653,Spa,False,26-35
 9069_01,Europa,True,TRAPPIST-1e,22.0,False,0.0,0.0,0.0,0.0,0.0,True,9069,1,B,297.0,P,Brakeng,Azhat,5,False,True,False,0.0,7.0,7.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 9069_02,Europa,True,55 Cancri e,26.0,False,0.0,0.0,0.0,0.0,0.0,True,9069,2,B,297.0,P,Brakeng,Hekab,5,False,False,False,0.25,7.0,7.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35
-9069_03,Europa,True,55 Cancri e,25.0,False,0.0,0.0,0.0,0.0,0.0,True,9069,3,B,297.0,P,Brakeng,Bath,5,False,False,False,0.5,7.0,7.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
+9069_03,Europa,True,55 Cancri e,25.0,False,0.0,0.0,0.0,0.0,0.0,True,9069,3,F,297.0,P,Brakeng,Bath,5,False,False,False,0.5,7.0,7.0,2,True,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,18-25
 9069_04,Europa,False,TRAPPIST-1e,44.0,False,0.0,4313.0,0.0,568.0,7.0,True,9069,4,B,297.0,P,Brakeng,Cheleon,5,False,False,False,0.75,7.0,7.0,2,True,4888.0,8.494743062578646,False,575.0,4313.0,2,3,0.11763502454991817,FoodCourt,False,36-50
 9069_05,Europa,False,55 Cancri e,29.0,False,0.0,12563.0,0.0,3.0,5057.0,False,9069,5,B,297.0,P,Taketiatim,Mirfark,5,False,False,True,1.0,2.0,2.0,2,True,17623.0,9.777016888482178,False,5060.0,12563.0,2,3,0.2871247801168927,FoodCourt,False,26-35
 9071_01,Earth,False,55 Cancri e,22.0,False,0.0,0.0,1072.0,46.0,3.0,False,9071,1,F,1855.0,P,Woody,Anton,1,True,True,True,0.0,11.0,11.0,1,False,1121.0,7.022868086082641,False,1121.0,0.0,2,3,1.0,ShoppingMall,False,18-25
@@ -8508,7 +8508,7 @@
 9080_01,Earth,False,TRAPPIST-1e,22.0,False,34.0,0.0,0.0,711.0,0.0,False,9080,1,F,1857.0,P,Kenzierry,Willah,1,True,True,True,0.0,6.0,6.0,1,False,745.0,6.61472560020376,False,711.0,34.0,3,2,0.9543624161073826,Spa,False,18-25
 9081_01,Earth,False,TRAPPIST-1e,8.0,False,0.0,0.0,0.0,0.0,0.0,False,9081,1,G,1476.0,P,Clemondsey,Hanna,8,False,True,False,0.0,14.0,14.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 9081_02,Earth,False,55 Cancri e,15.0,False,0.0,0.0,0.0,208.0,754.0,False,9081,2,F,1858.0,P,Clemondsey,Willah,8,False,False,False,0.14285714285714285,14.0,14.0,1,False,962.0,6.870053411798126,False,962.0,0.0,3,2,1.0,VRDeck,False,13-17
-9081_03,Earth,True,TRAPPIST-1e,1.0,False,0.0,0.0,0.0,0.0,0.0,False,9081,3,G,1476.0,P,Clemondsey,Beula,8,False,False,False,0.2857142857142857,14.0,14.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
+9081_03,Earth,True,TRAPPIST-1e,1.0,False,0.0,0.0,0.0,0.0,0.0,False,9081,3,F,1476.0,P,Clemondsey,Beula,8,False,False,False,0.2857142857142857,14.0,14.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 9081_04,Earth,False,TRAPPIST-1e,9.0,False,0.0,0.0,0.0,0.0,0.0,True,9081,4,G,1476.0,P,,,8,False,False,False,0.42857142857142855,1.0,1.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,True,1-12
 9081_05,Earth,False,TRAPPIST-1e,48.0,False,0.0,586.0,784.0,4.0,21.0,True,9081,5,F,1858.0,P,Clemondsey,Haryn,8,False,False,False,0.5714285714285714,14.0,14.0,1,False,1395.0,7.241366283322318,False,809.0,586.0,1,4,0.5799283154121864,ShoppingMall,False,36-50
 9081_06,Earth,False,PSO J318.5-22,16.0,False,0.0,0.0,761.0,0.0,0.0,False,9081,6,F,1858.0,P,Clemondsey,Daryla,8,False,False,False,0.7142857142857143,14.0,14.0,1,False,761.0,6.635946555686647,False,761.0,0.0,4,1,1.0,ShoppingMall,False,13-17
@@ -8620,7 +8620,7 @@
 9196_02,Europa,False,TRAPPIST-1e,31.0,False,1.0,104.0,1338.0,698.0,126.0,True,9196,2,C,339.0,S,Poustive,Majorab,3,False,False,False,0.5,10.0,10.0,1,False,2267.0,7.7266536648476425,False,2162.0,105.0,0,5,0.9536832818703131,ShoppingMall,False,26-35
 9196_03,Europa,False,TRAPPIST-1e,23.0,False,381.0,794.0,52.0,654.0,1317.0,False,9196,3,C,339.0,S,Poustive,Chellus,3,False,False,True,1.0,10.0,10.0,1,False,3198.0,8.070593539949519,False,2023.0,1175.0,0,5,0.6325828642901814,VRDeck,False,18-25
 9197_01,Europa,False,55 Cancri e,44.0,False,0.0,0.0,0.0,0.0,0.0,True,9197,1,C,308.0,P,Platch,Bellus,4,False,True,False,0.0,12.0,12.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,36-50
-9197_02,Europa,False,55 Cancri e,41.0,True,0.0,7964.0,0.0,3238.0,5839.0,False,9197,2,C,308.0,P,Platch,Aludram,4,False,False,False,0.3333333333333333,12.0,12.0,1,False,17041.0,9.743436164387901,False,9077.0,7964.0,2,3,0.5326565342409483,FoodCourt,False,36-50
+9197_02,Europa,False,TRAPPIST-1e,41.0,True,0.0,7964.0,0.0,3238.0,5839.0,False,9197,2,C,308.0,P,Platch,Aludram,4,False,False,False,0.3333333333333333,12.0,12.0,1,False,17041.0,9.743436164387901,False,9077.0,7964.0,2,3,0.5326565342409483,FoodCourt,False,36-50
 9197_03,Europa,False,TRAPPIST-1e,31.0,False,0.0,4634.0,8.0,616.0,0.0,True,9197,3,C,308.0,P,Platch,Pheino,4,False,False,False,0.6666666666666666,12.0,12.0,1,False,5258.0,8.567696173589344,False,624.0,4634.0,2,3,0.11867630277672118,FoodCourt,False,26-35
 9197_04,Europa,False,55 Cancri e,30.0,False,1569.0,4634.0,0.0,616.0,2252.0,False,9197,4,C,308.0,P,Platch,Phecca,4,False,False,True,1.0,12.0,12.0,1,False,9071.0,9.112948025967533,False,2868.0,6203.0,1,4,0.316172417594532,FoodCourt,False,26-35
 9199_01,Europa,True,55 Cancri e,33.0,False,0.0,0.0,0.0,0.0,0.0,True,9199,1,E,590.0,P,Dianket,Sterion,1,True,True,True,0.0,10.0,10.0,1,False,0.0,0.0,True,0.0,0.0,5,0,0.0,__None__,False,26-35

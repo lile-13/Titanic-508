@@ -51,10 +51,27 @@ https://www.kaggle.com/competitions/spaceship-titanic
 
 
 ## 项目目录
-- data/raw/：原始比赛数据，每位成员自行下载
-- notebooks/：数据探索和实验 Notebook
-- src/：数据处理、训练和预测代码
-- reports/：实验记录、图表和报告
+
+```text
+Titanic-508/
+├── README.md                 项目入口和团队分工
+├── requirements.txt          依赖版本
+├── .gitignore
+├── data/raw/                 原始比赛数据（不上传）
+├── src/                      可复用模块：preprocess.py、paths.py
+├── scripts/                  导出、Notebook 转换与执行工具
+├── notebooks/                已执行的分析 Notebook
+│   └── source/               与 Notebook 配对的分析源码
+├── features/                 清洗表、统一折划分和特征字典
+├── reports/
+│   ├── figures/              分析图表
+│   └── experiments/          实验结果 CSV
+├── docs/                     团队交接说明
+└── tests/                    回归与集成测试
+```
+
+所有运行命令从仓库根目录执行。原始数据、虚拟环境和缓存保持在本地。
+正式模块统一用 `from src import preprocess as pp` 导入。
 
 ## 数据准备
 加入 Kaggle 比赛后，在 Data 页面下载并解压：
@@ -66,7 +83,14 @@ https://www.kaggle.com/competitions/spaceship-titanic
 原始数据保持不变，处理步骤通过代码实现。
 
 ## 运行方法
-待首个基线模型完成后补充。
+先按 [成员2交接说明](docs/成员2_数据清洗交接.md) 创建环境并安装 requirements.txt。
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+.\.venv\Scripts\python.exe -m scripts.export_features
+```
+
+数据放在 data/raw/。正式交叉验证从原始数据构建特征，每折使用 `src.preprocess.prepare_fold_matrices` 独立拟合填补器；`features/train_clean.csv` 仅用于最终全量训练或数据检查。
 
 ## 当前进度
-项目初始化，准备数据和开发环境。
+已完成数据分析与清洗交接，并修正缺失标记入模、组内补缺范围、数据路径和逐折预处理。模型方案比较见 reports/experiments/；最终 CatBoost 开发、调参和比赛提交待完成。
