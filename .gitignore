@@ -1,0 +1,30 @@
+# Competition data (download separately on each computer)
+/data/
+
+# Generated predictions and trained models
+/outputs/
+/models/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment settings and credentials
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
