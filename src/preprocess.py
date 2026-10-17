@@ -284,6 +284,17 @@ def add_age_features(df: pd.DataFrame) -> pd.DataFrame:
     return d
 
 
+def add_cabin_zone_features(df: pd.DataFrame) -> pd.DataFrame:
+    """舱号区间分箱（成员3 新增）。CabinNum 是更细的位置信息，分箱降低噪声。"""
+    d = df.copy()
+    d["CabinZone"] = pd.cut(
+        d["CabinNum"],
+        bins=[-1, 299, 599, 899, 1199, 1499, 2000],
+        labels=["0-299", "300-599", "600-899", "900-1199", "1200-1499", "1500+"],
+    )
+    return d
+
+
 def build_features(df: pd.DataFrame) -> pd.DataFrame:
     """解析结构、规整类型、派生特征；补缺规则由 Preprocessor 执行。"""
     d = normalize_types(df)
@@ -294,6 +305,7 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
     d = add_name_features(d)
     d = add_spend_features(d)
     d = add_age_features(d)
+    d = add_cabin_zone_features(d)
     return d
 
 
@@ -512,6 +524,7 @@ class Preprocessor:
         # 派生特征在填充之后重算，保证它们和填充后的值一致
         d = add_spend_features(d)
         d = add_age_features(d)
+        d = add_cabin_zone_features(d)
         return self._finalize(d)
 
     def fit_transform(self, train: pd.DataFrame) -> pd.DataFrame:
@@ -562,7 +575,8 @@ def group_folds(df: pd.DataFrame, n_splits: int = 5, seed: int = 42, shuffle: bo
     return list(cv.split(d, y, groups=d["GroupId"]))
 
 
-CAT_FEATURES = ["HomePlanet", "Destination", "Deck", "Side", "AgeBand", "MaxAmenity"]
+CAT_FEATURES = ["HomePlanet", "Destination", "Deck", "Side", "AgeBand", "MaxAmenity",
+                "CabinZone"]
 NUM_FEATURES = (SPEND_COLS + ["Age", "TotalSpend", "LogTotalSpend", "LuxurySpend",
                               "BasicSpend", "NZerosAmenities", "NAmenitiesUsed",
                               "LuxuryShare", "GroupSize", "GroupPos", "SurnameSize",
@@ -625,7 +639,7 @@ __all__ = [
     "basic_report", "duplicate_report", "consistency_report", "missing_summary",
     "ensure_ids", "ensure_cabin_parts", "ensure_name_parts", "normalize_types",
     "apply_domain_rules", "add_group_features", "add_name_features",
-    "add_spend_features", "add_age_features", "build_features",
-    "build_features_combined",
+    "add_spend_features", "add_age_features", "add_cabin_zone_features",
+    "build_features", "build_features_combined",
     "Preprocessor", "prepare_fold_matrices", "group_folds", "make_model_matrix",
 ]

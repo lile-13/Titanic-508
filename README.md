@@ -93,4 +93,8 @@ Titanic-508/
 数据放在 data/raw/。正式交叉验证从原始数据构建特征，每折使用 `src.preprocess.prepare_fold_matrices` 独立拟合填补器；`features/train_clean.csv` 仅用于最终全量训练或数据检查。
 
 ## 当前进度
-已完成数据分析与清洗交接，并修正缺失标记入模、组内补缺范围、数据路径和逐折预处理。模型方案比较见 reports/experiments/；最终 CatBoost 开发、调参和比赛提交待完成。
+已完成数据分析与清洗交接，并修正缺失标记入模、组内补缺范围、数据路径和逐折预处理。
+特征工程与消融实验已完成（见 [成员3交接说明](docs/成员3_特征工程交接.md)）：保留
+`CabinZone` 舱号分箱（树模型 +1pp），弃用连续 `CabinNum`（指纹风险）与组内聚合特征；
+建模矩阵由 53 列变为 59 列。模型方案比较见 reports/experiments/；
+最终 CatBoost 开发、调参和比赛提交待完成。

@@ -30,3 +30,6 @@ kaggle.json
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# IDE
+.idea/

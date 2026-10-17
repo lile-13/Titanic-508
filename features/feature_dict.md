@@ -38,12 +38,13 @@
 | `MaxAmenity` | 消费最多的项目；无消费时为 __None__ |
 | `IsChild` | 是否 13 岁以下 |
 | `AgeBand` | 年龄段分箱 |
+| `CabinZone` | 舱号区间分箱（0-299/300-599/600-899/900-1199/1200-1499/1500+） |
 
 ## 建模矩阵（`src.preprocess.make_model_matrix`）
 
 - 数值/布尔列（23 个）原样进入
-- 分类列（HomePlanet, Destination, Deck, Side, AgeBand, MaxAmenity）做 one-hot
-- 最终特征维度：**53**
+- 分类列（HomePlanet, Destination, Deck, Side, AgeBand, MaxAmenity, CabinZone）做 one-hot
+- 最终特征维度：**59**
 - indicator 策略会额外纳入原始字段缺失标记（最多 12 列），标签不参与。
 
 ## 折划分（`folds.csv`）
