@@ -28,6 +28,8 @@ https://www.kaggle.com/competitions/spaceship-titanic
 
 交付：数据分析 Notebook、预处理代码、数据质量分析结论。
 
+状态：已完成。见 [成员2交接说明](docs/成员2_数据清洗交接.md)。
+
 ### 成员3：特征工程与消融实验
 - 构造舱位、同行群组、消费和缺失标记等特征。
 - 编写统一的特征生成函数。
@@ -36,6 +38,8 @@ https://www.kaggle.com/competitions/spaceship-titanic
 
 交付：特征生成代码、特征说明、特征增删对比记录。
 
+状态：已完成。见 [成员3交接说明](docs/成员3_特征工程交接.md)。
+
 ### 成员4：独立对照模型与误差分析
 - 使用相同的验证划分，开发随机森林和 LightGBM 对照模型。
 - 分析不同模型在哪些样本上容易出错。
@@ -43,6 +47,8 @@ https://www.kaggle.com/competitions/spaceship-titanic
 - 判断融合是否稳定优于单模型，并提出最终建议。
 
 交付：对照模型代码、误差分析、融合实验记录。
+
+状态：本轮交付已完成并通过2026-10-25复现检查。见 [成员4交接说明](docs/成员4_对照模型与误差分析交接.md)。
 
 ### 共同要求
 - 所有实验使用统一的数据划分与评价指标。
@@ -58,15 +64,18 @@ Titanic-508/
 ├── requirements.txt          依赖版本
 ├── .gitignore
 ├── data/raw/                 原始比赛数据（不上传）
-├── src/                      可复用模块：preprocess.py、paths.py
-├── scripts/                  导出、Notebook 转换与执行工具
+├── src/                      预处理、特征、正式训练与优化模块
+├── scripts/                  训练、搜索、预测、校验和Notebook工具
 ├── notebooks/                已执行的分析 Notebook
 │   └── source/               与 Notebook 配对的分析源码
 ├── features/                 清洗表、统一折划分和特征字典
 ├── reports/
 │   ├── figures/              分析图表
-│   └── experiments/          实验结果 CSV
+│   ├── experiments/          实验配置、结果CSV/JSON与折外预测
+│   └── checks/               数据、模型复现和交付校验记录
 ├── docs/                     团队交接说明
+├── models/                   完整模型（本地忽略）
+├── outputs/                  测试概率和候选提交（本地忽略）
 └── tests/                    回归与集成测试
 ```
 
@@ -88,13 +97,71 @@ Titanic-508/
 ```powershell
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 .\.venv\Scripts\python.exe -m scripts.export_features
+
+# 逻辑回归五折基线（自动生成新的实验名）
+.\.venv\Scripts\python.exe -m scripts.train --model logreg
+
+# CatBoost五折 + 全量训练 + 生成候选提交文件
+.\.venv\Scripts\python.exe -m scripts.train --model catboost --fit-full
 ```
 
 数据放在 data/raw/。正式交叉验证从原始数据构建特征，每折使用 `src.preprocess.prepare_fold_matrices` 独立拟合填补器；`features/train_clean.csv` 仅用于最终全量训练或数据检查。
 
+正式训练入口在 `src/train.py`，同样逐折拟合预处理；CatBoost使用原生类别输入。
+运行步骤、输出文件和源码阅读顺序见 [成员1建模起步](docs/成员1_建模起步.md)。
+
 ## 当前进度
-已完成数据分析与清洗交接，并修正缺失标记入模、组内补缺范围、数据路径和逐折预处理。
-特征工程与消融实验已完成（见 [成员3交接说明](docs/成员3_特征工程交接.md)）：保留
-`CabinZone` 舱号分箱（树模型 +1pp），弃用连续 `CabinNum`（指纹风险）与组内聚合特征；
-建模矩阵由 53 列变为 59 列。模型方案比较见 reports/experiments/；
-最终 CatBoost 开发、调参和比赛提交待完成。
+
+更新日期：**2026-10-25**。三位组员交付检查、本轮80组参数搜索、多种子融合、确认折验证和候选预测复现已完成。当前继续保留原CatBoost为主力；新集成保留作榜分对照，接下来是队友独立复现、实际Kaggle提交与报告。
+
+| 人员 / 阶段 | 状态 | 已有成果或待完成交付 |
+|---|---|---|
+| 成员2：数据分析与清洗 | 已完成 | 四份分析 Notebook、可复用预处理、清洗表、统一五折和交接说明 |
+| 成员3：特征工程与消融 | 已完成 | CabinZone、特征字典、分组消融、候选特征实验和交接说明 |
+| 成员1：核心建模与整合 | 本轮优化与交付完成 | 80组参数试验、冻结融合方案、确认折、45模型集成候选、115条记录复算、完整预测复现和结果报告 |
+| 成员4：对照模型与误差分析 | 本轮交付与模型导出完成 | RF/LightGBM对照、验证概率与误差分析、融合；LightGBM模型和测试概率已补齐并与原提交核对 |
+| 团队：最终复现与提交 | 待完成 | 另一位成员复现、提交文件检查、Kaggle 成绩记录、最终报告 |
+
+原始统一基线接口：默认 `rule_group` 预处理，建模矩阵 **59 列**（原 53 列 + 6 列 CabinZone 编码）。
+连续 `CabinNum` 与成员3的 5 个组内聚合候选不进入该基线矩阵；原有 GroupSize、SurnameSize 等群组特征仍保留。后续优化使用独立特征模块，输入规模与是否纳入候选均以冻结配置为准。
+
+成员3记录的固定 HistGB 五折准确率：无 CabinZone **0.8011**，加入后 **0.8113**（+1.02 个百分点）。
+这是该实验设置下的本地结果，尚不能视为 CatBoost 提升或 Kaggle 成绩；与成员2使用不同模型参数的历史分数也不能直接比较。
+
+下一步由另一位成员从原始数据独立复现，队长进行实际榜分对照，全组按模板整理报告。继续统一使用 `features/folds.csv` 和逐折预处理，所有模型概率按PassengerId关联。
+具体交付要求、检查范围与实验入口见 [项目进度与下一步安排](docs/项目进度.md)。
+
+成员1首版结果（2026-10-18，同一团队五折、默认rule_group）：
+
+| 模型 | 输入形式 | 五折Accuracy均值 ± 标准差 |
+|---|---|---|
+| 逻辑回归 | 59列one-hot，折内标准化 | 0.7954 ± 0.0057 |
+| CatBoost首版 | 同一基础信息的30列原生类别输入 | 0.8163 ± 0.0098 |
+
+每折指标、配置和8693行折外预测保存在 `reports/experiments/training/` 的独立实验目录。
+CatBoost候选提交文件位于 `outputs/catboost_baseline_20261018/submission.csv`（本地忽略），已验证4277行、乘客顺序和True/False标签，并通过保存模型的独立预测复现。
+该结果是原始本地基线；本轮参数对照与候选整合已完成，仍需另一位成员独立复现。当前没有记录实际Kaggle成绩。
+
+2026-10-25检查补充：LightGBM **0.8108 ± 0.0117**，随机森林 **0.7874 ± 0.0076**；CatBoost仍是当前最高的单模型候选。
+固定50/50的CatBoost+LightGBM折外检查为0.8167，仅净改善4个样本，尚不足以认定稳定优于CatBoost。
+依赖文件合并冲突已解除；历史候选脚本已增加空列保护，LightGBM测试概率与完整模型已补齐，见 [代码检查报告](docs/代码检查_20261025.md)。当前15项测试通过。
+
+模型优化的特征、验证协议与完整命令见 [成员1模型优化与复现](docs/成员1_模型优化与复现.md)。
+
+### 本轮优化结论
+
+详见 [模型优化结果](docs/模型优化结果_20261025.md)。
+
+| 评估范围 | 原CatBoost | 冻结集成候选 |
+|---|---:|---:|
+| 本轮相同开发折划分 | 0.8116 | 0.8220 |
+| 本轮保留的确认折5 | 0.8078 | 0.8090 |
+| 团队五折均值 | 0.8163 | 0.8157 |
+
+开发分数参与过参数、权重和阈值选择。第5折历史上用于旧基线，本轮未参与搜索；确认折仅净改善2个样本，按同行组配对bootstrap的准确率差95%区间为[-0.0070,+0.0101]，没有稳定提升的证据。新集成五折均值还略低，因此继续以原CatBoost为主力。
+
+- 主力提交：`outputs/catboost_baseline_20261018/submission.csv`。
+- 集成对照：`outputs/optimization_20261025/submission.csv`；45个模型保存在`models/optimization_20261025/ensemble.joblib`。
+- 两份提交均为4277行。新候选的保存模型已独立重载复现，概率最大差7.8e-16，全部标签一致；证据见`reports/checks/optimization_20261025.json`。
+
+以上均为本地验证结果，尚未上传Kaggle；实际榜分需单独记录。models和outputs按既有规则本地忽略，本轮没有提交或推送GitHub。

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "unit_tests": 15,
+  "unit_test_command": "python -m unittest discover -s tests -v",
+  "fresh_member4_export_smoke": true,
+  "completed_result_report_smoke": true,
+  "smoke_fixtures": "temporary output directory; report fixture reuses baseline probabilities as both methods, expecting zero bootstrap difference",
+  "historical_candidate_guards_passed": true,
+  "raw_data_unchanged": true
+}

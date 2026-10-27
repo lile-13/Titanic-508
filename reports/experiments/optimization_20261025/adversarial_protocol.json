@@ -1,0 +1,7 @@
+{
+  "target": "dataset source: raw train=0, raw test=1; no Transported labels",
+  "folds": "3 StratifiedGroupKFold, GroupId, seed314",
+  "classifier": "LGBM 200 trees,15 leaves,learning_rate.04,min_child40,reg_lambda3",
+  "imputation": "fit on public training features, same transform for both sources",
+  "interpretation": "diagnostic only; lower AUC alone does not guarantee higher competition accuracy"
+}

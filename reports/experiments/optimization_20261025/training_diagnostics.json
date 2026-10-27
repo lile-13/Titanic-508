@@ -1,0 +1,11 @@
+{
+  "training_gap_mean": 0.053319667894004795,
+  "training_accuracy_mean": 0.8690325063108559,
+  "validation_accuracy_mean": 0.8157128384168514,
+  "saved_fold_blocks_reproduce_oof": true,
+  "interpretation": "Post-training diagnostic only; no changes to the frozen plan",
+  "test_labels_changed": 170,
+  "baseline_test_positive_rate": 0.497077390694412,
+  "candidate_test_positive_rate": 0.5157820902501754,
+  "test_probability_correlation": 0.9919655089011736
+}

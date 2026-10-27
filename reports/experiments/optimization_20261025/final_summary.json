@@ -1,0 +1,109 @@
+{
+  "status": "promoted_candidate",
+  "name": "optimization_20261025",
+  "plan": {
+    "name": "optimization_20261025",
+    "locked_at": "2026-10-25T15:09:50.915721+08:00",
+    "members": [
+      {
+        "config": {
+          "family": "catboost",
+          "feature_set": "spend",
+          "strategy": "native",
+          "params": {
+            "iterations": 555,
+            "depth": 6,
+            "learning_rate": 0.03673810683371394,
+            "l2_leaf_reg": 1.5830658087718168,
+            "random_strength": 2.0,
+            "bagging_temperature": 1.7295485509215793,
+            "rsm": 0.8522189062529064,
+            "max_ctr_complexity": 2,
+            "one_hot_max_size": 4,
+            "border_count": 128
+          },
+          "seed": 103
+        },
+        "seeds": [
+          42,
+          2026,
+          103
+        ]
+      },
+      {
+        "config": {
+          "family": "catboost",
+          "feature_set": "rich_names",
+          "strategy": "native",
+          "params": {
+            "iterations": 748,
+            "depth": 5,
+            "learning_rate": 0.03743936483397399,
+            "l2_leaf_reg": 17.795736111078792,
+            "random_strength": 2.0,
+            "bagging_temperature": 1.5902796653821254,
+            "rsm": 0.8862713098571321,
+            "max_ctr_complexity": 2,
+            "one_hot_max_size": 10,
+            "border_count": 128
+          },
+          "seed": 103
+        },
+        "seeds": [
+          42,
+          2026,
+          103
+        ]
+      },
+      {
+        "config": {
+          "family": "lightgbm",
+          "feature_set": "base",
+          "strategy": "rule_group",
+          "params": {
+            "iterations": 327,
+            "learning_rate": 0.04,
+            "num_leaves": 15,
+            "min_child_samples": 30,
+            "reg_alpha": 0.1,
+            "reg_lambda": 3.0
+          },
+          "seed": 103
+        },
+        "seeds": [
+          42,
+          2026,
+          103
+        ]
+      }
+    ],
+    "weights": [
+      0.25,
+      0.25,
+      0.5
+    ],
+    "threshold": 0.5,
+    "development_accuracy": 0.8219985621854781,
+    "development_best_scanned": 0.8219985621854781,
+    "development_baseline": 0.8116455828548477,
+    "confirmation_fold": 5,
+    "note": "Frozen before this round reads confirmation-fold labels for model evaluation"
+  },
+  "confirmation": {
+    "accuracy": 0.80897583429229,
+    "baseline_accuracy": 0.807825086306099,
+    "n": 1738,
+    "promoted": true,
+    "threshold": 0.5,
+    "historical_caveat": "Previously inspected in old baselines; unused for current search"
+  },
+  "selected_oof_mean": 0.8157128384168513,
+  "selected_oof_std": 0.011160284906278867,
+  "oof_accuracy": 0.8157137927067756,
+  "oof_log_loss": 0.3783797642623221,
+  "models": 45,
+  "submitted_to_kaggle": false,
+  "interpretation": "Folds1-4 participated in selection; mean is post-selection, not an unbiased score",
+  "bundle": "E:\\github code\\Titanic\\Titanic-508\\models\\optimization_20261025\\ensemble.joblib",
+  "submission": "E:\\github code\\Titanic\\Titanic-508\\outputs\\optimization_20261025\\submission.csv"
+}

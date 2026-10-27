@@ -1,0 +1,22 @@
+{
+  "name": "optimization_20261025",
+  "development_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "confirmation_fold": 5,
+  "cohort": "public train+test unlabeled features",
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "holdout_history": "Fold 5 appeared in earlier baselines; excluded from this round of selection",
+  "promotion_rule": "dev gain >=0.003 and frozen confirmation >= baseline confirmation minus 0.003",
+  "sources": {
+    "src\\optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src\\competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "primary": "catboost_baseline_20261018",
+  "challenger": "optimization_20261025",
+  "primary_saved_model_reproduced": true,
+  "primary_probability_max_error": 0.0,
+  "challenger_cli_submission_byte_identical": true,
+  "submission_rows": 4277,
+  "unit_tests_passed": 15,
+  "files": {
+    "outputs\\catboost_baseline_20261018\\submission.csv": "bdc9dd198f3092a946deddce4754ee8f0eecfb2e9eb272d30552c2d7ff794542",
+    "outputs\\optimization_20261025\\submission.csv": "270a687c3f9a942dfeedea8aef26af70bd24bb2bac14c3d50a249214c3681c82"
+  }
+}

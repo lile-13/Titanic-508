@@ -96,6 +96,11 @@ def main() -> int:
                        for c in unit(all_cols)})
     old_full = [c for c in all_cols if c not in set(new_cols)]
     units = {name: fn(all_cols) for name, fn in NEW_UNITS.items()}
+    missing = [name for name, cols in units.items() if not cols]
+    if missing:
+        raise RuntimeError(
+            "实验期候选定义未启用：" + ", ".join(missing) +
+            "。不能用空列代替候选或覆盖历史结果。请恢复独立的实验定义；当前优化使用 scripts.optimize。")
     assert set(old_full) | set(new_cols) == set(all_cols), "新旧列未覆盖全部"
     assert not (set(old_full) & set(new_cols)), "新旧列有重叠"
 

@@ -1,0 +1,35 @@
+{
+  "trial": "932c263debf006",
+  "stage": "screen",
+  "config": {
+    "family": "lightgbm",
+    "feature_set": "geo",
+    "strategy": "rule_group",
+    "params": {
+      "iterations": 1800,
+      "learning_rate": 0.04,
+      "num_leaves": 15,
+      "min_child_samples": 30,
+      "reg_alpha": 0.1,
+      "reg_lambda": 3.0
+    },
+    "seed": 42
+  },
+  "folds": [
+    1,
+    2
+  ],
+  "accuracy": 0.8093732029902243,
+  "std": 0.011791889968033322,
+  "log_loss": 0.38702876882627285,
+  "fold_scores": [
+    0.8010350776308223,
+    0.8177113283496262
+  ],
+  "iterations": [
+    233,
+    377
+  ],
+  "seconds": 3.378918800000065,
+  "early_stopping": true
+}

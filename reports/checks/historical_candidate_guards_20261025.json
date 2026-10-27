@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "modules": [
+    "scripts.feature_additions",
+    "scripts.check_cabinnum"
+  ],
+  "historical_csv_sha256": {
+    "reports\\experiments\\feature_additions.csv": "24ae3628374d863c957d4d00b3070be79819f950ae54c6f7c9823d6206d8cbf4"
+  }
+}

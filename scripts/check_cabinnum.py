@@ -90,6 +90,8 @@ def main() -> int:
     va_idx = np.flatnonzero((fold_of == 1).to_numpy())
     Xtr, ytr, Xva, yva = pp.prepare_fold_matrices(features, tr_idx, va_idx,
                                                   strategy="rule_group")
+    if "CabinNum" not in Xtr:
+        raise RuntimeError("当前基线不含连续CabinNum，不能比较两个相同矩阵。请使用独立实验特征定义；上方对抗检验仅作描述。")
     old = [c for c in Xtr.columns if c != "CabinNum"]
     acc_without, acc_with = [], []
     for fold in range(1, 6):

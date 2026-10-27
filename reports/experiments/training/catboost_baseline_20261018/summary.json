@@ -1,0 +1,49 @@
+{
+  "run_name": "catboost_baseline_20261018",
+  "started_at": "2026-10-18T15:58:29.134425+08:00",
+  "config": {
+    "model": "catboost",
+    "strategy": "rule_group",
+    "seed": 42,
+    "threshold": 0.5,
+    "c": 1.0,
+    "iterations": 600,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 5.0,
+    "threads": 2
+  },
+  "encoding": "native_categorical",
+  "accuracy_mean": 0.8162870212964476,
+  "accuracy_std": 0.009752311574472441,
+  "oof_accuracy": 0.8162889681352813,
+  "oof_log_loss": 0.3815766853508588,
+  "n_train": 8693,
+  "n_test": 4277,
+  "fit_full": true,
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "folds_sha256": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe",
+  "source_hashes": {
+    "src/train.py": "993193685271f31698dd0a2356807c4f19c87526e9286775ef0364778c072721",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd"
+  },
+  "versions": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0",
+    "joblib": "1.5.3",
+    "catboost": "1.2.10"
+  },
+  "git_head": "7b30156627a5be6c3ff62b86c3d909d9801e8915",
+  "feature_policy": "train+test unlabeled cohort counts; fold-local imputation/scaling; threshold fixed",
+  "oof_path": "E:\\github code\\Titanic\\Titanic-508\\reports\\experiments\\training\\catboost_baseline_20261018\\oof_predictions.csv",
+  "output_dir": "E:\\github code\\Titanic\\Titanic-508\\outputs\\catboost_baseline_20261018",
+  "model_bundle": "E:\\github code\\Titanic\\Titanic-508\\models\\catboost_baseline_20261018\\bundle.joblib",
+  "full_n_features": 30,
+  "seconds": 79.17020270000012,
+  "status": "completed"
+}

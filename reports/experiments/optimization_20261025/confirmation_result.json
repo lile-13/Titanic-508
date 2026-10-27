@@ -1,0 +1,8 @@
+{
+  "accuracy": 0.80897583429229,
+  "baseline_accuracy": 0.807825086306099,
+  "n": 1738,
+  "promoted": true,
+  "threshold": 0.5,
+  "historical_caveat": "Previously inspected in old baselines; unused for current search"
+}

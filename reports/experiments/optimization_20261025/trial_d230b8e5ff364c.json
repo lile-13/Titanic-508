@@ -1,0 +1,46 @@
+{
+  "trial": "d230b8e5ff364c",
+  "stage": "tune",
+  "config": {
+    "family": "lightgbm",
+    "feature_set": "rich_noid",
+    "strategy": "native",
+    "params": {
+      "iterations": 2500,
+      "learning_rate": 0.03428805877570358,
+      "num_leaves": 23,
+      "min_child_samples": 15,
+      "reg_alpha": 0.21049545991642998,
+      "reg_lambda": 2.459081465996966,
+      "colsample_bytree": 0.8,
+      "subsample": 0.85,
+      "subsample_freq": 1,
+      "max_bin": 127,
+      "extra_trees": true
+    },
+    "seed": 42
+  },
+  "folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "accuracy": 0.8089127218200742,
+  "std": 0.011146594033563271,
+  "log_loss": 0.3916249961150714,
+  "fold_scores": [
+    0.8033352501437608,
+    0.8223116733755031,
+    0.8131109833237493,
+    0.7968929804372842
+  ],
+  "iterations": [
+    254,
+    253,
+    263,
+    349
+  ],
+  "seconds": 2.088455199999771,
+  "early_stopping": true
+}

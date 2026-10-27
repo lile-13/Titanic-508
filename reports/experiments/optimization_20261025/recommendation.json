@@ -1,0 +1,9 @@
+{
+  "primary": "catboost_baseline_20261018",
+  "challenger": "optimization_20261025",
+  "primary_submission": "outputs/catboost_baseline_20261018/submission.csv",
+  "challenger_submission": "outputs/optimization_20261025/submission.csv",
+  "reason": "Challenger canonical OOF mean is lower; frozen confirmation net gain is 2 samples; see paired group-bootstrap interval",
+  "interpretation": "Candidate-generation gate passed; this is not automatic replacement of the incumbent. Frozen models unchanged.",
+  "kaggle_score_available": false
+}

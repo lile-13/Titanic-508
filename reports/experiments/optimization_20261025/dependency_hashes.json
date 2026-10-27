@@ -1,0 +1,6 @@
+{
+  "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+  "src/train.py": "e919778b15eb0eb3f9463cf6d3ab1402e280ff6529956f421302c66a53ff448f",
+  "src/paths.py": "49030c85c7bb29c9328dc425272dc62d6c589fde15b2e724f834ab1af0bbbe1b",
+  "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe"
+}

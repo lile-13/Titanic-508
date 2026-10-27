@@ -1,0 +1,45 @@
+{
+  "trial": "762f87fe1e0876",
+  "stage": "confirmation",
+  "config": {
+    "family": "catboost",
+    "feature_set": "rich_names",
+    "strategy": "native",
+    "params": {
+      "iterations": 748,
+      "depth": 5,
+      "learning_rate": 0.03743936483397399,
+      "l2_leaf_reg": 17.795736111078792,
+      "random_strength": 2.0,
+      "bagging_temperature": 1.5902796653821254,
+      "rsm": 0.8862713098571321,
+      "max_ctr_complexity": 2,
+      "one_hot_max_size": 10,
+      "border_count": 128
+    },
+    "seed": 2026
+  },
+  "folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "accuracy": 0.8156732008065162,
+  "std": 0.007217445497195367,
+  "log_loss": 0.3874992834582269,
+  "fold_scores": [
+    0.8062104657849338,
+    0.81943645773433,
+    0.8142610695802185,
+    0.8227848101265823
+  ],
+  "iterations": [
+    748,
+    748,
+    748,
+    748
+  ],
+  "seconds": 49.26103400000011,
+  "early_stopping": false
+}

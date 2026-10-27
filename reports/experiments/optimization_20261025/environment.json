@@ -1,0 +1,25 @@
+{
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "joblib": "1.5.3"
+  },
+  "threads": "main/default4; auxiliary workers4,4,3; BLAS1 per process",
+  "search_seeds": [
+    20261025,
+    20261026
+  ],
+  "learner_seed": 42,
+  "ensemble_seeds": [
+    42,
+    2026,
+    103
+  ],
+  "parallel_schedule": "Original deterministic 32-config plan; auxiliary zero-based ranges [16,24), [24,32), [12,16), in reverse; existing completed configs reused."
+}

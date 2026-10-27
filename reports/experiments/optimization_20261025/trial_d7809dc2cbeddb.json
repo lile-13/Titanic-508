@@ -1,0 +1,41 @@
+{
+  "trial": "d7809dc2cbeddb",
+  "stage": "profile",
+  "config": {
+    "family": "lightgbm",
+    "feature_set": "base",
+    "strategy": "rule_group",
+    "params": {
+      "iterations": 1800,
+      "learning_rate": 0.04,
+      "num_leaves": 15,
+      "min_child_samples": 30,
+      "reg_alpha": 0.1,
+      "reg_lambda": 3.0
+    },
+    "seed": 42
+  },
+  "folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "accuracy": 0.8163893577979223,
+  "std": 0.01216637447114514,
+  "log_loss": 0.3826585968358553,
+  "fold_scores": [
+    0.8125359401955147,
+    0.8332374928119609,
+    0.8154111558366878,
+    0.8043728423475259
+  ],
+  "iterations": [
+    396,
+    374,
+    281,
+    268
+  ],
+  "seconds": 1.2659333000001425,
+  "early_stopping": true
+}

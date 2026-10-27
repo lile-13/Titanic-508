@@ -1,0 +1,12 @@
+{
+  "unit": "GroupId",
+  "resamples": 3000,
+  "seed": 20261025,
+  "confirmation_groups": 1250,
+  "accuracy_difference": 0.0011507479861910808,
+  "percentile_95_lower": -0.007001371334474749,
+  "percentile_95_upper": 0.010120165160926035,
+  "fixed_errors": 32,
+  "newly_wrong": 30,
+  "interpretation": "paired group bootstrap of frozen confirmation only; fold appeared in historical baselines"
+}

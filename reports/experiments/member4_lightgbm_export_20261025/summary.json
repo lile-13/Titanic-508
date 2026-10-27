@@ -1,0 +1,39 @@
+{
+  "model": "LightGBM",
+  "feature_count": 59,
+  "test_rows": 4277,
+  "params": {
+    "boosting_type": "gbdt",
+    "class_weight": null,
+    "colsample_bytree": 1.0,
+    "importance_type": "split",
+    "learning_rate": 0.05,
+    "max_depth": -1,
+    "min_child_samples": 20,
+    "min_child_weight": 0.001,
+    "min_split_gain": 0.0,
+    "n_estimators": 300,
+    "n_jobs": 2,
+    "num_leaves": 15,
+    "objective": null,
+    "random_state": 42,
+    "reg_alpha": 0.0,
+    "reg_lambda": 0.0,
+    "subsample": 1.0,
+    "subsample_for_bin": 200000,
+    "subsample_freq": 0,
+    "verbosity": -1
+  },
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "notebook_sha256": "30102a7627ae5fecaf0d3d9e089dd7129c621f95e0320b5b61d1492c215b8359",
+  "matches_original_suggested_submission": true,
+  "saved_model_predictions_reproduced": true,
+  "bundle": "E:\\github code\\Titanic\\Titanic-508\\models\\member4_lightgbm_export_20261025\\bundle.joblib",
+  "output": "E:\\github code\\Titanic\\Titanic-508\\outputs\\member4_lightgbm_export_20261025",
+  "submitted_to_kaggle": false,
+  "note": "Model reload and original 4277 labels verified; original in-memory probabilities also matched before export-directory creation was repaired."
+}

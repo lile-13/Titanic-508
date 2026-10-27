@@ -1,0 +1,20 @@
+{
+  "name": "optimization_20261025",
+  "status": "promoted_candidate",
+  "trials_checked": 115,
+  "protocol_sources_match": true,
+  "data_hashes_match": true,
+  "dependency_hashes_match": true,
+  "search_metrics_match": true,
+  "confirmation_not_scored_in_search": true,
+  "frozen_plan_matches": true,
+  "oof_rows": 8693,
+  "submission_rows": 4277,
+  "model_count": 45,
+  "weight_sum": 1.0,
+  "max_probability_reproduction_error": 7.771561172376096e-16,
+  "submission_reproduced": true,
+  "oof_metrics_match": true,
+  "submission_sha256": "270a687c3f9a942dfeedea8aef26af70bd24bb2bac14c3d50a249214c3681c82",
+  "passed": true
+}

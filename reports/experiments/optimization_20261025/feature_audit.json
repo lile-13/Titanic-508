@@ -1,0 +1,14 @@
+{
+  "full_data_target_flip_does_not_change_features": true,
+  "public_pool_rows": 12970,
+  "train_rows": 8693,
+  "test_rows": 4277,
+  "fold_sizes": {
+    "1": 1739,
+    "2": 1739,
+    "3": 1739,
+    "4": 1738,
+    "5": 1738
+  },
+  "profile_count": 9
+}

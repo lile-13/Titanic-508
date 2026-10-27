@@ -1,0 +1,88 @@
+{
+  "name": "optimization_20261025",
+  "locked_at": "2026-10-25T15:09:50.915721+08:00",
+  "members": [
+    {
+      "config": {
+        "family": "catboost",
+        "feature_set": "spend",
+        "strategy": "native",
+        "params": {
+          "iterations": 555,
+          "depth": 6,
+          "learning_rate": 0.03673810683371394,
+          "l2_leaf_reg": 1.5830658087718168,
+          "random_strength": 2.0,
+          "bagging_temperature": 1.7295485509215793,
+          "rsm": 0.8522189062529064,
+          "max_ctr_complexity": 2,
+          "one_hot_max_size": 4,
+          "border_count": 128
+        },
+        "seed": 103
+      },
+      "seeds": [
+        42,
+        2026,
+        103
+      ]
+    },
+    {
+      "config": {
+        "family": "catboost",
+        "feature_set": "rich_names",
+        "strategy": "native",
+        "params": {
+          "iterations": 748,
+          "depth": 5,
+          "learning_rate": 0.03743936483397399,
+          "l2_leaf_reg": 17.795736111078792,
+          "random_strength": 2.0,
+          "bagging_temperature": 1.5902796653821254,
+          "rsm": 0.8862713098571321,
+          "max_ctr_complexity": 2,
+          "one_hot_max_size": 10,
+          "border_count": 128
+        },
+        "seed": 103
+      },
+      "seeds": [
+        42,
+        2026,
+        103
+      ]
+    },
+    {
+      "config": {
+        "family": "lightgbm",
+        "feature_set": "base",
+        "strategy": "rule_group",
+        "params": {
+          "iterations": 327,
+          "learning_rate": 0.04,
+          "num_leaves": 15,
+          "min_child_samples": 30,
+          "reg_alpha": 0.1,
+          "reg_lambda": 3.0
+        },
+        "seed": 103
+      },
+      "seeds": [
+        42,
+        2026,
+        103
+      ]
+    }
+  ],
+  "weights": [
+    0.25,
+    0.25,
+    0.5
+  ],
+  "threshold": 0.5,
+  "development_accuracy": 0.8219985621854781,
+  "development_best_scanned": 0.8219985621854781,
+  "development_baseline": 0.8116455828548477,
+  "confirmation_fold": 5,
+  "note": "Frozen before this round reads confirmation-fold labels for model evaluation"
+}

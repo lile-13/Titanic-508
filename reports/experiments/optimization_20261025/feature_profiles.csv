@@ -1,0 +1,10 @@
+﻿features,strategy,total_columns,categorical_columns,train_rows,validation_rows,confirmation_training_rows,train_missing_cells
+base,rule_group,30,7,5216,1739,0,0
+geo,rule_group,40,10,5216,1739,0,123
+rich,rule_group,80,11,5216,1739,0,11062
+rich_noid,rule_group,79,11,5216,1739,0,11062
+base,native,30,9,5216,1739,0,432
+spend,native,61,9,5216,1739,0,11859
+rich,native,80,13,5216,1739,0,12309
+rich_noid,native,79,13,5216,1739,0,12309
+rich_names,native,81,14,5216,1739,0,12309

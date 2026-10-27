@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-25",
+  "status": "passed",
+  "code_cells": 9,
+  "thread_limit": 2,
+  "note": "Temporary output directories; original deliverables preserved",
+  "max_numeric_difference": {
+    "member4_model_comparison.csv": 0,
+    "member4_model_summary.csv": 0,
+    "member4_fusion_experiment.csv": 0,
+    "member4_suggested_submission.csv": 0
+  }
+}
