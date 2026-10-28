@@ -1,0 +1,20 @@
+{
+  "profile": 7,
+  "config": {
+    "family": "monotone",
+    "mode": "compact",
+    "variant": 3,
+    "positive": true,
+    "resolve_planet": true
+  },
+  "seed": 42,
+  "fold_scores": [
+    0.8010350776308223,
+    0.8297872340425532,
+    0.8125359401955147,
+    0.8130034522439585
+  ],
+  "accuracy": 0.8140905823148814,
+  "log_loss": 0.39084930755958514,
+  "seconds": 4.153475200000685
+}

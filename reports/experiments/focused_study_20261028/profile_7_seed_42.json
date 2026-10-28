@@ -1,0 +1,19 @@
+{
+  "profile": 7,
+  "config": {
+    "family": "xgboost",
+    "mode": "physical",
+    "variant": 1,
+    "resolve_planet": true
+  },
+  "seed": 42,
+  "fold_scores": [
+    0.8021851638872916,
+    0.8188614146060954,
+    0.8004600345025877,
+    0.8026467203682394
+  ],
+  "accuracy": 0.806038820992092,
+  "log_loss": 0.40083153147684075,
+  "seconds": 3.0680558000003657
+}

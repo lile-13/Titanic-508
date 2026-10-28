@@ -1,0 +1,38 @@
+{
+  "profile": 5,
+  "config": {
+    "family": "mlp",
+    "mode": "physical",
+    "variant": 4,
+    "resolve_planet": true
+  },
+  "weight": 0.25,
+  "threshold": 0.5,
+  "seeds": [
+    42,
+    2026,
+    103
+  ],
+  "development": {
+    "profile": 5,
+    "new_weight": 0.25,
+    "accuracy": 0.8184040258806614,
+    "log_loss": 0.38004182846112816,
+    "fold_scores": [
+      0.8085106382978723,
+      0.828637147786084,
+      0.8223116733755031,
+      0.8141542002301496
+    ],
+    "fold_gains": [
+      -0.00517538815411156,
+      -0.0034502587694076325,
+      0.0005750431282346424,
+      -0.006329113924050667
+    ],
+    "improved_folds": 1
+  },
+  "incumbent_accuracy": 0.8219985621854781,
+  "incumbent_log_loss": 0.3795288431348585,
+  "initial_gate_passed": false
+}

@@ -1,0 +1,20 @@
+{
+  "profile": 13,
+  "config": {
+    "family": "expert_cat",
+    "mode": "location",
+    "variant": 1,
+    "expert_weight": 0.75,
+    "resolve_planet": true
+  },
+  "seed": 42,
+  "fold_scores": [
+    0.8136860264519838,
+    0.8228867165037378,
+    0.8090856814261069,
+    0.8060989643268124
+  ],
+  "accuracy": 0.8129403306973401,
+  "log_loss": 0.38238277601027026,
+  "seconds": 160.70379479999974
+}

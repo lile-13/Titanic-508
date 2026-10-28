@@ -1,0 +1,33 @@
+{
+  "status": "no_candidate",
+  "frozen": {
+    "weights": [
+      0.4,
+      0.15,
+      0.44999999999999996
+    ],
+    "threshold": 0.5,
+    "development": {
+      "weights": [
+        0.4,
+        0.15,
+        0.44999999999999996
+      ],
+      "accuracy": 0.822861250898634,
+      "log_loss": 0.37959538188117414,
+      "fold_gains": [
+        0.0011500862564692849,
+        -0.0005750431282345314,
+        0.0011500862564692849,
+        0.0017261219792864546
+      ],
+      "improved_folds": 3,
+      "distance_from_original": 0.18708286933869708
+    },
+    "incumbent_accuracy": 0.8219985621854781,
+    "incumbent_log_loss": 0.3795288431348585,
+    "initial_gate_passed": false
+  },
+  "kaggle_score": null,
+  "reason": "Predeclared development gate not met"
+}

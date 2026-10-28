@@ -1,0 +1,20 @@
+{
+  "profile": 11,
+  "config": {
+    "family": "expert_lgb",
+    "mode": "location",
+    "variant": 1,
+    "expert_weight": 1.0,
+    "resolve_planet": true
+  },
+  "seed": 42,
+  "fold_scores": [
+    0.7993099482461185,
+    0.8223116733755031,
+    0.8073605520414031,
+    0.8060989643268124
+  ],
+  "accuracy": 0.8087706685837527,
+  "log_loss": 0.39231904225930747,
+  "seconds": 4.332789000000048
+}

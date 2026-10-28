@@ -1,0 +1,253 @@
+{
+  "name": "neural_study_20261028",
+  "profiles": [
+    {
+      "family": "mlp",
+      "mode": "compact",
+      "variant": 0,
+      "resolve_planet": true
+    },
+    {
+      "family": "mlp",
+      "mode": "compact",
+      "variant": 1,
+      "resolve_planet": true
+    },
+    {
+      "family": "mlp",
+      "mode": "compact",
+      "variant": 2,
+      "resolve_planet": true
+    },
+    {
+      "family": "mlp",
+      "mode": "compact",
+      "variant": 3,
+      "resolve_planet": true
+    },
+    {
+      "family": "mlp",
+      "mode": "spend_location",
+      "variant": 4,
+      "resolve_planet": true
+    },
+    {
+      "family": "mlp",
+      "mode": "physical",
+      "variant": 4,
+      "resolve_planet": true
+    }
+  ],
+  "parameters": [
+    {
+      "activation": "relu",
+      "alpha": 0.1,
+      "batch_size": 128,
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "early_stopping": false,
+      "epsilon": 1e-08,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "learning_rate": "constant",
+      "learning_rate_init": 0.001,
+      "max_fun": 15000,
+      "max_iter": 300,
+      "momentum": 0.9,
+      "n_iter_no_change": 301,
+      "nesterovs_momentum": true,
+      "power_t": 0.5,
+      "random_state": 42,
+      "shuffle": true,
+      "solver": "adam",
+      "tol": 0.0,
+      "validation_fraction": 0.1,
+      "verbose": false,
+      "warm_start": false
+    },
+    {
+      "activation": "relu",
+      "alpha": 1.0,
+      "batch_size": 128,
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "early_stopping": false,
+      "epsilon": 1e-08,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "learning_rate": "constant",
+      "learning_rate_init": 0.001,
+      "max_fun": 15000,
+      "max_iter": 300,
+      "momentum": 0.9,
+      "n_iter_no_change": 301,
+      "nesterovs_momentum": true,
+      "power_t": 0.5,
+      "random_state": 42,
+      "shuffle": true,
+      "solver": "adam",
+      "tol": 0.0,
+      "validation_fraction": 0.1,
+      "verbose": false,
+      "warm_start": false
+    },
+    {
+      "activation": "tanh",
+      "alpha": 0.1,
+      "batch_size": 128,
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "early_stopping": false,
+      "epsilon": 1e-08,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "learning_rate": "constant",
+      "learning_rate_init": 0.001,
+      "max_fun": 15000,
+      "max_iter": 300,
+      "momentum": 0.9,
+      "n_iter_no_change": 301,
+      "nesterovs_momentum": true,
+      "power_t": 0.5,
+      "random_state": 42,
+      "shuffle": true,
+      "solver": "adam",
+      "tol": 0.0,
+      "validation_fraction": 0.1,
+      "verbose": false,
+      "warm_start": false
+    },
+    {
+      "activation": "tanh",
+      "alpha": 1.0,
+      "batch_size": 128,
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "early_stopping": false,
+      "epsilon": 1e-08,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "learning_rate": "constant",
+      "learning_rate_init": 0.001,
+      "max_fun": 15000,
+      "max_iter": 300,
+      "momentum": 0.9,
+      "n_iter_no_change": 301,
+      "nesterovs_momentum": true,
+      "power_t": 0.5,
+      "random_state": 42,
+      "shuffle": true,
+      "solver": "adam",
+      "tol": 0.0,
+      "validation_fraction": 0.1,
+      "verbose": false,
+      "warm_start": false
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.5,
+      "batch_size": 128,
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "early_stopping": false,
+      "epsilon": 1e-08,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "learning_rate": "constant",
+      "learning_rate_init": 0.001,
+      "max_fun": 15000,
+      "max_iter": 300,
+      "momentum": 0.9,
+      "n_iter_no_change": 301,
+      "nesterovs_momentum": true,
+      "power_t": 0.5,
+      "random_state": 42,
+      "shuffle": true,
+      "solver": "adam",
+      "tol": 0.0,
+      "validation_fraction": 0.1,
+      "verbose": false,
+      "warm_start": false
+    },
+    {
+      "activation": "relu",
+      "alpha": 0.5,
+      "batch_size": 128,
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "early_stopping": false,
+      "epsilon": 1e-08,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "learning_rate": "constant",
+      "learning_rate_init": 0.001,
+      "max_fun": 15000,
+      "max_iter": 300,
+      "momentum": 0.9,
+      "n_iter_no_change": 301,
+      "nesterovs_momentum": true,
+      "power_t": 0.5,
+      "random_state": 42,
+      "shuffle": true,
+      "solver": "adam",
+      "tol": 0.0,
+      "validation_fraction": 0.1,
+      "verbose": false,
+      "warm_start": false
+    }
+  ],
+  "xgboost_version": "3.4.1",
+  "development_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "excluded_fold": 5,
+  "seeds": [
+    42,
+    2026,
+    103
+  ],
+  "weights": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "threshold": 0.5,
+  "gate": "Three-seed development accuracy gain >= .001 and logloss deterioration <= .002; improvement in >=3/4 fixed folds. Then changed-partition sensitivity check: gain >=0 and logloss deterioration <= .002. No adjustments after either check.",
+  "sensitivity_seed": 20261029,
+  "sensitivity_folds": 4,
+  "epoch_selection": "GroupShuffleSplit test_size .18 inside each outer training set; max 300 epochs, patience 30, then refit all outer training rows at chosen epoch",
+  "context": "Public unlabeled train+test pool for consistent surname/deck HomePlanet lookup; target never enters lookup",
+  "caveat": "All folds are historically inspected. Repartitioning checks sensitivity, not independent blind validation. Initial diagnostic included historical full OOF.",
+  "sources": {
+    "scripts/neural_study.py": "6436fb3c9a5bc07f97da34a2d679014814d4d4208612a644aeea4913a3a4c80f",
+    "src/neural_models.py": "956dc2aed942c222a93c3dffe97dfba45bed19996bd3686bb35b19dcea4d308c",
+    "src/diversity_features.py": "8c94c7f7bb5758b1ff7011de03845a6a72c929b363dfc644e446bb7350e714fd",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe",
+    "requirements.txt": "d93f85648a061be92cae2990a255036c3844afe48a26d75463dad4012aae8f6d"
+  },
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  }
+}

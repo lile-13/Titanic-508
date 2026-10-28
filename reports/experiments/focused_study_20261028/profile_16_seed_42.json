@@ -1,0 +1,19 @@
+{
+  "profile": 16,
+  "config": {
+    "family": "lightgbm",
+    "mode": "location",
+    "variant": 0,
+    "resolve_planet": true
+  },
+  "seed": 42,
+  "fold_scores": [
+    0.8056354226566993,
+    0.8263369752731455,
+    0.8102357676825762,
+    0.8072497123130035
+  ],
+  "accuracy": 0.8123652048885693,
+  "log_loss": 0.38162286960816627,
+  "seconds": 2.56900609999866
+}

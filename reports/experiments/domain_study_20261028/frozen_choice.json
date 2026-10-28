@@ -1,0 +1,39 @@
+{
+  "profile": 9,
+  "config": {
+    "family": "expert_lgb",
+    "mode": "location",
+    "variant": 0,
+    "expert_weight": 1.0,
+    "resolve_planet": true
+  },
+  "weight": 0.25,
+  "threshold": 0.5,
+  "seeds": [
+    42,
+    2026,
+    103
+  ],
+  "development": {
+    "profile": 9,
+    "new_weight": 0.25,
+    "accuracy": 0.8212796549245147,
+    "log_loss": 0.37781161350493114,
+    "fold_scores": [
+      0.8136860264519838,
+      0.8297872340425532,
+      0.8246118458884416,
+      0.8170310701956272
+    ],
+    "fold_gains": [
+      0.0,
+      -0.0023001725129384587,
+      0.002875215641173101,
+      -0.0034522439585731313
+    ],
+    "improved_folds": 1
+  },
+  "incumbent_accuracy": 0.8219985621854781,
+  "incumbent_log_loss": 0.3795288431348585,
+  "initial_gate_passed": false
+}

@@ -1,0 +1,43 @@
+{
+  "status": "no_candidate",
+  "frozen": {
+    "profile": 12,
+    "config": {
+      "family": "catboost",
+      "mode": "spend_location",
+      "variant": 0,
+      "resolve_planet": true
+    },
+    "weight": 0.25,
+    "threshold": 0.5,
+    "seeds": [
+      42,
+      2026,
+      103
+    ],
+    "development": {
+      "profile": 12,
+      "new_weight": 0.25,
+      "accuracy": 0.818979151689432,
+      "log_loss": 0.37862166750800297,
+      "fold_scores": [
+        0.8102357676825762,
+        0.8292121909143185,
+        0.8188614146060954,
+        0.8176064441887226
+      ],
+      "fold_gains": [
+        -0.0034502587694076325,
+        -0.002875215641173101,
+        -0.002875215641173101,
+        -0.0028768699654776464
+      ],
+      "improved_folds": 0
+    },
+    "incumbent_accuracy": 0.8219985621854781,
+    "incumbent_log_loss": 0.3795288431348585,
+    "initial_gate_passed": false
+  },
+  "kaggle_score": null,
+  "reason": "Predeclared initial gate not met; preserve observed Kaggle best 0.81108"
+}

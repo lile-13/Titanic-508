@@ -1,0 +1,19 @@
+{
+  "profile": 4,
+  "config": {
+    "family": "mlp",
+    "mode": "spend_location",
+    "variant": 4,
+    "resolve_planet": true
+  },
+  "seed": 42,
+  "fold_scores": [
+    0.7993099482461185,
+    0.8090856814261069,
+    0.7935595169637722,
+    0.7991944764096662
+  ],
+  "accuracy": 0.8002875629043853,
+  "log_loss": 0.4094216322153629,
+  "seconds": 8.922888900000544
+}

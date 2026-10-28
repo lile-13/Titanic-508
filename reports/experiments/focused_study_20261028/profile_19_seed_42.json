@@ -1,0 +1,19 @@
+{
+  "profile": 19,
+  "config": {
+    "family": "lightgbm",
+    "mode": "physical",
+    "variant": 1,
+    "resolve_planet": true
+  },
+  "seed": 42,
+  "fold_scores": [
+    0.80448533640023,
+    0.8343875790684301,
+    0.8131109833237493,
+    0.7997698504027618
+  ],
+  "accuracy": 0.8129403306973401,
+  "log_loss": 0.3830866186305211,
+  "seconds": 3.3817822000019078
+}

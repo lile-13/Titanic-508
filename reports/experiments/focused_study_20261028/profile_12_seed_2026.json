@@ -1,0 +1,19 @@
+{
+  "profile": 12,
+  "config": {
+    "family": "catboost",
+    "mode": "spend_location",
+    "variant": 0,
+    "resolve_planet": true
+  },
+  "seed": 2026,
+  "fold_scores": [
+    0.8039102932719954,
+    0.81943645773433,
+    0.8108108108108109,
+    0.8135788262370541
+  ],
+  "accuracy": 0.8119338605319913,
+  "log_loss": 0.38185197640047874,
+  "seconds": 60.923766399999295
+}
