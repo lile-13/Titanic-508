@@ -1,0 +1,126 @@
+{
+  "name": "diversity_study_20261028",
+  "profiles": [
+    {
+      "family": "svm",
+      "features": "base",
+      "C": 1.0,
+      "gamma": 0.02
+    },
+    {
+      "family": "svm",
+      "features": "base",
+      "C": 4.0,
+      "gamma": 0.02
+    },
+    {
+      "family": "svm",
+      "features": "base",
+      "C": 12.0,
+      "gamma": 0.02
+    },
+    {
+      "family": "svm",
+      "features": "base",
+      "C": 4.0,
+      "gamma": 0.06
+    },
+    {
+      "family": "svm",
+      "features": "spend",
+      "C": 4.0,
+      "gamma": 0.02
+    },
+    {
+      "family": "svm",
+      "features": "spend",
+      "C": 12.0,
+      "gamma": 0.02
+    },
+    {
+      "family": "extra",
+      "features": "spend",
+      "min_samples_leaf": 3
+    },
+    {
+      "family": "extra",
+      "features": "spend",
+      "min_samples_leaf": 8
+    },
+    {
+      "family": "hist",
+      "features": "spend",
+      "max_leaf_nodes": 15,
+      "l2_regularization": 5.0
+    },
+    {
+      "family": "hist",
+      "features": "spend",
+      "max_leaf_nodes": 31,
+      "l2_regularization": 10.0
+    },
+    {
+      "family": "ordered",
+      "features": "spend",
+      "depth": 5,
+      "l2_leaf_reg": 6.0
+    },
+    {
+      "family": "ordered",
+      "features": "rich_names",
+      "depth": 6,
+      "l2_leaf_reg": 12.0
+    },
+    {
+      "family": "lossguide",
+      "features": "spend",
+      "max_leaves": 15,
+      "l2_leaf_reg": 6.0
+    },
+    {
+      "family": "lossguide",
+      "features": "rich_names",
+      "max_leaves": 31,
+      "l2_leaf_reg": 12.0
+    }
+  ],
+  "development_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "excluded_fold": 5,
+  "seeds": [
+    42,
+    2026,
+    103
+  ],
+  "mixture_weights": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "threshold": 0.5,
+  "selection": "Top two configurations repeated with three seeds; require accuracy gain >= .0015 and logloss deterioration <= .002 over frozen incumbent",
+  "fixed_model_parameters": {
+    "catboost_iterations": 800,
+    "catboost_lr": 0.035,
+    "extra_trees": 600,
+    "hist_iterations": 450,
+    "hist_lr": 0.045,
+    "svm_calibration": "3-fold GroupKFold, sigmoid"
+  },
+  "caveat": "Additional development on historically inspected folds, not a fresh blind holdout",
+  "sources": {
+    "scripts/diversity_study.py": "f48f947de261c355e361c3eeaf34732e8d70e930d20cf352d61f5b88904f4898",
+    "src/diversity_features.py": "8c94c7f7bb5758b1ff7011de03845a6a72c929b363dfc644e446bb7350e714fd",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c"
+  },
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  }
+}

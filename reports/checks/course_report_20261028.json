@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "date": "2026-10-28",
+  "report": "outputs/delivery_20261028_4690/大作业综合报告-待填班级-待填学号-待填姓名.docx",
+  "report_sha256": "92327e0535ffef84db1343e282830b1861d945e2c04dd131730b0f9388e48618",
+  "pages": 13,
+  "rendered_with": "packaged render_docx.py with native Microsoft Word PDF fallback",
+  "inspected_every_page_at_original_resolution": true,
+  "section_geometry_preserved": true,
+  "broken_bookmarks_removed": true,
+  "grade_cells_blank": true,
+  "personal_fields": "user will fill",
+  "team_status": "four-person team confirmed by user; screenshot pending",
+  "original_reference_sha256": "c1746b7bc73f2d21edec6efe6177f510523abbe4eff6cbd2e3826b7a6012557e",
+  "tests_passed": 19,
+  "test_command": "python -m unittest discover -s tests -v"
+}

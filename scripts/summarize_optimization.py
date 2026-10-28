@@ -119,8 +119,39 @@ def summarize(name):
               "翻转全部训练标签后派生特征完全不变。3折分组LightGBM对抗验证中，基础、消费、姓名丰富方案AUC均约0.50；"
               "这是指定诊断器没有发现明显来源指纹，不能证明所有分布偏移都不存在。设置不同，不能与成员2旧AUC直接比较。",
               "历史候选脚本已增加空列保护，防止把不存在的特征当作基线重复训练并覆盖旧结果。",
-              "本轮未上传Kaggle，未产生实际榜分，未提交或推送GitHub；模板原件未修改。", "",
-              "下一步：由另一位成员从原始数据复现；队长先提交原CatBoost主力文件，再用冻结集成文件做榜分对照并记录；报告引用保留折与选择后OOF时注明不同含义。"]
+              "本地模型实验阶段为2026-10-25；后续代码同步与平台提交进展见项目进度及Kaggle提交记录。", "",
+              "下一步：由另一位成员从原始数据复现，并将已取得的平台评分及模型对照写入课程报告。报告引用保留折与选择后OOF时注明不同含义。"]
+    ledger_path = EXPERIMENTS_DIR / "kaggle_submissions.json"
+    if ledger_path.exists():
+        ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
+        baseline_name = "catboost_baseline_20261018"
+        scored = {r["model_run"]: r for r in ledger.get("submissions", [])
+                  if r.get("status") == "Complete" and isinstance(r.get("score"), (int, float))
+                  and r.get("model_run") in [baseline_name, name]}
+        if baseline_name in scored and name in scored:
+            best = max(scored, key=lambda run: scored[run]["score"])
+            other = baseline_name if best == name else name
+            date = max(r["observed_on"] for r in scored.values())
+            gap = scored[name]["score"] - scored[baseline_name]["score"]
+            best_label = "冻结集成" if best == name else "原CatBoost"
+            lines = [line.replace("**当前建议：继续保留原CatBoost为主力。", "**10月25日本地验证后的建议：保留原CatBoost为主力。") for line in lines]
+            lines[2:2] = [f"**{date}平台验证更新：当前两次提交中以{best_label}得分最高，作为当前平台最佳候选。**", "",
+                           "| 方案 | Kaggle得分 |", "|---|---:|",
+                           f"| 原CatBoost | {scored[baseline_name]['score']:.5f} |",
+                           f"| 冻结集成 | {scored[name]['score']:.5f} |", "",
+                           f"集成相对基线的得分差为{gap:+.5f}，即{gap*100:+.3f}个百分点。来源为用户提供的成功提交截图。",
+                           "本地五折排序与这次平台排序不同；保留原始验证分数。两次平台结果不构成跨数据集稳定提升的证明。", "",
+                           "完整截图与文件记录见[Kaggle提交记录](Kaggle提交记录.md)。以下保留原本地实验过程与判断依据。", ""]
+            recommendation_path = directory / "recommendation.json"
+            local = json.loads(recommendation_path.read_text(encoding="utf-8")) if recommendation_path.exists() else None
+            _write_json(recommendation_path,
+                        dict(primary=best, challenger=other,
+                             primary_submission=f"outputs/{best}/submission.csv",
+                             challenger_submission=f"outputs/{other}/submission.csv",
+                             reason=f"Higher displayed Kaggle score among two screenshot-confirmed submissions: {scored[best]['score']:.5f} vs {scored[other]['score']:.5f}",
+                             interpretation="Current platform-best candidate; local validation results and frozen models are unchanged; not a significance claim",
+                             kaggle_score_available=True, observed_on=date,
+                             local_recommendation_before_kaggle=local))
     path = PROJECT_ROOT / "docs" / "模型优化结果_20261025.md"
     path.write_text("\n".join(lines)+"\n", encoding="utf-8")
     print(path)

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "competition": "spaceship-titanic",
+  "submissions": [
+    {
+      "id": "catboost_20261027_080313",
+      "model_run": "catboost_baseline_20261018",
+      "status": "Complete",
+      "observed_on": "2026-10-27",
+      "submitted_at": null,
+      "uploaded_filename": "submission4690.csv",
+      "account_as_displayed": "Litianle4690",
+      "score": 0.80313,
+      "displayed_score": "0.80313",
+      "rank": null,
+      "evidence": "reports/figures/kaggle_catboost_20261027.png",
+      "evidence_sha256": "377d20a05124dbdb0d16b0daea8447c45d358c8e4d8267c7317816b2bdaa6166",
+      "local_expected_source_sha256": "bdc9dd198f3092a946deddce4754ee8f0eecfb2e9eb272d30552c2d7ff794542",
+      "uploaded_bytes_verified": false,
+      "model_association": "From submission description and preceding upload workflow; screenshot cannot verify uploaded file bytes",
+      "repository_head_when_recorded": "101e59eeabaf88b0d7764375a3d5e5b16d074a64"
+    },
+    {
+      "id": "ensemble_20261027_081108",
+      "model_run": "optimization_20261025",
+      "status": "Complete",
+      "observed_on": "2026-10-27",
+      "submitted_at": null,
+      "uploaded_filename": "submission_ensemble4690.csv",
+      "account_as_displayed": "Litianle4690",
+      "score": 0.81108,
+      "displayed_score": "0.81108",
+      "rank": null,
+      "evidence": "reports/figures/kaggle_comparison_20261027.png",
+      "evidence_sha256": "96ab77d2fa8e721ea22ab3146e8644aa7b3ae44d14bf368983c554a8bdd9f2ea",
+      "local_expected_source_sha256": "270a687c3f9a942dfeedea8aef26af70bd24bb2bac14c3d50a249214c3681c82",
+      "uploaded_bytes_verified": false,
+      "model_association": "From filename and preceding preparation/upload workflow; screenshot cannot verify uploaded file bytes",
+      "repository_head_when_recorded": "101e59eeabaf88b0d7764375a3d5e5b16d074a64"
+    },
+    {
+      "id": "fullblend_20261028_081108",
+      "model_run": "full_data_candidate_20261028",
+      "status": "Complete",
+      "observed_on": "2026-10-28",
+      "submitted_at": null,
+      "uploaded_filename": "submission_fullblend4690.csv",
+      "account_as_displayed": "Litianle4690",
+      "score": 0.81108,
+      "displayed_score": "0.81108",
+      "rank": null,
+      "evidence": "reports/figures/kaggle_fullblend_20261028.png",
+      "evidence_sha256": "016d6cc068af2395c9265cb258a66e08240f35386d3640158ac491a0ee1d0cca",
+      "local_expected_source_sha256": "f7aec2b13acc0eba469c324f18e6696ad8d73377692fbff8c38c5cf80885d947",
+      "uploaded_bytes_verified": false,
+      "model_association": "From filename and preceding preparation/upload workflow; screenshot cannot verify uploaded bytes",
+      "repository_head_when_recorded": "101e59eeabaf88b0d7764375a3d5e5b16d074a64"
+    }
+  ],
+  "prepared_candidates": [],
+  "current_platform_best": {
+    "model_run": "optimization_20261025",
+    "score": 0.81108,
+    "submission": "outputs/kaggle_ready_4690/submission_ensemble4690.csv",
+    "accuracy_difference": 0.00795,
+    "percentage_point_difference": 0.795,
+    "basis": "Highest displayed score among three screenshot-confirmed submissions; full-data blend ties incumbent. Retain original 45-model ensemble rather than 54-model comparison; not a significance claim",
+    "tied_model_runs": [
+      "optimization_20261025",
+      "full_data_candidate_20261028"
+    ]
+  }
+}

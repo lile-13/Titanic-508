@@ -1,0 +1,91 @@
+{
+  "name": "relational_study_20261028",
+  "profiles": [
+    [
+      "base",
+      "rule_group",
+      null,
+      false
+    ],
+    [
+      "base",
+      "native",
+      null,
+      false
+    ],
+    [
+      "geo",
+      "native",
+      null,
+      false
+    ],
+    [
+      "base",
+      "rule_group",
+      10.0,
+      false
+    ],
+    [
+      "base",
+      "rule_group",
+      30.0,
+      false
+    ],
+    [
+      "base",
+      "native",
+      10.0,
+      false
+    ],
+    [
+      "geo",
+      "native",
+      10.0,
+      false
+    ],
+    [
+      "geo",
+      "rule_group",
+      10.0,
+      true
+    ]
+  ],
+  "params": {
+    "boosting_type": "gbdt",
+    "class_weight": null,
+    "colsample_bytree": 0.9,
+    "importance_type": "split",
+    "learning_rate": 0.035,
+    "max_depth": -1,
+    "min_child_samples": 35,
+    "min_child_weight": 0.001,
+    "min_split_gain": 0.0,
+    "n_estimators": 600,
+    "n_jobs": 4,
+    "num_leaves": 15,
+    "objective": null,
+    "random_state": 42,
+    "reg_alpha": 0.1,
+    "reg_lambda": 5.0,
+    "subsample": 0.85,
+    "subsample_for_bin": 200000,
+    "subsample_freq": 1,
+    "verbosity": -1,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "threshold": 0.5,
+  "development_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "excluded_from_development": 5,
+  "caveat": "All historical folds have been inspected previously; this is additional development, not a new blind test",
+  "promotion_rule": "3-seed blend dev gain >=0.0015 over frozen incumbent and logloss deterioration <=0.003; later full five-fold is descriptive",
+  "source_hashes": {
+    "src/relational_features.py": "7f76987e45a675112c26fe912c70ab14ad56807d093b157761e0ec9febb51efb",
+    "scripts/relational_study.py": "4062b00dc4258bfaded1eb4abac2e3114a63df6e688b7335629cf01084aa9d52"
+  }
+}

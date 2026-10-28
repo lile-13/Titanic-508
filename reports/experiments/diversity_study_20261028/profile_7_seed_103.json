@@ -1,0 +1,19 @@
+{
+  "profile": 7,
+  "config": {
+    "family": "extra",
+    "features": "spend",
+    "min_samples_leaf": 8
+  },
+  "seed": 103,
+  "fold_scores": [
+    0.7998849913743531,
+    0.8033352501437608,
+    0.79700977573318,
+    0.8014959723820483
+  ],
+  "accuracy": 0.800431344356578,
+  "log_loss": 0.4266843626247049,
+  "error_correlation": 0.6827229661271331,
+  "seconds": 19.459335499999725
+}

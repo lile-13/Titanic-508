@@ -1,0 +1,20 @@
+{
+  "profile": 8,
+  "config": {
+    "family": "hist",
+    "features": "spend",
+    "max_leaf_nodes": 15,
+    "l2_regularization": 5.0
+  },
+  "seed": 103,
+  "fold_scores": [
+    0.7998849913743531,
+    0.8257619321449109,
+    0.816561242093157,
+    0.8107019562715765
+  ],
+  "accuracy": 0.8132278936017254,
+  "log_loss": 0.386377757382909,
+  "error_correlation": 0.8330952138981323,
+  "seconds": 9.152805899999294
+}

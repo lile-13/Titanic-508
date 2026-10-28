@@ -1,9 +1,19 @@
 {
-  "primary": "catboost_baseline_20261018",
-  "challenger": "optimization_20261025",
-  "primary_submission": "outputs/catboost_baseline_20261018/submission.csv",
-  "challenger_submission": "outputs/optimization_20261025/submission.csv",
-  "reason": "Challenger canonical OOF mean is lower; frozen confirmation net gain is 2 samples; see paired group-bootstrap interval",
-  "interpretation": "Candidate-generation gate passed; this is not automatic replacement of the incumbent. Frozen models unchanged.",
-  "kaggle_score_available": false
+  "primary": "optimization_20261025",
+  "challenger": "catboost_baseline_20261018",
+  "primary_submission": "outputs/optimization_20261025/submission.csv",
+  "challenger_submission": "outputs/catboost_baseline_20261018/submission.csv",
+  "reason": "Higher displayed Kaggle score among two screenshot-confirmed submissions: 0.81108 vs 0.80313",
+  "interpretation": "Current platform-best candidate; local validation results and frozen models are unchanged; not a significance claim",
+  "kaggle_score_available": true,
+  "observed_on": "2026-10-27",
+  "local_recommendation_before_kaggle": {
+    "primary": "catboost_baseline_20261018",
+    "challenger": "optimization_20261025",
+    "primary_submission": "outputs/catboost_baseline_20261018/submission.csv",
+    "challenger_submission": "outputs/optimization_20261025/submission.csv",
+    "reason": "Challenger canonical OOF mean is lower; frozen confirmation net gain is 2 samples; see paired group-bootstrap interval",
+    "interpretation": "Candidate-generation gate passed; this is not automatic replacement of the incumbent. Frozen models unchanged.",
+    "kaggle_score_available": false
+  }
 }

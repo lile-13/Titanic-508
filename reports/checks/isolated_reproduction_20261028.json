@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "date": "2026-10-28",
+  "same_machine": true,
+  "same_python_environment": true,
+  "independent_person_or_machine": false,
+  "source_head": "101e59eeabaf88b0d7764375a3d5e5b16d074a64",
+  "included_uncommitted_work": true,
+  "initial_source_files": 271,
+  "initial_manifest_sha256": "80f782968d8f84da9c8f11f17ca2fb1f90e7f1f97e6cadc33293480b0cde8a6a",
+  "source_amendments": [
+    {
+      "path": "scripts/refit_frozen.py",
+      "initial_hash": "69d0895128f8d3ec3592a9cdbc96aacae1ee20222fe71f1c3fe3e40fd936da8f",
+      "executed_hash": "363360a501bae4bdb5598fa537d3621d3ac7735c9e4da0f9b839ed5876031e5f",
+      "reason": "Create models parent directory before historical finalize in a clean checkout"
+    }
+  ],
+  "snapshot": "outputs/reproduction_snapshot_20261028",
+  "run_name": "isolated_refit_v3_20261028",
+  "training_started_without_model_weights_or_prediction_cache": true,
+  "submission_byte_identical": true,
+  "submission_sha256": "270a687c3f9a942dfeedea8aef26af70bd24bb2bac14c3d50a249214c3681c82",
+  "oof_identical": true,
+  "test_probabilities_exactly_equal": true,
+  "probability_max_error": 0.0,
+  "independent_model_reload": {
+    "passed": true,
+    "rows": 4277,
+    "model_reload_matches": true,
+    "max_probability_error": 7.771561172376096e-16,
+    "source_plan_unchanged": true,
+    "interpretation": "Historical refit, no new Kaggle score"
+  },
+  "caveat": "Same-environment isolated-directory reproduction; not a fresh blind evaluation or a claim of teammate reproduction"
+}

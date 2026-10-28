@@ -1,0 +1,30 @@
+{
+  "status": "no_candidate",
+  "frozen": {
+    "profile": 8,
+    "config": {
+      "family": "hist",
+      "features": "spend",
+      "max_leaf_nodes": 15,
+      "l2_regularization": 5.0
+    },
+    "weight": 0.25,
+    "threshold": 0.5,
+    "seeds": [
+      42,
+      2026,
+      103
+    ],
+    "development": {
+      "profile": 8,
+      "new_weight": 0.25,
+      "accuracy": 0.8211358734723221,
+      "log_loss": 0.3793324930084062
+    },
+    "incumbent_accuracy": 0.8219985621854781,
+    "incumbent_log_loss": 0.3795288431348585,
+    "generate_candidate": false
+  },
+  "kaggle_score": null,
+  "reason": "Predeclared gate not met; preserve observed Kaggle best 0.81108"
+}

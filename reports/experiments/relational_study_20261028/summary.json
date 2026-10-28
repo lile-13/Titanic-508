@@ -1,0 +1,30 @@
+{
+  "status": "no_candidate",
+  "frozen": {
+    "profile": 3,
+    "definition": [
+      "base",
+      "rule_group",
+      10.0,
+      false
+    ],
+    "weight": 0.25,
+    "threshold": 0.5,
+    "seeds": [
+      42,
+      2026,
+      103
+    ],
+    "development": {
+      "profile": 3,
+      "new_weight": 0.25,
+      "accuracy": 0.8201294033069734,
+      "log_loss": 0.3808661292915886
+    },
+    "incumbent_accuracy": 0.8219985621854781,
+    "incumbent_log_loss": 0.3795288431348585,
+    "generate_candidate": false
+  },
+  "kaggle_score": null,
+  "reason": "Predeclared development improvement gate not met; preserve 0.81108 incumbent"
+}

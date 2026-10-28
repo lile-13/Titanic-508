@@ -1,0 +1,15 @@
+{
+  "status": "training_strategy_comparison_only",
+  "kaggle_score": null,
+  "canonical_oof": null,
+  "changed_test_labels": 34,
+  "pure_full_changed_labels": 54,
+  "rows": 4277,
+  "members": 54,
+  "new_full_models": 9,
+  "threshold": 0.5,
+  "seconds": 129.1666822999996,
+  "probability_max_reload_error": 5.551115123125783e-16,
+  "submission_sha256": "f7aec2b13acc0eba469c324f18e6696ad8d73377692fbff8c38c5cf80885d947",
+  "recommendation": "Optional single controlled Kaggle comparison. Preserve observed 0.81108 incumbent until a higher platform score is observed."
+}

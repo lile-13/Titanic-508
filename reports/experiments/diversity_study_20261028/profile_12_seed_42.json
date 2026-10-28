@@ -1,0 +1,20 @@
+{
+  "profile": 12,
+  "config": {
+    "family": "lossguide",
+    "features": "spend",
+    "max_leaves": 15,
+    "l2_leaf_reg": 6.0
+  },
+  "seed": 42,
+  "fold_scores": [
+    0.8079355951696378,
+    0.8205865439907993,
+    0.8131109833237493,
+    0.8084004602991944
+  ],
+  "accuracy": 0.8125089863407621,
+  "log_loss": 0.38936929058629244,
+  "error_correlation": 0.8435268543785258,
+  "seconds": 201.6582039999994
+}

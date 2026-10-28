@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "submission_records": 2,
+  "screenshot_copies_match": true,
+  "score_difference": "0.00795",
+  "percentage_point_difference": "0.795",
+  "current_platform_best": "optimization_20261025",
+  "report_generation_idempotent": true,
+  "historical_local_recommendation_preserved": true,
+  "submission_files_unchanged": true,
+  "frozen_training_sources_and_results_unchanged": true,
+  "evidence_source": "User-supplied Kaggle screenshots; not a server-side file-hash verification"
+}

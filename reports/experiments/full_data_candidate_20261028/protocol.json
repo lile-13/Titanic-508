@@ -1,0 +1,11 @@
+{
+  "name": "full_data_candidate_20261028",
+  "source_experiment": "optimization_20261025",
+  "full_data_weight": 0.5,
+  "fold_bag_weight": 0.5,
+  "threshold": 0.5,
+  "selection": "No parameter, weight or threshold search; an unvalidated training-strategy comparison candidate",
+  "caveat": "Full-data predictions have no out-of-fold validation. Historical OOF belongs to the fold-bag incumbent only. This is not a measured score improvement.",
+  "source_hash": "0fa81e714b694fe1417c6ef2054c8cadce5ff7a437fd23f9cb28b81e94e4d055",
+  "frozen_plan_hash": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982"
+}
