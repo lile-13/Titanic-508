@@ -1,0 +1,56 @@
+{
+  "name": "g_cohort_routing_20261029",
+  "child_profile": {
+    "family": "catboost",
+    "roles": true
+  },
+  "control_child_profile": {
+    "family": "catboost",
+    "roles": false
+  },
+  "cold_offset": {
+    "roles": true,
+    "ridge": 0.1
+  },
+  "control_cold_offset": {
+    "roles": false,
+    "ridge": 0.1
+  },
+  "seeds": [
+    42,
+    2026,
+    103
+  ],
+  "cold_weight": 0.25,
+  "child_weight": 0.25,
+  "threshold": 0.5,
+  "branches": "Observed G + CryoSleep=True: offset; observed G + CryoSleep=False + known Age<=12: specialist; all other passengers retain reference",
+  "source_hypothesis": "Cohort routing selected from previous developmental error tradeoffs. Constituent studies failed their original gates and remain failed. No new weight, profile, threshold or branch search.",
+  "evaluation": "Reuse two fixed repeated GroupKFold baselines, seeds 20261029/20261106. New routing predictions not used before this protocol; rows, partitions and baseline outcomes historically inspected. This is adaptive paired stability checking, not new independent or blind validation.",
+  "inner_teacher": "25% GroupShuffleSplit inside each outer training set, seed 690001+repeat*10+fold; full frozen three-component/three-seed teacher excludes all calibration groups. Ridge offsets fit only G calibration labels.",
+  "gate": "Both repeats global gain nonnegative; cold and child net correct nonnegative on each repeat; mean global gain >=.001; >=6/10 G folds improve; mean enriched-control G accuracy difference >=.003; global logloss deterioration <=.002 and G <=.005 on each repeat. No retuning.",
+  "futility": "Stop after repeat 1 if global, cold or child net correct is negative, loss limits fail, or zero G folds improve (then 6/10 impossible). No selection of a replacement split.",
+  "source_plan_hash": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "baseline_protocol_sha256": "f91cc3c705c6a8d4751391a9b473344736388d3d36eed88c87f7762ed534e8ec",
+  "source_choices": {
+    "g_deck_roles_20261029_v2": "c4c7289ee5566eb15dbf3849ee8949d5ca17da794793cf6b74f6bf3b70c6aa2f",
+    "g_deck_offset_20261029": "f1a2181f10c13cd4da06184b934d1dc972c0bdc823c82de4c3d76d626a85771f"
+  },
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "sources": {
+    "scripts/g_routing_study.py": "3efc7b01c93f47100f220a51ae0e555ada701147e2a0b1b6d0814425f5d37b11",
+    "src/g_routing.py": "57eee0de9a27b6a6d1f198ae0739ee687c916b9e531a4ec0c5956baae871a755",
+    "src/g_deck_models.py": "353eac91ee00c50cedc4646c72ef6b32a87960cc243389499099cc83df7530b4",
+    "src/g_offset_models.py": "bf395e78f6446e85d7f124f17e970cbf3add0be89823ffd395b3c3d842d3751f",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe",
+    "requirements.txt": "d93f85648a061be92cae2990a255036c3844afe48a26d75463dad4012aae8f6d"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "status": "no_candidate",
+  "completed_repeats": 1,
+  "early_stop": true,
+  "reason": "Predeclared cohort non-regression/loss/futility rule failed",
+  "repeats": [
+    {
+      "repeat": 1,
+      "reference_accuracy": 0.8121477050500403,
+      "accuracy": 0.8122627401357414,
+      "gain": 0.00011503508570109844,
+      "net_correct": 1,
+      "corrected": 25,
+      "new_errors": 24,
+      "reference_log_loss": 0.3800254286664278,
+      "log_loss": 0.37997321617266816,
+      "g_rows": 2559,
+      "g_reference_accuracy": 0.7049628761234857,
+      "g_accuracy": 0.7053536537710043,
+      "g_reference_log_loss": 0.5305609175584746,
+      "g_log_loss": 0.5303835501461056,
+      "cold_rows": 1350,
+      "cold_net_correct": 4,
+      "child_rows": 268,
+      "child_net_correct": -3,
+      "g_fold_gains": [
+        -0.0038461538461539435,
+        -0.0019455252918287869,
+        0.0020283975659229903,
+        -0.0018621973929237035,
+        0.008080808080808022
+      ],
+      "g_improved_folds": 2,
+      "untouched_predictions_identical": true,
+      "control": {
+        "reference_accuracy": 0.8121477050500403,
+        "accuracy": 0.8121477050500403,
+        "gain": 0.0,
+        "net_correct": 0,
+        "corrected": 20,
+        "new_errors": 20,
+        "reference_log_loss": 0.3800254286664278,
+        "log_loss": 0.3798818660255028,
+        "g_rows": 2559,
+        "g_reference_accuracy": 0.7049628761234857,
+        "g_accuracy": 0.7049628761234857,
+        "g_reference_log_loss": 0.5305609175584746,
+        "g_log_loss": 0.53007323094747,
+        "cold_rows": 1350,
+        "cold_net_correct": 4,
+        "child_rows": 268,
+        "child_net_correct": -4,
+        "g_fold_gains": [
+          -0.0019230769230769162,
+          -0.0019455252918287869,
+          -0.0040567951318458695,
+          -0.0018621973929237035,
+          0.010101010101010055
+        ],
+        "g_improved_folds": 1,
+        "untouched_predictions_identical": true
+      },
+      "added_roles_g_gain": 0.0003907776475186031
+    }
+  ],
+  "kaggle_score": null
+}
