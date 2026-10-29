@@ -1,0 +1,129 @@
+{
+  "name": "pseudo_label_study_20261029",
+  "profiles": [
+    {
+      "feature_set": "spend",
+      "confidence": 0.95,
+      "pseudo_weight": 0.25,
+      "teacher_config": {
+        "family": "catboost",
+        "feature_set": "spend",
+        "strategy": "native",
+        "params": {
+          "iterations": 555,
+          "depth": 6,
+          "learning_rate": 0.03673810683371394,
+          "l2_leaf_reg": 1.5830658087718168,
+          "random_strength": 2.0,
+          "bagging_temperature": 1.7295485509215793,
+          "rsm": 0.8522189062529064,
+          "max_ctr_complexity": 2,
+          "one_hot_max_size": 4,
+          "border_count": 128
+        },
+        "seed": 103
+      }
+    },
+    {
+      "feature_set": "spend",
+      "confidence": 0.99,
+      "pseudo_weight": 0.25,
+      "teacher_config": {
+        "family": "catboost",
+        "feature_set": "spend",
+        "strategy": "native",
+        "params": {
+          "iterations": 555,
+          "depth": 6,
+          "learning_rate": 0.03673810683371394,
+          "l2_leaf_reg": 1.5830658087718168,
+          "random_strength": 2.0,
+          "bagging_temperature": 1.7295485509215793,
+          "rsm": 0.8522189062529064,
+          "max_ctr_complexity": 2,
+          "one_hot_max_size": 4,
+          "border_count": 128
+        },
+        "seed": 103
+      }
+    },
+    {
+      "feature_set": "rich_names",
+      "confidence": 0.95,
+      "pseudo_weight": 0.25,
+      "teacher_config": {
+        "family": "catboost",
+        "feature_set": "rich_names",
+        "strategy": "native",
+        "params": {
+          "iterations": 748,
+          "depth": 5,
+          "learning_rate": 0.03743936483397399,
+          "l2_leaf_reg": 17.795736111078792,
+          "random_strength": 2.0,
+          "bagging_temperature": 1.5902796653821254,
+          "rsm": 0.8862713098571321,
+          "max_ctr_complexity": 2,
+          "one_hot_max_size": 10,
+          "border_count": 128
+        },
+        "seed": 103
+      }
+    },
+    {
+      "feature_set": "rich_names",
+      "confidence": 0.99,
+      "pseudo_weight": 0.25,
+      "teacher_config": {
+        "family": "catboost",
+        "feature_set": "rich_names",
+        "strategy": "native",
+        "params": {
+          "iterations": 748,
+          "depth": 5,
+          "learning_rate": 0.03743936483397399,
+          "l2_leaf_reg": 17.795736111078792,
+          "random_strength": 2.0,
+          "bagging_temperature": 1.5902796653821254,
+          "rsm": 0.8862713098571321,
+          "max_ctr_complexity": 2,
+          "one_hot_max_size": 10,
+          "border_count": 128
+        },
+        "seed": 103
+      }
+    }
+  ],
+  "weights": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "threshold": 0.5,
+  "seeds": [
+    42,
+    2026,
+    103
+  ],
+  "development_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "excluded_fold": 5,
+  "sensitivity_seed": 20261105,
+  "gate": "Three-seed dev gain >=.001, >=3/4 folds improved, logloss deterioration <=.002. Then changed-partition gain >=0 and logloss deterioration <=.002. No retuning.",
+  "pseudo_target": "Unlabeled public test features only. Soft teacher probabilities selected by fixed confidence and weight .25; no actual test labels or external solutions",
+  "teacher": "Original frozen 9-model blend fitted only on allowed outer training groups; validation groups are wholly excluded",
+  "caveat": "Historical folds, not blind validation. Changed partitions check sensitivity. CrossEntropy plus augmentation is evaluated as a whole; no causal attribution to pseudo-labeling alone",
+  "source_plan_hash": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "sources": {
+    "scripts/pseudo_label_study.py": "368395b41db77b236db3c908ad79d4fcc7e1eb76e60f2ab32c70a3d289dadf54",
+    "src/pseudo_labels.py": "d30a6b33d30f53364894ce3f4057bf249c207af548b6b18234301c2dcd48d324",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe"
+  }
+}

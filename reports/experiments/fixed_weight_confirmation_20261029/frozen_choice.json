@@ -1,0 +1,10 @@
+{
+  "weights": [
+    0.4,
+    0.15,
+    0.45
+  ],
+  "threshold": 0.5,
+  "source": "weight_refinement_20261028",
+  "frozen_before_new_partitions": true
+}

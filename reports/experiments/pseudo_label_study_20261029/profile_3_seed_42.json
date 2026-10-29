@@ -1,0 +1,85 @@
+{
+  "profile": 3,
+  "config": {
+    "feature_set": "rich_names",
+    "confidence": 0.99,
+    "pseudo_weight": 0.25,
+    "teacher_config": {
+      "family": "catboost",
+      "feature_set": "rich_names",
+      "strategy": "native",
+      "params": {
+        "iterations": 748,
+        "depth": 5,
+        "learning_rate": 0.03743936483397399,
+        "l2_leaf_reg": 17.795736111078792,
+        "random_strength": 2.0,
+        "bagging_temperature": 1.5902796653821254,
+        "rsm": 0.8862713098571321,
+        "max_ctr_complexity": 2,
+        "one_hot_max_size": 10,
+        "border_count": 128
+      },
+      "seed": 103
+    }
+  },
+  "seed": 42,
+  "fold_scores": [
+    0.80448533640023,
+    0.8246118458884416,
+    0.8113858539390454,
+    0.8170310701956272
+  ],
+  "accuracy": 0.8143781452192668,
+  "log_loss": 0.386745528115292,
+  "pseudo_audits": [
+    {
+      "fold": 1,
+      "real_rows": 5216,
+      "pseudo_rows": 138,
+      "pseudo_positive_rows": 91,
+      "confidence": 0.99,
+      "pseudo_weight": 0.25,
+      "pseudo_effective_weight": 34.5,
+      "target_in_features": false,
+      "real_test_group_overlap": 0,
+      "targets": "true training labels followed by teacher probabilities, not hard labels"
+    },
+    {
+      "fold": 2,
+      "real_rows": 5216,
+      "pseudo_rows": 178,
+      "pseudo_positive_rows": 143,
+      "confidence": 0.99,
+      "pseudo_weight": 0.25,
+      "pseudo_effective_weight": 44.5,
+      "target_in_features": false,
+      "real_test_group_overlap": 0,
+      "targets": "true training labels followed by teacher probabilities, not hard labels"
+    },
+    {
+      "fold": 3,
+      "real_rows": 5216,
+      "pseudo_rows": 172,
+      "pseudo_positive_rows": 129,
+      "confidence": 0.99,
+      "pseudo_weight": 0.25,
+      "pseudo_effective_weight": 43.0,
+      "target_in_features": false,
+      "real_test_group_overlap": 0,
+      "targets": "true training labels followed by teacher probabilities, not hard labels"
+    },
+    {
+      "fold": 4,
+      "real_rows": 5217,
+      "pseudo_rows": 185,
+      "pseudo_positive_rows": 150,
+      "confidence": 0.99,
+      "pseudo_weight": 0.25,
+      "pseudo_effective_weight": 46.25,
+      "target_in_features": false,
+      "real_test_group_overlap": 0,
+      "targets": "true training labels followed by teacher probabilities, not hard labels"
+    }
+  ]
+}

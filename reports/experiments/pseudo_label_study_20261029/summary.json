@@ -1,0 +1,49 @@
+{
+  "status": "no_candidate",
+  "frozen": {
+    "profile": 1,
+    "weight": 0.25,
+    "accuracy": 0.8208483105679367,
+    "log_loss": 0.3800073867495636,
+    "fold_gains": [
+      0.0005750431282346424,
+      -0.0034502587694076325,
+      -0.002875215641173101,
+      0.0011507479861909697
+    ],
+    "improved_folds": 2,
+    "config": {
+      "feature_set": "spend",
+      "confidence": 0.99,
+      "pseudo_weight": 0.25,
+      "teacher_config": {
+        "family": "catboost",
+        "feature_set": "spend",
+        "strategy": "native",
+        "params": {
+          "iterations": 555,
+          "depth": 6,
+          "learning_rate": 0.03673810683371394,
+          "l2_leaf_reg": 1.5830658087718168,
+          "random_strength": 2.0,
+          "bagging_temperature": 1.7295485509215793,
+          "rsm": 0.8522189062529064,
+          "max_ctr_complexity": 2,
+          "one_hot_max_size": 4,
+          "border_count": 128
+        },
+        "seed": 103
+      }
+    },
+    "seeds": [
+      42,
+      2026,
+      103
+    ],
+    "incumbent_accuracy": 0.8219985621854781,
+    "incumbent_log_loss": 0.3795288431348585,
+    "initial_gate_passed": false
+  },
+  "kaggle_score": null,
+  "reason": "Initial gate failed"
+}

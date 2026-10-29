@@ -1,0 +1,142 @@
+[
+  {
+    "choice": 2,
+    "repeat": 1,
+    "fold": 1,
+    "gain": -0.0028216704288939187,
+    "group_overlap": 0
+  },
+  {
+    "choice": 2,
+    "repeat": 1,
+    "fold": 2,
+    "gain": 0.004714201532115436,
+    "group_overlap": 0
+  },
+  {
+    "choice": 2,
+    "repeat": 1,
+    "fold": 3,
+    "gain": 0.0023242300987798004,
+    "group_overlap": 0
+  },
+  {
+    "choice": 2,
+    "repeat": 1,
+    "fold": 4,
+    "gain": -0.0016949152542373724,
+    "group_overlap": 0
+  },
+  {
+    "choice": 2,
+    "repeat": 1,
+    "fold": 5,
+    "gain": 0.0028851702250433098,
+    "group_overlap": 0
+  },
+  {
+    "choice": 2,
+    "repeat": 2,
+    "fold": 1,
+    "gain": 0.0017311021350260303,
+    "group_overlap": 0
+  },
+  {
+    "choice": 2,
+    "repeat": 2,
+    "fold": 2,
+    "gain": 0.0005817335660267542,
+    "group_overlap": 0
+  },
+  {
+    "choice": 2,
+    "repeat": 2,
+    "fold": 3,
+    "gain": -0.0051399200456881955,
+    "group_overlap": 0
+  },
+  {
+    "choice": 2,
+    "repeat": 2,
+    "fold": 4,
+    "gain": 0.00507900677200912,
+    "group_overlap": 0
+  },
+  {
+    "choice": 2,
+    "repeat": 2,
+    "fold": 5,
+    "gain": 0.0005820721769499437,
+    "group_overlap": 0
+  },
+  {
+    "choice": 9,
+    "repeat": 1,
+    "fold": 1,
+    "gain": -0.003386004514672747,
+    "group_overlap": 0
+  },
+  {
+    "choice": 9,
+    "repeat": 1,
+    "fold": 2,
+    "gain": 0.006482027106658794,
+    "group_overlap": 0
+  },
+  {
+    "choice": 9,
+    "repeat": 1,
+    "fold": 3,
+    "gain": -0.0011621150493897892,
+    "group_overlap": 0
+  },
+  {
+    "choice": 9,
+    "repeat": 1,
+    "fold": 4,
+    "gain": 0.002259887005649719,
+    "group_overlap": 0
+  },
+  {
+    "choice": 9,
+    "repeat": 1,
+    "fold": 5,
+    "gain": 0.007501442585112539,
+    "group_overlap": 0
+  },
+  {
+    "choice": 9,
+    "repeat": 2,
+    "fold": 1,
+    "gain": 0.0011540680900173905,
+    "group_overlap": 0
+  },
+  {
+    "choice": 9,
+    "repeat": 2,
+    "fold": 2,
+    "gain": 0.00407213496218739,
+    "group_overlap": 0
+  },
+  {
+    "choice": 9,
+    "repeat": 2,
+    "fold": 3,
+    "gain": -0.0079954311821816,
+    "group_overlap": 0
+  },
+  {
+    "choice": 9,
+    "repeat": 2,
+    "fold": 4,
+    "gain": 0.0028216704288939187,
+    "group_overlap": 0
+  },
+  {
+    "choice": 9,
+    "repeat": 2,
+    "fold": 5,
+    "gain": 0.0029103608847497187,
+    "group_overlap": 0
+  }
+]

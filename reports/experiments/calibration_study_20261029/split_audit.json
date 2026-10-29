@@ -1,0 +1,34 @@
+[
+  {
+    "fold": 1,
+    "outer_validation_rows": 1739,
+    "outer_validation_group_overlap": 0,
+    "fit_rows": 3934,
+    "calibration_rows": 1282,
+    "group_overlap": 0
+  },
+  {
+    "fold": 2,
+    "outer_validation_rows": 1739,
+    "outer_validation_group_overlap": 0,
+    "fit_rows": 3929,
+    "calibration_rows": 1287,
+    "group_overlap": 0
+  },
+  {
+    "fold": 3,
+    "outer_validation_rows": 1739,
+    "outer_validation_group_overlap": 0,
+    "fit_rows": 3913,
+    "calibration_rows": 1303,
+    "group_overlap": 0
+  },
+  {
+    "fold": 4,
+    "outer_validation_rows": 1738,
+    "outer_validation_group_overlap": 0,
+    "fit_rows": 3889,
+    "calibration_rows": 1328,
+    "group_overlap": 0
+  }
+]

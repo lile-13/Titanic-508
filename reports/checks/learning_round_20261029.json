@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "date": "2026-10-29",
+  "experiments": [
+    {
+      "run": "calibration_study_20261029",
+      "status": "no_candidate",
+      "source_hashes_match": true,
+      "split_group_checks_passed": true,
+      "teacher_partitions_checked": 4,
+      "initial_profiles": 8,
+      "student_config_seed_records": 0,
+      "observed_kaggle_score": null
+    },
+    {
+      "run": "pseudo_label_study_20261029",
+      "status": "no_candidate",
+      "source_hashes_match": true,
+      "split_group_checks_passed": true,
+      "teacher_partitions_checked": 4,
+      "initial_profiles": 4,
+      "student_config_seed_records": 8,
+      "observed_kaggle_score": null
+    },
+    {
+      "run": "fixed_weight_confirmation_20261029",
+      "status": "no_candidate",
+      "source_hashes_match": true,
+      "split_group_checks_passed": true,
+      "teacher_partitions_checked": 10,
+      "initial_profiles": 0,
+      "student_config_seed_records": 0,
+      "observed_kaggle_score": null
+    },
+    {
+      "run": "paired_regularization_20261029",
+      "status": "candidate_generated",
+      "source_hashes_match": true,
+      "split_group_checks_passed": true,
+      "teacher_partitions_checked": 20,
+      "initial_profiles": 2,
+      "student_config_seed_records": 0,
+      "observed_kaggle_score": null
+    }
+  ],
+  "candidates": [
+    {
+      "model_run": "paired_regularization_20261029",
+      "file": "outputs/kaggle_ready_4690/submission_regularized4690.csv",
+      "status": "not_submitted",
+      "score": null,
+      "sha256": "8715f16bb14eb6d5e4cdec84cd55b39ac1977208be71a1220833274b8a4d8ce9",
+      "rows": 4277
+    }
+  ],
+  "tests_passed": 29,
+  "observed_kaggle_best": 0.81108,
+  "incumbent_submission_sha256": "270a687c3f9a942dfeedea8aef26af70bd24bb2bac14c3d50a249214c3681c82",
+  "source_plan_weights_unchanged": true,
+  "classroom_report_and_archive_untouched": true,
+  "conditional_uncertainty": {
+    "unit": "GroupId",
+    "groups": 6217,
+    "resamples": 3000,
+    "seed": 20261029,
+    "mean_gain": 0.0014379385712642355,
+    "percentile_95_lower": -0.0009084235653859056,
+    "percentile_95_upper": 0.0036329038459640985,
+    "interpretation": "Conditional paired bootstrap of historically selected OOF; repeated predictions share rows. Does not account for training or selection uncertainty and is not a new independent significance test"
+  },
+  "limitations": "Historical selection and repeated partitions are not new blind validation"
+}

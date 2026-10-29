@@ -1,0 +1,27 @@
+{
+  "name": "fixed_weight_confirmation_20261029",
+  "weights": [
+    0.4,
+    0.15,
+    0.45
+  ],
+  "threshold": 0.5,
+  "split_seeds": [
+    20261029,
+    20261106
+  ],
+  "folds": 5,
+  "gate": "Mean repeated OOF gain >=.001, both repeats nonnegative, >=6/10 folds improved; logloss deterioration <=.002 on each repeat. No selection or retuning.",
+  "historical_choice": "Old 49-weight search had only +6 development correct predictions and failed its gate. This is a new fixed-choice follow-up, not a reversal of that result.",
+  "caveat": "All original rows and folds historically inspected. Repeated repartitioning provides stability evidence, not independent blind evaluation.",
+  "source_choice_hash": "3fb21c90e8a327aff8dce40cabf7b662d0b9d2dc001d629bc0901c90deb3bd10",
+  "source_plan_hash": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "sources": {
+    "scripts/confirm_fixed_weights.py": "d37e5fffc5b7c8f5d8f464fd9e1b620b892891997f042a86e9bdab68f4eb50ef",
+    "src/ensemble_weights.py": "bee68033e191d708fdfde0d136c43426a391868a520bd9d43ff5f78a309e029e",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe"
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "repeat": 1,
+    "seed": 20261029,
+    "fold": 1,
+    "n": 1772,
+    "reference_accuracy": 0.8115124153498872,
+    "alternative_accuracy": 0.8086907449209932,
+    "group_overlap": 0,
+    "gain": -0.0028216704288939187
+  },
+  {
+    "repeat": 1,
+    "seed": 20261029,
+    "fold": 2,
+    "n": 1697,
+    "reference_accuracy": 0.8208603417796111,
+    "alternative_accuracy": 0.8243959929286977,
+    "group_overlap": 0,
+    "gain": 0.003535651149086605
+  },
+  {
+    "repeat": 1,
+    "seed": 20261029,
+    "fold": 3,
+    "n": 1721,
+    "reference_accuracy": 0.8117373619988378,
+    "alternative_accuracy": 0.8128994770482277,
+    "group_overlap": 0,
+    "gain": 0.0011621150493899002
+  },
+  {
+    "repeat": 1,
+    "seed": 20261029,
+    "fold": 4,
+    "n": 1770,
+    "reference_accuracy": 0.8022598870056498,
+    "alternative_accuracy": 0.8016949152542373,
+    "group_overlap": 0,
+    "gain": -0.0005649717514124575
+  },
+  {
+    "repeat": 1,
+    "seed": 20261029,
+    "fold": 5,
+    "n": 1733,
+    "reference_accuracy": 0.8147720715522215,
+    "alternative_accuracy": 0.8136180034622043,
+    "group_overlap": 0,
+    "gain": -0.0011540680900172795
+  },
+  {
+    "repeat": 2,
+    "seed": 20261106,
+    "fold": 1,
+    "n": 1733,
+    "reference_accuracy": 0.8141950375072129,
+    "alternative_accuracy": 0.8130409694171956,
+    "group_overlap": 0,
+    "gain": -0.0011540680900172795
+  },
+  {
+    "repeat": 2,
+    "seed": 20261106,
+    "fold": 2,
+    "n": 1719,
+    "reference_accuracy": 0.8051192553810355,
+    "alternative_accuracy": 0.8074461896451425,
+    "group_overlap": 0,
+    "gain": 0.0023269342641070168
+  },
+  {
+    "repeat": 2,
+    "seed": 20261106,
+    "fold": 3,
+    "n": 1751,
+    "reference_accuracy": 0.8252427184466019,
+    "alternative_accuracy": 0.8246716162193033,
+    "group_overlap": 0,
+    "gain": -0.0005711022272986144
+  },
+  {
+    "repeat": 2,
+    "seed": 20261106,
+    "fold": 4,
+    "n": 1772,
+    "reference_accuracy": 0.8160270880361173,
+    "alternative_accuracy": 0.8188487584650113,
+    "group_overlap": 0,
+    "gain": 0.0028216704288939187
+  },
+  {
+    "repeat": 2,
+    "seed": 20261106,
+    "fold": 5,
+    "n": 1718,
+    "reference_accuracy": 0.810244470314319,
+    "alternative_accuracy": 0.8114086146682189,
+    "group_overlap": 0,
+    "gain": 0.0011641443538998875
+  }
+]

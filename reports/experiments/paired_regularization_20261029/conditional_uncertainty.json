@@ -1,0 +1,10 @@
+{
+  "unit": "GroupId",
+  "groups": 6217,
+  "resamples": 3000,
+  "seed": 20261029,
+  "mean_gain": 0.0014379385712642355,
+  "percentile_95_lower": -0.0009084235653859056,
+  "percentile_95_upper": 0.0036329038459640985,
+  "interpretation": "Conditional paired bootstrap of historically selected OOF; repeated predictions share rows. Does not account for training or selection uncertainty and is not a new independent significance test"
+}

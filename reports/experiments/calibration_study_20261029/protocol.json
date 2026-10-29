@@ -1,0 +1,65 @@
+{
+  "name": "calibration_study_20261029",
+  "profiles": [
+    {
+      "mode": "global",
+      "C": 0.1
+    },
+    {
+      "mode": "global",
+      "C": 1.0
+    },
+    {
+      "mode": "global",
+      "C": 10.0
+    },
+    {
+      "mode": "context",
+      "C": 0.01
+    },
+    {
+      "mode": "context",
+      "C": 0.1
+    },
+    {
+      "mode": "context",
+      "C": 1.0
+    },
+    {
+      "mode": "slope_context",
+      "C": 0.01
+    },
+    {
+      "mode": "slope_context",
+      "C": 0.1
+    }
+  ],
+  "calibration_weights": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "threshold": 0.5,
+  "development_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "excluded_fold": 5,
+  "inner_holdout_fraction": 0.25,
+  "inner_seed_base": 20261029,
+  "sensitivity_seed": 20261103,
+  "gate": "Accuracy gain >=.001, >=3/4 folds improved, logloss deterioration <=.002. Then freeze and changed-partition accuracy gain >=0, logloss deterioration <=.002. No retuning.",
+  "method": "Calibration labels belong to outer training only; temporary teachers exclude entire calibration groups; calibrator then transfers to full outer-training teacher",
+  "caveat": "Historical folds have been inspected. Changed partitions check sensitivity, not independent blind validation. Calibration transfer is itself tested by outer grouped validation.",
+  "source_plan_hash": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "sources": {
+    "scripts/calibration_study.py": "0b9956e84a189d5c1e08d886cae3798105a8a184b18b711a1f0bd34dff829592",
+    "src/probability_calibration.py": "7e1a63cfd6aab7a514d0b9ccf7d3fec7892a9a2c4255b9887cd53c4a44b418c1",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe"
+  }
+}

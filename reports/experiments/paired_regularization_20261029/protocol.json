@@ -1,0 +1,48 @@
+{
+  "name": "paired_regularization_20261029",
+  "source_choices": [
+    2,
+    9
+  ],
+  "profiles": [
+    {
+      "family": "monotone",
+      "mode": "compact",
+      "variant": 1,
+      "positive": false,
+      "resolve_planet": true
+    },
+    {
+      "family": "expert_lgb",
+      "mode": "location",
+      "variant": 0,
+      "expert_weight": 1.0,
+      "resolve_planet": true
+    }
+  ],
+  "blend_weight": 0.25,
+  "threshold": 0.5,
+  "seeds": [
+    42,
+    2026,
+    103
+  ],
+  "split_seeds": [
+    20261029,
+    20261106
+  ],
+  "folds": 5,
+  "choice_rationale": "Two previously evaluated fixed alternatives: strongly regularized depth-3 monotone XGBoost and G/E regional LightGBM with improved historical probability loss. Old development gates remain failed; this follow-up checks paired repartition stability without tuning.",
+  "gate": "Mean repeated OOF gain >=.001, both repeats nonnegative, >=6/10 folds improved, logloss deterioration <=.002 on each repeat. If two pass, highest mean gain has priority; one submission only.",
+  "caveat": "All rows historically inspected. New partitions do not create an independent blind holdout.",
+  "baseline_protocol_sha256": "f91cc3c705c6a8d4751391a9b473344736388d3d36eed88c87f7762ed534e8ec",
+  "sources": {
+    "scripts/paired_regularization_check.py": "afac400fa36def74a37a7d76c7079ca3f59b2bd0006cd1d3ae32facb90907494",
+    "scripts/confirm_fixed_weights.py": "d37e5fffc5b7c8f5d8f464fd9e1b620b892891997f042a86e9bdab68f4eb50ef",
+    "src/domain_models.py": "7d8450c243345eb26c7372d4ea6355f4c14e1773b7cc6f711577eb2869e34ab7",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd"
+  }
+}

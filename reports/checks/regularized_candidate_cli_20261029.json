@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "date": "2026-10-29",
+  "rows": 4277,
+  "passenger_ids_and_order_match": true,
+  "boolean_labels": true,
+  "cli_byte_identical": true,
+  "sha256": "8715f16bb14eb6d5e4cdec84cd55b39ac1977208be71a1220833274b8a4d8ce9",
+  "changed_labels": 76,
+  "true_to_false": 45,
+  "false_to_true": 31,
+  "bundle_sha256": "e16fe074b9a74a7caf8efdf080b04ba3e0f83f7b5eca735c65783113077b4490",
+  "observed_kaggle_score": null
+}

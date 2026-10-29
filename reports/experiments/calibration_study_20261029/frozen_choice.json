@@ -1,0 +1,20 @@
+{
+  "profile": 0,
+  "config": {
+    "mode": "global",
+    "C": 0.1
+  },
+  "weight": 0.25,
+  "accuracy": 0.8218547807332854,
+  "log_loss": 0.38016263864519007,
+  "fold_gains": [
+    0.0,
+    -0.0005750431282345314,
+    0.0005750431282346424,
+    -0.0005753739930955959
+  ],
+  "improved_folds": 1,
+  "incumbent_accuracy": 0.8219985621854781,
+  "incumbent_log_loss": 0.3795288431348585,
+  "initial_gate_passed": false
+}

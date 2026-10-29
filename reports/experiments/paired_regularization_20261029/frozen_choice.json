@@ -1,0 +1,31 @@
+{
+  "choice": 9,
+  "config": {
+    "family": "expert_lgb",
+    "mode": "location",
+    "variant": 0,
+    "expert_weight": 1.0,
+    "resolve_planet": true
+  },
+  "mean_gain": 0.00143793857126423,
+  "improved_folds": 7,
+  "repeats": [
+    {
+      "repeat": 1,
+      "reference_accuracy": 0.8121477050500403,
+      "alternative_accuracy": 0.814448406764063,
+      "reference_log_loss": 0.3800254286664278,
+      "alternative_log_loss": 0.37742135815455785,
+      "gain": 0.002300701714022746
+    },
+    {
+      "repeat": 2,
+      "reference_accuracy": 0.8142183365926607,
+      "alternative_accuracy": 0.8147935120211665,
+      "reference_log_loss": 0.3803405268666546,
+      "alternative_log_loss": 0.3775774570323088,
+      "gain": 0.0005751754285057142
+    }
+  ],
+  "passed": true
+}

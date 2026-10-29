@@ -1,0 +1,32 @@
+{
+  "status": "no_candidate",
+  "weights": [
+    0.4,
+    0.15,
+    0.45
+  ],
+  "repeats": [
+    {
+      "repeat": 1,
+      "seed": 20261029,
+      "reference_accuracy": 0.8121477050500403,
+      "alternative_accuracy": 0.8121477050500403,
+      "reference_log_loss": 0.3800254286664278,
+      "alternative_log_loss": 0.3799098324982638,
+      "gain": 0.0
+    },
+    {
+      "repeat": 2,
+      "seed": 20261106,
+      "reference_accuracy": 0.8142183365926607,
+      "alternative_accuracy": 0.8151386172782699,
+      "reference_log_loss": 0.3803405268666546,
+      "alternative_log_loss": 0.38038076905189305,
+      "gain": 0.0009202806856091206
+    }
+  ],
+  "mean_gain": 0.0004601403428045603,
+  "improved_folds": 5,
+  "kaggle_score": null,
+  "reason": "Fixed-choice repeated-partition gate failed; previous rejection remains unchanged"
+}
