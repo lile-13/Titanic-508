@@ -1,0 +1,12 @@
+{
+  "group_resamples": 150,
+  "groups": 931,
+  "seed": 20261031,
+  "raw_threshold": 0.58,
+  "effective_threshold": 0.5201623977229203,
+  "shrinkage": 0.25,
+  "grid_min": 0.35,
+  "grid_max": 0.65,
+  "grid_step": 0.005,
+  "source": "Group-held-out predictions from outer training only; no outer validation labels"
+}

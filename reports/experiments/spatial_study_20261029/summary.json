@@ -1,0 +1,36 @@
+{
+  "status": "no_candidate",
+  "frozen": {
+    "profile": 1,
+    "config": {
+      "family": "lightgbm",
+      "spatial": true
+    },
+    "weight": 0.5,
+    "development": {
+      "profile": 1,
+      "new_weight": 0.5,
+      "reference_accuracy": 0.8219985621854781,
+      "accuracy": 0.8204169662113587,
+      "gain": -0.001581595974119332,
+      "reference_log_loss": 0.3795288431348585,
+      "log_loss": 0.37817722605848325,
+      "fold_gains": [
+        -0.005750431282346091,
+        0.0017251293847039273,
+        -0.0034502587694076325,
+        0.0011507479861909697
+      ],
+      "improved_folds": 2
+    },
+    "development_gate_passed": false,
+    "threshold": 0.5,
+    "seeds": [
+      42,
+      2026,
+      103
+    ]
+  },
+  "kaggle_score": null,
+  "reason": "Development gate failed; retain observed Kaggle best 0.81108"
+}

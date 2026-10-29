@@ -1,0 +1,7 @@
+{
+  "target_encoding": true,
+  "inner_crossfit_folds": 4,
+  "group_overlap": 0,
+  "outer_training_rows": 5216,
+  "fixed_iterations": true
+}

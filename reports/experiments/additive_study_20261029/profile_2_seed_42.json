@@ -1,0 +1,157 @@
+{
+  "profile": 2,
+  "seed": 42,
+  "config": {
+    "mode": "physical",
+    "interactions": 12
+  },
+  "accuracy": 0.8119338605319913,
+  "log_loss": 0.38663940579150996,
+  "seconds": 15.494045499999629,
+  "fold_audits": [
+    {
+      "inner_validation": {
+        "bags": 6,
+        "validation_group_fraction": 0.15,
+        "seed": 42,
+        "group_overlap": 0,
+        "validation_rows_per_bag": [
+          799,
+          800,
+          781,
+          760,
+          783,
+          788
+        ],
+        "training_groups": 3708,
+        "outer_training_rows_only": true
+      },
+      "best_iteration": [
+        [
+          6606,
+          8212,
+          7998,
+          10559,
+          9237,
+          9064
+        ],
+        [
+          6765,
+          2752,
+          3466,
+          3239,
+          3078,
+          4110
+        ]
+      ]
+    },
+    {
+      "inner_validation": {
+        "bags": 6,
+        "validation_group_fraction": 0.15,
+        "seed": 42,
+        "group_overlap": 0,
+        "validation_rows_per_bag": [
+          783,
+          772,
+          796,
+          772,
+          783,
+          810
+        ],
+        "training_groups": 3708,
+        "outer_training_rows_only": true
+      },
+      "best_iteration": [
+        [
+          11003,
+          10779,
+          10320,
+          11035,
+          9513,
+          12336
+        ],
+        [
+          9636,
+          10098,
+          4969,
+          9021,
+          33592,
+          4582
+        ]
+      ]
+    },
+    {
+      "inner_validation": {
+        "bags": 6,
+        "validation_group_fraction": 0.15,
+        "seed": 42,
+        "group_overlap": 0,
+        "validation_rows_per_bag": [
+          774,
+          798,
+          788,
+          807,
+          785,
+          781
+        ],
+        "training_groups": 3763,
+        "outer_training_rows_only": true
+      },
+      "best_iteration": [
+        [
+          8101,
+          9560,
+          8801,
+          8456,
+          8958,
+          13973
+        ],
+        [
+          8003,
+          3600,
+          13090,
+          3523,
+          4850,
+          5721
+        ]
+      ]
+    },
+    {
+      "inner_validation": {
+        "bags": 6,
+        "validation_group_fraction": 0.15,
+        "seed": 42,
+        "group_overlap": 0,
+        "validation_rows_per_bag": [
+          809,
+          810,
+          779,
+          812,
+          755,
+          775
+        ],
+        "training_groups": 3722,
+        "outer_training_rows_only": true
+      },
+      "best_iteration": [
+        [
+          7768,
+          7555,
+          7575,
+          9413,
+          9557,
+          11335
+        ],
+        [
+          3578,
+          3122,
+          7943,
+          6069,
+          18220,
+          4210
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "profile": 2,
+  "seed": 103,
+  "config": {
+    "family": "catboost",
+    "spatial": false
+  },
+  "accuracy": 0.8120776419841841,
+  "log_loss": 0.3830165774567441,
+  "seconds": 62.439205499998934,
+  "fold_audits": [
+    {
+      "target_encoding": false,
+      "inner_crossfit_folds": 0,
+      "group_overlap": 0,
+      "outer_training_rows": 5216,
+      "fixed_iterations": true
+    },
+    {
+      "target_encoding": false,
+      "inner_crossfit_folds": 0,
+      "group_overlap": 0,
+      "outer_training_rows": 5216,
+      "fixed_iterations": true
+    },
+    {
+      "target_encoding": false,
+      "inner_crossfit_folds": 0,
+      "group_overlap": 0,
+      "outer_training_rows": 5216,
+      "fixed_iterations": true
+    },
+    {
+      "target_encoding": false,
+      "inner_crossfit_folds": 0,
+      "group_overlap": 0,
+      "outer_training_rows": 5217,
+      "fixed_iterations": true
+    }
+  ]
+}

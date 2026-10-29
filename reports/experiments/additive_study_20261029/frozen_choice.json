@@ -1,0 +1,31 @@
+{
+  "profile": 1,
+  "config": {
+    "mode": "compact",
+    "interactions": 12
+  },
+  "weight": 0.5,
+  "development": {
+    "profile": 1,
+    "new_weight": 0.5,
+    "reference_accuracy": 0.8219985621854781,
+    "accuracy": 0.8199856218547807,
+    "gain": -0.0020129403306973215,
+    "reference_log_loss": 0.3795288431348585,
+    "log_loss": 0.37399217923727546,
+    "fold_gains": [
+      -0.005750431282346091,
+      -0.0017251293847038163,
+      0.0011500862564692849,
+      -0.0017261219792865656
+    ],
+    "improved_folds": 1
+  },
+  "development_gate_passed": false,
+  "threshold": 0.5,
+  "seeds": [
+    42,
+    2026,
+    103
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "inner_validation": {
+    "bags": 6,
+    "validation_group_fraction": 0.15,
+    "seed": 103,
+    "group_overlap": 0,
+    "validation_rows_per_bag": [
+      809,
+      774,
+      804,
+      812,
+      776,
+      797
+    ],
+    "training_groups": 3763,
+    "outer_training_rows_only": true
+  },
+  "best_iteration": [
+    [
+      18985,
+      7628,
+      11741,
+      6682,
+      8386,
+      10120
+    ],
+    [
+      7563,
+      11867,
+      10088,
+      7895,
+      11583,
+      13462
+    ]
+  ]
+}

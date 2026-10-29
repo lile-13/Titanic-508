@@ -1,0 +1,24 @@
+{
+  "status": "no_candidate",
+  "frozen": {
+    "profile": 0,
+    "config": {
+      "shrinkage": 0.25
+    },
+    "weight": 1.0,
+    "accuracy": 0.8212796549245147,
+    "log_loss": 0.37969084269293546,
+    "fold_gains": [
+      0.0,
+      -0.004600345025876917,
+      0.0034502587694077436,
+      -0.0017261219792865656
+    ],
+    "improved_folds": 1,
+    "incumbent_accuracy": 0.8219985621854781,
+    "incumbent_log_loss": 0.3795288431348585,
+    "initial_gate_passed": false
+  },
+  "kaggle_score": null,
+  "reason": "Predeclared initial gate failed; preserve observed Kaggle best 0.81108"
+}

@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "date": "2026-10-29",
+  "experiments": [
+    {
+      "run": "additive_study_20261029",
+      "source_hashes_match": true,
+      "cached_outer_fits_or_thresholds_checked": 32,
+      "group_disjoint": true,
+      "fold_5_excluded": true,
+      "development_metrics_reproduced": true,
+      "status": "no_candidate"
+    },
+    {
+      "run": "spatial_study_20261029",
+      "source_hashes_match": true,
+      "cached_outer_fits_or_thresholds_checked": 32,
+      "group_disjoint": true,
+      "fold_5_excluded": true,
+      "development_metrics_reproduced": true,
+      "status": "no_candidate"
+    },
+    {
+      "run": "threshold_study_20261029",
+      "source_hashes_match": true,
+      "cached_outer_fits_or_thresholds_checked": 12,
+      "group_disjoint": true,
+      "fold_5_excluded": true,
+      "development_metrics_reproduced": true,
+      "status": "no_candidate"
+    }
+  ],
+  "new_tests": 7,
+  "tests_passed": 36,
+  "incumbent_csv_sha256": "270a687c3f9a942dfeedea8aef26af70bd24bb2bac14c3d50a249214c3681c82",
+  "observed_kaggle_best": 0.81108,
+  "platform_ledger_unchanged": true,
+  "new_submission_generated": false,
+  "baseline": {
+    "accuracy": 0.8219985621854781,
+    "log_loss": 0.3795288431348585
+  },
+  "results": [
+    {
+      "run": "additive_study_20261029",
+      "accuracy": 0.8199856218547807,
+      "log_loss": 0.37399217923727546,
+      "gain": -0.0020129403306973215,
+      "improved_folds": 1,
+      "status": "no_candidate"
+    },
+    {
+      "run": "spatial_study_20261029",
+      "accuracy": 0.8204169662113587,
+      "log_loss": 0.37817722605848325,
+      "gain": -0.001581595974119332,
+      "improved_folds": 2,
+      "status": "no_candidate"
+    },
+    {
+      "run": "threshold_study_20261029",
+      "accuracy": 0.8212796549245147,
+      "log_loss": 0.37969084269293546,
+      "gain": -0.0007189072609633529,
+      "improved_folds": 1,
+      "status": "no_candidate"
+    }
+  ],
+  "limitation": "Historical adaptive development; no new independent holdout or Kaggle result"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "threshold_study_20261029",
+  "profiles": [
+    {
+      "shrinkage": 0.25
+    },
+    {
+      "shrinkage": 0.5
+    },
+    {
+      "shrinkage": 1.0
+    }
+  ],
+  "calibration_weights": [
+    1.0
+  ],
+  "threshold": 0.5,
+  "development_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "excluded_fold": 5,
+  "inner_holdout_fraction": 0.25,
+  "inner_seed_base": 20261029,
+  "grid_min": 0.35,
+  "grid_max": 0.65,
+  "grid_step": 0.005,
+  "bootstrap_groups": 150,
+  "bootstrap_seed": 20261031,
+  "sensitivity_seed": 20261103,
+  "gate": "Accuracy gain >=.0015, >=3/4 folds improved, logloss deterioration <=.002. Then freeze and changed-partition accuracy gain >=0, logloss deterioration <=.002. No retuning.",
+  "method": "Calibration labels belong to outer training only; temporary teachers exclude entire calibration groups; choose bootstrap-median accuracy cutoff on training holdout, shrink logit cutoff toward .5, transfer to full outer-training teacher",
+  "caveat": "Historical folds have been inspected. Changed partitions check sensitivity, not independent blind validation. Calibration transfer is itself tested by outer grouped validation.",
+  "source_plan_hash": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "sources": {
+    "scripts/threshold_study.py": "4a766fdcc71aa7e878b2643045416bd408e1e736a13fd494d4fabce3bc53e99c",
+    "src/accuracy_threshold.py": "e2a74e0f5127e65eca89dc144b11d748ee3f53977e9c9b7f2aa248a74bcfdf56",
+    "src/probability_calibration.py": "7e1a63cfd6aab7a514d0b9ccf7d3fec7892a9a2c4255b9887cd53c4a44b418c1",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe"
+  }
+}

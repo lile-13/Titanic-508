@@ -1,0 +1,78 @@
+{
+  "name": "spatial_study_20261029",
+  "profiles": [
+    {
+      "family": "lightgbm",
+      "spatial": false
+    },
+    {
+      "family": "lightgbm",
+      "spatial": true
+    },
+    {
+      "family": "catboost",
+      "spatial": false
+    },
+    {
+      "family": "catboost",
+      "spatial": true
+    }
+  ],
+  "parameters": {
+    "catboost": "750 iterations, depth 5, lr .04, l2 10, ctr complexity 2",
+    "lightgbm": "600 trees, leaves 15, lr .035, min_child 35, l2 5",
+    "radii": [
+      10,
+      50,
+      200
+    ],
+    "smoothing": 20.0,
+    "crossfit_folds": 4,
+    "crossfit_seed": 20261030
+  },
+  "development_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "excluded_fold": 5,
+  "seeds": [
+    42,
+    2026,
+    103
+  ],
+  "weights": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "threshold": 0.5,
+  "selection": "Four single-seed profiles; top two by best blend accuracy then logloss repeated with three seeds. Freeze best three-seed blend once.",
+  "gate": "Development gain >=.0015, >=3/4 folds improved, logloss deterioration <=.002. Then two cached repeated GroupKFold checks: mean gain >=.001, both nonnegative, >=6/10 folds improved, logloss deterioration <=.002 per repeat. No adjustment after failure.",
+  "internal_validation": "Spatial target encoding uses four inner GroupKFold splits on outer training rows only; complete query group excluded. Fixed model iterations, no early stopping. Two no-encoding controls separate base model effects.",
+  "repeated_split_seeds": [
+    20261029,
+    20261106
+  ],
+  "caveat": "All historical rows inspected. Screening and repartition checks are adaptive development, not independent blind validation. A passed local gate does not guarantee a Kaggle increase.",
+  "public_context": "Combined public unlabeled features for counts and unique HomePlanet lookups; no Transported in context",
+  "source_plan_hash": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "baseline_protocol_sha256": "f91cc3c705c6a8d4751391a9b473344736388d3d36eed88c87f7762ed534e8ec",
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "sources": {
+    "scripts/spatial_study.py": "24b7baba0da2eca5c9186feee69a44eb01c5063dbba82118788b33aba901f18e",
+    "src/spatial_features.py": "32a23b03ebab082ab87beed7620553105216f8ab937eb0718d2827d38da44cc6",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe",
+    "requirements.txt": "d93f85648a061be92cae2990a255036c3844afe48a26d75463dad4012aae8f6d"
+  }
+}

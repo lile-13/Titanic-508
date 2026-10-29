@@ -1,0 +1,41 @@
+{
+  "profile": 0,
+  "seed": 42,
+  "config": {
+    "family": "lightgbm",
+    "spatial": false
+  },
+  "accuracy": 0.8127965492451473,
+  "log_loss": 0.3859830892070218,
+  "seconds": 2.81981050000104,
+  "fold_audits": [
+    {
+      "target_encoding": false,
+      "inner_crossfit_folds": 0,
+      "group_overlap": 0,
+      "outer_training_rows": 5216,
+      "fixed_iterations": true
+    },
+    {
+      "target_encoding": false,
+      "inner_crossfit_folds": 0,
+      "group_overlap": 0,
+      "outer_training_rows": 5216,
+      "fixed_iterations": true
+    },
+    {
+      "target_encoding": false,
+      "inner_crossfit_folds": 0,
+      "group_overlap": 0,
+      "outer_training_rows": 5216,
+      "fixed_iterations": true
+    },
+    {
+      "target_encoding": false,
+      "inner_crossfit_folds": 0,
+      "group_overlap": 0,
+      "outer_training_rows": 5217,
+      "fixed_iterations": true
+    }
+  ]
+}
