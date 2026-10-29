@@ -1,0 +1,88 @@
+{
+  "name": "error_audit_20261029",
+  "purpose": "Diagnostic only; no fitting, threshold choice or candidate promotion",
+  "categorical_slices": [
+    "HomePlanet",
+    "Deck",
+    "Side",
+    "CryoSleep",
+    "Destination",
+    "age_band",
+    "spend_state",
+    "spend_band",
+    "spend_pattern",
+    "group_size_band",
+    "missing_band",
+    "group_cryo_mix",
+    "group_spend_mix",
+    "group_cabin_mix",
+    "cabin_third",
+    "group_position"
+  ],
+  "interaction_slices": [
+    [
+      "HomePlanet",
+      "Deck"
+    ],
+    [
+      "HomePlanet",
+      "CryoSleep"
+    ],
+    [
+      "HomePlanet",
+      "spend_state"
+    ],
+    [
+      "Deck",
+      "CryoSleep"
+    ],
+    [
+      "Deck",
+      "spend_state"
+    ],
+    [
+      "CryoSleep",
+      "spend_state"
+    ],
+    [
+      "HomePlanet",
+      "spend_pattern"
+    ],
+    [
+      "CryoSleep",
+      "group_spend_mix"
+    ],
+    [
+      "spend_state",
+      "group_size_band"
+    ],
+    [
+      "spend_state",
+      "group_cryo_mix"
+    ],
+    [
+      "Deck",
+      "cabin_third"
+    ]
+  ],
+  "minimum_slice_rows": 200,
+  "ranking": "Error count above overall rate; prioritize >=5 percentage points higher error in all three historical OOF variants. Overlapping slices are not additive.",
+  "bootstrap": "1000 GroupId-cluster multinomial resamples, seed 20261029; conditional fixed-prediction intervals for top 12. Exploratory and not adjusted for slice selection or multiple comparisons.",
+  "caveat": "Canonical OOF includes selection folds; repartitioned OOF reuses the same historical rows. These are stability descriptions, not independent confirmation or causal evidence.",
+  "sources": {
+    "scripts/audit_model_blindspots.py": "50b5d7f23995a45eda6e0aa593c245b98e55c2e2c3b7d2dc0afa7eaec1642289",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe"
+  },
+  "model_sha256": "f93aa25c1e1384f3c5221576cc1b14503e94ef264e7de865037b425e05c710d7",
+  "input_hashes": {
+    "reports\\experiments\\optimization_20261025\\oof_predictions.csv": "804c711fb93e0d4ca4cc28f336550856b2c63bec0f5813b29b138bcda82cb81e",
+    "reports\\experiments\\optimization_20261025\\frozen_plan.json": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+    "reports\\experiments\\kaggle_submissions.json": "0031830765c2a5cc1d09845eb0b8d4e754b5b4d1814ab8fb7d4661c9edc83ff8"
+  },
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88"
+  }
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "cohort": "Earth",
+    "n": 4602,
+    "groups": 3605,
+    "test_n": 2263,
+    "positive_rate": 0.42394611038678837,
+    "mean_probability": 0.42538512244229804,
+    "predicted_positive_rate": 0.4574098218166015,
+    "errors": 1188,
+    "error_rate": 0.258148631029987,
+    "repeat_error_rates": [
+      0.2620599739243807,
+      0.26053889613211645
+    ],
+    "roc_auc": 0.8218830220059508,
+    "minority_rows": 1951,
+    "false_positive": 671,
+    "false_negative": 517
+  },
+  {
+    "cohort": "Earth / G",
+    "n": 2498,
+    "groups": 1952,
+    "test_n": 1202,
+    "positive_rate": 0.5180144115292233,
+    "mean_probability": 0.5214992284548372,
+    "predicted_positive_rate": 0.6297037630104083,
+    "errors": 719,
+    "error_rate": 0.2878302642113691,
+    "repeat_error_rates": [
+      0.2946357085668535,
+      0.29703763010408324
+    ],
+    "roc_auc": 0.7968145850770487,
+    "minority_rows": 1204,
+    "false_positive": 499,
+    "false_negative": 220
+  },
+  {
+    "cohort": "Earth / Cryo=True",
+    "n": 1382,
+    "groups": 1179,
+    "test_n": 688,
+    "positive_rate": 0.6562952243125905,
+    "mean_probability": 0.6597632175949464,
+    "predicted_positive_rate": 0.9131693198263386,
+    "errors": 475,
+    "error_rate": 0.34370477568740954,
+    "repeat_error_rates": [
+      0.3458755426917511,
+      0.3516642547033285
+    ],
+    "roc_auc": 0.673860616259502,
+    "minority_rows": 475,
+    "false_positive": 415,
+    "false_negative": 60
+  },
+  {
+    "cohort": "Earth / G / child / awake",
+    "n": 258,
+    "groups": 193,
+    "test_n": 124,
+    "positive_rate": 0.5542635658914729,
+    "mean_probability": 0.572306210744103,
+    "predicted_positive_rate": 0.5968992248062015,
+    "errors": 99,
+    "error_rate": 0.38372093023255816,
+    "repeat_error_rates": [
+      0.40310077519379844,
+      0.4186046511627907
+    ],
+    "roc_auc": 0.641106719367589,
+    "minority_rows": 115,
+    "false_positive": 55,
+    "false_negative": 44
+  },
+  {
+    "cohort": "Europa / Cryo=True",
+    "n": 911,
+    "groups": 687,
+    "test_n": 463,
+    "positive_rate": 0.9890230515916575,
+    "mean_probability": 0.9766897844660469,
+    "predicted_positive_rate": 1.0,
+    "errors": 10,
+    "error_rate": 0.010976948408342482,
+    "repeat_error_rates": [
+      0.010976948408342482,
+      0.010976948408342482
+    ],
+    "roc_auc": 0.7982241953385127,
+    "minority_rows": 10,
+    "false_positive": 10,
+    "false_negative": 0
+  },
+  {
+    "cohort": "Mars / Cryo=True",
+    "n": 669,
+    "groups": 569,
+    "test_n": 365,
+    "positive_rate": 0.9118086696562033,
+    "mean_probability": 0.9059131038633929,
+    "predicted_positive_rate": 0.9521674140508222,
+    "errors": 51,
+    "error_rate": 0.07623318385650224,
+    "repeat_error_rates": [
+      0.07772795216741404,
+      0.08071748878923767
+    ],
+    "roc_auc": 0.9532647957766046,
+    "minority_rows": 59,
+    "false_positive": 39,
+    "false_negative": 12
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "source_sha256": "73c522394238ceb7f68dfdcd91af6ab372554c31a9e550e8930482cdc628113d",
+  "slice_rows_checked": 258,
+  "canonical_errors": 1602,
+  "persistent_errors": 1364,
+  "confident_persistent_errors": 74,
+  "group_context_brute_force_cases_checked": 256,
+  "candidate_context_self_exclusion_matches": true,
+  "modulo_exploration_rows": 42,
+  "new_model_trained": false,
+  "new_submission_generated": false
+}

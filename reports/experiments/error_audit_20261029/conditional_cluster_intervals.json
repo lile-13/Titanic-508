@@ -1,0 +1,110 @@
+[
+  {
+    "slice_id": 0,
+    "columns": "HomePlanet",
+    "value": "Earth",
+    "error_rate_lower": 0.24537580344325782,
+    "error_rate_upper": 0.2717135069051523,
+    "gap_to_complement_lower": 0.1404267613606278,
+    "gap_to_complement_upper": 0.17294302557859428
+  },
+  {
+    "slice_id": 10,
+    "columns": "Deck",
+    "value": "G",
+    "error_rate_lower": 0.2706581031539975,
+    "error_rate_upper": 0.30563433050644906,
+    "gap_to_complement_lower": 0.12655534199092172,
+    "gap_to_complement_upper": 0.1668146001961529
+  },
+  {
+    "slice_id": 72,
+    "columns": "HomePlanet + Deck",
+    "value": "Earth | G",
+    "error_rate_lower": 0.2694727346955117,
+    "error_rate_upper": 0.30468758607745594,
+    "gap_to_complement_lower": 0.12350158203104862,
+    "gap_to_complement_upper": 0.16494372027195328
+  },
+  {
+    "slice_id": 106,
+    "columns": "HomePlanet + spend_state",
+    "value": "Earth | Confirmed zero",
+    "error_rate_lower": 0.3195094183162668,
+    "error_rate_upper": 0.36699804939332825,
+    "gap_to_complement_lower": 0.16884139719635358,
+    "gap_to_complement_upper": 0.21870283152046466
+  },
+  {
+    "slice_id": 181,
+    "columns": "HomePlanet + spend_pattern",
+    "value": "Earth | Zero",
+    "error_rate_lower": 0.3195094183162668,
+    "error_rate_upper": 0.36699804939332825,
+    "gap_to_complement_lower": 0.16884139719635358,
+    "gap_to_complement_upper": 0.21870283152046466
+  },
+  {
+    "slice_id": 162,
+    "columns": "Deck + spend_state",
+    "value": "G | Confirmed zero",
+    "error_rate_lower": 0.3173422566698381,
+    "error_rate_upper": 0.36592179675429637,
+    "gap_to_complement_lower": 0.16379035578427883,
+    "gap_to_complement_upper": 0.21636845588775225
+  },
+  {
+    "slice_id": 96,
+    "columns": "HomePlanet + CryoSleep",
+    "value": "Earth | True",
+    "error_rate_lower": 0.31959171810528414,
+    "error_rate_upper": 0.36782607535758005,
+    "gap_to_complement_lower": 0.16367140315114664,
+    "gap_to_complement_upper": 0.21534795420120012
+  },
+  {
+    "slice_id": 138,
+    "columns": "Deck + CryoSleep",
+    "value": "G | True",
+    "error_rate_lower": 0.3154619069593689,
+    "error_rate_upper": 0.3648236015377641,
+    "gap_to_complement_lower": 0.1585077006990065,
+    "gap_to_complement_upper": 0.21000169416567938
+  },
+  {
+    "slice_id": 251,
+    "columns": "Deck + cabin_third",
+    "value": "G | First",
+    "error_rate_lower": 0.3154799809478837,
+    "error_rate_upper": 0.3777188390796796,
+    "gap_to_complement_lower": 0.14836039518310506,
+    "gap_to_complement_upper": 0.2133874701178707
+  },
+  {
+    "slice_id": 21,
+    "columns": "Destination",
+    "value": "PSO J318.5-22",
+    "error_rate_lower": 0.2472530136670201,
+    "error_rate_upper": 0.3093748089736536,
+    "gap_to_complement_lower": 0.07146123745451094,
+    "gap_to_complement_upper": 0.13550284983383498
+  },
+  {
+    "slice_id": 253,
+    "columns": "Deck + cabin_third",
+    "value": "G | Middle",
+    "error_rate_lower": 0.22600275757560775,
+    "error_rate_upper": 0.2870386042297105,
+    "gap_to_complement_lower": 0.04829417268388787,
+    "gap_to_complement_upper": 0.11277487728253296
+  },
+  {
+    "slice_id": 252,
+    "columns": "Deck + cabin_third",
+    "value": "G | Last",
+    "error_rate_lower": 0.2304761183560246,
+    "error_rate_upper": 0.2920750675483504,
+    "gap_to_complement_lower": 0.054909823743942626,
+    "gap_to_complement_upper": 0.11803637954296844
+  }
+]

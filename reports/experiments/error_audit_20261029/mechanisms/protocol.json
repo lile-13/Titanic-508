@@ -1,0 +1,22 @@
+{
+  "purpose": "Exploratory follow-up cohorts chosen after first-stage OOF inspection, not confirmatory inference",
+  "cohort_names": [
+    "Earth",
+    "Earth / G",
+    "Earth / Cryo=True",
+    "Earth / G / child / awake",
+    "Europa / Cryo=True",
+    "Mars / Cryo=True"
+  ],
+  "source_hash": "03b4e9e3b646ffe5921b2d35fc66252a4ba1ab41c1c8532922631c1c325dcae4",
+  "base_audit_protocol_sha256": "ea581a3d58e07e7abe1c8c5a456ac9ac4d8742ef1d28d43bbfa7ad0e9ee9bd0c",
+  "input_predictions_sha256": "5612b46ca05e75447b9e7aca2704cde64140ec33752ae299f854cbf5b653b965",
+  "new_candidate_features": [
+    "OtherKnownCryoShare",
+    "OtherAdultMeanAge",
+    "OtherChildCount"
+  ],
+  "no_fitting": true,
+  "no_new_submission": true,
+  "caveat": "High error, a feature absent by name, and residual association do not prove missing causal information or an achievable gain. Historical repeated OOF rows are dependent."
+}

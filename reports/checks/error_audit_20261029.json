@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "rows": 8693,
+  "canonical_oof_reproduced_from_45_models": true,
+  "complete_group_separation": true,
+  "slice_aggregates_recomputed": true,
+  "platform_ledger_unchanged": true,
+  "submission_sha256": "270a687c3f9a942dfeedea8aef26af70bd24bb2bac14c3d50a249214c3681c82",
+  "analysis_only": true
+}

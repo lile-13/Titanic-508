@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "candidate_context_uses_unlabeled_features_only": true,
+  "own_values_excluded": true,
+  "repeated_components_reproduce_reference": true,
+  "analysis_only": true,
+  "cohort_count": 6,
+  "limitations": "High error, a feature absent by name, and residual association do not prove missing causal information or an achievable gain. Historical repeated OOF rows are dependent."
+}

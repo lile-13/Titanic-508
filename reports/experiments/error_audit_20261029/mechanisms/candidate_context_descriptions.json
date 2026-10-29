@@ -1,0 +1,182 @@
+[
+  {
+    "feature": "OtherKnownCryoShare",
+    "value": "(.5,1)",
+    "n": 61,
+    "groups": 15,
+    "positive_rate": 0.5573770491803278,
+    "mean_probability": 0.6559267373117823,
+    "probability_bias": [
+      0.09854968813145448,
+      0.09872261533040161,
+      0.10918990506267201
+    ],
+    "error_rate": 0.4426229508196721,
+    "explicitly_present_in_primary_inputs": false
+  },
+  {
+    "feature": "OtherKnownCryoShare",
+    "value": "(0,.5]",
+    "n": 192,
+    "groups": 88,
+    "positive_rate": 0.671875,
+    "mean_probability": 0.6533278705399869,
+    "probability_bias": [
+      -0.018547129460013134,
+      -0.018961300577250984,
+      -0.026963822639190727
+    ],
+    "error_rate": 0.359375,
+    "explicitly_present_in_primary_inputs": false
+  },
+  {
+    "feature": "OtherKnownCryoShare",
+    "value": "0",
+    "n": 190,
+    "groups": 190,
+    "positive_rate": 0.6894736842105263,
+    "mean_probability": 0.6719244175679044,
+    "probability_bias": [
+      -0.017549266642621908,
+      -0.022947438021084343,
+      -0.018761499508551216
+    ],
+    "error_rate": 0.2894736842105263,
+    "explicitly_present_in_primary_inputs": false
+  },
+  {
+    "feature": "OtherKnownCryoShare",
+    "value": "1",
+    "n": 69,
+    "groups": 31,
+    "positive_rate": 0.6811594202898551,
+    "mean_probability": 0.6536646244000553,
+    "probability_bias": [
+      -0.02749479588979975,
+      -0.022513990468819522,
+      -0.02576127723994548
+    ],
+    "error_rate": 0.2608695652173913,
+    "explicitly_present_in_primary_inputs": false
+  },
+  {
+    "feature": "OtherKnownCryoShare",
+    "value": "No known other",
+    "n": 810,
+    "groups": 810,
+    "positive_rate": 0.6530864197530865,
+    "mean_probability": 0.6565301827976181,
+    "probability_bias": [
+      0.0034437630445316447,
+      0.006070858071215879,
+      0.002639750417399056
+    ],
+    "error_rate": 0.3493827160493827,
+    "explicitly_present_in_primary_inputs": false
+  },
+  {
+    "feature": "OtherAdultMeanAge",
+    "value": "26-40",
+    "n": 194,
+    "groups": 131,
+    "positive_rate": 0.6752577319587629,
+    "mean_probability": 0.6691432334806048,
+    "probability_bias": [
+      -0.006114498478158148,
+      -0.011721204883802572,
+      -0.017978427903698524
+    ],
+    "error_rate": 0.3402061855670103,
+    "explicitly_present_in_primary_inputs": false
+  },
+  {
+    "feature": "OtherAdultMeanAge",
+    "value": "<=25",
+    "n": 129,
+    "groups": 106,
+    "positive_rate": 0.7441860465116279,
+    "mean_probability": 0.6690636051816932,
+    "probability_bias": [
+      -0.07512244132993473,
+      -0.07375382410040698,
+      -0.06935435348671848
+    ],
+    "error_rate": 0.27906976744186046,
+    "explicitly_present_in_primary_inputs": false
+  },
+  {
+    "feature": "OtherAdultMeanAge",
+    "value": ">40",
+    "n": 115,
+    "groups": 79,
+    "positive_rate": 0.5826086956521739,
+    "mean_probability": 0.6380686807898929,
+    "probability_bias": [
+      0.05545998513771899,
+      0.05883755808747715,
+      0.060065837698493385
+    ],
+    "error_rate": 0.391304347826087,
+    "explicitly_present_in_primary_inputs": false
+  },
+  {
+    "feature": "OtherAdultMeanAge",
+    "value": "No known other adult",
+    "n": 884,
+    "groups": 870,
+    "positive_rate": 0.6515837104072398,
+    "mean_probability": 0.6566827352406779,
+    "probability_bias": [
+      0.005099024833438048,
+      0.0072480363936685555,
+      0.004305961925099466
+    ],
+    "error_rate": 0.34502262443438914,
+    "explicitly_present_in_primary_inputs": false
+  },
+  {
+    "feature": "OtherChildCount",
+    "value": "0",
+    "n": 1027,
+    "groups": 992,
+    "positive_rate": 0.6650438169425511,
+    "mean_probability": 0.6584062325483736,
+    "probability_bias": [
+      -0.006637584394177498,
+      -0.00512672533978753,
+      -0.008391208085268609
+    ],
+    "error_rate": 0.3388510223953262,
+    "explicitly_present_in_primary_inputs": false
+  },
+  {
+    "feature": "OtherChildCount",
+    "value": "1",
+    "n": 130,
+    "groups": 109,
+    "positive_rate": 0.7153846153846154,
+    "mean_probability": 0.6857083220080631,
+    "probability_bias": [
+      -0.02967629337655231,
+      -0.031127833137365002,
+      -0.030367155754697173
+    ],
+    "error_rate": 0.27692307692307694,
+    "explicitly_present_in_primary_inputs": false
+  },
+  {
+    "feature": "OtherChildCount",
+    "value": "2+",
+    "n": 165,
+    "groups": 75,
+    "positive_rate": 0.5696969696969697,
+    "mean_probability": 0.6344433086002714,
+    "probability_bias": [
+      0.06474633890330173,
+      0.06483146380285976,
+      0.06572736979207394
+    ],
+    "error_rate": 0.4121212121212121,
+    "explicitly_present_in_primary_inputs": false
+  }
+]
