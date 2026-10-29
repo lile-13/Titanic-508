@@ -1,0 +1,18 @@
+{
+  "g_calibration_rows": 404,
+  "calibration_groups": 311,
+  "ridge": 0.01,
+  "role_features": false,
+  "coefficients": [
+    0.11665864734540225,
+    -0.03839305373920419,
+    -0.11503652753808852,
+    0.07094319383973995
+  ],
+  "converged": true,
+  "method": "Ridge logistic correction with teacher logit coefficient fixed at 1; labels from training holdout only",
+  "fit_rows": 3889,
+  "calibration_rows": 1328,
+  "group_overlap": 0,
+  "source_cache_sha256": "06ecdb36c3fba2b7571ca22e1261744a942c4ec46442f0afef75bd9607e58541"
+}

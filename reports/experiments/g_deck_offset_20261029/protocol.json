@@ -1,0 +1,57 @@
+{
+  "name": "g_deck_offset_20261029",
+  "profiles": [
+    {
+      "roles": false,
+      "ridge": 0.01
+    },
+    {
+      "roles": true,
+      "ridge": 0.01
+    },
+    {
+      "roles": false,
+      "ridge": 0.1
+    },
+    {
+      "roles": true,
+      "ridge": 0.1
+    }
+  ],
+  "weights": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "threshold": 0.5,
+  "method": "Fix teacher logit coefficient at 1; ridge correction uses CryoSleep and Side, optionally other-group role variables and CryoSleep interactions; all scales fixed",
+  "fitting": "Calibrate on 25% GroupShuffleSplit holdout inside outer training, with teacher excluding whole calibration groups. Only G holdout labels used to fit correction. Public features never use labels.",
+  "selection": "Best enriched profile and blend by development accuracy, logloss, smaller blend; compare same-ridge/same-weight no-role context control",
+  "gate": "Global gain >=.0015; G gain >=.005, >=3/4 G folds improve; role-versus-control G gain >=.003; G logloss deterioration <=.005 and global <=.002. Then fixed two repetitions mean global gain >=.001, both nonnegative, >=6/10 G folds improve, mean role-versus-control G gain >=.003; same logloss limits. No retuning.",
+  "development_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "excluded_fold": 5,
+  "repeat_seeds": [
+    20261029,
+    20261106
+  ],
+  "caveat": "Adaptive follow-up after historical G-only model experiments; original rows and folds already inspected. Not blind confirmation or a Kaggle guarantee.",
+  "source_plan_hash": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "sources": {
+    "scripts/g_offset_study.py": "fe772d2b074a1c7d7a036b1856ff27ef31bec12feffb1b31ed25203967ee0567",
+    "scripts/g_deck_study.py": "3812a0495a391bbcb9931abc7b259807b455434a0c72d140716a0290a3f55869",
+    "scripts/calibration_study.py": "0b9956e84a189d5c1e08d886cae3798105a8a184b18b711a1f0bd34dff829592",
+    "src/g_offset_models.py": "bf395e78f6446e85d7f124f17e970cbf3add0be89823ffd395b3c3d842d3751f",
+    "src/g_deck_models.py": "353eac91ee00c50cedc4646c72ef6b32a87960cc243389499099cc83df7530b4",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe",
+    "requirements.txt": "d93f85648a061be92cae2990a255036c3844afe48a26d75463dad4012aae8f6d"
+  }
+}

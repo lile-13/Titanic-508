@@ -1,0 +1,62 @@
+{
+  "status": "no_candidate",
+  "frozen": {
+    "profile": 3,
+    "control_profile": 2,
+    "config": {
+      "roles": true,
+      "ridge": 0.1
+    },
+    "weight": 0.25,
+    "development": {
+      "profile": 3,
+      "weight": 0.25,
+      "accuracy": 0.8227174694464414,
+      "reference_accuracy": 0.8219985621854781,
+      "gain": 0.0007189072609633529,
+      "log_loss": 0.379362422510174,
+      "reference_log_loss": 0.3795288431348585,
+      "g_rows": 2019,
+      "g_accuracy": 0.7211490837048044,
+      "g_reference_accuracy": 0.7186726102030708,
+      "g_gain": 0.0024764735017335227,
+      "g_log_loss": 0.5329023236846504,
+      "g_reference_log_loss": 0.5334756052322883,
+      "g_fold_gains": [
+        0.0,
+        0.0,
+        0.0018726591760299671,
+        0.008421052631578885
+      ],
+      "g_improved_folds": 2,
+      "non_g_probabilities_unchanged": true
+    },
+    "matched_control": {
+      "profile": 2,
+      "weight": 0.25,
+      "accuracy": 0.8218547807332854,
+      "reference_accuracy": 0.8219985621854781,
+      "gain": -0.00014378145219262617,
+      "log_loss": 0.37951595516216374,
+      "reference_log_loss": 0.3795288431348585,
+      "g_rows": 2019,
+      "g_accuracy": 0.7181773155027241,
+      "g_reference_accuracy": 0.7186726102030708,
+      "g_gain": -0.0004952947003467045,
+      "g_log_loss": 0.5334312090707767,
+      "g_reference_log_loss": 0.5334756052322883,
+      "g_fold_gains": [
+        -0.0019267822736031004,
+        -0.0020366598778003286,
+        0.0037453183520599342,
+        -0.002105263157894721
+      ],
+      "g_improved_folds": 1,
+      "non_g_probabilities_unchanged": true
+    },
+    "added_roles_g_gain": 0.002971768202080227,
+    "development_gate_passed": false
+  },
+  "kaggle_score": null,
+  "reason": "Nested G-offset development/ablation gate failed"
+}

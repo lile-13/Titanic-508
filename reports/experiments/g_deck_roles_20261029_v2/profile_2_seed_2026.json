@@ -1,0 +1,12 @@
+{
+  "profile": 2,
+  "config": {
+    "family": "catboost",
+    "roles": false
+  },
+  "seed": 2026,
+  "g_rows": 2019,
+  "g_accuracy": 0.7028231797919762,
+  "g_log_loss": 0.5348638409410893,
+  "seconds": 37.47513439999966
+}

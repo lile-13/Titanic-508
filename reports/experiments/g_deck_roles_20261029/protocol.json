@@ -1,0 +1,88 @@
+{
+  "name": "g_deck_roles_20261029",
+  "profiles": [
+    {
+      "family": "lightgbm",
+      "roles": false
+    },
+    {
+      "family": "lightgbm",
+      "roles": true
+    },
+    {
+      "family": "catboost",
+      "roles": false
+    },
+    {
+      "family": "catboost",
+      "roles": true
+    }
+  ],
+  "parameters": {
+    "lightgbm": {
+      "n_estimators": 450,
+      "learning_rate": 0.035,
+      "num_leaves": 7,
+      "min_child_samples": 25,
+      "reg_lambda": 12.0,
+      "reg_alpha": 0.1,
+      "colsample_bytree": 0.9,
+      "subsample": 0.9,
+      "subsample_freq": 1
+    },
+    "catboost": {
+      "iterations": 600,
+      "depth": 4,
+      "learning_rate": 0.035,
+      "l2_leaf_reg": 12.0,
+      "max_ctr_complexity": 1
+    }
+  },
+  "seeds": [
+    42,
+    2026,
+    103
+  ],
+  "weights": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "threshold": 0.5,
+  "scope": "Raw observed Deck G only; all other passengers retain frozen incumbent predictions. No unsafe group Deck propagation.",
+  "role_features": "Other-known CryoSleep share/support, other-adult mean/support, other-child count, age gap and child/adult role; exclude self, use combined public unlabeled features only",
+  "development_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "excluded_fold": 5,
+  "selection": "Four profiles at seed 42. Select best enriched family by global blend accuracy, logloss, then smaller new weight; repeat that enriched profile and its paired no-role control with all three seeds. Freeze best enriched three-seed weight once; no family fallback after failure.",
+  "development_gate": "Global gain >=.0015; G gain >=.005 and >=3/4 G folds improve; G logloss deterioration <=.005 and global <=.002; enriched G accuracy exceeds matched control at same weight by >=.003. Non-G predictions identical.",
+  "repeat_gate": "Two fixed cached GroupKFold repetitions; mean global gain >=.001, both global gains nonnegative, G improves in >=6/10 folds; each G logloss deterioration <=.005 and global <=.002. Mean G enriched-versus-control gain >=.003. No retuning.",
+  "repeat_seeds": [
+    20261029,
+    20261106
+  ],
+  "caveat": "Motivated by historical OOF error inspection; all rows and previous repartitions already inspected. This is adaptive development and stability checking, not a new blind test or guarantee of Kaggle gain.",
+  "source_plan_hash": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "baseline_protocol_sha256": "f91cc3c705c6a8d4751391a9b473344736388d3d36eed88c87f7762ed534e8ec",
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "sources": {
+    "scripts/g_deck_study.py": "7e8d36ab19eee6edd7f21e2cffe04a7c2a4ade29a115119ef371ee53962baaa2",
+    "src/g_deck_models.py": "87ebad88103211548fc5df24f929156187dc443b99fdea76fbcf1b0caab00ceb",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "src/probability_calibration.py": "7e1a63cfd6aab7a514d0b9ccf7d3fec7892a9a2c4255b9887cd53c4a44b418c1",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe",
+    "requirements.txt": "d93f85648a061be92cae2990a255036c3844afe48a26d75463dad4012aae8f6d"
+  }
+}

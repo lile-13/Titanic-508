@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "experiments": [
+    {
+      "run": "g_deck_roles_20261029_v2",
+      "source_hashes_match": true,
+      "outer_fits_or_nested_offsets_checked": 32,
+      "development_metrics_reproduced": true,
+      "non_g_probabilities_unchanged": true,
+      "fold_5_excluded": true
+    },
+    {
+      "run": "g_deck_transfer_20261029",
+      "source_hashes_match": true,
+      "outer_fits_or_nested_offsets_checked": 32,
+      "development_metrics_reproduced": true,
+      "non_g_probabilities_unchanged": true,
+      "fold_5_excluded": true
+    },
+    {
+      "run": "g_deck_offset_20261029",
+      "source_hashes_match": true,
+      "outer_fits_or_nested_offsets_checked": 16,
+      "development_metrics_reproduced": true,
+      "non_g_probabilities_unchanged": true,
+      "fold_5_excluded": true
+    }
+  ],
+  "tests_passed": 44,
+  "original_submission_sha256": "270a687c3f9a942dfeedea8aef26af70bd24bb2bac14c3d50a249214c3681c82",
+  "aborted_source_snapshots_verified": true,
+  "platform_ledger_unchanged": true,
+  "no_new_submission": true,
+  "no_five_fold_refit": true,
+  "no_repeat_validation_run": true,
+  "limitation": "All original rows historically inspected; weak positive offset result is selected development evidence only"
+}

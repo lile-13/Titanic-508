@@ -1,0 +1,56 @@
+{
+  "status": "no_candidate",
+  "results": [
+    {
+      "run": "g_deck_roles_20261029_v2",
+      "name": "只用G训练的专用模型",
+      "accuracy": 0.8211358734723221,
+      "g_accuracy": 0.7157008420009906,
+      "gain": -0.0008626887131559791,
+      "g_gain": -0.002971768202080227,
+      "g_log_loss": 0.530968754880575,
+      "matched_control_g_accuracy": 0.7142149578999505,
+      "role_added_g_gain": 0.0014858841010401136,
+      "g_improved_folds": 0,
+      "corrected": 23,
+      "new_errors": 29,
+      "net_correct": -6,
+      "status": "no_candidate"
+    },
+    {
+      "run": "g_deck_transfer_20261029",
+      "name": "全量训练并提高G权重",
+      "accuracy": 0.8212796549245147,
+      "g_accuracy": 0.7161961367013373,
+      "gain": -0.0007189072609633529,
+      "g_gain": -0.0024764735017335227,
+      "g_log_loss": 0.5321980258808701,
+      "matched_control_g_accuracy": 0.7157008420009906,
+      "role_added_g_gain": 0.0004952947003467045,
+      "g_improved_folds": 1,
+      "corrected": 10,
+      "new_errors": 15,
+      "net_correct": -5,
+      "status": "no_candidate"
+    },
+    {
+      "run": "g_deck_offset_20261029",
+      "name": "原概率加同行角色修正",
+      "accuracy": 0.8227174694464414,
+      "g_accuracy": 0.7211490837048044,
+      "gain": 0.0007189072609633529,
+      "g_gain": 0.0024764735017335227,
+      "g_log_loss": 0.5329023236846504,
+      "matched_control_g_accuracy": 0.7181773155027241,
+      "role_added_g_gain": 0.002971768202080227,
+      "g_improved_folds": 2,
+      "corrected": 20,
+      "new_errors": 15,
+      "net_correct": 5,
+      "status": "no_candidate"
+    }
+  ],
+  "observed_kaggle_best": 0.81108,
+  "no_new_submission": true,
+  "historical_adaptive_development": true
+}

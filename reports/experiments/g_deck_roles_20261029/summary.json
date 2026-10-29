@@ -1,0 +1,7 @@
+{
+  "status": "aborted",
+  "reason": "Pandas 3 string inference changed GroupAgeRole into str dtype, not recognized by historical InputEncoder; enriched model was not fit",
+  "completed_control_records": 1,
+  "selected_candidate": false,
+  "replacement_run": "g_deck_roles_20261029_v2"
+}

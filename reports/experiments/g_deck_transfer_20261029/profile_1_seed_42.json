@@ -1,0 +1,12 @@
+{
+  "profile": 1,
+  "config": {
+    "family": "lightgbm",
+    "roles": true
+  },
+  "seed": 42,
+  "g_rows": 2019,
+  "g_accuracy": 0.6948984645864289,
+  "g_log_loss": 0.541651817346569,
+  "seconds": 1.5976386000002094
+}

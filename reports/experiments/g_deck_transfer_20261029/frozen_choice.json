@@ -1,0 +1,63 @@
+{
+  "profile": 3,
+  "control_profile": 2,
+  "config": {
+    "family": "catboost",
+    "roles": true
+  },
+  "weight": 0.25,
+  "seeds": [
+    42,
+    2026,
+    103
+  ],
+  "development": {
+    "profile": 3,
+    "new_weight": 0.25,
+    "accuracy": 0.8212796549245147,
+    "reference_accuracy": 0.8219985621854781,
+    "gain": -0.0007189072609633529,
+    "log_loss": 0.37915796855390765,
+    "reference_log_loss": 0.3795288431348585,
+    "g_rows": 2019,
+    "g_accuracy": 0.7161961367013373,
+    "g_reference_accuracy": 0.7186726102030708,
+    "g_gain": -0.0024764735017335227,
+    "g_log_loss": 0.5321980258808701,
+    "g_reference_log_loss": 0.5334756052322883,
+    "g_fold_gains": [
+      0.0019267822736029894,
+      0.0,
+      -0.0037453183520599342,
+      -0.008421052631578996
+    ],
+    "g_improved_folds": 1,
+    "non_g_probabilities_unchanged": true
+  },
+  "matched_control": {
+    "profile": 2,
+    "new_weight": 0.25,
+    "accuracy": 0.8211358734723221,
+    "reference_accuracy": 0.8219985621854781,
+    "gain": -0.0008626887131559791,
+    "log_loss": 0.3790731077698436,
+    "reference_log_loss": 0.3795288431348585,
+    "g_rows": 2019,
+    "g_accuracy": 0.7157008420009906,
+    "g_reference_accuracy": 0.7186726102030708,
+    "g_gain": -0.002971768202080227,
+    "g_log_loss": 0.5319056996039185,
+    "g_reference_log_loss": 0.5334756052322883,
+    "g_fold_gains": [
+      -0.0019267822736031004,
+      0.0,
+      -0.0037453183520599342,
+      -0.006315789473684275
+    ],
+    "g_improved_folds": 0,
+    "non_g_probabilities_unchanged": true
+  },
+  "added_roles_g_gain": 0.0004952947003467045,
+  "development_gate_passed": false,
+  "threshold": 0.5
+}

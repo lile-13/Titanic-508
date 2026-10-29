@@ -1,0 +1,68 @@
+{
+  "status": "no_candidate",
+  "frozen": {
+    "profile": 3,
+    "control_profile": 2,
+    "config": {
+      "family": "catboost",
+      "roles": true
+    },
+    "weight": 0.25,
+    "seeds": [
+      42,
+      2026,
+      103
+    ],
+    "development": {
+      "profile": 3,
+      "new_weight": 0.25,
+      "accuracy": 0.8211358734723221,
+      "reference_accuracy": 0.8219985621854781,
+      "gain": -0.0008626887131559791,
+      "log_loss": 0.3788011176337645,
+      "reference_log_loss": 0.3795288431348585,
+      "g_rows": 2019,
+      "g_accuracy": 0.7157008420009906,
+      "g_reference_accuracy": 0.7186726102030708,
+      "g_gain": -0.002971768202080227,
+      "g_log_loss": 0.530968754880575,
+      "g_reference_log_loss": 0.5334756052322883,
+      "g_fold_gains": [
+        0.0,
+        -0.008146639511201648,
+        0.0,
+        -0.004210526315789442
+      ],
+      "g_improved_folds": 0,
+      "non_g_probabilities_unchanged": true
+    },
+    "matched_control": {
+      "profile": 2,
+      "new_weight": 0.25,
+      "accuracy": 0.8207045291157441,
+      "reference_accuracy": 0.8219985621854781,
+      "gain": -0.0012940330697339686,
+      "log_loss": 0.3784643848568419,
+      "reference_log_loss": 0.3795288431348585,
+      "g_rows": 2019,
+      "g_accuracy": 0.7142149578999505,
+      "g_reference_accuracy": 0.7186726102030708,
+      "g_gain": -0.004457652303120341,
+      "g_log_loss": 0.5298087863498686,
+      "g_reference_log_loss": 0.5334756052322883,
+      "g_fold_gains": [
+        0.0,
+        -0.008146639511201648,
+        0.0,
+        -0.010526315789473717
+      ],
+      "g_improved_folds": 0,
+      "non_g_probabilities_unchanged": true
+    },
+    "added_roles_g_gain": 0.0014858841010401136,
+    "development_gate_passed": false,
+    "threshold": 0.5
+  },
+  "kaggle_score": null,
+  "reason": "G-only role-feature development/ablation gate failed; retain original ensemble"
+}
