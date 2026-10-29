@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "source": "user supplied screenshot",
+  "displayed_scores": {
+    "submission4690.csv": 0.80313,
+    "submission_ensemble4690.csv": 0.81108,
+    "submission_fullblend4690.csv": 0.81108,
+    "submission_regularized4690.csv": 0.81061
+  },
+  "regularized_difference_from_incumbent": -0.00047,
+  "primary_unchanged": true,
+  "training_summary_unchanged": true,
+  "uploaded_bytes_verified": false,
+  "evidence_sha256": "526571d4d195d3e3c84e5d2bac397a69cd5bf8cd72fe4e710f53eb1292d832b9"
+}

@@ -18,6 +18,10 @@ def main():
     expected="270a687c3f9a942dfeedea8aef26af70bd24bb2bac14c3d50a249214c3681c82"
     assert hashlib.sha256((old.output/"submission.csv").read_bytes()).hexdigest()==expected
     plan=json.loads((old.report/"frozen_plan.json").read_text(encoding="utf-8"))
+    ledger_path=EXPERIMENTS_DIR/"kaggle_submissions.json"
+    ledger=json.loads(ledger_path.read_text(encoding="utf-8"))
+    observed={r["model_run"]:r for r in ledger["submissions"]
+              if r["status"]=="Complete" and r.get("score") is not None}
     checks=[];candidates=[];results=[]
     for run in RUNS:
         report=EXPERIMENTS_DIR/run;output=PROJECT_ROOT/"outputs"/run
@@ -90,17 +94,19 @@ def main():
             np.testing.assert_allclose(probability,saved.probability,atol=1e-12,rtol=0)
             assert len(submission)==4277 and not submission.isna().any().any() and submission.PassengerId.is_unique
             dest=PROJECT_ROOT/"outputs/kaggle_ready_4690"/file.name;dest.write_bytes(file.read_bytes())
-            candidates.append(dict(model_run=run,file=dest.relative_to(PROJECT_ROOT).as_posix(),status="not_submitted",score=None,
+            recorded=observed.get(run,{})
+            if recorded:
+                assert hashlib.sha256(dest.read_bytes()).hexdigest()==recorded["local_expected_source_sha256"]
+            candidates.append(dict(model_run=run,file=dest.relative_to(PROJECT_ROOT).as_posix(),status=recorded.get("status","not_submitted"),score=recorded.get("score"),
                 sha256=hashlib.sha256(dest.read_bytes()).hexdigest(),rows=4277))
         results.append(summary)
         checks.append(dict(run=run,status=summary["status"],source_hashes_match=True,
             split_group_checks_passed=True,teacher_partitions_checked=count,
             initial_profiles=len(protocol.get("profiles",[])),
             student_config_seed_records=len(list(report.glob("profile_*_seed_*.json"))),
-            observed_kaggle_score=None))
-    ledger_path=EXPERIMENTS_DIR/"kaggle_submissions.json"
-    ledger=json.loads(ledger_path.read_text(encoding="utf-8"))
-    ledger["prepared_candidates"]=[r for r in ledger.get("prepared_candidates",[]) if r.get("model_run") not in RUNS]+candidates
+            observed_kaggle_score=observed.get(run,{}).get("score")))
+    pending=[r for r in candidates if r["status"]=="not_submitted"]
+    ledger["prepared_candidates"]=[r for r in ledger.get("prepared_candidates",[]) if r.get("model_run") not in RUNS]+pending
     _write_json(ledger_path,ledger)
     uncertainty=None
     if results[3]["status"]=="candidate_generated":
@@ -138,9 +144,19 @@ def main():
     selected=max(alternatives,key=lambda r:r["mean_gain"])
     paired_ref=float(np.mean([r["reference_accuracy"] for r in selected["repeats"]]))
     paired_alt=float(np.mean([r["alternative_accuracy"] for r in selected["repeats"]]))
+    scored=[r for r in candidates if r["status"]=="Complete"]
+    platform_statement="；".join(
+        f"{r['model_run']}已提交，Kaggle得分{r['score']:.5f}，相对原最佳差值{r['score']-.81108:+.5f}"
+        for r in scored)
+    if scored:
+        platform_statement+="。本地改善没有转化为平台提升，继续保留原45模型集成为主方案。"
+    elif pending:
+        platform_statement="已有通过门槛的待提交候选，尚无新平台成绩。"
+    else:
+        platform_statement="本轮没有通过门槛的新候选，保留原集成，不生成新提交CSV。"
     text=f"""# 概率校准 自训练与固定权重复验 2026-10-29
 
-当前Kaggle已观测最好成绩仍为0.81108；原45模型集成与54模型全量重训融合持平。今天不改变这三次平台成绩，继续暂停课程报告和源码ZIP整理。
+当前Kaggle已观测最好成绩仍为0.81108；原45模型集成与54模型全量重训融合持平。累计{len(ledger['submissions'])}次截图确认的平台提交。{platform_statement} 继续暂停课程报告和源码ZIP整理。
 
 | 方向 | 评价设置 | 对照准确率 | 新方案准确率 | 结论 |
 |---|---|---:|---:|---|
@@ -177,7 +193,7 @@ XGBoost的两次平均准确率差为{alternatives[0]['mean_gain']:+.6f}，未�
 
 局部LightGBM两次分别从{alternatives[1]['repeats'][0]['reference_accuracy']:.6f}到{alternatives[1]['repeats'][0]['alternative_accuracy']:.6f}、从{alternatives[1]['repeats'][1]['reference_accuracy']:.6f}到{alternatives[1]['repeats'][1]['alternative_accuracy']:.6f}，对应净增加20和5个正确预测；概率损失也分别降低。验证单元仍为同行组，不将同组分散到两侧。
 
-通过后按固定方案完成原五折训练，生成一份候选submission_regularized4690.csv。它含原45个模型及15个局部模型容器，每个容器包含全局与G/E子模型；不能把容器数量直接当作全部底层模型数。描述性原五折OOF为{paired.get('canonical_oof',float('nan')):.6f}，该折已参与历史选择，不是新的无偏指标。候选有{paired.get('changed_test_labels',0)}个测试标签变化，保存模型重载概率最大误差{paired.get('reload_max_error',float('nan')):.3g}，平台成绩尚未知。
+通过后按固定方案完成原五折训练，生成一份候选submission_regularized4690.csv。它含原45个模型及15个局部模型容器，每个容器包含全局与G/E子模型；不能把容器数量直接当作全部底层模型数。描述性原五折OOF为{paired.get('canonical_oof',float('nan')):.6f}，该折已参与历史选择，不是新的无偏指标。候选有{paired.get('changed_test_labels',0)}个测试标签变化，保存模型重载概率最大误差{paired.get('reload_max_error',float('nan')):.3g}。{platform_statement}
 
 ## 核验与复现
 
@@ -200,7 +216,7 @@ python -m scripts.audit_learning_round
 
 """
     if candidates:
-        text+="通过预设门槛的候选尚未提交Kaggle，平台提升未知：\n\n"+"\n".join("- "+c["file"] for c in candidates)+"\n"
+        text+=platform_statement+"\n\n"+"\n".join("- "+c["file"]+f"（{c['status']}）" for c in candidates)+"\n"
         if uncertainty:
             text+=f"\n按同行组对两次预测的平均差做配对bootstrap，条件95%区间为[{uncertainty['percentile_95_lower']:+.6f},{uncertainty['percentile_95_upper']:+.6f}]。这不计入训练与模型选择不确定性，也不是新的盲测显著性检验；原0.81108方案继续保留。\n"
     else:text+="本轮没有通过预设门槛的候选，不生成新提交CSV；继续保留outputs/kaggle_ready_4690/submission_ensemble4690.csv。\n"
@@ -210,7 +226,7 @@ python -m scripts.audit_learning_round
 
 完成8种校准配置、4种高置信软标签学生配置、昨日固定权重线索的两次新分组五折复验，以及两个固定正则化替代模型的配对检验。29项测试及分组/来源检查通过，当前Kaggle已观测最好仍为0.81108。
 
-{"已有通过门槛的待提交候选，尚无新平台成绩。" if candidates else "本轮没有通过门槛的新候选，保留原集成，不生成新提交CSV。"} 详见[学习与校准记录](docs/学习与校准实验_20261029.md)。课程报告及源码ZIP仍暂停整理。
+{platform_statement} 详见[学习与校准记录](docs/学习与校准实验_20261029.md)。课程报告及源码ZIP仍暂停整理。
 <!-- learning-round-20261029:end -->
 """
     for path in [PROJECT_ROOT/"README.md",PROJECT_ROOT/"docs/项目进度.md"]:

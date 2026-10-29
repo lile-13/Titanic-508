@@ -40,15 +40,15 @@
       "teacher_partitions_checked": 20,
       "initial_profiles": 2,
       "student_config_seed_records": 0,
-      "observed_kaggle_score": null
+      "observed_kaggle_score": 0.81061
     }
   ],
   "candidates": [
     {
       "model_run": "paired_regularization_20261029",
       "file": "outputs/kaggle_ready_4690/submission_regularized4690.csv",
-      "status": "not_submitted",
-      "score": null,
+      "status": "Complete",
+      "score": 0.81061,
       "sha256": "8715f16bb14eb6d5e4cdec84cd55b39ac1977208be71a1220833274b8a4d8ce9",
       "rows": 4277
     }
