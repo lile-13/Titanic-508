@@ -1,0 +1,52 @@
+{
+  "name": "tabicl_stacking_20261030",
+  "ridge": 0.01,
+  "weight_bound": [
+    0.0,
+    1.0
+  ],
+  "intercept_shrinkage_target": 0.0,
+  "weight_shrinkage_target": 0.5,
+  "threshold": 0.5,
+  "method": "Fit intercept and constrained TFM weight on inner 25% group holdout: logit(p)=b+(1-w)logit(old)+w logit(TFM). Both temporary teachers exclude every calibration group. Transfer fitted parameters to full outer-training teachers. No cohort features or fixed-weight search.",
+  "control": "Same held-out rows, but TFM weight fixed to zero; only old-model intercept fitted with same ridge. Not selected by outer labels.",
+  "gate": "Development accuracy gain >=.001, >=3/4 folds improve, global logloss deterioration <=.002, accuracy >= reference-only fitted-intercept control +.0005. Then two paired grouped five-fold repeats: both nonnegative, mean gain >=.001, >=6/10 improved folds, mean gain over matched control >=.0005, loss deterioration <=.002 each. Stop at any failed stage; no further stacking configuration search.",
+  "rationale": "Raw fixed TFM blend failed development and separate paired checks despite lower logloss on every partition. This is a new adaptive learned-combination hypothesis; both prior failures remain unchanged.",
+  "caveat": "Repeated historical rows and source splits; adaptive development, not independent unbiased confirmation. No guarantee of Kaggle improvement.",
+  "inner_sources": {
+    "development": "calibration_study_20261029/inner_fold_{fold}.npz, seed 20261029+fold",
+    "repeat_1": "g_cohort_routing_20261029/repeat_1_fold_{fold}_inner.npz, seed 690001+10+fold",
+    "repeat_2": "new cache, seed 690001+20+fold",
+    "final": "new cache, seed 740001+fold"
+  },
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "checkpoint_sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0",
+  "parent_protocols": {
+    "tabicl_20261030": "c898c187cbf1e59f2d8275278afd8f42e01c13a564ca5a74134e7897da7ba717",
+    "tabicl_paired_20261030": "c59349a6b1e24e32091bbc755bbf2a1c3ffbab2036ac9b3f029167532442540f",
+    "calibration_study_20261029": "9ce050d9024a62308543349119417469a2e477c03b4c83f0f284d90febaf75c1",
+    "g_cohort_routing_20261029": "fd8d0aeb0c33487d9e9576ac634d4aa3bde8ab1f8b833bcf00261dbb90f34877"
+  },
+  "parent_results": {
+    "tabicl_20261030": "2df2bac59ebf60337101d377f05d0f2f66161873f34a20c97e042597b12837f5",
+    "tabicl_paired_20261030": "c7ed67d6e87dbf138f24920fc912118fd772a202f68572f2f725320c7b0b48db"
+  },
+  "original_plan_sha256": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "sources": {
+    "scripts/tabicl_stacking_study.py": "ff5f16b871403f5401f4ea8ce45873607caad9505b7d9b10dd85e005f9a6a9c1",
+    "src/logit_stacking.py": "02868f156a3c4d70f6fd5d39f3648f3a737293b7b91bd204e4e613a97612317a",
+    "scripts/calibration_study.py": "0b9956e84a189d5c1e08d886cae3798105a8a184b18b711a1f0bd34dff829592",
+    "scripts/tabicl_study.py": "7892f51d3c221770f6854ed93b2b00e33db55f8e3d38f4901e2e2d86ebfe9b07",
+    "src/tabicl_models.py": "fcb51939a5f5293768f7ed39f386ee61d06776e9962b590f6f58a66117ca81ad",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe",
+    "requirements-tabicl.txt": "52e255917bd46729b3740dc6b25b13720ee3f901fa38d0ca9d0731a5bf3f3bc1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "no_candidate",
+  "stage": "development",
+  "development": {
+    "reference_accuracy": 0.8219985621854781,
+    "accuracy": 0.8240115025161754,
+    "gain": 0.0020129403306973215,
+    "reference_log_loss": 0.3795288431348585,
+    "log_loss": 0.37149924342730367,
+    "corrected": 193,
+    "new_errors": 179,
+    "fold_gains": [
+      0.008625646923519303,
+      -0.0023001725129384587,
+      0.00517538815411156,
+      -0.0034522439585731313
+    ],
+    "improved_folds": 2
+  },
+  "completed_repeats": 0,
+  "kaggle_score": null,
+  "reason": "Fixed pretrained-model blend failed development gate"
+}

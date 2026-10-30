@@ -1,0 +1,20 @@
+{
+  "inner_source": "outputs\\calibration_study_20261029\\inner_fold_1.npz",
+  "inner_source_sha256": "a8f868f9fc4a40e403859eddbeea2d4301ed2167ee33d075fad4a527cd9a27d2",
+  "stack": {
+    "intercept": -0.007581472574511489,
+    "tfm_weight": 0.5976681675964537,
+    "ridge": 0.01,
+    "rows": 1282,
+    "converged": true,
+    "tfm_enabled": true
+  },
+  "control": {
+    "intercept": -0.033155641164204455,
+    "tfm_weight": 0.0,
+    "ridge": 0.01,
+    "rows": 1282,
+    "converged": true,
+    "tfm_enabled": false
+  }
+}

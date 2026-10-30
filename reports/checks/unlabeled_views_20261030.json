@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "source_and_data_hashes_match": true,
+  "models_reloaded": 16,
+  "validation_rows_repredicted": 27820,
+  "tree_parameters_match": true,
+  "base_features_identical": true,
+  "group_isolation_verified": true,
+  "selection_and_metrics_reconstructed": true,
+  "excluded_fold_predictions_missing": true,
+  "gate_passed": false,
+  "completed_repeats": 0,
+  "tests_passed": 49,
+  "test_log_sha256": "5c0c0a5bd9731ec8bdeb9dc24df0b3d32558d3d3a98118a538aa71c00b66bc30",
+  "incumbent_csv_sha256": "270a687c3f9a942dfeedea8aef26af70bd24bb2bac14c3d50a249214c3681c82",
+  "platform_ledger_unchanged": true,
+  "limitation": "Adaptive historical development; no independent holdout or new Kaggle score"
+}

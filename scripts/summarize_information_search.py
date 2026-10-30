@@ -1,0 +1,114 @@
+"""Write the completed information search outcome and project status."""
+import json
+import re
+
+from src.paths import PROJECT_ROOT, EXPERIMENTS_DIR
+
+
+def read(path):return json.loads(path.read_text(encoding="utf-8"))
+
+
+def main():
+    views=read(EXPERIMENTS_DIR/"unlabeled_views_20261030/summary.json")
+    parent=read(EXPERIMENTS_DIR/"tabicl_20261030/summary.json")
+    paired=read(EXPERIMENTS_DIR/"tabicl_paired_20261030/summary.json")
+    stack=read(EXPERIMENTS_DIR/"tabicl_stacking_20261030/summary.json")
+    audit=read(PROJECT_ROOT/"reports/checks/information_search_20261030.json")
+    view_audit=read(PROJECT_ROOT/"reports/checks/unlabeled_views_20261030.json")
+    assert all(r["status"]=="no_candidate" for r in [views,parent,paired,stack])
+    assert audit["passed"] and view_audit["passed"]
+    def row(name,r,n):
+        return f"| {name} | {r['reference_accuracy']:.6f} | {r['accuracy']:.6f} | {r['corrected']-r['new_errors']:+d} | {r['improved_folds']}/{n} | {r['reference_log_loss']:.6f} → {r['log_loss']:.6f} |"
+    table="\n".join([row("坐标表征三种子",views["development"],4),row("TabICL固定50%开发",parent["development"],4),
+        *[row(f"TabICL固定50%复核{r['repeat']}",r,5) for r in paired["repeats"]],row("TabICL训练内学习组合",stack["development"],4),
+        row("仅旧模型截距对照",stack["control"],4)])
+    coefficients=[read(EXPERIMENTS_DIR/f"tabicl_stacking_20261030/development_fold_{f}_calibrators.json")["stack"] for f in range(1,5)]
+    weights=", ".join(f"{r['tfm_weight']:.4f}" for r in coefficients)
+    text=f"""# 信息检索与表格预训练对照 2026-10-30
+
+本轮新增姓名字符与无标签坐标表征、TabICLv2本地GPU模型、固定融合的单独配对复核、训练内部按组留出的两参数概率组合。没有找到通过门槛的稳定准确率增益，没有生成新提交；已观测Kaggle最佳仍为0.81108。
+
+## 实际发现
+
+公开train+test中有2883种FirstName和2406种Surname；测试乘客的完整名字在训练中出现的比例为91.09%，姓氏为87.89%。同一CabinKey跨同行组的数量为零，测试CabinKey在训练中的覆盖也为零，因此同舱标签传播没有可用的跨组或跨集合支持。这些统计不读取Transported，完整数据见unlabeled_views_20261030/target_free_coverage.json。
+
+[竞赛字段说明](https://www.kaggle.com/c/spaceship-titanic/data)把姓名定义为名字和姓氏，并未给出性别。本轮没有把名字推断成性别或补造性别标签。[CatBoost文档](https://catboost.ai/docs/en/concepts/algorithm-main-stages_cat-to-numberic)说明类别值通过统计转换；将完整名字作为类别，并不等同于显式共享名字的字符片段，因此提出字符表征假设，但不能由此预设有效。
+
+## 姓名与坐标表征
+
+只替换原集成中25%权重的rich_names CatBoost组件，保留其748轮、深度5及全部原参数；其他75%概率保持原方案。姓名方案增加首尾2/3字符、长度、元音比例，以及公开统一池的名字人数和跨组人数。坐标方案增加舱号相对组号进度之差、同甲板同侧舱号的百分位进度差，以及前后10个舱号内排除自身组后的不同组数。
+
+两种方案各用种子42训练开发四折，只对事前规则选中的一个方案补齐2026、103。没有搜索权重或阈值，也没有在胜者失败后回头尝试另一配置。姓名方案单种子准确率0.821136，低于原方案0.821999，未进入三种子复核；坐标方案最终净多对3人，仅2/4折改善，低于+0.001且3/4折改善的门槛。它们是既有字段的新表示，不是新增独立数据。
+
+## 表格预训练模型
+
+新增[作者实现TabICLv2](https://github.com/soda-inria/tabicl)，作者说明其预训练来自合成数据。本轮使用[作者发布的模型权重](https://huggingface.co/jingang/TabICL)，固定revision为4dcd344ece2c00be9e831fdd35bed57b5ad83e19，文件tabicl-classifier-v2-20260212.ckpt，大小110368038字节，SHA256为bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0。
+
+模型仅在本机NVIDIA GeForce RTX 5060 Laptop GPU上运行，8GB显存；未向外部模型服务发送竞赛数据。固定8个内部集成视图，batch_size=2，random_state=42，无微调。输入为FocusedBuilder(compact)的18列，保留原五项消费、年龄、位置及基础组统计。它与旧方案的输入矩阵也不同，故结果属于模型与输入组合对照，不能全部归因于单一架构。
+
+依赖单独安装在被忽略的outputs/tabicl_env：torch==2.14.1+cu130、tabicl==2.2.0。原项目环境未安装torch，requirements.txt保持原冻结内容。共享一份经哈希校验的作者权重；每个已保存上下文只包含该折训练特征、训练标签和无标签预处理器，不存机器专属绝对路径或GPU运行缓存。
+
+## 同口径结果
+
+开发仅使用原第1至4折，6955人；第5折不进入开发训练或评分。两次配对复核使用完整8693人重新按组划分，各自的原模型参考分数也不同，表内只能横向比较同一行，不能把不同口径的数值直接相减。
+
+| 方法与口径 | 原准确率 | 新准确率 | 净多对人数 | 改善折数 | Log loss |
+|---|---:|---:|---:|---:|---|
+{table}
+
+原固定50%融合修正193个旧错误，同时新增179个错误。它在开发阶段净多对14人，但只有2/4折改善，原实验明确判为失败。随后因准确率与概率损失线索，另建tabicl_paired_20261030协议，保持同样模型、输入、参数、权重与阈值，仅做一次固定选择的配对复核；这是看过失败结果后的额外适应性研究，没有把原失败改写为成功。
+
+配对复核要求两次准确率均不退步、平均至少+0.001、10折至少6折改善，且每次损失恶化不超过0.002。实际第一次净多对2人、第二次少对9人，因此失败。虽然7/10折改善，但折数不能抵消整体退步。
+
+## 训练内部学习概率组合
+
+固定模型：logit(p)=b+(1-w)logit(p_old)+w·logit(p_TFM)，w约束在[0,1]，L2正则0.01，分别向b=0、w=0.5收缩。每个外层训练内部留出25%完整同行组；旧模型和TFM临时教师都完全排除这些校准组。只使用这些内部留出的预测和标签拟合b、w，再转移到外层全训练量的两个教师。验证标签不进入模型、权重或截距拟合。
+
+四折学到的TFM权重为{weights}，它们是训练算法的输出，未在外层按成绩择优。匹配控制将w固定为0，只拟合旧模型的截距，其他条件相同。新组合开发准确率0.824443，净多对17人，但仍只有2/4折改善，未通过初始门槛。因此没有对这个学习组合执行换分组复验，也没有正式五折重训或新CSV。
+
+固定50%组合在开发和两次重复划分的整体Log loss均下降，这里指三个整体评分口径，不宣称每一个小折都下降。概率质量改善尚未稳定转化成0.5阈值的准确率收益；这属于可继续研究的线索，不能当作已证实的Kaggle提升，也不能证明已经达到成绩上限。本轮到此结束这些分支，不继续对同一批结果搜索权重、阈值或子群体。
+
+## 核验与复现
+
+{audit['tests_passed']}项测试通过。重载16个CatBoost实验模型，重新计算27820行验证预测；重载{audit['tfm_contexts_reloaded']}个TFM训练上下文，逐个核对训练特征、训练标签、同行组隔离、超参数及作者权重哈希，GPU重新预测最大差为{audit['max_gpu_reprediction_error']:.1g}。嵌套组合的系数和预测均从内部缓存独立重算。每个上下文的8种内部视图不代表8批独立验证样本。
+
+所有原始样本及大部分划分此前已被使用，本轮有模型方向选择和后续适应性研究。重新分折没有产生新独立样本，重复行也不能视为样本量翻倍。原最佳CSV哈希仍为{audit['incumbent_csv_sha256']}，榜分账本没有变化。详见reports/checks/unlabeled_views_20261030.json和reports/checks/information_search_20261030.json。
+
+已有本机基准缓存时：
+
+```powershell
+.venv/Scripts/python.exe -B -m unittest discover -s tests -q
+.venv/Scripts/python.exe -B -m scripts.unlabeled_view_study
+.venv/Scripts/python.exe -B -m scripts.audit_unlabeled_views
+outputs/tabicl_env/Scripts/python.exe -B -m scripts.tabicl_study
+outputs/tabicl_env/Scripts/python.exe -B -m scripts.paired_tabicl_confirmation
+outputs/tabicl_env/Scripts/python.exe -B -m scripts.tabicl_stacking_study
+outputs/tabicl_env/Scripts/python.exe -B -m scripts.audit_tabicl_round
+.venv/Scripts/python.exe -B -m scripts.summarize_information_search
+```
+
+全新机器需下载原始数据，依原模型优化流程重建confirmation开发缓存、两次固定权重分组基准，以及calibration_study内部教师缓存。嵌套TFM组合还读取G分群研究的第一轮内部教师缓存；该来源此前已审计，失败结论保持不变。models/outputs不随Git推送，只有源码和报告不能直接读出本机实验缓存。源码哈希按字节核对，克隆应保留LF换行。
+
+GPU环境可在单独venv中先安装requirements.txt，再从PyTorch官方索引安装torch==2.14.1+cu130（--index-url https://download.pytorch.org/whl/cu130），然后安装tabicl==2.2.0；`python -m scripts.prepare_tabicl`下载固定作者权重，网络需要代理时可加--proxy参数。首次检查只使用合成数据，不依据外层标签选择硬件参数。
+
+课程报告DOCX、源码ZIP继续按用户要求暂停整理。本轮没有自动提交Kaggle，也没有推断或填写四人个人信息。
+"""
+    (PROJECT_ROOT/"docs/信息检索与预训练对照_20261030.md").write_text(text,encoding="utf-8")
+    block=f"""<!-- information-search-20261030:start -->
+## 2026-10-30 信息检索与表格预训练对照
+
+新增姓名/无标签坐标表征及TabICLv2本地GPU对照。固定融合开发净多对14人，但仅2/4折改善；单独固定换分组复核分别+2/-9人。训练内部学习概率组合开发净多对17人，仍只有2/4折改善。均未通过门槛，无新CSV，平台最佳保持0.81108。{audit['tests_passed']}项测试、16个CatBoost模型及18个TFM上下文重载核验通过。
+
+详见[信息检索与预训练对照](docs/信息检索与预训练对照_20261030.md)。课程报告和源码ZIP继续暂停整理。
+<!-- information-search-20261030:end -->
+"""
+    for path in [PROJECT_ROOT/"README.md",PROJECT_ROOT/"docs/项目进度.md"]:
+        current=path.read_text(encoding="utf-8")
+        current=re.sub(r"<!-- information-search-20261030:start -->.*?<!-- information-search-20261030:end -->\n*","",current,flags=re.S)
+        first,rest=current.split("\n",1)
+        inserted=block if path.name=="README.md" else block.replace("(docs/信息","(信息")
+        path.write_text(first+"\n\n"+inserted+"\n"+rest.lstrip(),encoding="utf-8")
+    print("Information search results and progress documented")
+
+
+if __name__=="__main__":main()

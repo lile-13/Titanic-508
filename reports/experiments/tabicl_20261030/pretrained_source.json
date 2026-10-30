@@ -1,0 +1,13 @@
+{
+  "repository": "jingang/TabICL",
+  "revision": "4dcd344ece2c00be9e831fdd35bed57b5ad83e19",
+  "filename": "tabicl-classifier-v2-20260212.ckpt",
+  "size": 110368038,
+  "sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0",
+  "url": "https://huggingface.co/jingang/TabICL/resolve/4dcd344ece2c00be9e831fdd35bed57b5ad83e19/tabicl-classifier-v2-20260212.ckpt",
+  "model_card": "https://huggingface.co/jingang/TabICL",
+  "license": "bsd-3-clause per author model card",
+  "pretraining_reference": "https://github.com/soda-inria/tabicl",
+  "local_only_inference": true,
+  "data_transfer": "Only checkpoint downloaded; competition feature rows and labels not uploaded"
+}

@@ -1,0 +1,26 @@
+{
+  "tag": "repeat_1_fold_1",
+  "model_sha256": "a3a97dee798f57b2fff16c23e9e0448f43dbe6aae1567dba572e96abb12aa46f",
+  "training_rows": 6921,
+  "validation_rows": 1772,
+  "columns": [
+    "RoomService",
+    "FoodCourt",
+    "ShoppingMall",
+    "Spa",
+    "VRDeck",
+    "Age",
+    "TotalSpend",
+    "GroupSize",
+    "SurnameSize",
+    "HomePlanet",
+    "Destination",
+    "Deck",
+    "Side",
+    "CryoSleep",
+    "VIP",
+    "CabinNum",
+    "GroupIdNum",
+    "DeckSide"
+  ]
+}

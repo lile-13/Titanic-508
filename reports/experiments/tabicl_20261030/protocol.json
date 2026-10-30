@@ -1,0 +1,59 @@
+{
+  "name": "tabicl_20261030",
+  "params": {
+    "n_estimators": 8,
+    "batch_size": 2,
+    "device": "cuda",
+    "use_amp": true,
+    "use_fa3": false,
+    "random_state": 42,
+    "n_jobs": 4,
+    "kv_cache": false,
+    "verbose": false,
+    "allow_auto_download": false,
+    "checkpoint_version": "tabicl-classifier-v2-20260212.ckpt"
+  },
+  "weight": 0.5,
+  "threshold": 0.5,
+  "feature_builder": "FocusedBuilder(compact, resolve_planet=True)",
+  "selection": "One pretrained model, one feature set, one fixed 50/50 blend. No hyperparameter, seed, threshold, weight or cohort search. No fine-tuning.",
+  "gate": "Development gain >=.001, >=3/4 folds improve, logloss deterioration <=.002. Then two existing grouped five-fold repetitions: both nonnegative, mean gain >=.001, >=6/10 folds improve, loss deterioration <=.002 each. Stop at any failed stage; first repeated negative/loss/zero improved folds stops repeat 2.",
+  "development_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "excluded_from_development": 5,
+  "paired_splits": "Reuse fixed_weight_confirmation_20261029 component caches and GroupKFold seeds 20261029/20261106; all historical rows/partitions seen previously. This is adaptive paired sensitivity, not a new blind holdout.",
+  "pretrained_source_sha256": "50ad261d82b0108088482b8f0e5ba7bbfbb1b052a95e657e5f26ad0af6d7f3bf",
+  "checkpoint_sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0",
+  "original_plan_sha256": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "baseline_protocol_sha256": "f91cc3c705c6a8d4751391a9b473344736388d3d36eed88c87f7762ed534e8ec",
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "sources": {
+    "scripts/tabicl_study.py": "7892f51d3c221770f6854ed93b2b00e33db55f8e3d38f4901e2e2d86ebfe9b07",
+    "scripts/prepare_tabicl.py": "fdd1004771db572e079ba079669ea5c06913f8c8cd45da252b8b2b45a84d55a5",
+    "src/tabicl_models.py": "fcb51939a5f5293768f7ed39f386ee61d06776e9962b590f6f58a66117ca81ad",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe",
+    "requirements-tabicl.txt": "52e255917bd46729b3740dc6b25b13720ee3f901fa38d0ca9d0731a5bf3f3bc1"
+  },
+  "environment": {
+    "torch": "2.14.1+cu130",
+    "tabicl": "2.2.0",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0"
+  },
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "context": "Public unlabeled features only; entire validation groups absent from in-context training labels; all inference stays local"
+}

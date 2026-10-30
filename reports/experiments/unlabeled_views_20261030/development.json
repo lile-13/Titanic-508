@@ -1,0 +1,18 @@
+{
+  "view": "coordinates",
+  "passed": false,
+  "reference_accuracy": 0.8219985621854781,
+  "accuracy": 0.822429906542056,
+  "gain": 0.00043134435657798953,
+  "reference_log_loss": 0.3795288431348585,
+  "log_loss": 0.3792238226835408,
+  "corrected": 25,
+  "new_errors": 22,
+  "fold_gains": [
+    -0.0005750431282345314,
+    0.0017251293847039273,
+    0.0,
+    0.0005753739930954849
+  ],
+  "improved_folds": 2
+}

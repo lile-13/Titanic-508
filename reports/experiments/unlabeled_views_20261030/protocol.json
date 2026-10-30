@@ -1,0 +1,59 @@
+{
+  "name": "unlabeled_views_20261030",
+  "views": [
+    "names",
+    "coordinates"
+  ],
+  "config": {
+    "family": "catboost",
+    "feature_set": "rich_names",
+    "strategy": "native",
+    "params": {
+      "iterations": 748,
+      "depth": 5,
+      "learning_rate": 0.03743936483397399,
+      "l2_leaf_reg": 17.795736111078792,
+      "random_strength": 2.0,
+      "bagging_temperature": 1.5902796653821254,
+      "rsm": 0.8862713098571321,
+      "max_ctr_complexity": 2,
+      "one_hot_max_size": 10,
+      "border_count": 128
+    },
+    "seed": 103
+  },
+  "seeds": [
+    42,
+    2026,
+    103
+  ],
+  "replacement_component": 1,
+  "fixed_component_weight": 0.25,
+  "threshold": 0.5,
+  "hypothesis": "Unseen name substrings may share statistical information; relative coordinate gaps may simplify axis-aligned splits. These are representations of existing features, not new independent data or causal facts.",
+  "selection": "Two seed-42 views on development folds 1..4; select one by highest ensemble accuracy, then lowest logloss, then listed view order. Only that view gets seeds 2026 and 103. No weight, threshold, parameter or branch search; no fallback to the other view after failure.",
+  "gate": "Three-seed development replacement gain >=.001, >=3/4 improved folds, logloss deterioration <=.002. If passed: two existing five-fold repartitions, both nonnegative, mean gain >=.001, >=6/10 improved folds, logloss deterioration <=.002 each. Stop before full refit if any stage fails.",
+  "interpretation": "Historical adaptive development and paired sensitivity only; neither rows nor partitions form a new blind holdout.",
+  "context": "Public train+test feature allowlist only; consistent counts and coordinates; no Transported labels in public context; queries independent of transform batch.",
+  "source_plan_sha256": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "baseline_protocol_sha256": "f91cc3c705c6a8d4751391a9b473344736388d3d36eed88c87f7762ed534e8ec",
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "sources": {
+    "scripts/unlabeled_view_study.py": "d781312ea4593605e7aa5f991799078043498422cb81786cdd6890c880a95d57",
+    "src/unlabeled_views.py": "e05991fa617b978930a5465cf41ef45e1a76e5e54b91b19763bcca1316b556d0",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe",
+    "requirements.txt": "d93f85648a061be92cae2990a255036c3844afe48a26d75463dad4012aae8f6d"
+  },
+  "references": [
+    "https://www.kaggle.com/c/spaceship-titanic/data",
+    "https://catboost.ai/docs/en/concepts/algorithm-main-stages_cat-to-numberic"
+  ],
+  "rejected_leads": "Public combined data have zero cross-group CabinKey sharing and zero train/test CabinKey overlap; no cabin-mate label propagation. No inferred gender labels or external benchmark answers."
+}

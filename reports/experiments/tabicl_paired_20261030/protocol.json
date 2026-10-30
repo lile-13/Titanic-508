@@ -1,0 +1,54 @@
+{
+  "name": "tabicl_paired_20261030",
+  "params": {
+    "n_estimators": 8,
+    "batch_size": 2,
+    "device": "cuda",
+    "use_amp": true,
+    "use_fa3": false,
+    "random_state": 42,
+    "n_jobs": 4,
+    "kv_cache": false,
+    "verbose": false,
+    "allow_auto_download": false,
+    "checkpoint_version": "tabicl-classifier-v2-20260212.ckpt"
+  },
+  "fixed_new_weight": 0.5,
+  "threshold": 0.5,
+  "rationale": "Original TabICL study failed its 3/4-fold consistency gate and remains failed. Its +14 development correct and logloss decrease about .008 motivate one separate, adaptive fixed-choice follow-up; no model, feature, weight, seed or threshold change.",
+  "gate": "Two paired grouped five-fold repeats: mean accuracy gain >=.001, both repeats nonnegative, >=6/10 folds improve, each logloss deterioration <=.002. Stop after repeat 1 if negative, loss failure, or no improved folds. No replacement split and no retuning.",
+  "split_seeds": [
+    20261029,
+    20261106
+  ],
+  "folds": 5,
+  "caveat": "Follow-up decided after inspecting the original failed development result and many previous studies. Same historical rows and partitions; sensitivity evidence only, not independent or unbiased confirmation. A candidate remains pending actual Kaggle score.",
+  "parent_protocol_sha256": "c898c187cbf1e59f2d8275278afd8f42e01c13a564ca5a74134e7897da7ba717",
+  "parent_summary_sha256": "2df2bac59ebf60337101d377f05d0f2f66161873f34a20c97e042597b12837f5",
+  "original_plan_sha256": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "baseline_protocol_sha256": "f91cc3c705c6a8d4751391a9b473344736388d3d36eed88c87f7762ed534e8ec",
+  "checkpoint_sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0",
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "sources": {
+    "scripts/paired_tabicl_confirmation.py": "9bd69aae4f713d1a46ea42912e1e21eff3aca89deb8b3fc35281ce69b81639cb",
+    "scripts/tabicl_study.py": "7892f51d3c221770f6854ed93b2b00e33db55f8e3d38f4901e2e2d86ebfe9b07",
+    "src/tabicl_models.py": "fcb51939a5f5293768f7ed39f386ee61d06776e9962b590f6f58a66117ca81ad",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe",
+    "requirements-tabicl.txt": "52e255917bd46729b3740dc6b25b13720ee3f901fa38d0ca9d0731a5bf3f3bc1"
+  },
+  "environment": {
+    "torch": "2.14.1+cu130",
+    "tabicl": "2.2.0",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0"
+  }
+}

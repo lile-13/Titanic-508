@@ -1,0 +1,17 @@
+{
+  "FirstName": {
+    "public_unique": 2883,
+    "cross_group_keys": 2544,
+    "test_seen_train_share": 0.9109188683656769
+  },
+  "Surname": {
+    "public_unique": 2406,
+    "cross_group_keys": 2065,
+    "test_seen_train_share": 0.8788870703764321
+  },
+  "CabinKey": {
+    "public_unique": 9825,
+    "cross_group_keys": 0,
+    "test_seen_train_share": 0.0
+  }
+}

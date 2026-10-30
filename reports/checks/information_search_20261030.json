@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "tfm_contexts_reloaded": 18,
+  "training_context_rows_verified": 106074,
+  "max_gpu_reprediction_error": 0.0,
+  "source_and_data_hashes_match": true,
+  "checkpoint_sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0",
+  "nested_group_isolation_verified": true,
+  "all_saved_training_features_and_labels_match": true,
+  "gates_independently_recomputed": true,
+  "all_studies_no_candidate": true,
+  "original_failure_preserved": true,
+  "tests_passed": 52,
+  "test_log_sha256": "b09d0803c6d3fdba7915d5fe75cf0fe53b2c4a154beb0b1287e303b1cae1d923",
+  "incumbent_csv_sha256": "270a687c3f9a942dfeedea8aef26af70bd24bb2bac14c3d50a249214c3681c82",
+  "platform_ledger_unchanged": true,
+  "no_new_csv": true,
+  "limitation": "Adaptive historical studies and repeat rows; no new independent holdout or Kaggle score"
+}

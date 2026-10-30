@@ -1,0 +1,4 @@
+# Optional GPU experiment, installed in an isolated environment.
+# Install PyTorch from its official CUDA 13.0 wheel index first.
+torch==2.14.1+cu130
+tabicl==2.2.0
