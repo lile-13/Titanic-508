@@ -164,13 +164,15 @@ def main():
     logpath=PROJECT_ROOT/"outputs/tabicl_input_followup_20261030_tests.log";log=logpath.read_text(encoding="utf-8",errors="replace")
     match=re.search(r"Ran (\d+) tests",log);assert match and re.search(r"\nOK\s*$",log)
     ledger=read(EXPERIMENTS_DIR/"kaggle_submissions.json")
-    assert ledger["current_platform_best"]["model_run"]=="optimization_20261025" and ledger["current_platform_best"]["score"]==.81108
+    # Validate the historical reference even after a later platform promotion.
+    assert any(r["model_run"]=="optimization_20261025" and r["score"]==.81108 for r in ledger["submissions"])
     audit=dict(passed=True,arithmetic_contexts_reloaded=contexts,fresh_reference_models_reloaded=reference_models,
                 max_validation_reload_error=max_error,source_data_checkpoint_hashes_match=True,group_isolation_verified=True,
                 all_eight_views_retained=True,only_internal_aggregation_changed=True,gates_recomputed=True,gate_passed=bool(qualified),
                 tests_passed=int(match.group(1)),test_log_sha256=sha(logpath),incumbent_submission_sha256=expected,
-                candidate=candidate,conditional_uncertainty=uncertainty,platform_best_retained=True,
-                caveat="Hypothesis selected from historical failures. Fresh partitions use the same known rows; Kaggle improvement remains unobserved.")
+                candidate=candidate,conditional_uncertainty=uncertainty,
+                platform_best_retained=ledger["current_platform_best"]["model_run"]=="optimization_20261025",
+                caveat="Hypothesis selected from historical failures. Fresh partitions use the same known rows. Platform outcomes are recorded separately in kaggle_submissions.json.")
     _write_json(PROJECT_ROOT/"reports/checks/tabicl_probability_mean_20261030.json",audit)
     print(json.dumps(audit,indent=2))
 

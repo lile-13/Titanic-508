@@ -1,5 +1,9 @@
 # Titanic-508 Spaceship Titanic 四人团队项目
 
+## 2026-10-30 第五次Kaggle提交结果
+
+用户截图确认`submission_tabicl_mean4690.csv`提交成功，得分**0.81178**，比原最佳0.81108高0.00070（0.07个百分点）。当前平台最佳更新为TabICL概率平均与原树模型各50%的融合，原45模型方案保留用于对照。五次真实成绩及截图见[Kaggle提交记录](docs/Kaggle提交记录.md)。下方实验记录中的“待提交”描述为本次评分前的历史状态；课程报告和源码ZIP继续暂停。
+
 <!-- tabicl-probability-mean-20261030:start -->
 ## 2026-10-30 TabICL失稳诊断与新候选
 

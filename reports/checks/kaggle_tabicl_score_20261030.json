@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "observed_on": "2026-10-30",
+  "submissions": 5,
+  "previous_submissions_unchanged": true,
+  "current_platform_best": "tabicl_probability_mean_20261030",
+  "score": 0.81178,
+  "previous_best": 0.81108,
+  "absolute_gain": 0.0007,
+  "percentage_point_gain": 0.07,
+  "evidence_sha256": "43ddeff9eb09a81a3a06e8f6f05dc928e145a3b4e18d5818a48fdda2250cf16f",
+  "local_csv_sha256": "bd2858e0412f37d22ac38040401bfbe3e459a5ab5690f0e4b98924c78aed8ac0",
+  "screenshot_copied_without_modification": true,
+  "uploaded_bytes_verified": false,
+  "ready_manifest_consistent": true,
+  "training_protocols_and_pre_submission_audit_unchanged": true,
+  "model_retrained": false
+}

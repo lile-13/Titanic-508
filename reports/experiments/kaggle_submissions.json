@@ -73,34 +73,54 @@
       "uploaded_bytes_verified": false,
       "model_association": "From filename and preceding preparation/upload workflow; screenshot cannot verify uploaded bytes",
       "repository_head_when_recorded": "5b3dc4ac2a1ebc880629f5f87f95f991471c1756"
-    }
-  ],
-  "prepared_candidates": [
+    },
     {
+      "id": "tabicl_mean_20261030_081178",
       "model_run": "tabicl_probability_mean_20261030",
-      "status": "prepared_not_submitted",
-      "prepared_on": "2026-10-30",
-      "file": "outputs/kaggle_ready_4690/submission_tabicl_mean4690.csv",
-      "sha256": "bd2858e0412f37d22ac38040401bfbe3e459a5ab5690f0e4b98924c78aed8ac0",
-      "rows": 4277,
-      "score": null,
-      "kaggle_score": null,
-      "source_protocol_sha256": "5d6744873573ebec4e6ac28b627c541d5cfb898b475df29d59164800814477f3",
-      "audit": "reports/checks/tabicl_probability_mean_20261030.json",
-      "audit_sha256": "d8ee464bc628ad159959c3eb43661b914c5e44674120e6cbaafa601e7fa8d808",
-      "description": "TabICLv2 probability mean (8 views), 50% frozen tree ensemble, grouped validation, threshold 0.5"
+      "status": "Complete",
+      "observed_on": "2026-10-30",
+      "submitted_at": null,
+      "uploaded_filename": "submission_tabicl_mean4690.csv",
+      "account_as_displayed": "Litianle4690",
+      "score": 0.81178,
+      "displayed_score": "0.81178",
+      "rank": null,
+      "evidence": "reports/figures/kaggle_tabicl_mean_20261030.png",
+      "evidence_sha256": "43ddeff9eb09a81a3a06e8f6f05dc928e145a3b4e18d5818a48fdda2250cf16f",
+      "local_expected_source_sha256": "bd2858e0412f37d22ac38040401bfbe3e459a5ab5690f0e4b98924c78aed8ac0",
+      "uploaded_bytes_verified": false,
+      "model_association": "From displayed filename and preceding preparation/upload workflow; screenshot cannot verify uploaded file bytes",
+      "repository_head_when_recorded": "19b2da5cee3c77f2cdb457d11126f322c3a83876",
+      "preparation": {
+        "model_run": "tabicl_probability_mean_20261030",
+        "status": "prepared_not_submitted",
+        "prepared_on": "2026-10-30",
+        "file": "outputs/kaggle_ready_4690/submission_tabicl_mean4690.csv",
+        "sha256": "bd2858e0412f37d22ac38040401bfbe3e459a5ab5690f0e4b98924c78aed8ac0",
+        "rows": 4277,
+        "score": null,
+        "kaggle_score": null,
+        "source_protocol_sha256": "5d6744873573ebec4e6ac28b627c541d5cfb898b475df29d59164800814477f3",
+        "audit": "reports/checks/tabicl_probability_mean_20261030.json",
+        "audit_sha256": "d8ee464bc628ad159959c3eb43661b914c5e44674120e6cbaafa601e7fa8d808",
+        "description": "TabICLv2 probability mean (8 views), 50% frozen tree ensemble, grouped validation, threshold 0.5"
+      }
     }
   ],
+  "prepared_candidates": [],
   "current_platform_best": {
-    "model_run": "optimization_20261025",
-    "score": 0.81108,
-    "submission": "outputs/kaggle_ready_4690/submission_ensemble4690.csv",
-    "accuracy_difference": 0.00795,
-    "percentage_point_difference": 0.795,
-    "basis": "Highest displayed score among four screenshot-confirmed submissions; full-data blend ties incumbent and regularized blend scores lower. Retain original 45-model ensemble; not a significance claim",
+    "model_run": "tabicl_probability_mean_20261030",
+    "score": 0.81178,
+    "submission": "outputs/kaggle_ready_4690/submission_tabicl_mean4690.csv",
+    "accuracy_difference": 0.00865,
+    "percentage_point_difference": 0.865,
+    "previous_best_model_run": "optimization_20261025",
+    "previous_best_score": 0.81108,
+    "improvement_over_previous_best": 0.0007,
+    "percentage_point_improvement_over_previous_best": 0.07,
+    "basis": "Highest displayed score among five screenshot-confirmed submissions. Improvement over previous best is observational, not a significance claim",
     "tied_model_runs": [
-      "optimization_20261025",
-      "full_data_candidate_20261028"
+      "tabicl_probability_mean_20261030"
     ]
   }
 }
