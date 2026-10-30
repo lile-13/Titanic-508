@@ -1,0 +1,28 @@
+{
+  "model_sha256": "be3f4f75db60182d6aa2544183dfad8bec10e194429e4c34ec74484f9d0ded2b",
+  "tag": "historical_repeat_1_fold_3",
+  "training_rows": 6972,
+  "validation_rows": 1721,
+  "original_context_sha256": "bc6c5577cb4275af61ed8338b17d56a853a782caede76ba8f8169e393e9d78f6",
+  "columns": [
+    "RoomService",
+    "FoodCourt",
+    "ShoppingMall",
+    "Spa",
+    "VRDeck",
+    "Age",
+    "TotalSpend",
+    "GroupSize",
+    "SurnameSize",
+    "HomePlanet",
+    "Destination",
+    "Deck",
+    "Side",
+    "CryoSleep",
+    "VIP",
+    "CabinNum",
+    "GroupIdNum",
+    "DeckSide"
+  ],
+  "all_eight_views_retained": true
+}

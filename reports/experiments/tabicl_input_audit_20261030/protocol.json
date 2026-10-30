@@ -1,0 +1,72 @@
+{
+  "name": "tabicl_input_audit_20261030",
+  "views": [
+    "compact",
+    "compact_no_sequence",
+    "expanded",
+    "expanded_no_sequence"
+  ],
+  "tfm_params": {
+    "n_estimators": 8,
+    "batch_size": 2,
+    "device": "cuda",
+    "use_amp": true,
+    "use_fa3": false,
+    "random_state": 42,
+    "n_jobs": 4,
+    "kv_cache": false,
+    "verbose": false,
+    "allow_auto_download": false,
+    "checkpoint_version": "tabicl-classifier-v2-20260212.ckpt"
+  },
+  "cat_params": {
+    "iterations": 748,
+    "depth": 5,
+    "learning_rate": 0.03743936483397399,
+    "l2_leaf_reg": 17.795736111078792,
+    "random_strength": 2.0,
+    "bagging_temperature": 1.5902796653821254,
+    "rsm": 0.8862713098571321,
+    "max_ctr_complexity": 2,
+    "one_hot_max_size": 10,
+    "border_count": 128
+  },
+  "cat_seed": 42,
+  "weight": 0.5,
+  "threshold": 0.5,
+  "feature_design": "2x2 fixed factorial: compact 18 / expanded 34, each with / without GroupIdNum (17/33). Expanded adds existing GroupPos, GroupSurnameCount, CabinRelative, eight public group aggregates and five per-service logs. Public unique GroupId->Side fills missing only; compact parity required on complete folds.",
+  "selection": "All three new TFM inputs evaluated on development folds 1..4. Qualify if ensemble gain >=.001, >=3/4 folds improve, loss deterioration <=.002, and accuracy >= compact-control blend +.0005. Select highest qualifying accuracy, then lowest logloss, then listed order. If none qualify stop; no new inputs, thresholds, weights or fallback algorithms.",
+  "matched_cat_control": "Same four matrices, fixed frozen rich_names CatBoost parameters and seed 42; descriptive comparison only, no CatBoost candidate selection and no tuning.",
+  "sensitivity": "After selection only: GroupKFold five-fold split seeds 20261030/20261107, unseen assignments at protocol freeze but historical rows. Fresh frozen 9-member original references and compact TFM control. Both selected-blend gains nonnegative, mean >=.001, >=6/10 improved folds, loss deterioration <=.002 each, mean gain over compact blend >=.0005. Stop after first negative/loss/zero-improved repeat.",
+  "diagnostic_boundary": "Historical repeat2/fold3 learning curve is descriptive only and not a promotion gate. No route is learned from that fold's labels.",
+  "checkpoint_sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0",
+  "original_plan_sha256": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "compact_protocol_sha256": "c898c187cbf1e59f2d8275278afd8f42e01c13a564ca5a74134e7897da7ba717",
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "caveat": "Adaptive input hypotheses after historical error inspection. New partitions do not create independent rows or a new blind holdout; candidate Kaggle score remains unknown.",
+  "sources": {
+    "scripts/tabicl_input_study.py": "1879b0f9ec785ebbbc2fe95e87457810e2532f211e6a91c7bb8ef4d9eb35ee45",
+    "src/tabicl_inputs.py": "89af2b31fe0bcca67d3b57fa489c37b9dc5e5398cfc9bcc758e7950ae7a41346",
+    "src/tabicl_models.py": "fcb51939a5f5293768f7ed39f386ee61d06776e9962b590f6f58a66117ca81ad",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "scripts/tabicl_study.py": "7892f51d3c221770f6854ed93b2b00e33db55f8e3d38f4901e2e2d86ebfe9b07",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe",
+    "requirements-tabicl.txt": "52e255917bd46729b3740dc6b25b13720ee3f901fa38d0ca9d0731a5bf3f3bc1"
+  },
+  "environment": {
+    "tabicl": "2.2.0",
+    "torch": "2.14.1+cu130",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0"
+  }
+}

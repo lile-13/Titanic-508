@@ -1,0 +1,23 @@
+{
+  "model_sha256": "b2f51f30716412844159724510b55de0577f7a4e819b67bc5d44636ad97b885c",
+  "config": {
+    "family": "catboost",
+    "feature_set": "spend",
+    "strategy": "native",
+    "params": {
+      "iterations": 555,
+      "depth": 6,
+      "learning_rate": 0.03673810683371394,
+      "l2_leaf_reg": 1.5830658087718168,
+      "random_strength": 2.0,
+      "bagging_temperature": 1.7295485509215793,
+      "rsm": 0.8522189062529064,
+      "max_ctr_complexity": 2,
+      "one_hot_max_size": 4,
+      "border_count": 128
+    },
+    "seed": 2026
+  },
+  "component": 0,
+  "tag": "fresh_repeat_2_fold_5"
+}

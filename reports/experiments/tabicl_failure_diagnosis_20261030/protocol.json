@@ -1,0 +1,40 @@
+{
+  "name": "tabicl_failure_diagnosis_20261030",
+  "diagnostic_repeat": 2,
+  "diagnostic_fold": 3,
+  "chosen_from_historical_worst_fold": true,
+  "fractions": [
+    0.5,
+    0.75
+  ],
+  "seeds": [
+    5101,
+    5102,
+    5103
+  ],
+  "params": {
+    "n_estimators": 8,
+    "batch_size": 2,
+    "device": "cuda",
+    "use_amp": true,
+    "use_fa3": false,
+    "random_state": 42,
+    "n_jobs": 4,
+    "kv_cache": false,
+    "verbose": false,
+    "allow_auto_download": false,
+    "checkpoint_version": "tabicl-classifier-v2-20260212.ckpt"
+  },
+  "group_sampling": "Permute unique outer-training GroupIds per seed; take first floor(fraction*n_groups). Fractions nested per seed; fixed validation unchanged.",
+  "interpretation": "Selected-fold descriptive sensitivity only. No sampling fraction or seed is promoted; does not establish a causal explanation or independent gain. Full-training reference uses cached original ensemble; only TFM context size changes.",
+  "parent_protocol_sha256": "c59349a6b1e24e32091bbc755bbf2a1c3ffbab2036ac9b3f029167532442540f",
+  "parent_predictions_sha256": "4c01dcfc5cea7633ac2c10da391b33b6c9570b8720ac4b5bae581660b587c855",
+  "sources": {
+    "scripts/diagnose_tabicl_failure.py": "1ade0f8d8d58b1c887b467cc0f77840ddd184e70b2a5540e4ac26203bd340923",
+    "src/tabicl_models.py": "fcb51939a5f5293768f7ed39f386ee61d06776e9962b590f6f58a66117ca81ad",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd"
+  }
+}

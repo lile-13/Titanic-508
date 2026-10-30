@@ -1,0 +1,19 @@
+{
+  "model_sha256": "0bd6111ad10cf4b9a09c128a7ad3507bdbcfe4ec6ce9b86c8ffe91b39e639387",
+  "config": {
+    "family": "lightgbm",
+    "feature_set": "base",
+    "strategy": "rule_group",
+    "params": {
+      "iterations": 327,
+      "learning_rate": 0.04,
+      "num_leaves": 15,
+      "min_child_samples": 30,
+      "reg_alpha": 0.1,
+      "reg_lambda": 3.0
+    },
+    "seed": 42
+  },
+  "component": 2,
+  "tag": "fresh_repeat_1_fold_1"
+}

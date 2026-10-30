@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "arithmetic_contexts_reloaded": 25,
+  "fresh_reference_models_reloaded": 90,
+  "max_validation_reload_error": 0.0,
+  "source_data_checkpoint_hashes_match": true,
+  "group_isolation_verified": true,
+  "all_eight_views_retained": true,
+  "only_internal_aggregation_changed": true,
+  "gates_recomputed": true,
+  "gate_passed": true,
+  "tests_passed": 56,
+  "test_log_sha256": "3e0c6468a7534288ba57aa864e70617807d4b9b9d1e0ca513fd3e9fbec4f1f96",
+  "incumbent_submission_sha256": "270a687c3f9a942dfeedea8aef26af70bd24bb2bac14c3d50a249214c3681c82",
+  "candidate": {
+    "rows": 4277,
+    "sha256": "bd2858e0412f37d22ac38040401bfbe3e459a5ab5690f0e4b98924c78aed8ac0",
+    "unique_ids": true,
+    "boolean_labels": true,
+    "template_order": true,
+    "cli_reproduced": true,
+    "independent_test_recombination_max_error": 0.0
+  },
+  "conditional_uncertainty": {
+    "mean_gain": 0.002703324513976763,
+    "group_bootstrap_95_interval": [
+      -0.00075252172658524,
+      0.006211957931232215
+    ],
+    "groups": 6217,
+    "resamples": 2000,
+    "seed": 20481030,
+    "caveat": "Conditional fixed-prediction interval, averaging repeated outcomes per passenger before group resampling. Does not include model-selection or refitting uncertainty; not a promotion criterion."
+  },
+  "platform_best_retained": true,
+  "caveat": "Hypothesis selected from historical failures. Fresh partitions use the same known rows; Kaggle improvement remains unobserved."
+}

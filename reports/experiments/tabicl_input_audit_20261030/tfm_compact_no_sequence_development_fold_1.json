@@ -1,0 +1,27 @@
+{
+  "view": "compact_no_sequence",
+  "family": "tfm",
+  "tag": "development_fold_1",
+  "model_sha256": "55cf828ffeb8b5663fe3f822055b91c3b1fcf6caadd200fd1e6fae11581707bf",
+  "training_rows": 5216,
+  "validation_rows": 1739,
+  "columns": [
+    "RoomService",
+    "FoodCourt",
+    "ShoppingMall",
+    "Spa",
+    "VRDeck",
+    "Age",
+    "TotalSpend",
+    "GroupSize",
+    "SurnameSize",
+    "HomePlanet",
+    "Destination",
+    "Deck",
+    "Side",
+    "CryoSleep",
+    "VIP",
+    "CabinNum",
+    "DeckSide"
+  ]
+}

@@ -75,7 +75,22 @@
       "repository_head_when_recorded": "5b3dc4ac2a1ebc880629f5f87f95f991471c1756"
     }
   ],
-  "prepared_candidates": [],
+  "prepared_candidates": [
+    {
+      "model_run": "tabicl_probability_mean_20261030",
+      "status": "prepared_not_submitted",
+      "prepared_on": "2026-10-30",
+      "file": "outputs/kaggle_ready_4690/submission_tabicl_mean4690.csv",
+      "sha256": "bd2858e0412f37d22ac38040401bfbe3e459a5ab5690f0e4b98924c78aed8ac0",
+      "rows": 4277,
+      "score": null,
+      "kaggle_score": null,
+      "source_protocol_sha256": "5d6744873573ebec4e6ac28b627c541d5cfb898b475df29d59164800814477f3",
+      "audit": "reports/checks/tabicl_probability_mean_20261030.json",
+      "audit_sha256": "d8ee464bc628ad159959c3eb43661b914c5e44674120e6cbaafa601e7fa8d808",
+      "description": "TabICLv2 probability mean (8 views), 50% frozen tree ensemble, grouped validation, threshold 0.5"
+    }
+  ],
   "current_platform_best": {
     "model_run": "optimization_20261025",
     "score": 0.81108,

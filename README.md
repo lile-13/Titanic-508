@@ -1,5 +1,13 @@
 # Titanic-508 Spaceship Titanic 四人团队项目
 
+<!-- tabicl-probability-mean-20261030:start -->
+## 2026-10-30 TabICL失稳诊断与新候选
+
+定位到坏折中一个过度自信的内部视图；保留全部8个视图，仅将内部logit平均改为概率平均，外部融合及阈值不变。两套新分组验证分别净多对47人、持平，合计8/10折改善，通过冻结门槛，但条件增益区间包含零。已生成待手动实测的`outputs/kaggle_ready_4690/submission_tabicl_mean4690.csv`，4277行、155个标签变化；Kaggle成绩尚未观测，平台最佳仍为0.81108。
+
+56项测试、25个新聚合上下文和90个原方案树模型重载、独立CLI复现通过。详见[本轮诊断与复现说明](docs/TabICL失稳诊断与概率平均_20261030.md)。代码及实验记录同步GitHub，权重和CSV本地保存；课程报告和源码ZIP继续暂停。
+<!-- tabicl-probability-mean-20261030:end -->
+
 <!-- information-search-20261030:start -->
 ## 2026-10-30 信息检索与表格预训练对照
 

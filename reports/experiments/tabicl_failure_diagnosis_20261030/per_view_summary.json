@@ -1,0 +1,28 @@
+[
+  {
+    "context": "full_context",
+    "model_sha256": "4d588e19d0df5cdf390668af353e07351c637c15b8a6d18e3f7c1fe84981ae6d",
+    "views": 8,
+    "cold_G_mean_probability": 0.3730413317680359,
+    "cold_G_mean_view_std": 0.2521299421787262,
+    "cold_G_observed_rate": 0.6893939393939394,
+    "arithmetic_probability_mean_cold_G": 0.5071687698364258,
+    "aggregation_reproduced": true,
+    "historical_prediction_reproduced": true,
+    "installed_classifier_sha256": "64f5ef7ef88a920a3f7a5f6e2d9d8dc08769ec343e931f910acc2d9c4eaa5534",
+    "caveat": "Existing view inspection on a selected failure fold; arithmetic mean shown descriptively only, not evaluated/promoted as a new submission"
+  },
+  {
+    "context": "half_seed_5101",
+    "model_sha256": "c74c6660d6fc17cbefbbdd6a3edadc58b80e5817075a44cae36bfc77385ace4b",
+    "views": 8,
+    "cold_G_mean_probability": 0.6708325743675232,
+    "cold_G_mean_view_std": 0.13444596529006958,
+    "cold_G_observed_rate": 0.6893939393939394,
+    "arithmetic_probability_mean_cold_G": 0.6633015871047974,
+    "aggregation_reproduced": true,
+    "historical_prediction_reproduced": true,
+    "installed_classifier_sha256": "64f5ef7ef88a920a3f7a5f6e2d9d8dc08769ec343e931f910acc2d9c4eaa5534",
+    "caveat": "Existing view inspection on a selected failure fold; arithmetic mean shown descriptively only, not evaluated/promoted as a new submission"
+  }
+]

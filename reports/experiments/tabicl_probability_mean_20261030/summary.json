@@ -1,0 +1,86 @@
+{
+  "status": "candidate_generated",
+  "stages": {
+    "historical": [
+      {
+        "repeat": 1,
+        "reference_accuracy": 0.8121477050500403,
+        "accuracy": 0.814333371678362,
+        "gain": 0.0021856666283216475,
+        "reference_log_loss": 0.3800254286664278,
+        "log_loss": 0.37438373090668153,
+        "corrected": 166,
+        "new_errors": 147,
+        "fold_gains": [
+          0.0022573363431150906,
+          0.0029463759575721893,
+          0.0023242300987798004,
+          0.0,
+          0.0034622042700519495
+        ],
+        "improved_folds": 4
+      },
+      {
+        "repeat": 2,
+        "reference_accuracy": 0.8142183365926607,
+        "accuracy": 0.8169791786494881,
+        "gain": 0.0027608420568273617,
+        "reference_log_loss": 0.3803405268666546,
+        "log_loss": 0.3751331024392604,
+        "corrected": 281,
+        "new_errors": 257,
+        "fold_gains": [
+          0.00230813618003467,
+          0.006980802792321161,
+          -0.002855511136493405,
+          0.0056433408577878375,
+          0.0017462165308498312
+        ],
+        "improved_folds": 4
+      }
+    ],
+    "fresh": [
+      {
+        "repeat": 1,
+        "reference_accuracy": 0.8139882664212584,
+        "accuracy": 0.8193949154492121,
+        "gain": 0.005406649027953625,
+        "reference_log_loss": 0.38056657347337103,
+        "log_loss": 0.37265900666221385,
+        "corrected": 188,
+        "new_errors": 141,
+        "fold_gains": [
+          0.01148105625717566,
+          0.002339181286549641,
+          0.0005643340857788282,
+          0.006988934187536322,
+          0.005707762557077611
+        ],
+        "improved_folds": 5
+      },
+      {
+        "repeat": 2,
+        "reference_accuracy": 0.8134130909927528,
+        "accuracy": 0.8134130909927528,
+        "gain": 0.0,
+        "reference_log_loss": 0.3802613611592192,
+        "log_loss": 0.37359687632442773,
+        "corrected": 200,
+        "new_errors": 200,
+        "fold_gains": [
+          0.0022547914317925244,
+          0.00286368843069873,
+          -0.008731082654249156,
+          0.007972665148063718,
+          -0.004708652148322501
+        ],
+        "improved_folds": 3
+      }
+    ]
+  },
+  "kaggle_score": null,
+  "models": 50,
+  "changed_test_labels": 155,
+  "canonical_accuracy": 0.8212354768204302,
+  "reload_max_error": 0.0
+}

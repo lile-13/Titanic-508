@@ -1,0 +1,154 @@
+[
+  {
+    "view": "compact",
+    "family": "tfm",
+    "standalone_accuracy": 0.8168224299065421,
+    "reference_accuracy": 0.8219985621854781,
+    "accuracy": 0.8240115025161754,
+    "gain": 0.0020129403306973215,
+    "reference_log_loss": 0.3795288431348585,
+    "log_loss": 0.37149924342730367,
+    "corrected": 193,
+    "new_errors": 179,
+    "fold_gains": [
+      0.008625646923519303,
+      -0.0023001725129384587,
+      0.00517538815411156,
+      -0.0034522439585731313
+    ],
+    "improved_folds": 2
+  },
+  {
+    "view": "compact",
+    "family": "cat",
+    "standalone_accuracy": 0.8156721782890007,
+    "reference_accuracy": 0.8219985621854781,
+    "accuracy": 0.818547807332854,
+    "gain": -0.0034507548526240273,
+    "reference_log_loss": 0.3795288431348585,
+    "log_loss": 0.3776450751194313,
+    "corrected": 81,
+    "new_errors": 105,
+    "fold_gains": [
+      -0.00287521564117299,
+      -0.00517538815411156,
+      -0.0005750431282345314,
+      -0.005178365937859697
+    ],
+    "improved_folds": 0
+  },
+  {
+    "view": "compact_no_sequence",
+    "family": "tfm",
+    "standalone_accuracy": 0.8081955427749821,
+    "reference_accuracy": 0.8219985621854781,
+    "accuracy": 0.8156721782890007,
+    "gain": -0.006326383896477328,
+    "reference_log_loss": 0.3795288431348585,
+    "log_loss": 0.38044310292868105,
+    "corrected": 218,
+    "new_errors": 262,
+    "fold_gains": [
+      -0.0017251293847038163,
+      -0.01610120759056921,
+      -0.004025301897642275,
+      -0.0034522439585731313
+    ],
+    "improved_folds": 0
+  },
+  {
+    "view": "compact_no_sequence",
+    "family": "cat",
+    "standalone_accuracy": 0.8169662113587347,
+    "reference_accuracy": 0.8219985621854781,
+    "accuracy": 0.8198418404025881,
+    "gain": -0.0021567217828899476,
+    "reference_log_loss": 0.3795288431348585,
+    "log_loss": 0.3769010005459409,
+    "corrected": 83,
+    "new_errors": 98,
+    "fold_gains": [
+      -0.004025301897642275,
+      -0.0023001725129384587,
+      -0.002875215641173101,
+      0.0005753739930954849
+    ],
+    "improved_folds": 1
+  },
+  {
+    "view": "expanded",
+    "family": "tfm",
+    "standalone_accuracy": 0.7981308411214953,
+    "reference_accuracy": 0.8219985621854781,
+    "accuracy": 0.8102084831056794,
+    "gain": -0.011790079079798677,
+    "reference_log_loss": 0.3795288431348585,
+    "log_loss": 0.38153693058000304,
+    "corrected": 272,
+    "new_errors": 354,
+    "fold_gains": [
+      -0.00517538815411156,
+      -0.020126509488211597,
+      -0.005750431282346091,
+      -0.016110471806674354
+    ],
+    "improved_folds": 0
+  },
+  {
+    "view": "expanded",
+    "family": "cat",
+    "standalone_accuracy": 0.8162473040977714,
+    "reference_accuracy": 0.8219985621854781,
+    "accuracy": 0.8195542774982028,
+    "gain": -0.002444284687275311,
+    "reference_log_loss": 0.3795288431348585,
+    "log_loss": 0.3790661658232328,
+    "corrected": 84,
+    "new_errors": 101,
+    "fold_gains": [
+      -0.0023001725129384587,
+      -0.002875215641173101,
+      0.0005750431282346424,
+      -0.005178365937859697
+    ],
+    "improved_folds": 1
+  },
+  {
+    "view": "expanded_no_sequence",
+    "family": "tfm",
+    "standalone_accuracy": 0.8066139468008627,
+    "reference_accuracy": 0.8219985621854781,
+    "accuracy": 0.814665708123652,
+    "gain": -0.007332854061826044,
+    "reference_log_loss": 0.3795288431348585,
+    "log_loss": 0.380977885913658,
+    "corrected": 191,
+    "new_errors": 242,
+    "fold_gains": [
+      -0.0011500862564691738,
+      -0.022426682001150056,
+      -0.004025301897642275,
+      -0.0017261219792865656
+    ],
+    "improved_folds": 0
+  },
+  {
+    "view": "expanded_no_sequence",
+    "family": "cat",
+    "standalone_accuracy": 0.8148094895758448,
+    "reference_accuracy": 0.8219985621854781,
+    "accuracy": 0.8204169662113587,
+    "gain": -0.001581595974119332,
+    "reference_log_loss": 0.3795288431348585,
+    "log_loss": 0.3790438325595597,
+    "corrected": 90,
+    "new_errors": 101,
+    "fold_gains": [
+      -0.004600345025876917,
+      -0.0023001725129384587,
+      0.004025301897642386,
+      -0.0034522439585731313
+    ],
+    "improved_folds": 1
+  }
+]

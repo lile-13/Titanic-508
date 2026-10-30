@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "input_models_reloaded": 28,
+  "learning_curve_models_reloaded": 6,
+  "source_and_data_hashes_match": true,
+  "group_isolation_verified": true,
+  "input_gate_recomputed": true,
+  "per_view_aggregation_reconstructed": true,
+  "all_eight_views_retained": true,
+  "maximum_input_reload_error": 0.0,
+  "selected_fold_diagnosis_not_independent": true,
+  "test_suite": "outputs/tabicl_input_followup_20261030_tests.log",
+  "no_input_candidate": true
+}
