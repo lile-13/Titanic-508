@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "models_reloaded": 10,
+  "max_reload_error": 0.0,
+  "source_data_environment_verified": true,
+  "maps_rebuilt_without_labels": true,
+  "query_batch_invariance": true,
+  "control_matrix_matches": true,
+  "group_isolation": true,
+  "gates_recomputed": true,
+  "gate_passed": false,
+  "reference_is_actual_best": true,
+  "tests_passed": 61,
+  "test_log_sha256": "4012bf8ba4b88891b4a074e5f184cdfcfa64ff939f8286208be7671ff3a8fa38",
+  "outcomes": {
+    "paired": [
+      {
+        "repeat": 1,
+        "reference_accuracy": 0.8193949154492121,
+        "accuracy": 0.8182445645922006,
+        "gain": -0.0011503508570114285,
+        "reference_log_loss": 0.37265900666221385,
+        "log_loss": 0.37336200967113264,
+        "corrected": 55,
+        "new_errors": 65,
+        "fold_gains": [
+          -0.005166475315729113,
+          0.0,
+          -0.0011286681715575453,
+          -0.0005824111822946287,
+          0.0011415525114155667
+        ],
+        "improved_folds": 1,
+        "control_accuracy": 0.8191648452778098,
+        "feature_gain_over_control": -0.0009202806856091206,
+        "standalone_control_accuracy": 0.8139882664212584,
+        "standalone_geometry_accuracy": 0.8131830208213505
+      }
+    ]
+  },
+  "platform_score": 0.81178,
+  "kaggle_score": null
+}

@@ -1,0 +1,66 @@
+{
+  "name": "tabicl_views32_20261031",
+  "params": {
+    "n_estimators": 32,
+    "batch_size": 2,
+    "device": "cuda",
+    "use_amp": true,
+    "use_fa3": false,
+    "random_state": 42,
+    "n_jobs": 4,
+    "kv_cache": false,
+    "verbose": false,
+    "allow_auto_download": false,
+    "checkpoint_version": "tabicl-classifier-v2-20260212.ckpt",
+    "average_logits": false
+  },
+  "incumbent": "tabicl_probability_mean_20261030",
+  "incumbent_observed_kaggle_score": 0.81178,
+  "external_tree_weight": 0.5,
+  "threshold": 0.5,
+  "change": "One fixed increase from eight to 32 internal views. Keep every generated view; arithmetic probability aggregation, compact18 features, original context rows/labels, seed42 and checkpoint unchanged. The first eight views need not be the same subset when generator size changes.",
+  "selection": "No weight, threshold, seed, cohort, feature or intermediate-view-count search. Baseline includes the actual eight-view probability mean, not only the weaker old trees.",
+  "stages": {
+    "paired": "Seeds20261030/20261107 from probability-mean study",
+    "additional_paired": "Seeds20261031/20261108 from TabM study; use its eight-view/tree baseline, never its TabM alternative"
+  },
+  "caveat": "All four partitions and labels are historical at freeze. This is adaptive historical paired sensitivity, not untouched validation or independent blind evidence.",
+  "gate": "Each stage: both repeats nonnegative, mean gain>=.001, >=6/10 strictly improved folds, logloss deterioration<=.002 each. Stop stage after first negative gain/loss or first zero-improved repeat. Stop experiment at a failed stage. Production only if both stages pass.",
+  "reference_tables": {
+    "tabicl_probability_mean_20261030/fresh_repeat_1_predictions.csv": "f61d5a69f2858b594cee8eb247da338b18d3574d361b5097e06fa6c8e3719971",
+    "tabicl_probability_mean_20261030/fresh_repeat_2_predictions.csv": "c8cfaab7de369bd6291c60f54abf3faa8c429e499c53c5a8e2514d63c8d94055",
+    "tabm_20261031/fresh_repeat_1_predictions.csv": "6627228f0dbe9821e80b940205e3ae75ef51407f40fb4a26702277cf1f4525a4",
+    "tabm_20261031/fresh_repeat_2_predictions.csv": "4bc326d5c5d77c911f83fd67569745c99da617861e3801518637a70540dff13a"
+  },
+  "reference_protocols": {
+    "tabicl_probability_mean_20261030": "5d6744873573ebec4e6ac28b627c541d5cfb898b475df29d59164800814477f3",
+    "tabm_20261031": "8e51dc690087de0a27434da8c8bdd31f63971a36f7a6877e7ba4ab743279b484"
+  },
+  "original_plan_sha256": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "checkpoint_sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0",
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "sources": {
+    "scripts/tabicl_views_study.py": "04500b572fafdbfe86e843179a72bcc0cdbf2b0e50aee0776e5c4b9baee1b5cc",
+    "src/tabicl_views.py": "0a933d618d83324d524955c908cd4f5e70b5103372bc359261379adfc2baf800",
+    "src/tabicl_models.py": "fcb51939a5f5293768f7ed39f386ee61d06776e9962b590f6f58a66117ca81ad",
+    "src/tabicl_aggregation.py": "63afd42195773544f6e91f767e3a4419829a55c44c3e8ced6eab29b6f86d65e4",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/tabicl_inputs.py": "89af2b31fe0bcca67d3b57fa489c37b9dc5e5398cfc9bcc758e7950ae7a41346",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "scripts/tabicl_study.py": "7892f51d3c221770f6854ed93b2b00e33db55f8e3d38f4901e2e2d86ebfe9b07",
+    "features/folds.csv": "9241d6874a9ef9d37b526ef3cdc792af8d5bed5cbf570aac547e0c79ee525fbe"
+  },
+  "environment": {
+    "tabicl": "2.2.0",
+    "torch": "2.14.1+cu130",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0"
+  }
+}

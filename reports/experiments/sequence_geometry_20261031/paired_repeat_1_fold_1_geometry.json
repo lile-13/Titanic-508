@@ -1,0 +1,32 @@
+{
+  "model_sha256": "7f1d7c5e1ec3675d2ce42b01303dd356bdd6dcd01c72ff4e5ee80acac96af9b0",
+  "enabled": true,
+  "columns": [
+    "RoomService",
+    "FoodCourt",
+    "ShoppingMall",
+    "Spa",
+    "VRDeck",
+    "Age",
+    "TotalSpend",
+    "GroupSize",
+    "SurnameSize",
+    "HomePlanet",
+    "Destination",
+    "Deck",
+    "Side",
+    "CryoSleep",
+    "VIP",
+    "CabinNum",
+    "GroupIdNum",
+    "DeckSide",
+    "SequenceExpectedCabin",
+    "CabinSequenceResidual",
+    "CabinResidualRobustZ",
+    "PublicCabinOccupancy",
+    "NearestOtherCabinGap",
+    "PublicCabinNeighborCount10"
+  ],
+  "training_rows": 6951,
+  "validation_rows": 1742
+}

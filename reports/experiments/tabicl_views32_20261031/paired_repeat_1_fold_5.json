@@ -1,0 +1,9 @@
+{
+  "model_sha256": "2e6f33faa520651ca7342496149be8f58ec9ac7648afd44aa305e9952ee06305",
+  "source_context_sha256": "60f1c554ed9336ac36abe30728e2818c3e8c13d156481b5a093c540c0caeb193",
+  "views": 32,
+  "training_rows": 6941,
+  "validation_rows": 1752,
+  "seconds": 12.064414199999874,
+  "gpu_peak_bytes": 1413453312
+}

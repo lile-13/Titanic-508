@@ -1,0 +1,75 @@
+{
+  "name": "sequence_geometry_20261031",
+  "estimator_config": {
+    "family": "lightgbm",
+    "feature_set": "base",
+    "strategy": "rule_group",
+    "params": {
+      "iterations": 327,
+      "learning_rate": 0.04,
+      "num_leaves": 15,
+      "min_child_samples": 30,
+      "reg_alpha": 0.1,
+      "reg_lambda": 3.0
+    },
+    "seed": 42
+  },
+  "estimator_usage": "Reuse only fixed LightGBM parameters; both arms use compact18 inputs, enabled arm adds six geometry columns",
+  "weight": 0.25,
+  "threshold": 0.5,
+  "extra_columns": [
+    "SequenceExpectedCabin",
+    "CabinSequenceResidual",
+    "CabinResidualRobustZ",
+    "PublicCabinOccupancy",
+    "NearestOtherCabinGap",
+    "PublicCabinNeighborCount10"
+  ],
+  "label_free_fit": "All coordinates, linear slopes, median residual/MAD, same-cabin occupancy, nearest other cabin gap and passenger count within +/-10 cabins use the single combined public train/test feature pool. No Transported values or train/test source indicator enter the maps.",
+  "hypothesis": "CabinNum and booking GroupId are almost perfectly monotonic within Deck/Side. An explicit diagonal residual may expose deviations more simply than axis-aligned tree splits; public local counts add cabin context. This is an unproven hypothesis, not a causal claim.",
+  "selection": "One frozen model seed42, six fixed features and 25% addition. Matched compact-only control. No feature selection, radius, polynomial-degree, weight or threshold search.",
+  "gate": "Both gains nonnegative, mean incumbent gain>=.001, >=6/10 strictly improved folds, per-repeat loss deterioration<=.002, enriched accuracy>=control each repeat and mean enriched-control>=.0005. First negative gain, negative enriched-control, bad loss or first zero-improved repeat stops stage. Both historical stages must pass for production.",
+  "stages": {
+    "paired": [
+      20261030,
+      20261107
+    ],
+    "additional_paired": [
+      20261031,
+      20261108
+    ]
+  },
+  "caveat": "Existing historical partitions and known labels; adaptive paired evidence, not an independent holdout. Increasing view count and prior TabM failures remain failed.",
+  "references": {
+    "tabicl_probability_mean_20261030/fresh_repeat_1_predictions.csv": "f61d5a69f2858b594cee8eb247da338b18d3574d361b5097e06fa6c8e3719971",
+    "tabicl_probability_mean_20261030/fresh_repeat_2_predictions.csv": "c8cfaab7de369bd6291c60f54abf3faa8c429e499c53c5a8e2514d63c8d94055",
+    "tabm_20261031/fresh_repeat_1_predictions.csv": "6627228f0dbe9821e80b940205e3ae75ef51407f40fb4a26702277cf1f4525a4",
+    "tabm_20261031/fresh_repeat_2_predictions.csv": "4bc326d5c5d77c911f83fd67569745c99da617861e3801518637a70540dff13a"
+  },
+  "reference_audits": {
+    "tabicl_probability_mean_20261030": "d8ee464bc628ad159959c3eb43661b914c5e44674120e6cbaafa601e7fa8d808",
+    "tabm_20261031": "9cd308a37c084298b74b85cddc3674475224323742762a6b771ccd451a55ed90"
+  },
+  "original_plan_sha256": "770bf3e6803722dc1ce96930504423420611980b3c2677fc0e22aad548304982",
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "sources": {
+    "scripts/sequence_geometry_study.py": "75f5fb7f3bd9c94bfb5003feb43e77e7c6f922018fe83e810c591297e0e32a3b",
+    "src/sequence_geometry.py": "9f7db834a1025f7bb081d3cfd47a585eaa7aae66bde0a3865b007a9fcbddc46d",
+    "src/tabicl_inputs.py": "89af2b31fe0bcca67d3b57fa489c37b9dc5e5398cfc9bcc758e7950ae7a41346",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "scripts/audit_unlabeled_views.py": "1363f71b1289e98dcb5d3aa17ce747d6831d54897a9ac1e815a78d59ef69bfca"
+  },
+  "environment": {
+    "lightgbm": "4.7.0",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0"
+  }
+}

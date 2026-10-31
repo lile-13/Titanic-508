@@ -1,0 +1,130 @@
+{
+  "A/P": {
+    "slope": 0.011030281350217894,
+    "intercept": -6.617970115796467,
+    "residual_center": -0.3731571814651602,
+    "residual_scale": 2.3561332879286354,
+    "public_passengers": 166,
+    "distinct_cabins": 98
+  },
+  "A/S": {
+    "slope": 0.012090178244441505,
+    "intercept": -0.4560062598097261,
+    "residual_center": 0.2170129621773711,
+    "residual_scale": 1.0,
+    "public_passengers": 188,
+    "distinct_cabins": 110
+  },
+  "B/P": {
+    "slope": 0.03290848117503698,
+    "intercept": 0.3572492106882521,
+    "residual_center": 0.2066503073020982,
+    "residual_scale": 3.713263832019228,
+    "public_passengers": 512,
+    "distinct_cabins": 297
+  },
+  "B/S": {
+    "slope": 0.03836673880550644,
+    "intercept": 0.9894829225091542,
+    "residual_center": -0.568328606639966,
+    "residual_scale": 2.9548887977224467,
+    "public_passengers": 629,
+    "distinct_cabins": 350
+  },
+  "C/P": {
+    "slope": 0.03213851843973047,
+    "intercept": 1.7766257223519517,
+    "residual_center": 0.7152935847316506,
+    "residual_scale": 3.8589290510346963,
+    "public_passengers": 533,
+    "distinct_cabins": 308
+  },
+  "C/S": {
+    "slope": 0.03718108422796939,
+    "intercept": 0.6838375489103043,
+    "residual_center": -0.10886194893353718,
+    "residual_scale": 1.981647146333458,
+    "public_passengers": 569,
+    "distinct_cabins": 334
+  },
+  "D/P": {
+    "slope": 0.031146023128021,
+    "intercept": 3.04270809647241,
+    "residual_center": -0.909516184704735,
+    "residual_scale": 2.4647382211068987,
+    "public_passengers": 370,
+    "distinct_cabins": 289
+  },
+  "D/S": {
+    "slope": 0.029059247132997283,
+    "intercept": 8.05981723063411,
+    "residual_center": 0.603583114161566,
+    "residual_scale": 2.4934428818953123,
+    "public_passengers": 350,
+    "distinct_cabins": 273
+  },
+  "E/P": {
+    "slope": 0.06510663855676692,
+    "intercept": -9.399083163630337,
+    "residual_center": 0.0934244543893783,
+    "residual_scale": 2.853205040525552,
+    "public_passengers": 641,
+    "distinct_cabins": 581
+  },
+  "E/S": {
+    "slope": 0.06496800999026828,
+    "intercept": 6.10616637483929,
+    "residual_center": 0.12438601050791931,
+    "residual_scale": 4.18419616477118,
+    "public_passengers": 682,
+    "distinct_cabins": 600
+  },
+  "F/P": {
+    "slope": 0.2067186670244183,
+    "intercept": -3.2138195194294212,
+    "residual_center": 2.322913377219649,
+    "residual_scale": 4.877761224580354,
+    "public_passengers": 2178,
+    "distinct_cabins": 1864
+  },
+  "F/S": {
+    "slope": 0.1925681329954219,
+    "intercept": -6.4902123103908025,
+    "residual_center": -0.7877521960186868,
+    "residual_scale": 5.121931529136759,
+    "public_passengers": 2061,
+    "distinct_cabins": 1770
+  },
+  "G/P": {
+    "slope": 0.16241493385205574,
+    "intercept": -3.252961536839962,
+    "residual_center": 0.08138300037410318,
+    "residual_scale": 3.7926842339019373,
+    "public_passengers": 1885,
+    "distinct_cabins": 1483
+  },
+  "G/S": {
+    "slope": 0.16270005488597247,
+    "intercept": -5.737935396311286,
+    "residual_center": -0.4874879061468036,
+    "residual_scale": 5.706367999236164,
+    "public_passengers": 1896,
+    "distinct_cabins": 1459
+  },
+  "T/P": {
+    "slope": 0.001632201128803407,
+    "intercept": -2.112820404358825,
+    "residual_center": 0.2635508506839024,
+    "residual_scale": 1.0,
+    "public_passengers": 5,
+    "distinct_cabins": 5
+  },
+  "T/S": {
+    "slope": 0.0004457883044384184,
+    "intercept": -0.13547457436150356,
+    "residual_center": -0.005549818711592547,
+    "residual_scale": 1.0,
+    "public_passengers": 6,
+    "distinct_cabins": 4
+  }
+}

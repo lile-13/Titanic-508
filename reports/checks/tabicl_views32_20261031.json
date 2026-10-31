@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "contexts_32_reloaded": 5,
+  "contexts_8_reloaded": 5,
+  "max_reload_error": 1.1920928955078125e-07,
+  "exact_same_training_contexts": true,
+  "all_views_retained": true,
+  "group_isolation": true,
+  "source_data_environment_verified": true,
+  "reference_is_actual_best": true,
+  "gates_recomputed": true,
+  "gate_passed": false,
+  "tests_passed": 58,
+  "test_log_sha256": "3e6457e1b6211cd476b47f8d0328052a23f945e866e9e677977f37a8e36754f8",
+  "conditional_uncertainty": null,
+  "outcomes": {
+    "paired": [
+      {
+        "repeat": 1,
+        "reference_accuracy": 0.8193949154492121,
+        "accuracy": 0.8173242839065915,
+        "gain": -0.002070631542620549,
+        "reference_log_loss": 0.37265900666221385,
+        "log_loss": 0.373975386884583,
+        "corrected": 59,
+        "new_errors": 77,
+        "fold_gains": [
+          -0.0011481056257176547,
+          -0.006432748538011679,
+          -0.0016930022573363734,
+          -0.0011648223645893685,
+          0.0
+        ],
+        "improved_folds": 0,
+        "component_accuracy": 0.8166340733923847
+      }
+    ]
+  },
+  "platform_score": 0.81178,
+  "kaggle_score": null
+}

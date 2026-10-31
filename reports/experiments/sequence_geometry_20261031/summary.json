@@ -1,0 +1,32 @@
+{
+  "status": "no_candidate",
+  "failed_stage": "paired",
+  "stages": {
+    "paired": [
+      {
+        "repeat": 1,
+        "reference_accuracy": 0.8193949154492121,
+        "accuracy": 0.8182445645922006,
+        "gain": -0.0011503508570114285,
+        "reference_log_loss": 0.37265900666221385,
+        "log_loss": 0.37336200967113264,
+        "corrected": 55,
+        "new_errors": 65,
+        "fold_gains": [
+          -0.005166475315729113,
+          0.0,
+          -0.0011286681715575453,
+          -0.0005824111822946287,
+          0.0011415525114155667
+        ],
+        "improved_folds": 1,
+        "control_accuracy": 0.8191648452778098,
+        "feature_gain_over_control": -0.0009202806856091206,
+        "standalone_control_accuracy": 0.8139882664212584,
+        "standalone_geometry_accuracy": 0.8131830208213505
+      }
+    ]
+  },
+  "kaggle_score": null,
+  "reason": "Fixed public geometry addition failed incumbent/control gate; no post-result selection"
+}
