@@ -1,0 +1,156 @@
+{
+  "passed": true,
+  "gate_passed": false,
+  "teacher_models_reloaded": 15,
+  "weighted_and_control_models_reloaded": 20,
+  "max_reload_error": 0.0,
+  "training_only_group_crossfit_verified": true,
+  "weights_independently_rebuilt": true,
+  "tests": 63,
+  "diagnostic_case_source_sha256": "c35b7c93133dca681c2b8a3a877bfc92550b974c2f23e072817a2564ba7ba6f2",
+  "diagnostics_are_postfit_only": true,
+  "stages": {
+    "paired": {
+      "hard_g": [
+        {
+          "repeat": 1,
+          "reference_accuracy": 0.8193949154492121,
+          "accuracy": 0.8187047049350051,
+          "gain": -0.0006902105142069237,
+          "reference_log_loss": 0.37265900666221385,
+          "log_loss": 0.3755770363211631,
+          "corrected": 53,
+          "new_errors": 59,
+          "fold_gains": [
+            -0.002870264064293915,
+            0.0005847953216374657,
+            0.0022573363431150906,
+            -0.004076878276062845,
+            0.0005707762557077833
+          ],
+          "improved_folds": 3,
+          "control_accuracy": 0.8184746347636029,
+          "gain_over_control": 0.00023007017140219688,
+          "g": {
+            "reference_accuracy": 0.7112153184837827,
+            "accuracy": 0.7112153184837827,
+            "gain": 0.0,
+            "reference_log_loss": 0.518305521483637,
+            "log_loss": 0.5208147599856718,
+            "corrected": 32,
+            "new_errors": 32,
+            "fold_gains": [
+              -0.003913894324853229,
+              0.0038022813688213253,
+              0.011257035647279534,
+              -0.012269938650306789,
+              0.0
+            ],
+            "improved_folds": 2
+          },
+          "non_g": {
+            "reference_accuracy": 0.8645255950440169,
+            "accuracy": 0.8635474404955983,
+            "gain": -0.0009781545484186527,
+            "reference_log_loss": 0.31189776906390576,
+            "log_loss": 0.31498633940928217,
+            "corrected": 21,
+            "new_errors": 27,
+            "fold_gains": [
+              -0.002437043054427268,
+              -0.0008445945945946276,
+              -0.0016142050040355294,
+              -0.0008143322475570036,
+              0.0007987220447284171
+            ],
+            "improved_folds": 1
+          }
+        }
+      ],
+      "hard": [
+        {
+          "repeat": 1,
+          "reference_accuracy": 0.8193949154492121,
+          "accuracy": 0.818589669849304,
+          "gain": -0.0008052455999080221,
+          "reference_log_loss": 0.37265900666221385,
+          "log_loss": 0.375410160501583,
+          "corrected": 50,
+          "new_errors": 57,
+          "fold_gains": [
+            -0.004592422502870286,
+            0.0017543859649122862,
+            0.0011286681715575453,
+            -0.0017472335468841083,
+            -0.0005707762557077833
+          ],
+          "improved_folds": 2,
+          "control_accuracy": 0.8181295295064995,
+          "gain_over_control": 0.0004601403428045048,
+          "g": {
+            "reference_accuracy": 0.7112153184837827,
+            "accuracy": 0.7116060961313013,
+            "gain": 0.0003907776475186031,
+            "reference_log_loss": 0.518305521483637,
+            "log_loss": 0.5216201628084414,
+            "corrected": 25,
+            "new_errors": 24,
+            "fold_gains": [
+              -0.003913894324853229,
+              0.005703422053231932,
+              0.0056285178236398226,
+              -0.00613496932515345,
+              0.0
+            ],
+            "improved_folds": 2
+          },
+          "non_g": {
+            "reference_accuracy": 0.8645255950440169,
+            "accuracy": 0.8632213889794588,
+            "gain": -0.0013042060645581666,
+            "reference_log_loss": 0.31189776906390576,
+            "log_loss": 0.314413845551591,
+            "corrected": 25,
+            "new_errors": 33,
+            "fold_gains": [
+              -0.004874086108854647,
+              0.0,
+              -0.0008071025020177647,
+              0.0,
+              -0.0007987220447284171
+            ],
+            "improved_folds": 0
+          }
+        }
+      ]
+    }
+  },
+  "diagnostics": [
+    {
+      "stage": "paired",
+      "repeat": 1,
+      "arm": "hard",
+      "persistent_cases": 1203,
+      "persistent_corrected": 14,
+      "all_corrected": 50,
+      "all_new_errors": 57,
+      "g_corrected": 25,
+      "g_new_errors": 24,
+      "non_g_corrected": 25,
+      "non_g_new_errors": 33
+    },
+    {
+      "stage": "paired",
+      "repeat": 1,
+      "arm": "hard_g",
+      "persistent_cases": 1203,
+      "persistent_corrected": 13,
+      "all_corrected": 53,
+      "all_new_errors": 59,
+      "g_corrected": 32,
+      "g_new_errors": 32,
+      "non_g_corrected": 21,
+      "non_g_new_errors": 27
+    }
+  ]
+}

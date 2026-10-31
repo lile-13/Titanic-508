@@ -1,0 +1,79 @@
+{
+  "name": "hard_examples_g_20261031",
+  "config": {
+    "family": "catboost",
+    "feature_set": "rich_names",
+    "strategy": "native",
+    "params": {
+      "iterations": 748,
+      "depth": 5,
+      "learning_rate": 0.03743936483397399,
+      "l2_leaf_reg": 17.795736111078792,
+      "random_strength": 2.0,
+      "bagging_temperature": 1.5902796653821254,
+      "rsm": 0.8862713098571321,
+      "max_ctr_complexity": 2,
+      "one_hot_max_size": 10,
+      "border_count": 128
+    },
+    "seed": 42
+  },
+  "inner_seed": 731026,
+  "inner_group_folds": 3,
+  "arms": [
+    "control",
+    "hard",
+    "g_control",
+    "hard_g"
+  ],
+  "weight": 0.25,
+  "threshold": 0.5,
+  "stages": [
+    [
+      "paired",
+      "tabicl_probability_mean_20261030",
+      [
+        20261030,
+        20261107
+      ]
+    ],
+    [
+      "additional",
+      "tabm_20261031",
+      [
+        20261031,
+        20261108
+      ]
+    ]
+  ],
+  "difficulty": "Within each outer training fold, obtain 3-fold group-isolated unweighted CatBoost predictions. True-class probability defines bounded raw hard weight 2-p_true. G multiplier=1.5; normalize each arm to mean1. Raw weight ratio at most3.",
+  "candidates": "Two predeclared candidates: hard vs control; hard_g vs g_control. Both compared with actual incumbent. All predictions use fixed .75 incumbent+.25 new component, threshold .5. Four arms form a matched 2x2 factorial; no post-result configuration or coefficient search.",
+  "gate": "Two nonnegative repeat gains vs incumbent and matched control; mean incumbent gain>=.001, mean matched gain>=.0005, >=6/10 improved folds, logloss deterioration<=.002. G and non-G must not regress each repeat; hard_g mean G gain>=.003. A negative repeat or zero improved folds stops that candidate. Both historical stages required before production.",
+  "persistent_errors": "The 1203 global historical error IDs are never read during fitting or weight creation; label-selected cohorts may only be used in post-fit descriptive summaries.",
+  "caveat": "Adaptive hypotheses on the same historical passengers; multiple predeclared hypotheses, not an independent blind holdout. Reweighting need not create new information and may emphasize noise. Old G-weighted failures remain failed.",
+  "sources": {
+    "scripts/hard_example_study.py": "3037854c17b05843fae1da165fda69832f6b1335e61b853820660fdaa1c3a4e0",
+    "src/hard_example_training.py": "3022aca9391e976ccf39bb29277ff8dfb3ebde4e8c2dbd2c9f59251a0ec8b22f",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "scripts/audit_unlabeled_views.py": "1363f71b1289e98dcb5d3aa17ce747d6831d54897a9ac1e815a78d59ef69bfca"
+  },
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "references": {
+    "tabicl_probability_mean_20261030/fresh_repeat_1_predictions.csv": "f61d5a69f2858b594cee8eb247da338b18d3574d361b5097e06fa6c8e3719971",
+    "tabicl_probability_mean_20261030/fresh_repeat_2_predictions.csv": "c8cfaab7de369bd6291c60f54abf3faa8c429e499c53c5a8e2514d63c8d94055",
+    "tabm_20261031/fresh_repeat_1_predictions.csv": "6627228f0dbe9821e80b940205e3ae75ef51407f40fb4a26702277cf1f4525a4",
+    "tabm_20261031/fresh_repeat_2_predictions.csv": "4bc326d5c5d77c911f83fd67569745c99da617861e3801518637a70540dff13a"
+  },
+  "environment": {
+    "catboost": "1.2.10",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0"
+  }
+}

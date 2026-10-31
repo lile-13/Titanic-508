@@ -1,0 +1,3 @@
+﻿stage,repeat,arm,persistent_cases,persistent_corrected,all_corrected,all_new_errors,g_corrected,g_new_errors,non_g_corrected,non_g_new_errors
+paired,1,hard,1203,14,50,57,25,24,25,33
+paired,1,hard_g,1203,13,53,59,32,32,21,27

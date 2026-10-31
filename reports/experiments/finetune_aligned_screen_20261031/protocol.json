@@ -1,0 +1,26 @@
+{
+  "name": "finetune_aligned_screen_20261031",
+  "change": "Reuse exactly the five selected head-only checkpoints. At final inference, fit the ordinary TabICL input encoder on the full outer training context, as in the incumbent. Inner checkpoint selection remains untouched.",
+  "mixture": "current best + .25*(aligned fine-tuned component - original component)",
+  "threshold": 0.5,
+  "screen_gate": "First historical repeat: gain>=.001, >=3/5 improved folds, G and non-G nonnegative; loss deterioration<=.002. Passing would qualify only for further validation, never immediate production.",
+  "selection_history": "Alignment hypothesis follows the failed original screen and input-only diagnostic; all historical labels have been viewed. No new independent holdout or new gradient training.",
+  "parent_protocol_sha256": "624a83e5b263e4e8fe1dab08f7ee76ac842eec82e029c1d1bc0aadfa0a5aa1d4",
+  "parent_summary_sha256": "9dfb6beb6ae8fe7e1977b5ff938cf48a34cbb028117fdf3da7a16f658c06e014",
+  "alignment_diagnostic_sha256": "0358bc52f6e7bb6262cb1bb55e055499293871ef6bad4d0cae1a2796b573dcc5",
+  "references_sha256": "f61d5a69f2858b594cee8eb247da338b18d3574d361b5097e06fa6c8e3719971",
+  "sources": {
+    "scripts/screen_aligned_finetune.py": "091ddee47777e69ab1f0d985b021817056fd07e904bd10b5728281bb890ddf69",
+    "src/tabicl_models.py": "fcb51939a5f5293768f7ed39f386ee61d06776e9962b590f6f58a66117ca81ad",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd"
+  },
+  "checkpoints": {
+    "1": "0debbae4524dedc9f96256587801aa8ecd40fbc4f035d458b5ee8a38066c8749",
+    "2": "9850acf7547e6c2ac5bbb5e8fb50407093824576eb437284e0a23d420bb1e619",
+    "3": "b6199afa3275f8f48514a0940c9701d0ed3db8bf850178a54139e7b7418444f0",
+    "4": "834dc9e3814d2619170f1e57c7e8e17dea7728d1b926e3c54d13108dd53eb3df",
+    "5": "c3b5176b71eb52c23a7b1b399457b769c76d6d0d88a7f8ba09937f2c712775e7"
+  }
+}

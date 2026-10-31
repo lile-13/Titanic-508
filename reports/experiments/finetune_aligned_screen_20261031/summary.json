@@ -1,0 +1,90 @@
+{
+  "status": "no_candidate",
+  "screen_passed": false,
+  "results": {
+    "reference_accuracy": 0.8193949154492121,
+    "accuracy": 0.8197400207063155,
+    "gain": 0.00034510525710340634,
+    "reference_log_loss": 0.37265900666221385,
+    "log_loss": 0.3726441780547729,
+    "corrected": 3,
+    "new_errors": 0,
+    "fold_gains": [
+      0.0,
+      0.0011695906432748204,
+      0.0,
+      0.0005824111822947398,
+      0.0
+    ],
+    "improved_folds": 2,
+    "g": {
+      "reference_accuracy": 0.7112153184837827,
+      "accuracy": 0.7119968737788198,
+      "gain": 0.0007815552950370952,
+      "reference_log_loss": 0.518305521483637,
+      "log_loss": 0.5182700385789681,
+      "corrected": 2,
+      "new_errors": 0,
+      "fold_gains": [
+        0.0,
+        0.0019011406844106071,
+        0.0,
+        0.002044989775051076,
+        0.0
+      ],
+      "improved_folds": 2
+    },
+    "non_g": {
+      "reference_accuracy": 0.8645255950440169,
+      "accuracy": 0.8646886208020867,
+      "gain": 0.00016302575806981245,
+      "reference_log_loss": 0.31189776906390576,
+      "log_loss": 0.31189155707638755,
+      "corrected": 1,
+      "new_errors": 0,
+      "fold_gains": [
+        0.0,
+        0.0008445945945946276,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved_folds": 1
+    }
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "context_sha256": "ec3fb840db2796b0ad140bc346eaba026da1e554fd7b2f89e4af38645cd9af3e",
+      "checkpoint_sha256": "0debbae4524dedc9f96256587801aa8ecd40fbc4f035d458b5ee8a38066c8749",
+      "max_control_error": 0.0
+    },
+    {
+      "fold": 2,
+      "context_sha256": "4f20bbd43d5b448655aeac2dd289f02d5761ae7f94e62d518e153fe5226c1b0e",
+      "checkpoint_sha256": "9850acf7547e6c2ac5bbb5e8fb50407093824576eb437284e0a23d420bb1e619",
+      "max_control_error": 0.0
+    },
+    {
+      "fold": 3,
+      "context_sha256": "a333eac4c6af84edd2ce43be078d6f5b74d70b80cf6a5feb09bf98504a2baafa",
+      "checkpoint_sha256": "b6199afa3275f8f48514a0940c9701d0ed3db8bf850178a54139e7b7418444f0",
+      "max_control_error": 0.0
+    },
+    {
+      "fold": 4,
+      "context_sha256": "a8c1626691839da8e95b233b84bbeec8cd94c05644f1c20d3515b84fe978cb0e",
+      "checkpoint_sha256": "834dc9e3814d2619170f1e57c7e8e17dea7728d1b926e3c54d13108dd53eb3df",
+      "max_control_error": 0.0
+    },
+    {
+      "fold": 5,
+      "context_sha256": "60f1c554ed9336ac36abe30728e2818c3e8c13d156481b5a093c540c0caeb193",
+      "checkpoint_sha256": "c3b5176b71eb52c23a7b1b399457b769c76d6d0d88a7f8ba09937f2c712775e7",
+      "max_control_error": 0.0
+    }
+  ],
+  "new_gradient_fits": 0,
+  "kaggle_score": null,
+  "caveat": "Post-diagnosis historical screen only; no new submission or production model."
+}

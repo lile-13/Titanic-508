@@ -22,3 +22,6 @@
 /scripts/tabicl_finetune_study.py text eol=lf
 /src/tabicl_finetune_probe.py text eol=lf
 /scripts/diagnose_finetune_encoding.py text eol=lf
+/scripts/hard_example_study.py text eol=lf
+/src/hard_example_training.py text eol=lf
+/scripts/screen_aligned_finetune.py text eol=lf
