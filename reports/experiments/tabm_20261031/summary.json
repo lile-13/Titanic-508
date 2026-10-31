@@ -1,0 +1,88 @@
+{
+  "status": "no_candidate",
+  "failed_stage": "fresh",
+  "stages": {
+    "paired": [
+      {
+        "repeat": 1,
+        "reference_accuracy": 0.8193949154492121,
+        "accuracy": 0.8193949154492121,
+        "gain": 0.0,
+        "reference_log_loss": 0.37265900666221385,
+        "log_loss": 0.3700100307181571,
+        "corrected": 71,
+        "new_errors": 71,
+        "fold_gains": [
+          -0.0005740528128588274,
+          -0.0035087719298245723,
+          0.0005643340857787171,
+          0.0011648223645894795,
+          0.0022831050228310223
+        ],
+        "improved_folds": 3,
+        "standalone_accuracy": 0.816864143563787
+      },
+      {
+        "repeat": 2,
+        "reference_accuracy": 0.8134130909927528,
+        "accuracy": 0.8158288277924767,
+        "gain": 0.0024157367997238444,
+        "reference_log_loss": 0.37359687632442773,
+        "log_loss": 0.3725477236920838,
+        "corrected": 93,
+        "new_errors": 72,
+        "fold_gains": [
+          0.0016910935738444488,
+          -0.001145475372279492,
+          -0.0011641443538998875,
+          0.006264236902050135,
+          0.0064743967039434525
+        ],
+        "improved_folds": 3,
+        "standalone_accuracy": 0.8080064419647993
+      }
+    ],
+    "fresh": [
+      {
+        "repeat": 1,
+        "reference_accuracy": 0.8121477050500403,
+        "accuracy": 0.8138732313355573,
+        "gain": 0.0017255262855170317,
+        "reference_log_loss": 0.3755423069929967,
+        "log_loss": 0.3732516921319564,
+        "corrected": 90,
+        "new_errors": 75,
+        "fold_gains": [
+          -0.0011173184357541333,
+          -0.0034052213393871433,
+          0.0017271157167531026,
+          0.007109004739336511,
+          0.004662004662004615
+        ],
+        "improved_folds": 3,
+        "standalone_accuracy": 0.8106522489359255
+      },
+      {
+        "repeat": 2,
+        "reference_accuracy": 0.8165190383066835,
+        "accuracy": 0.816058897963879,
+        "gain": -0.0004601403428045048,
+        "reference_log_loss": 0.3752577046972621,
+        "log_loss": 0.37244758145827184,
+        "corrected": 84,
+        "new_errors": 88,
+        "fold_gains": [
+          -0.0011376564277587597,
+          0.005681818181818232,
+          -0.001753360607831711,
+          -0.0017241379310345417,
+          -0.0034802784222737193
+        ],
+        "improved_folds": 1,
+        "standalone_accuracy": 0.8122627401357414
+      }
+    ]
+  },
+  "reason": "Fixed TabM addition failed the predeclared gate; no post-result tuning",
+  "kaggle_score": null
+}

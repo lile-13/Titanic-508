@@ -1,0 +1,14 @@
+{
+  "observed_on": "2026-10-31",
+  "source": "User-provided leaderboard screenshot",
+  "evidence": "reports/figures/leaderboard_target_20261031.png",
+  "evidence_sha256": "686f48a53d85ed2e6bdf45962334660b6cf4dc5f14ac39ff871bbabd75a37931",
+  "leaderboard_scope": null,
+  "rank_to_catch": 5,
+  "displayed_name": "HQ Weng",
+  "displayed_score": 0.82838,
+  "incumbent_score": 0.81178,
+  "absolute_gap": 0.0166,
+  "percentage_point_gap": 1.66,
+  "caveat": "Screenshot snapshot only; leaderboard scope and URL not shown. Threshold may move. No claim this is the global competition top five."
+}

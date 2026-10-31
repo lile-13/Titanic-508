@@ -1,0 +1,71 @@
+{
+  "name": "tabm_20261031",
+  "params": {
+    "k": 32,
+    "d_block": 512,
+    "n_blocks": 2,
+    "dropout": 0.1,
+    "d_embedding": 16,
+    "n_bins": 16,
+    "lr": 0.002,
+    "weight_decay": 0.0003,
+    "batch_size": 256,
+    "max_epochs": 200,
+    "patience": 20,
+    "seed": 42,
+    "inner_seed": 312026
+  },
+  "input": "compact18; log1p consumption; training median/IQR; 16 quantile bins; PLE16",
+  "author_source": "https://github.com/yandex-research/tabm",
+  "optimizer": "AdamW; mean of 32 independent BCE losses; mean probabilities for inference",
+  "weight": 0.25,
+  "threshold": 0.5,
+  "incumbent": "tabicl_probability_mean_20261030",
+  "incumbent_observed_score": 0.81178,
+  "selection": "One predeclared model/input/seed/weight. Inner GroupShuffleSplit only selects epoch, then refit full outer training. No outer-validation early stopping, threshold or weight search.",
+  "paired_splits": "Yesterday's two fresh group partitions, seeds 20261030/20261107, now historical. Baseline is 0.5 original tree + 0.5 arithmetic TabICL, not old tree alone.",
+  "fresh_seeds": [
+    20261031,
+    20261108
+  ],
+  "gate": "Each stage: both repeats nonnegative, mean gain >=.001, >=6/10 strict fold gains, logloss deterioration <=.002 each. Stop after first negative/loss/zero-improved repeat. Fresh stage runs only if paired stage passes. No changed settings or replacement seeds.",
+  "caveat": "All stages use known historical labeled rows; new splits are sensitivity checks, not independent blind data. Final production is permitted only after both stages pass.",
+  "parent_protocol_sha256": "5d6744873573ebec4e6ac28b627c541d5cfb898b475df29d59164800814477f3",
+  "reference_files": {
+    "fresh_repeat_1_predictions.csv": "f61d5a69f2858b594cee8eb247da338b18d3574d361b5097e06fa6c8e3719971",
+    "fresh_repeat_2_predictions.csv": "c8cfaab7de369bd6291c60f54abf3faa8c429e499c53c5a8e2514d63c8d94055"
+  },
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "source_hashes": {
+    "scripts/tabm_study.py": "39cbaf271e918f65f83faf0f88cb5495578af79b5461c79389a5a47f570570e4",
+    "src/tabm_models.py": "3916794b003d92d3bbe1f4668f3b002df334bfad99fd57198464d4e916f80152",
+    "requirements-tabm.txt": "5ec75564fd29a171636ac7339e6aa36bb44c3bc52b76b4da3782701f897863ab",
+    "src/tabicl_inputs.py": "89af2b31fe0bcca67d3b57fa489c37b9dc5e5398cfc9bcc758e7950ae7a41346",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027",
+    "src/tabicl_aggregation.py": "63afd42195773544f6e91f767e3a4419829a55c44c3e8ced6eab29b6f86d65e4",
+    "src/tabicl_models.py": "fcb51939a5f5293768f7ed39f386ee61d06776e9962b590f6f58a66117ca81ad",
+    "src/frozen_reference.py": "e1c832d1d54db707a05102ed931d86a3955e3f478fe946318603d9abb37a54bd",
+    "scripts/tabicl_study.py": "7892f51d3c221770f6854ed93b2b00e33db55f8e3d38f4901e2e2d86ebfe9b07"
+  },
+  "environment": {
+    "tabm": "0.0.3",
+    "rtdl_num_embeddings": "0.0.12",
+    "torch": "2.14.1+cu130",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0"
+  },
+  "installed_sources": {
+    "tabm": "fc654af6a16bac53d893a8265c79d7af4ebddcb95ad0d600cc6b6bc6b7317ade",
+    "rtdl_num_embeddings": "48dfc019d447e0cd225deb8b8145b3efa8b42cde9aa314772d6e234753e1cee1"
+  }
+}

@@ -1,0 +1,14 @@
+# Preserve the source bytes hashed by the frozen TabM experiment.
+/scripts/tabm_study.py text eol=lf
+/src/tabm_models.py text eol=lf
+/requirements-tabm.txt text eol=lf
+/src/tabicl_inputs.py text eol=lf
+/src/focused_features.py text eol=lf
+/src/competition_features.py text eol=lf
+/src/preprocess.py text eol=crlf
+/src/optimization.py text eol=lf
+/src/tabicl_aggregation.py text eol=lf
+/src/tabicl_models.py text eol=lf
+/src/frozen_reference.py text eol=lf
+/scripts/tabicl_study.py text eol=lf
+/requirements-tabicl.txt text eol=lf

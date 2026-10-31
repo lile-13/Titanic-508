@@ -1,0 +1,13 @@
+{
+  "model_run": "tabicl_probability_mean_20261030",
+  "observed_platform_score": 0.81178,
+  "diagnostic_rows": 8693,
+  "wrong_in_both": 1397,
+  "wrong_in_either": 1795,
+  "sources": {
+    "fresh_repeat_1_predictions.csv": "f61d5a69f2858b594cee8eb247da338b18d3574d361b5097e06fa6c8e3719971",
+    "fresh_repeat_2_predictions.csv": "c8cfaab7de369bd6291c60f54abf3faa8c429e499c53c5a8e2514d63c8d94055"
+  },
+  "source_script_sha256": "44bba2c92fa14b2fc5c73c4d5500bc403ddf6927ef3f94453e00cf80abc34f34",
+  "caveat": "Two historical grouped repetitions of the same labeled passengers. Overlapping descriptive cohorts; no fitting, routing, hypothesis selection or independent performance claim."
+}
