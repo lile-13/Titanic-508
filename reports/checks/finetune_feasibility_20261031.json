@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "dataset": "synthetic only; no Spaceship Titanic rows used",
+  "train_rows": 768,
+  "validation_rows": 256,
+  "query_rows": 64,
+  "features": 18,
+  "fit_and_query_seconds": 3.336475999999948,
+  "peak_allocated_gpu_bytes": 609382912,
+  "changed_tensor_count": 248,
+  "changed_modules": [
+    "icl_predictor"
+  ],
+  "max_reload_error": 0.0,
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "parameters": {
+    "epochs": 1,
+    "learning_rate": 1e-05,
+    "max_data_size": 512,
+    "n_estimators_finetune": 1,
+    "n_estimators_validation": 2,
+    "n_estimators_inference": 8,
+    "freeze_col": true,
+    "freeze_row": true,
+    "freeze_icl": false,
+    "amp": false,
+    "average_logits": false,
+    "eval_metric": "log_loss",
+    "random_state": 42,
+    "device": "cuda",
+    "model_path": "shared author checkpoint",
+    "allow_auto_download": false,
+    "extra_classifier_kwargs": {
+      "batch_size": 2,
+      "use_amp": true,
+      "use_fa3": false,
+      "n_jobs": 4
+    },
+    "wandb_kwargs": null,
+    "verbose": false
+  },
+  "source_sha256": "d0a95093469ae671503305166d9f91e5239131c537875fdf74e6d2db536c2622",
+  "checkpoint_sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0",
+  "environment": {
+    "tabicl": "2.2.0",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "numpy": "2.5.2",
+    "scikit-learn": "1.9.0"
+  },
+  "caveat": "Hardware/API smoke test only. This is not a competition CV result or a claim of accuracy improvement."
+}

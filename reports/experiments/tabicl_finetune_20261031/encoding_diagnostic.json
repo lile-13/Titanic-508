@@ -1,0 +1,222 @@
+{
+  "passed": true,
+  "folds": [
+    {
+      "fold": 1,
+      "encoded_training_differences": [
+        {
+          "column": 7,
+          "changed_rows": 87,
+          "max_difference": 2.2503015107569126
+        },
+        {
+          "column": 8,
+          "changed_rows": 78,
+          "max_difference": 26.947839654121424
+        },
+        {
+          "column": 9,
+          "changed_rows": 86,
+          "max_difference": 2.821783611292858
+        },
+        {
+          "column": 10,
+          "changed_rows": 96,
+          "max_difference": 12.245728570091899
+        },
+        {
+          "column": 11,
+          "changed_rows": 93,
+          "max_difference": 19.759225766424663
+        },
+        {
+          "column": 12,
+          "changed_rows": 137,
+          "max_difference": 0.13905680893534011
+        },
+        {
+          "column": 16,
+          "changed_rows": 152,
+          "max_difference": 5.151763372677806
+        }
+      ],
+      "direct_vs_saved_max_error": 0.0,
+      "full_outer_encoding_vs_direct_max_error": 0.0
+    },
+    {
+      "fold": 2,
+      "encoded_training_differences": [
+        {
+          "column": 7,
+          "changed_rows": 91,
+          "max_difference": 7.276125913521497
+        },
+        {
+          "column": 8,
+          "changed_rows": 83,
+          "max_difference": 2.0919431138410687
+        },
+        {
+          "column": 9,
+          "changed_rows": 87,
+          "max_difference": 1.982038110743332
+        },
+        {
+          "column": 10,
+          "changed_rows": 93,
+          "max_difference": 3.9164865087162184
+        },
+        {
+          "column": 11,
+          "changed_rows": 82,
+          "max_difference": 2.0474934927741515
+        },
+        {
+          "column": 12,
+          "changed_rows": 145,
+          "max_difference": 0.05604449685632318
+        },
+        {
+          "column": 16,
+          "changed_rows": 150,
+          "max_difference": 2.4441807669248874
+        }
+      ],
+      "direct_vs_saved_max_error": 0.0,
+      "full_outer_encoding_vs_direct_max_error": 0.0
+    },
+    {
+      "fold": 3,
+      "encoded_training_differences": [
+        {
+          "column": 7,
+          "changed_rows": 81,
+          "max_difference": 0.004515936681855237
+        },
+        {
+          "column": 8,
+          "changed_rows": 83,
+          "max_difference": 13.605990979638591
+        },
+        {
+          "column": 9,
+          "changed_rows": 74,
+          "max_difference": 0.5999055208492337
+        },
+        {
+          "column": 10,
+          "changed_rows": 89,
+          "max_difference": 0.7471390369890969
+        },
+        {
+          "column": 11,
+          "changed_rows": 82,
+          "max_difference": 5.137996032141132
+        },
+        {
+          "column": 12,
+          "changed_rows": 155,
+          "max_difference": 0.006251572401570371
+        },
+        {
+          "column": 16,
+          "changed_rows": 166,
+          "max_difference": 5.480806540440767
+        }
+      ],
+      "direct_vs_saved_max_error": 0.0,
+      "full_outer_encoding_vs_direct_max_error": 0.0
+    },
+    {
+      "fold": 4,
+      "encoded_training_differences": [
+        {
+          "column": 6,
+          "changed_rows": 164,
+          "max_difference": 16.0
+        },
+        {
+          "column": 7,
+          "changed_rows": 91,
+          "max_difference": 3.737907915758882
+        },
+        {
+          "column": 8,
+          "changed_rows": 89,
+          "max_difference": 8.228275622059641
+        },
+        {
+          "column": 9,
+          "changed_rows": 83,
+          "max_difference": 0.01011645065364064
+        },
+        {
+          "column": 10,
+          "changed_rows": 90,
+          "max_difference": 4.619118630324579
+        },
+        {
+          "column": 11,
+          "changed_rows": 86,
+          "max_difference": 4.419934811650592
+        },
+        {
+          "column": 12,
+          "changed_rows": 144,
+          "max_difference": 0.016015313508177087
+        },
+        {
+          "column": 16,
+          "changed_rows": 163,
+          "max_difference": 2.517567144050304
+        }
+      ],
+      "direct_vs_saved_max_error": 0.0,
+      "full_outer_encoding_vs_direct_max_error": 0.0
+    },
+    {
+      "fold": 5,
+      "encoded_training_differences": [
+        {
+          "column": 7,
+          "changed_rows": 78,
+          "max_difference": 1.1847672975891896
+        },
+        {
+          "column": 8,
+          "changed_rows": 91,
+          "max_difference": 0.5251973637588208
+        },
+        {
+          "column": 9,
+          "changed_rows": 82,
+          "max_difference": 4.495409062308994
+        },
+        {
+          "column": 10,
+          "changed_rows": 88,
+          "max_difference": 4.516516384522163
+        },
+        {
+          "column": 11,
+          "changed_rows": 85,
+          "max_difference": 2.423144245949402
+        },
+        {
+          "column": 12,
+          "changed_rows": 135,
+          "max_difference": 0.042063658092899914
+        },
+        {
+          "column": 16,
+          "changed_rows": 165,
+          "max_difference": 0.33067340387367494
+        }
+      ],
+      "direct_vs_saved_max_error": 0.0,
+      "full_outer_encoding_vs_direct_max_error": 0.0
+    }
+  ],
+  "source_sha256": "85d2f2ce29a9b60b1582c3cb115f7646e15eb46de0ae8973306142dc15a684ac",
+  "caveat": "Post-screen input-only control reconstruction; no target values used for scoring or model selection. No fine-tuned predictions with changed encoding were evaluated. This does not establish accuracy improvement."
+}

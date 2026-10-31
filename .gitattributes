@@ -17,3 +17,8 @@
 /scripts/sequence_geometry_study.py text eol=lf
 /src/sequence_geometry.py text eol=lf
 /scripts/audit_unlabeled_views.py text eol=lf
+/scripts/reassess_accuracy_headroom.py text eol=lf
+/scripts/check_tabicl_finetune.py text eol=lf
+/scripts/tabicl_finetune_study.py text eol=lf
+/src/tabicl_finetune_probe.py text eol=lf
+/scripts/diagnose_finetune_encoding.py text eol=lf

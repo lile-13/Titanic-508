@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "gate_passed": false,
+  "prediction_models_reloaded": 10,
+  "max_reload_error": 0.0,
+  "selected_epochs": [
+    0,
+    2,
+    0,
+    1,
+    1
+  ],
+  "max_control_difference_from_historical_component": 0.36150139570236206,
+  "nested_groups_and_encoder_rebuilt": true,
+  "chosen_inner_loss_reproduced": true,
+  "only_icl_predictor_weights_changed": true,
+  "tests": 61,
+  "stages": {
+    "paired": [
+      {
+        "repeat": 1,
+        "reference_accuracy": 0.8193949154492121,
+        "accuracy": 0.8169791786494881,
+        "gain": -0.0024157367997239554,
+        "reference_log_loss": 0.37265900666221385,
+        "log_loss": 0.3739416901632504,
+        "corrected": 56,
+        "new_errors": 77,
+        "fold_gains": [
+          -0.0040183696900115695,
+          -0.002339181286549641,
+          -0.0022573363431152016,
+          -0.0005824111822946287,
+          -0.0028538812785388057
+        ],
+        "improved_folds": 0,
+        "control_accuracy": 0.8166340733923847,
+        "gain_over_control": 0.00034510525710340634
+      }
+    ]
+  },
+  "caveat": "Only fixed head-only fine tuning was screened. All evaluation passengers are historical. No new Kaggle score."
+}

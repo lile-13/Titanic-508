@@ -1,0 +1,49 @@
+{
+  "source_context_sha256": "ec3fb840db2796b0ad140bc346eaba026da1e554fd7b2f89e4af38645cd9af3e",
+  "source_stem": "fresh_repeat_1_fold_1",
+  "context_sha256": "56a73d90eda5d0d67d5e22c10dffc92bc67e2debb7cb4bfb4921f62d1225875d",
+  "checkpoint_sha256": "0debbae4524dedc9f96256587801aa8ecd40fbc4f035d458b5ee8a38066c8749",
+  "history": [
+    {
+      "primary": -0.37038761377334595,
+      "roc_auc": 0.9077121056461623,
+      "log_loss": 0.37038761377334595,
+      "accuracy": 0.8250204415372036
+    },
+    {
+      "primary": -0.3706146478652954,
+      "roc_auc": 0.9077830037241557,
+      "log_loss": 0.3706146478652954,
+      "accuracy": 0.8258381030253475
+    },
+    {
+      "primary": -0.3710663616657257,
+      "roc_auc": 0.9078672787979967,
+      "log_loss": 0.3710663616657257,
+      "accuracy": 0.8258381030253475
+    },
+    {
+      "primary": -0.3719194531440735,
+      "roc_auc": 0.9080411797440179,
+      "log_loss": 0.3719194531440735,
+      "accuracy": 0.8258381030253475
+    },
+    {
+      "primary": -0.372860312461853,
+      "roc_auc": 0.9077335088395189,
+      "log_loss": 0.372860312461853,
+      "accuracy": 0.8258381030253475
+    },
+    {
+      "primary": -0.37320297956466675,
+      "roc_auc": 0.907316146569068,
+      "log_loss": 0.37320297956466675,
+      "accuracy": 0.8242027800490597
+    }
+  ],
+  "selected_epoch": 0,
+  "epochs_run": 5,
+  "best_inner_log_loss": 0.37038761377334595,
+  "seconds": 29.359582500000215,
+  "peak_gpu_bytes": 1786766848
+}

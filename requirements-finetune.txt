@@ -1,0 +1,2 @@
+# Optional isolated outputs/tabicl_env; existing TabICL/Torch pins remain unchanged.
+transformers==5.22.1

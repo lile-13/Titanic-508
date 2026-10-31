@@ -1,0 +1,39 @@
+{
+  "rows": 8693,
+  "repetitions": 4,
+  "error_count_histogram": [
+    6669,
+    321,
+    213,
+    287,
+    1203
+  ],
+  "train_groups": 6217,
+  "test_groups": 3063,
+  "shared_train_test_groups": 0,
+  "sources": {
+    "reports/experiments/tabicl_probability_mean_20261030/fresh_repeat_1_predictions.csv": {
+      "sha256": "f61d5a69f2858b594cee8eb247da338b18d3574d361b5097e06fa6c8e3719971",
+      "column": "alternative"
+    },
+    "reports/experiments/tabicl_probability_mean_20261030/fresh_repeat_2_predictions.csv": {
+      "sha256": "c8cfaab7de369bd6291c60f54abf3faa8c429e499c53c5a8e2514d63c8d94055",
+      "column": "alternative"
+    },
+    "reports/experiments/tabm_20261031/fresh_repeat_1_predictions.csv": {
+      "sha256": "6627228f0dbe9821e80b940205e3ae75ef51407f40fb4a26702277cf1f4525a4",
+      "column": "reference"
+    },
+    "reports/experiments/tabm_20261031/fresh_repeat_2_predictions.csv": {
+      "sha256": "4bc326d5c5d77c911f83fd67569745c99da617861e3801518637a70540dff13a",
+      "column": "reference"
+    }
+  },
+  "script_sha256": "94168debda9bdafb73c6641e8337d4c39e02c460e810e874cbce91d1d273209b",
+  "caveats": [
+    "Four historical partitions of the same passengers, not four independent datasets.",
+    "Wrong/right cohorts are selected using labels and cannot be used as deployable routing rules.",
+    "Mean OOF probabilities are descriptive; no new ensemble or submission is fitted.",
+    "Persistent mistakes neither prove label noise nor estimate a Bayes accuracy ceiling."
+  ]
+}

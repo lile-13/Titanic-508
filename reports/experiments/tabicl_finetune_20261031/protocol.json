@@ -1,0 +1,92 @@
+{
+  "name": "tabicl_finetune_20261031",
+  "params": {
+    "epochs": 30,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0,
+    "max_data_size": 1024,
+    "finetune_ctx_query_ratio": 0.2,
+    "n_estimators_finetune": 1,
+    "n_estimators_validation": 8,
+    "n_estimators_inference": 8,
+    "freeze_col": true,
+    "freeze_row": true,
+    "freeze_icl": false,
+    "amp": false,
+    "average_logits": false,
+    "eval_metric": "log_loss",
+    "random_state": 42,
+    "device": "cuda",
+    "patience": 5,
+    "min_delta": 0.0001,
+    "early_stopping": true,
+    "save_interval": 0,
+    "allow_auto_download": false,
+    "wandb_kwargs": null,
+    "verbose": false,
+    "extra_classifier_kwargs": {
+      "batch_size": 2,
+      "use_amp": true,
+      "use_fa3": false,
+      "n_jobs": 4
+    }
+  },
+  "checkpoint_sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0",
+  "inner_seed": 312026,
+  "inner_validation_group_fraction": 0.18,
+  "threshold": 0.5,
+  "combination": "0.5 original trees + 0.25 original TabICL + 0.25 fine-tuned TabICL; matched control replaces the last term with original weights using identical inner-fit categorical encoder and full outer training context",
+  "selection": "Only the ICL predictor parameters are updated. Column/row encoders frozen. Inner GroupShuffleSplit chooses checkpoint by log loss, including epoch zero. Then all outer training labels become inference context; inner validation rows are not used for gradient updates. Outer validation labels never choose epochs.",
+  "meta_batches": "Author row-based context/query sampling occurs exclusively inside inner training groups. This differs from group-disjoint outer evaluation; no validation labels enter meta-batches.",
+  "gates": "Each stage: two nonnegative gains versus incumbent and matched control; mean incumbent gain>=.001, mean matched gain>=.0005; >=6/10 improved folds; each log loss deterioration<=.002. Stop after a negative repeat or zero improved folds. Historical and additional historical stages must both pass before considering production.",
+  "caveat": "Adaptive study on previously viewed labels and partitions, not new independent evidence. No weight, threshold, learning-rate, input or freezing search. A failed frozen head-only configuration does not rule out all fine-tuning.",
+  "stages": [
+    [
+      "paired",
+      "tabicl_probability_mean_20261030"
+    ],
+    [
+      "additional",
+      "tabm_20261031"
+    ]
+  ],
+  "reference_files": {
+    "tabicl_probability_mean_20261030/fresh_repeat_1_predictions.csv": "f61d5a69f2858b594cee8eb247da338b18d3574d361b5097e06fa6c8e3719971",
+    "tabicl_probability_mean_20261030/fresh_repeat_2_predictions.csv": "c8cfaab7de369bd6291c60f54abf3faa8c429e499c53c5a8e2514d63c8d94055",
+    "tabm_20261031/fresh_repeat_1_predictions.csv": "6627228f0dbe9821e80b940205e3ae75ef51407f40fb4a26702277cf1f4525a4",
+    "tabm_20261031/fresh_repeat_2_predictions.csv": "4bc326d5c5d77c911f83fd67569745c99da617861e3801518637a70540dff13a"
+  },
+  "reference_audits": {
+    "tabicl_probability_mean_20261030": "d8ee464bc628ad159959c3eb43661b914c5e44674120e6cbaafa601e7fa8d808",
+    "tabm_20261031": "9cd308a37c084298b74b85cddc3674475224323742762a6b771ccd451a55ed90"
+  },
+  "sources": {
+    "scripts/tabicl_finetune_study.py": "fec7b0f2b9107d54b780995a743988f4a7a9a9d9fc7489e0aa4b2d09bc11a2b1",
+    "src/tabicl_finetune_probe.py": "2c812bef15dc4dd727ed826ecee17b0a94b789b91f23e33199f18e1e0e2de872",
+    "src/tabicl_models.py": "fcb51939a5f5293768f7ed39f386ee61d06776e9962b590f6f58a66117ca81ad",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "scripts/audit_unlabeled_views.py": "1363f71b1289e98dcb5d3aa17ce747d6831d54897a9ac1e815a78d59ef69bfca"
+  },
+  "installed_sources": {
+    "tabicl._finetune.base": "9fc3a3a380f24cafdb7cc1888aefa99d648d38b04258e82a1478ea8635c940d0",
+    "tabicl._finetune.classifier": "26afc0f2e16241be769fc2344cdcf04ec108971560e518b0ee4e094de04cad6c",
+    "tabicl._finetune.data": "4ff16a94194b3e158b720915149c9c68e3492560b5151a434a26c1cbad639bc1",
+    "tabicl.train._optim": "56e22ac1f4637db78271e552a6d92cebc50976796d7e57e4445ce6478f94d2b5"
+  },
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "environment": {
+    "tabicl": "2.2.0",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0"
+  }
+}
