@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "observed_scores": {
+    "submission_pfn25_4690.csv": 0.81271,
+    "submission_pfn50_4690.csv": 0.81271,
+    "submission_pfn100_4690.csv": 0.80921,
+    "submission_tabicl75_4690.csv": 0.81318
+  },
+  "evidence_sha256": "f3469be76f3c96c8d60f50564e6ddda80e7ff23c2354f808ba74f1d62dca2864",
+  "observed_submissions": 9,
+  "original_five_preserved": true,
+  "current_platform_best": 0.81318,
+  "improvement_over_previous_best": 0.0014,
+  "gap_to_target": 0.00682,
+  "uploaded_bytes_verified": false,
+  "training_and_preparation_snapshots_unchanged": true
+}

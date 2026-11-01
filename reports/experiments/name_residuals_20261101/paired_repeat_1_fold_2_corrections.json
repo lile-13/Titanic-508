@@ -1,0 +1,18 @@
+{
+  "model_sha256": "14da9d87df97b161feaccdd9fc4e3f586af10bfa70d2cecffc34d217074445b0",
+  "source_run": "tabicl_probability_mean_20261030",
+  "source_stem": "fresh_repeat_1_fold_2",
+  "source_context_sha256": "4f20bbd43d5b448655aeac2dd289f02d5761ae7f94e62d518e153fe5226c1b0e",
+  "named_optimization": {
+    "iterations": 10,
+    "objective": 2470.249619993416,
+    "max_gradient": 7.715859216239629e-05,
+    "parameters": 4652
+  },
+  "control_optimization": {
+    "iterations": 3,
+    "objective": 2650.377412703349,
+    "max_gradient": 3.761255415457576e-08,
+    "parameters": 1
+  }
+}

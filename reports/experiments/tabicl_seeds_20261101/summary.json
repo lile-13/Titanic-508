@@ -1,0 +1,44 @@
+{
+  "status": "no_candidate",
+  "failed_stage": "paired",
+  "stages": {
+    "paired": [
+      {
+        "repeat": 1,
+        "reference_accuracy": 0.8180144944207983,
+        "accuracy": 0.8154837225353733,
+        "gain": -0.002530771885425054,
+        "reference_log_loss": 0.3730000779003761,
+        "log_loss": 0.374961409909201,
+        "corrected": 80,
+        "new_errors": 102,
+        "fold_gains": [
+          0.0011481056257175437,
+          -0.007017543859649145,
+          -0.006207674943566555,
+          0.0005824111822946287,
+          -0.0011415525114155667
+        ],
+        "improved_folds": 2,
+        "g": {
+          "reference_accuracy": 0.7088706525986713,
+          "accuracy": 0.7018366549433372,
+          "gain": -0.007033997655334079,
+          "reference_log_loss": 0.5173079735002362,
+          "log_loss": 0.5201123807540149,
+          "corrected": 57,
+          "new_errors": 75,
+          "fold_gains": [
+            -0.003913894324853229,
+            -0.013307984790874583,
+            -0.011257035647279534,
+            -0.006134969325153339,
+            0.0
+          ],
+          "improved_folds": 0
+        }
+      }
+    ]
+  },
+  "kaggle_score": null
+}

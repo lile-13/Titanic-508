@@ -1,0 +1,23 @@
+{
+  "name": "name_residuals_20261101",
+  "inner_seed": 111026,
+  "inner_group_folds": 3,
+  "penalty": 4.0,
+  "strength": 0.5,
+  "threshold": 0.5,
+  "hypothesis": "Compact TabICL does not use first/surnames. Add shared, strongly shrunk name effects on its residual log-odds instead of ordinal names or raw name fragments. No inferred gender labels.",
+  "training": "Three group-isolated inner teachers predict all outer training rows. Fit a global intercept plus FirstName/Surname regularized effects to those probabilities and training labels. Matched control fits only the intercept, same penalty and strength. Unknown names contribute zero name effect.",
+  "candidate": "Keep original tree25%, replace TabICL75% by fixed-strength named residual correction. Baseline is the actual .81318 platform algorithm. No global 1203 error list is read during fitting.",
+  "gate": "Two repeat gains nonnegative vs incumbent and matched intercept control, mean incumbent gain>=.001, mean matched gain>=.0005, >=6/10 improved folds, loss deterioration<=.002. First negative repeat, negative matched gain, bad loss or zero improved folds stops. Both historical stages required for production.",
+  "caveat": "New hypothesis after public feedback, using previously viewed passengers and partitions. Valid within-algorithm group isolation, but not a new independent blind sample. Prior raw-name/character feature failures remain failed.",
+  "platform_outcomes_sha256": "a492ccbb1183e57c8dc5f3cc2876a6f420de4c5dd2d050247f2b580f4447c622",
+  "sources": {
+    "scripts/name_residual_study.py": "0631188d80c0d59b1b80b23f647853bbdce6b6853aa12d4c88ccabba32ab7247",
+    "src/name_residuals.py": "7af43f526e147a0c1ca7de1e5380e149a90142bbf2332488ef50df191534fdcd",
+    "src/tabicl_aggregation.py": "63afd42195773544f6e91f767e3a4419829a55c44c3e8ced6eab29b6f86d65e4",
+    "src/tabicl_models.py": "fcb51939a5f5293768f7ed39f386ee61d06776e9962b590f6f58a66117ca81ad",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "tabicl_seeds_20261101",
+  "seeds": [
+    42,
+    2026,
+    103
+  ],
+  "views_per_seed": 8,
+  "average": "arithmetic probabilities within and across seeds",
+  "baseline": "Actual platform-best algorithm: .25 original trees + .75 seed42 arithmetic TabICL",
+  "candidate": ".25 same original trees + .75 mean(seed42,seed2026,seed103). Same checkpoint, raw inputs and training contexts. All 24 views retained, no view selection.",
+  "gate": "Both repeat gains>=0, mean gain>=.001, >=6/10 improved folds, loss deterioration<=.002. First negative repeat, bad loss or zero improved folds stops. Both historical stages required for formal production.",
+  "history": "Different fixed eight-view shuffles, not a rerun of the failed 32-view generator. Seeds match the long-established tree seed set; no seed search. Previously inspected passengers and partitions, not independent blind evidence.",
+  "platform_outcomes_sha256": "a492ccbb1183e57c8dc5f3cc2876a6f420de4c5dd2d050247f2b580f4447c622",
+  "sources": {
+    "scripts/tabicl_seed_study.py": "c80ba72b95a0b7716b053ba579f917a029db8be4ba581d4684f9fd1a7978e425",
+    "src/tabicl_seed_models.py": "a3c1e03a1b4c5902319d98c201466f7b897ad465f5ec205f39b90e1af4616d4c",
+    "src/tabicl_models.py": "fcb51939a5f5293768f7ed39f386ee61d06776e9962b590f6f58a66117ca81ad",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd"
+  }
+}

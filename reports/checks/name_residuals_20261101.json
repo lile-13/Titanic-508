@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "gate_passed": false,
+  "teacher_contexts_reloaded": 15,
+  "correction_models_reloaded": 10,
+  "parameters_refitted": true,
+  "max_teacher_reload_error": 0.0,
+  "tests": 66
+}

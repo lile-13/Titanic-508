@@ -29,3 +29,10 @@
 /scripts/tabpfn_study.py text eol=lf
 /src/tabpfn_models.py text eol=lf
 /scripts/prepare_submission_batch.py text eol=lf
+/scripts/prepare_next_directions.py text eol=lf
+/scripts/tabicl_seed_study.py text eol=lf
+/src/tabicl_seed_models.py text eol=lf
+/src/name_residuals.py text eol=lf
+/scripts/name_residual_study.py text eol=lf
+/scripts/prepare_full_context_candidate.py text eol=lf
+/scripts/record_manual_batch_result.py text eol=lf

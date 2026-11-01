@@ -1,6 +1,18 @@
 # Kaggle提交记录
 
-比赛：Spaceship Titanic。更新日期：2026-10-30。
+比赛：Spaceship Titanic。更新日期：2026-11-01。
+
+## 四份探索候选的实际反馈 2026-11-01
+
+用户截图确认四份均为Complete：TabPFN 25%与50%各0.81271，纯TabPFN为0.80921，TabICL 75%为**0.81318**。平台最佳更新为原树25%与TabICL 75%，比此前0.81178提高0.00140（0.14个百分点）；距离0.82为0.00682。
+
+![四份候选实际成绩](../reports/figures/kaggle_manual_batch_20261101.png)
+
+截图原图直接复制保存；账号Litianle4690、文件名、Complete和显示分数可见。相对时间不用于推断准确提交时刻，排名为空，上传字节仍未由服务器验证。结构化账本保留9次真实结果，前5次不改写；本批4份从待提交移至已完成。来源CSV哈希继续保留。
+
+这次选择来自用户明确要求的公开榜单探索，不能把未通过本地稳定性门槛的TabPFN研究改写为成功，也不能保证提高TabICL权重会一直提高分数。50% TabPFN在4套历史分组均有正增益，但实际榜分仍低于75% TabICL，说明本地与平台排序并不一致。
+
+最新最佳模型单独保存为`models/manual_submission_batch_20261031_tabicl75/ensemble.joblib`，50个顶层成员，原45树总权重0.25、5个TabICL上下文各0.15。未重新更新神经网络参数，原模型包和原CSV保留。以下旧章节按各自日期保留当时的状态。
 
 ## 第五次提交 2026-10-30
 
@@ -26,17 +38,21 @@
 
 ## 已完成的平台提交
 
-五份预测均已提交成功。CatBoost得分**0.80313**，冻结集成与全量重训融合均为**0.81108**，正则化融合为**0.81061**，TabICL概率平均融合为**0.81178**。第五次超过原最佳，更新为主方案。本地五折分数与平台评分分别记录。
+九份预测均已提交成功，当前最高为**0.81318**。本地分组验证与平台评分分别记录，使用真实榜分选择当前平台最佳。
 
-| 模型 | 提交文件名 | 本地五折均值 | Kaggle得分 | 状态 |
+| 模型 | 提交文件名 | 本地验证（口径见说明） | Kaggle得分 | 状态 |
 |---|---|---:|---:|---|
 | 原CatBoost | submission4690.csv | 0.8163 | 0.80313 | Complete，用户截图确认 |
 | 冻结集成 | submission_ensemble4690.csv | 0.8157 | 0.81108 | Complete，原平台最佳 |
 | 全量重训与五折集成各50% | submission_fullblend4690.csv | 无新增OOF指标 | 0.81108 | Complete，与原集成持平 |
 | 原集成75%与局部LightGBM25% | submission_regularized4690.csv | 0.8179（选择后OOF） | 0.81061 | Complete，未替换原最佳 |
-| 原集成50%与TabICL概率平均50% | submission_tabicl_mean4690.csv | 0.821235（选择后OOF） | 0.81178 | Complete，当前平台最佳 |
+| 原集成50%与TabICL概率平均50% | submission_tabicl_mean4690.csv | 0.821235（选择后OOF） | 0.81178 | Complete，此前平台最佳 |
+| 此前最佳75%与TabPFN25% | submission_pfn25_4690.csv | 0.816663（4套历史分组均值） | 0.81271 | Complete，探索对照 |
+| 此前最佳50%与TabPFN50% | submission_pfn50_4690.csv | 0.816692（4套历史分组均值） | 0.81271 | Complete，探索对照 |
+| 纯TabPFN | submission_pfn100_4690.csv | 0.816922（4套历史分组均值） | 0.80921 | Complete，探索对照 |
+| 原树25%与TabICL75% | submission_tabicl75_4690.csv | 0.815397（4套历史分组均值） | 0.81318 | Complete，当前平台最佳 |
 
-集成本地OOF包含参与过模型选择的折，属于选择后的描述性结果。历次本地五折与平台排序并不完全一致，保留原始本地结果。全量重训对照未产生新的OOF分数，不能借用原OOF。五次平台得分不足以证明跨数据集稳定提升，后续模型实验继续使用本地验证筛选。
+集成本地OOF包含参与过模型选择的折，属于选择后的描述性结果。4套历史分组使用同一批8693名乘客，均值不是4份独立数据。历次本地验证与平台排序并不完全一致，保留原始结果。全量重训对照未产生新的OOF分数，不能借用原OOF。九次平台得分不足以证明跨数据集稳定提升。
 
 ## 首次提交证据
 
@@ -54,7 +70,9 @@
 
 ## 当前候选与复现
 
-当前平台最佳文件：`outputs/kaggle_ready_4690/submission_tabicl_mean4690.csv`，训练输出为`outputs/tabicl_probability_mean_20261030/submission_tabicl_probability_mean4690.csv`，模型为`models/tabicl_probability_mean_20261030/ensemble.joblib`。4277行，SHA256为`bd2858e0412f37d22ac38040401bfbe3e459a5ab5690f0e4b98924c78aed8ac0`。
+当前平台最佳文件：`outputs/kaggle_ready_4690/next_batch_20261031/submission_tabicl75_4690.csv`，模型为`models/manual_submission_batch_20261031_tabicl75/ensemble.joblib`。4277行，SHA256为`abd9924480c5ab75bb677384e9251b81ab3195bc25c6e750834b48f55ac807cf`。
+
+此前0.81178文件`outputs/kaggle_ready_4690/submission_tabicl_mean4690.csv`与`models/tabicl_probability_mean_20261030/ensemble.joblib`保留；下段为此前方案的复现检查。
 
 提交前已通过56项测试、25个上下文及90个对照树模型重载、独立CLI生成及独立概率组合核验。来源、分组及格式检查见`reports/checks/tabicl_probability_mean_20261030.json`。本地`manifest.json`已将本候选从待提交移至已提交列表；模型和CSV继续由.gitignore忽略。
 
@@ -74,6 +92,6 @@
 
 ## 课程报告所需材料
 
-作业要求上传的CSV文件名带组长学号后四位；五份提交文件均使用4690。最终报告需要上传文件名与得分截图，以及小组信息截图。当前图片没有展示四人Team成员列表，还需另行保存小组信息。现有本地DOCX和源码ZIP仍暂停更新，尚未纳入第五次成绩。
+作业要求上传的CSV文件名带组长学号后四位；九份提交文件均使用4690。最终报告需要上传文件名与得分截图，以及小组信息截图。当前图片没有展示四人Team成员列表，还需另行保存小组信息。现有本地DOCX和源码ZIP仍暂停更新，尚未纳入本批成绩。
 
 作业中“组长提交即可，不要重复提交”针对雨课堂课程报告和成果物，由组长统一提交。两份作业文件没有规定Kaggle只能提交一次；实际日额度以比赛页面为准。

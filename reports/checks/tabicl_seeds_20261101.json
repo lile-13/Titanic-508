@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "gate_passed": false,
+  "new_seed_models_reloaded": 10,
+  "original_seed42_controls_reproduced": true,
+  "max_reload_error": 0.0,
+  "tests": 66
+}

@@ -1,0 +1,23 @@
+{
+  "status": "exploratory_candidate_prepared",
+  "candidate": {
+    "id": "full_context_strategy_20261101",
+    "model_run": "full_context_strategy_20261101",
+    "status": "prepared_not_submitted",
+    "prepared_on": "2026-11-01",
+    "file": "outputs/kaggle_ready_4690/next_batch_20261101/submission_fullcontext_4690.csv",
+    "sha256": "6959ad6f38ed66860c6bcf190cb763db12f5c826ce956c1f041138e54df1deb4",
+    "rows": 4277,
+    "score": null,
+    "kaggle_score": null,
+    "description": "25% trees + 37.5% five-fold TabICL + 37.5% full-training-context TabICL; threshold0.5",
+    "changes_vs_current_best": 50,
+    "suggested_order": 2,
+    "exploratory": true,
+    "formal_promotion": false,
+    "local_cv_accuracy": null,
+    "source_protocol_sha256": "790261d8ee7abf3088496928a7ac6c247656dcb1fd0863355070ba79e0a3b89c",
+    "audit": "reports/checks/full_context_strategy_20261101.json"
+  },
+  "caveat": "A final context-size comparison, with no leakage-free OOF result for this exact training-size change. Actual Kaggle result unknown."
+}

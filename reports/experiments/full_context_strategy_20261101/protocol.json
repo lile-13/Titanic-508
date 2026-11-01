@@ -1,0 +1,39 @@
+{
+  "name": "full_context_strategy_20261101",
+  "observed_platform_best": {
+    "model_run": "manual_submission_batch_20261031_tabicl75",
+    "score": 0.81318,
+    "submission": "outputs/kaggle_ready_4690/next_batch_20261031/submission_tabicl75_4690.csv",
+    "accuracy_difference": 0.01005,
+    "percentage_point_difference": 1.005,
+    "previous_best_model_run": "tabicl_probability_mean_20261030",
+    "previous_best_score": 0.81178,
+    "improvement_over_previous_best": 0.0014,
+    "percentage_point_improvement_over_previous_best": 0.14,
+    "basis": "Highest displayed score among nine screenshot-confirmed submissions. Observational platform choice after exploratory weight comparisons; not new independent validation or a significance claim.",
+    "tied_model_runs": [
+      "manual_submission_batch_20261031_tabicl75"
+    ],
+    "target_score": 0.82,
+    "gap_to_target": 0.00682
+  },
+  "threshold": 0.5,
+  "method": "Keep tree25%; use fold-context TabICL37.5% and full-training-context TabICL37.5%. Same original checkpoint, seed42, eight views, arithmetic averaging. No neural parameter updates.",
+  "hypothesis": "Each fold context sees about80% of labels. A single context using all8693 training passengers may add information; average it with the existing five-context estimate to retain some context diversity.",
+  "selection": "Fixed half replacement of the incumbent's75% TFM component. Requested exploratory submission; no training-size/weight/threshold search.",
+  "validation": "No new OOF accuracy exists for this final training-size comparison. Cannot score an all-training-context model on its training rows or borrow the old fold OOF score as its own.",
+  "source_components_sha256": "675aa6f8c684e7c3dd652af3eefc48a70a62051695db6d783e77aeff013a5771",
+  "sources": {
+    "scripts/prepare_full_context_candidate.py": "df8c46d6000798e97410e85d23efa024a101344597d051e6ce3584e6e679b5b6",
+    "src/tabicl_aggregation.py": "63afd42195773544f6e91f767e3a4419829a55c44c3e8ced6eab29b6f86d65e4",
+    "src/tabicl_models.py": "fcb51939a5f5293768f7ed39f386ee61d06776e9962b590f6f58a66117ca81ad",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd"
+  },
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "next_directions_20261101",
+  "variants": {
+    "tabicl875": {
+      "tree": 0.125,
+      "tfm": 0.875,
+      "pfn": 0.0,
+      "description": "12.5% original trees + 87.5% arithmetic TabICL",
+      "order": 1
+    },
+    "tabicl100": {
+      "tree": 0.0,
+      "tfm": 1.0,
+      "pfn": 0.0,
+      "description": "Arithmetic TabICL only, five grouped contexts",
+      "order": 3
+    },
+    "triple": {
+      "tree": 0.125,
+      "tfm": 0.75,
+      "pfn": 0.125,
+      "description": "12.5% original trees + 75% TabICL + 12.5% TabPFN",
+      "order": 2
+    }
+  },
+  "threshold": 0.5,
+  "observed_platform_best": {
+    "model_run": "manual_submission_batch_20261031_tabicl75",
+    "score": 0.81318,
+    "submission": "outputs/kaggle_ready_4690/next_batch_20261031/submission_tabicl75_4690.csv",
+    "accuracy_difference": 0.01005,
+    "percentage_point_difference": 1.005,
+    "previous_best_model_run": "tabicl_probability_mean_20261030",
+    "previous_best_score": 0.81178,
+    "improvement_over_previous_best": 0.0014,
+    "percentage_point_improvement_over_previous_best": 0.14,
+    "basis": "Highest displayed score among nine screenshot-confirmed submissions. Observational platform choice after exploratory weight comparisons; not new independent validation or a significance claim.",
+    "tied_model_runs": [
+      "manual_submission_batch_20261031_tabicl75"
+    ],
+    "target_score": 0.82,
+    "gap_to_target": 0.00682
+  },
+  "platform_outcomes_sha256": "a492ccbb1183e57c8dc5f3cc2876a6f420de4c5dd2d050247f2b580f4447c622",
+  "test_components_sha256": "675aa6f8c684e7c3dd652af3eefc48a70a62051695db6d783e77aeff013a5771",
+  "rationale": "User feedback favors 75% TabICL over 50%, while standalone PFN is weaker. Check two larger TabICL weights and a three-way mix that preserves its 75% share and replaces half of remaining tree weight with PFN.",
+  "caveat": "Adaptive directions selected after public leaderboard feedback; no new independent validation and no score guarantee. CSVs produced at the user's explicit request for manual platform trials. No per-passenger label rules or threshold search.",
+  "sources": {
+    "scripts/prepare_next_directions.py": "5ea274b1e9ac50bb50b3ec85b81c9adca12cf38833c2e4afed315dcc5f27e57d",
+    "scripts/record_manual_batch_result.py": "eed7324d9ecf50391c91ff209286ee5e283d8ba8c852935e2ceb2bff12e82efa"
+  }
+}
