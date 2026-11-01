@@ -1,0 +1,53 @@
+{
+  "name": "manual_submission_batch_20261031",
+  "variants": {
+    "pfn25": {
+      "best": 0.75,
+      "pfn": 0.25,
+      "tfm": 0.0,
+      "description": "75% current best + 25% TabPFN V2",
+      "order": 1
+    },
+    "pfn50": {
+      "best": 0.5,
+      "pfn": 0.5,
+      "tfm": 0.0,
+      "description": "50% current best + 50% TabPFN V2",
+      "order": 2
+    },
+    "pfn100": {
+      "best": 0.0,
+      "pfn": 1.0,
+      "tfm": 0.0,
+      "description": "TabPFN V2 only, five grouped contexts",
+      "order": 4
+    },
+    "tabicl75": {
+      "best": 0.5,
+      "pfn": 0.0,
+      "tfm": 0.5,
+      "description": "25% original trees + 75% arithmetic TabICL",
+      "order": 3
+    }
+  },
+  "threshold": 0.5,
+  "authorization": "User explicitly requested multiple CSVs for manual Kaggle comparison, including experimental directions. This separate batch does not override any failed local study gate or promote its models.",
+  "parent_tabpfn_summary_sha256": "beace36ad028bf56d573af1caa7b571fa37c449944421d72733a926aa4facec0",
+  "parent_tabpfn_protocol_sha256": "95013f90d9b1cdc0c69546925a8d91542d18f65e57f75afd562723931347f2ed",
+  "original_best_sha256": "bd2858e0412f37d22ac38040401bfbe3e459a5ab5690f0e4b98924c78aed8ac0",
+  "checkpoint_sha256": "cf8c519c01eaf1613ee91239006d57b1c806ff5f23ac1aeb1315ba1015210e49",
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "sources": {
+    "scripts/prepare_submission_batch.py": "016999375d19f6619405864d9a6ab0cf810727e31fb33d37522a738c391cfded",
+    "src/tabpfn_models.py": "f54d14561f4ad06cd8a7660884d4b6bffa61575bb35b2923255644cd8abc226a",
+    "src/tabicl_models.py": "fcb51939a5f5293768f7ed39f386ee61d06776e9962b590f6f58a66117ca81ad",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd"
+  },
+  "caveat": "Four historical-comparison variants for user-directed public evaluation, not four new independent models. No submission is sent and no Kaggle score inferred. Refine directions using local evidence as well as reported platform feedback."
+}

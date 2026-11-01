@@ -1,0 +1,166 @@
+{
+  "status": "exploratory_batch_prepared",
+  "candidates": [
+    {
+      "id": "manual_submission_batch_20261031_pfn25",
+      "model_run": "manual_submission_batch_20261031_pfn25",
+      "variant": "pfn25",
+      "status": "prepared_not_submitted",
+      "prepared_on": "2026-10-31",
+      "file": "outputs/kaggle_ready_4690/next_batch_20261031/submission_pfn25_4690.csv",
+      "sha256": "6e49b5af21ef7a80379382eb88d3c8a893181fc3605d21b74149d1f65911a7b3",
+      "rows": 4277,
+      "score": null,
+      "kaggle_score": null,
+      "description": "75% current best + 25% TabPFN V2, threshold 0.5",
+      "suggested_order": 1,
+      "changes_vs_current_best": 50,
+      "predicted_true": 2205,
+      "mean_historical_repeat_accuracy": 0.81666283216381,
+      "historical_repeat_gains": [
+        0.001265385942712527,
+        0.0034510525710341744,
+        0.001265385942712527,
+        -0.0008052455999079111
+      ],
+      "exploratory": true,
+      "formal_promotion": false,
+      "source_protocol_sha256": "ef9d8be0baa7238ebc573938ed1af98d224ef727fe8582ccc6a90a4ceb4c6dac",
+      "audit": "reports/checks/manual_submission_batch_20261031.json"
+    },
+    {
+      "id": "manual_submission_batch_20261031_pfn50",
+      "model_run": "manual_submission_batch_20261031_pfn50",
+      "variant": "pfn50",
+      "status": "prepared_not_submitted",
+      "prepared_on": "2026-10-31",
+      "file": "outputs/kaggle_ready_4690/next_batch_20261031/submission_pfn50_4690.csv",
+      "sha256": "e19099d340485d3966f70d4801c2cfa61af2a9df2e35878320541a42145cf656",
+      "rows": 4277,
+      "score": null,
+      "kaggle_score": null,
+      "description": "50% current best + 50% TabPFN V2, threshold 0.5",
+      "suggested_order": 2,
+      "changes_vs_current_best": 98,
+      "predicted_true": 2193,
+      "mean_historical_repeat_accuracy": 0.8166915909352352,
+      "historical_repeat_gains": [
+        0.0011503508570113175,
+        0.0021856666283216475,
+        0.001265385942712527,
+        0.0006902105142069237
+      ],
+      "exploratory": true,
+      "formal_promotion": false,
+      "source_protocol_sha256": "ef9d8be0baa7238ebc573938ed1af98d224ef727fe8582ccc6a90a4ceb4c6dac",
+      "audit": "reports/checks/manual_submission_batch_20261031.json"
+    },
+    {
+      "id": "manual_submission_batch_20261031_pfn100",
+      "model_run": "manual_submission_batch_20261031_pfn100",
+      "variant": "pfn100",
+      "status": "prepared_not_submitted",
+      "prepared_on": "2026-10-31",
+      "file": "outputs/kaggle_ready_4690/next_batch_20261031/submission_pfn100_4690.csv",
+      "sha256": "f55def335399f50de47b86759869a3e0d93f83ebea0e76af4e3e9bb2307086ee",
+      "rows": 4277,
+      "score": null,
+      "kaggle_score": null,
+      "description": "TabPFN V2 only, five grouped contexts, threshold 0.5",
+      "suggested_order": 4,
+      "changes_vs_current_best": 185,
+      "predicted_true": 2158,
+      "mean_historical_repeat_accuracy": 0.8169216611066374,
+      "historical_repeat_gains": [
+        -0.0006902105142069237,
+        0.003105947313930657,
+        0.0027608420568272507,
+        0.00103531577131033
+      ],
+      "exploratory": true,
+      "formal_promotion": false,
+      "source_protocol_sha256": "ef9d8be0baa7238ebc573938ed1af98d224ef727fe8582ccc6a90a4ceb4c6dac",
+      "audit": "reports/checks/manual_submission_batch_20261031.json"
+    },
+    {
+      "id": "manual_submission_batch_20261031_tabicl75",
+      "model_run": "manual_submission_batch_20261031_tabicl75",
+      "variant": "tabicl75",
+      "status": "prepared_not_submitted",
+      "prepared_on": "2026-10-31",
+      "file": "outputs/kaggle_ready_4690/next_batch_20261031/submission_tabicl75_4690.csv",
+      "sha256": "abd9924480c5ab75bb677384e9251b81ab3195bc25c6e750834b48f55ac807cf",
+      "rows": 4277,
+      "score": null,
+      "kaggle_score": null,
+      "description": "25% original trees + 75% arithmetic TabICL, threshold 0.5",
+      "suggested_order": 3,
+      "changes_vs_current_best": 82,
+      "predicted_true": 2237,
+      "mean_historical_repeat_accuracy": 0.8153974462210973,
+      "historical_repeat_gains": [
+        -0.0013804210284137364,
+        0.002070631542620438,
+        -0.00011503508570120946,
+        -0.0004601403428045048
+      ],
+      "exploratory": true,
+      "formal_promotion": false,
+      "source_protocol_sha256": "ef9d8be0baa7238ebc573938ed1af98d224ef727fe8582ccc6a90a4ceb4c6dac",
+      "audit": "reports/checks/manual_submission_batch_20261031.json"
+    }
+  ],
+  "contexts": [
+    {
+      "fold": 1,
+      "source_context_sha256": "2c67218251aa5e9190d6b4f10b594f3e984ceb0a11d83e66466c5de27d75cdf4",
+      "model_sha256": "8d38de2260df28ef66d9dbdd853c6c981c9815deaac8d237c692df50aad26555",
+      "seconds": 15.198479700000462,
+      "rows": 4277,
+      "original_training_rows": 6954
+    },
+    {
+      "fold": 2,
+      "source_context_sha256": "efe5e098061f7216c822d08247c4e7ed6587da9f8b453a24cd1293dff8e2d6a5",
+      "model_sha256": "0f70cd7bfece4ccd0e7892263e57837dc7154487b33194fe410bf9dc6244482f",
+      "seconds": 12.696339500002068,
+      "rows": 4277,
+      "original_training_rows": 6954
+    },
+    {
+      "fold": 3,
+      "source_context_sha256": "641f9ef4a30509995b817b89ad8b9c770b118311a40318f4574136cde39fa8c9",
+      "model_sha256": "2f5f3cf31df0e64a56463cb71da61512d0ca857b9730687f833be92de01d0d1b",
+      "seconds": 12.788593699999183,
+      "rows": 4277,
+      "original_training_rows": 6954
+    },
+    {
+      "fold": 4,
+      "source_context_sha256": "ac40d43980e9d7469b27fd4609ec4ebcbd0135bc082f058bdc5a4b4500e7d62e",
+      "model_sha256": "10b09b99bc49325227bab259c94b9d0b75c88d066ca24a1263b06cab0a2872c0",
+      "seconds": 12.495869800000946,
+      "rows": 4277,
+      "original_training_rows": 6955
+    },
+    {
+      "fold": 5,
+      "source_context_sha256": "0e4f67b6ca5121b80f47fa1d5cf5c1b4cd6be27f37cb27259fda62b52067e837",
+      "model_sha256": "eb9852fc45a65b92fc9d43f28630271932100abc9222f4b73cba23f3ca9c264d",
+      "seconds": 12.801986600003147,
+      "rows": 4277,
+      "original_training_rows": 6955
+    }
+  ],
+  "pairwise_label_differences": {
+    "pfn25/pfn50": 48,
+    "pfn25/pfn100": 135,
+    "pfn25/tabicl75": 72,
+    "pfn50/pfn100": 87,
+    "pfn50/tabicl75": 90,
+    "pfn100/tabicl75": 169
+  },
+  "current_platform_best": 0.81178,
+  "submitted_to_kaggle": false,
+  "caveat": "Candidates intentionally produced at user's request despite failed local stability gates; none replaces the observed platform best. Historical scores are descriptive and may not track Kaggle ordering."
+}

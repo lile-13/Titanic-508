@@ -1,0 +1,72 @@
+{
+  "name": "tabpfn_v2_20261031",
+  "params": {
+    "n_estimators": 4,
+    "device": "cuda",
+    "random_state": 42,
+    "n_preprocessing_jobs": 1,
+    "fit_mode": "low_memory",
+    "softmax_temperature": 0.9,
+    "average_before_softmax": false,
+    "inference_precision": "autocast",
+    "memory_saving_mode": "auto",
+    "show_progress_bar": false
+  },
+  "model_version": "Explicit V2; no default/latest checkpoint or gated version",
+  "weight": 0.25,
+  "threshold": 0.5,
+  "stages": [
+    [
+      "paired",
+      "tabicl_probability_mean_20261030"
+    ],
+    [
+      "additional",
+      "tabm_20261031"
+    ]
+  ],
+  "checkpoint_sha256": "cf8c519c01eaf1613ee91239006d57b1c806ff5f23ac1aeb1315ba1015210e49",
+  "input": "Reuse the actual incumbent TabICL context's builder, raw compact18 training_X and training_y. Exactly the same outer train/validation rows; only the new component architecture and its own preprocessing change.",
+  "combination": ".75 current Kaggle-best algorithm + .25 TabPFN V2; four internal views, arithmetic probability aggregation, fixed seed42; no input/model/weight/threshold search or fine tuning",
+  "promotion": "Both repeat gains nonnegative, mean gain>=.001, >=6/10 strictly improved folds, each logloss deterioration<=.002. First negative repeat, bad loss or zero improved folds stops; both existing historical stages required before production.",
+  "platform_target": "Kaggle accuracy >.82; local CV cannot certify the platform outcome",
+  "caveat": "These are previously inspected passengers and partitions, so evidence is adaptive. G metrics and persistent error cohorts are descriptive, not fitting/routing rules. No competition data sent to external inference services.",
+  "attribution": "Prior Labs, TabPFN V2; Hollmann et al., Nature 2025, doi:10.1038/s41586-024-08328-6",
+  "sources": {
+    "scripts/tabpfn_study.py": "c238521edd1ff9692b06cc8a0fd5a180ed18ee65cf829bb8689426c986fc45a5",
+    "src/tabpfn_models.py": "f54d14561f4ad06cd8a7660884d4b6bffa61575bb35b2923255644cd8abc226a",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "scripts/audit_unlabeled_views.py": "1363f71b1289e98dcb5d3aa17ce747d6831d54897a9ac1e815a78d59ef69bfca"
+  },
+  "installed_sources": {
+    "tabpfn.classifier": "fd31eca98cccf66c8c8f3669fe69f22e91fc3fb20e57c6a0a107d48c95165478",
+    "tabpfn.model_loading": "4d0cbc16ab160fcc61ef774b8a68e586cfb071153854cb4d381bd23c8e296986",
+    "tabpfn.preprocessing.configs": "db7a0d289530e9f5e2dbf967deeacc15cf3f009475e8822d7e3eddf91c7a8866"
+  },
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "pretrained_source_sha256": "d550661ab2c976a273b56ec0c07f5def48d7f8feede61660b4bccf132a614886",
+  "references": {
+    "tabicl_probability_mean_20261030/fresh_repeat_1_predictions.csv": "f61d5a69f2858b594cee8eb247da338b18d3574d361b5097e06fa6c8e3719971",
+    "tabicl_probability_mean_20261030/fresh_repeat_2_predictions.csv": "c8cfaab7de369bd6291c60f54abf3faa8c429e499c53c5a8e2514d63c8d94055",
+    "tabm_20261031/fresh_repeat_1_predictions.csv": "6627228f0dbe9821e80b940205e3ae75ef51407f40fb4a26702277cf1f4525a4",
+    "tabm_20261031/fresh_repeat_2_predictions.csv": "4bc326d5c5d77c911f83fd67569745c99da617861e3801518637a70540dff13a"
+  },
+  "reference_audits": {
+    "tabicl_probability_mean_20261030": "d8ee464bc628ad159959c3eb43661b914c5e44674120e6cbaafa601e7fa8d808",
+    "tabm_20261031": "9cd308a37c084298b74b85cddc3674475224323742762a6b771ccd451a55ed90"
+  },
+  "environment": {
+    "tabpfn": "9.2.0",
+    "torch": "2.14.1+cu130",
+    "skrub": "0.10.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0"
+  }
+}

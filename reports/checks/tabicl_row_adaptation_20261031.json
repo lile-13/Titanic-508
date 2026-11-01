@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "gate_passed": false,
+  "models_reloaded": 10,
+  "max_reload_error": 0.0,
+  "selected_epochs": [
+    0,
+    2,
+    1,
+    2,
+    1
+  ],
+  "column_embedding_frozen": true,
+  "inner_groups_encoder_and_loss_reproduced": true,
+  "final_original_controls_reproduced": true,
+  "tests": 64
+}

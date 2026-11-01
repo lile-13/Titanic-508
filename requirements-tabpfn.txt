@@ -1,0 +1,2 @@
+# Optional local GPU environment; retain the existing Torch/NumPy/sklearn pins.
+tabpfn==9.2.0

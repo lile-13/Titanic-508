@@ -1,0 +1,14 @@
+{
+  "repository": "Prior-Labs/TabPFN-v2-clf",
+  "revision": "275f19d2add9c2c0de38f9ebaded3856599fa2e7",
+  "filename": "tabpfn-v2-classifier-v2_default.ckpt",
+  "sha256": "cf8c519c01eaf1613ee91239006d57b1c806ff5f23ac1aeb1315ba1015210e49",
+  "bytes": 29009539,
+  "public": true,
+  "gated": false,
+  "source_url": "https://huggingface.co/Prior-Labs/TabPFN-v2-clf/resolve/275f19d2add9c2c0de38f9ebaded3856599fa2e7/tabpfn-v2-classifier-v2_default.ckpt",
+  "author_model_card": "https://huggingface.co/Prior-Labs/TabPFN-v2-clf",
+  "attribution": "TabPFN v2 by Prior Labs; Hollmann et al., Nature 2025, doi:10.1038/s41586-024-08328-6",
+  "license": "Prior Labs License (Apache 2.0 with additional attribution requirement); model weights remain local and untracked",
+  "usage": "Explicit V2 base checkpoint. No competition data uploaded, no account terms accepted, no gated checkpoint requested."
+}

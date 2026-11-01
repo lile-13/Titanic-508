@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "gate_passed": false,
+  "models_reloaded": 20,
+  "max_reload_error": 0.0,
+  "source_and_input_and_groups_verified": true,
+  "tests": 64,
+  "caveat": "Formal local stability gate remains failed; separately authorized manual candidates are exploratory, not promotion."
+}

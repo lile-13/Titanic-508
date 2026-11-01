@@ -1,0 +1,8 @@
+{
+  "fold": 1,
+  "source_context_sha256": "2c67218251aa5e9190d6b4f10b594f3e984ceb0a11d83e66466c5de27d75cdf4",
+  "model_sha256": "8d38de2260df28ef66d9dbdd853c6c981c9815deaac8d237c692df50aad26555",
+  "seconds": 15.198479700000462,
+  "rows": 4277,
+  "original_training_rows": 6954
+}

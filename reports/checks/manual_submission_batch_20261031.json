@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "tests": 64,
+  "models_reloaded": 10,
+  "max_component_reload_error": 0.0,
+  "candidates": [
+    {
+      "variant": "pfn25",
+      "file": "outputs/kaggle_ready_4690/next_batch_20261031/submission_pfn25_4690.csv",
+      "sha256": "6e49b5af21ef7a80379382eb88d3c8a893181fc3605d21b74149d1f65911a7b3",
+      "rows": 4277,
+      "changes_vs_current_best": 50
+    },
+    {
+      "variant": "pfn50",
+      "file": "outputs/kaggle_ready_4690/next_batch_20261031/submission_pfn50_4690.csv",
+      "sha256": "e19099d340485d3966f70d4801c2cfa61af2a9df2e35878320541a42145cf656",
+      "rows": 4277,
+      "changes_vs_current_best": 98
+    },
+    {
+      "variant": "pfn100",
+      "file": "outputs/kaggle_ready_4690/next_batch_20261031/submission_pfn100_4690.csv",
+      "sha256": "f55def335399f50de47b86759869a3e0d93f83ebea0e76af4e3e9bb2307086ee",
+      "rows": 4277,
+      "changes_vs_current_best": 185
+    },
+    {
+      "variant": "tabicl75",
+      "file": "outputs/kaggle_ready_4690/next_batch_20261031/submission_tabicl75_4690.csv",
+      "sha256": "abd9924480c5ab75bb677384e9251b81ab3195bc25c6e750834b48f55ac807cf",
+      "rows": 4277,
+      "changes_vs_current_best": 82
+    }
+  ],
+  "all_four_distinct": true,
+  "template_order_boolean_labels_and_hashes": true,
+  "original_best_reproduced": true,
+  "formal_promotion": false,
+  "submitted_to_kaggle": false,
+  "caveat": "Format, provenance and reproducibility checks passed; this does not establish accuracy improvement. User requested these exploratory submissions despite failed local stability gates."
+}
