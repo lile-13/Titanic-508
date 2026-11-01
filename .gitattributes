@@ -36,3 +36,7 @@
 /scripts/name_residual_study.py text eol=lf
 /scripts/prepare_full_context_candidate.py text eol=lf
 /scripts/record_manual_batch_result.py text eol=lf
+/scripts/record_next_batch_result.py text eol=lf
+/scripts/tabpfn_diversity_study.py text eol=lf
+/src/tabpfn_diverse_models.py text eol=lf
+/scripts/audit_tabpfn_diversity.py text eol=lf

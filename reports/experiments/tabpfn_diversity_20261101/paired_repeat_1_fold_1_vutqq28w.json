@@ -1,0 +1,12 @@
+{
+  "checkpoint": "vutqq28w",
+  "model_sha256": "bdf1f5ce13d9a11a7a39ed45f1500b86af364ed80270a329c6bb1ff38b0c1b65",
+  "cache_sha256": "32f2c0a22a5f470e6e3b16f9d56635b1b5a4500166bcca4b8d62a7d96156b2eb",
+  "source_context_sha256": "ec3fb840db2796b0ad140bc346eaba026da1e554fd7b2f89e4af38645cd9af3e",
+  "default_context_sha256": "66413d2d420347ecb921ec9e3f2e7d246c68dcc8d608eae123b7362ab3cf1018",
+  "default_cache_sha256": "83469e62f59ca3f7d71950798de5a0c964b57072850155d16e51b4485450a07c",
+  "source_run": "tabicl_probability_mean_20261030",
+  "source_stem": "fresh_repeat_1_fold_1",
+  "seconds": 8.953899100000854,
+  "peak_gpu_bytes": 951506944
+}

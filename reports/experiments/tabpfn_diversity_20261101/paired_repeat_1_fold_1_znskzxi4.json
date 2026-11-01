@@ -1,0 +1,12 @@
+{
+  "checkpoint": "znskzxi4",
+  "model_sha256": "5198093e3c862250f3c66dfb18d449d5d65d6b31afe65e8242ef9932184f9bf0",
+  "cache_sha256": "c2fee2d883dbad01781071ae696d40ed78b91b69b763f1a041513f50725965f5",
+  "source_context_sha256": "ec3fb840db2796b0ad140bc346eaba026da1e554fd7b2f89e4af38645cd9af3e",
+  "default_context_sha256": "66413d2d420347ecb921ec9e3f2e7d246c68dcc8d608eae123b7362ab3cf1018",
+  "default_cache_sha256": "83469e62f59ca3f7d71950798de5a0c964b57072850155d16e51b4485450a07c",
+  "source_run": "tabicl_probability_mean_20261030",
+  "source_stem": "fresh_repeat_1_fold_1",
+  "seconds": 8.180733400000463,
+  "peak_gpu_bytes": 951506944
+}

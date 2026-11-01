@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "new_contexts_replayed": 15,
+  "matched_default_contexts_replayed": 5,
+  "validation_rows_checked": 8693,
+  "unique_tensor_states": 4,
+  "split_and_input_checks_passed": true,
+  "probability_replay_atol": 1e-07,
+  "gate_results": {
+    "paired": false
+  },
+  "qualification": "no_candidate",
+  "protocol_sha256": "357b0211ae696a27b927b0832c22ab78f0f5745733a900215ca983368e29206e",
+  "summary_sha256": "49118fb29f2923c289f514fd73559204dc5b2f8d18b160ecb0e9bdf781b8d81a",
+  "audit_source_sha256": "9b1aac6127cd8f55a31d46b7f8205fed1efd0d8e4e9f745c8bbae9b98200d678"
+}

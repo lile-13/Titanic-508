@@ -1,0 +1,12 @@
+{
+  "checkpoint": "gn2p4bpt",
+  "model_sha256": "61dd25c5416ed71f263e2a0ae356b1ca8b4e276f5945d8f56faeea4459e5e575",
+  "cache_sha256": "151cb74c2ec2160d9e7222fb590a313414956c5555b0b8f08cabf9060bb6909e",
+  "source_context_sha256": "4f20bbd43d5b448655aeac2dd289f02d5761ae7f94e62d518e153fe5226c1b0e",
+  "default_context_sha256": "4b647be13c627229bd8619f975dbed180b5dadd3eadf1eafd39f996e66b1b3ac",
+  "default_cache_sha256": "22755337ece1f7fb0f1e9bee207ee573215f072f92bcabf8708aa67007294c87",
+  "source_run": "tabicl_probability_mean_20261030",
+  "source_stem": "fresh_repeat_1_fold_2",
+  "seconds": 8.084934200000134,
+  "peak_gpu_bytes": 951503360
+}

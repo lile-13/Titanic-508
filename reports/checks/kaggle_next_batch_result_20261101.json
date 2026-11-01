@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "observed_submissions": 13,
+  "original_nine_preserved": true,
+  "observed_scores": {
+    "submission_tabicl875_4690.csv": 0.81295,
+    "submission_fullcontext_4690.csv": 0.81271,
+    "submission_triple_4690.csv": 0.81295,
+    "submission_tabicl100_4690.csv": 0.81155
+  },
+  "evidence_sha256": "7e34e23ec248ff208969880647429f414198e92370c14a7a86460811d5006b15",
+  "current_platform_best": 0.81318,
+  "uploaded_bytes_verified": false,
+  "candidate_csv_hashes": {
+    "submission_tabicl875_4690.csv": "badffb09d29d544289480fb3735aaa3d8e7001c3f048c81970fbc5b366e4330b",
+    "submission_fullcontext_4690.csv": "6959ad6f38ed66860c6bcf190cb763db12f5c826ce956c1f041138e54df1deb4",
+    "submission_triple_4690.csv": "f18f34b3c9d54836117f7a85b82385c0bd4e7084464ef5309475c92eb7a37d9d",
+    "submission_tabicl100_4690.csv": "a5ece01ef77e083482d815c063d438aec1431c26889cd2780313a630c31c4090"
+  },
+  "csv_rows": 4277,
+  "csv_id_order_bool_and_missing_checks_passed": true,
+  "preserved_preparation_sha256": {
+    "reports/experiments/next_directions_20261101/protocol.json": "c64a68f937dcaa43b3193f2b2e5a37ac4c43b39608fb72675497a64f556e955c",
+    "reports/experiments/next_directions_20261101/registration.json": "9e2a7f8d25a789025eac004db5df62a2e9c41e2262bd0eb67fc61b808cdb763b",
+    "reports/experiments/next_directions_20261101/summary.json": "16c929b662ae5e2c93906d17dfb94920308829768aaf2c1fa2d3e6bbd077e447",
+    "reports/experiments/full_context_strategy_20261101/model.json": "88d0a0b2a5c5ee294c937a678955f223392052b57689ad6e490e3804e4a67b20",
+    "reports/experiments/full_context_strategy_20261101/protocol.json": "790261d8ee7abf3088496928a7ac6c247656dcb1fd0863355070ba79e0a3b89c",
+    "reports/experiments/full_context_strategy_20261101/summary.json": "9bf347d375c80d45172e56dd3dc9c3e7a5e252ef3b9b8311761b4e2178edcd76",
+    "reports/checks/next_directions_20261101.json": "ee02bd1a8ae71a01163e2dd5343f42b600e35b47c1cf18e92abdad7d4752e9bd",
+    "reports/checks/full_context_strategy_20261101.json": "18b9474dca99e5c586c36012f7264c1808c07a6a36e860f468ceb6c6cfb10868",
+    "scripts/record_manual_batch_result.py": "eed7324d9ecf50391c91ff209286ee5e283d8ba8c852935e2ceb2bff12e82efa"
+  },
+  "outcomes_sha256": "b0ed09baa9714c1f34860c0f3ab29848d76986019ef4130bae54838ff1891e3b"
+}

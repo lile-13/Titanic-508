@@ -1,0 +1,70 @@
+{
+  "name": "tabpfn_diversity_20261101",
+  "checkpoints": {
+    "gn2p4bpt": "de01a095da7a083b25a74d1f7d85de524e8bd6137936092feab9790673ad9215",
+    "vutqq28w": "c060b5f61480e8a6ec8cbf909a0fc236563eb4628df75b7b8c2d1f8fc1b9cf4e",
+    "znskzxi4": "fadb46928ddd70a53c6e1b205772e78784bf7bea5132ba6adbd48f201d8e9076"
+  },
+  "params": {
+    "n_estimators": 4,
+    "device": "cuda",
+    "random_state": 42,
+    "n_preprocessing_jobs": 1,
+    "fit_mode": "low_memory",
+    "softmax_temperature": 0.9,
+    "average_before_softmax": false,
+    "inference_precision": "autocast",
+    "memory_saving_mode": "auto",
+    "show_progress_bar": false
+  },
+  "stages": [
+    [
+      "paired",
+      "tabicl_probability_mean_20261030"
+    ],
+    [
+      "additional",
+      "tabm_20261031"
+    ]
+  ],
+  "weight": 0.25,
+  "threshold": 0.5,
+  "selection": "All three non-alias author V2 classifier checkpoints below 14 MB. Selected by artifact size before reading their predictions; equal probability average, no winning checkpoint selection.",
+  "baseline": "0.25 original trees + 0.75 arithmetic TabICL, actual .81318 algorithm",
+  "candidate": "0.75 baseline + 0.25 mean(gn2p4bpt,vutqq28w,znskzxi4), four views each, seed42",
+  "matched_control": "0.75 same baseline + 0.25 default V2, identical training rows, labels, input builder and four-view settings. Cached default component verified against saved context. Three identical default replicas would give the same deterministic average; runtime is not matched.",
+  "gate": "First repeat: net >=9, >=3/5 improved folds, loss deterioration <=.002, nonnegative gain vs default control. Stop otherwise. Each stage: both gains >=0, mean>=.001, >=6/10 improved folds, each loss deterioration<=.002 and gain vs default>=0. Both stages required for production.",
+  "limitations": "Four historical splits share the same 8693 passengers; adaptive local evidence, not independent blind validation. No threshold, weight, checkpoint or seed search. No test labels or persistent-error identities used for fitting.",
+  "attribution": "Built with PriorLabs-TabPFN; Hollmann et al., Nature 2025, doi:10.1038/s41586-024-08328-6",
+  "inventory_sha256": "0f2f13c850f38d7cb096ceaaef6986deedb06d8682cda24cc275b5a11ed0d2c7",
+  "outcomes_sha256": "b0ed09baa9714c1f34860c0f3ab29848d76986019ef4130bae54838ff1891e3b",
+  "sources": {
+    "scripts/tabpfn_diversity_study.py": "be7676ed8a779a0968693dfaf2b251832db1e13f5fd16ec3184a3840a6e1ff81",
+    "src/tabpfn_diverse_models.py": "116de73a11847362fbb5cf166e287e55606747d10139bd31f76138cfcfe5444f",
+    "src/tabpfn_models.py": "f54d14561f4ad06cd8a7660884d4b6bffa61575bb35b2923255644cd8abc226a",
+    "src/focused_features.py": "1a9f50ab24db40fde7f10e42812df31037490a48c74ffd3ab91545340afe338e",
+    "src/competition_features.py": "2b6e4334ada60c7393c453ad938b0d566848211836cc5cfd8dee114be47a141c",
+    "src/preprocess.py": "83634b0ff337a5dfb2b633648ac7e14c66a1166de8f26d2a02bcc060d637a0fd",
+    "scripts/audit_unlabeled_views.py": "1363f71b1289e98dcb5d3aa17ce747d6831d54897a9ac1e815a78d59ef69bfca",
+    "scripts/tabicl_finetune_study.py": "fec7b0f2b9107d54b780995a743988f4a7a9a9d9fc7489e0aa4b2d09bc11a2b1",
+    "src/optimization.py": "4646e7611ecf548ff05cca6469a1a392d41aa1ec31424e990ac1b02b71484027"
+  },
+  "data_hashes": {
+    "train.csv": "17336d553f49ebdf6ecb266d2b5d3746e5dd308445f7c7864141c4f28d2a88d0",
+    "test.csv": "3c02b0703423d27d51a657a111b15a37b8d03b3c1de325e3a1e6b26f6572fc88",
+    "sample_submission.csv": "c77c0a5ed1f3d2728d6add6079266a543d12755aebaf00f230ff1966b364ebed"
+  },
+  "references": {
+    "tabicl_probability_mean_20261030/fresh_repeat_1_predictions.csv": "f61d5a69f2858b594cee8eb247da338b18d3574d361b5097e06fa6c8e3719971",
+    "tabicl_probability_mean_20261030/fresh_repeat_2_predictions.csv": "c8cfaab7de369bd6291c60f54abf3faa8c429e499c53c5a8e2514d63c8d94055",
+    "tabm_20261031/fresh_repeat_1_predictions.csv": "6627228f0dbe9821e80b940205e3ae75ef51407f40fb4a26702277cf1f4525a4",
+    "tabm_20261031/fresh_repeat_2_predictions.csv": "4bc326d5c5d77c911f83fd67569745c99da617861e3801518637a70540dff13a"
+  },
+  "environment": {
+    "tabpfn": "9.2.0",
+    "torch": "2.14.1+cu130",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "baseline_git_head": "211da9a656e756c4ff47f08d183832cd9c898f4c",
+  "original_nine_equal_baseline": true,
+  "observed_submissions": 13,
+  "no_pending_candidates": true,
+  "current_platform_best": 0.81318,
+  "target_achieved": false,
+  "tests_passed": 66,
+  "test_log_sha256": "04267e0e0495795cc7cb0dbac64f57ea579b751cd19af09f22abf468044d73d8",
+  "full_validation_partitions_and_training_complements_checked": true,
+  "new_contexts_replayed": 15,
+  "default_contexts_replayed": 5,
+  "audit_sha256": "798016a751111bd4137fbf5a0fbb3057ff99e84dfdc3b10adb10a0d3bc84790c",
+  "platform_result_check_sha256": "610d7a4e371ea9772bf8bdcbe6a65de55ec4cfd9ae131643785957d18e6451e6",
+  "failed_experiment_produced_submission": false
+}
