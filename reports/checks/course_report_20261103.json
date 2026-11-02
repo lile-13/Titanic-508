@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "date": "2026-11-03",
+  "report": "outputs/report_20261102_4690/大作业综合报告-待填班级-待填学号-待填姓名.docx",
+  "report_sha256": "db5f7edc2f09d71eb1fbcd57d97eae6587f59cef7ec1daf72981b0e2f4246e93",
+  "pages": 17,
+  "sections": 4,
+  "section_geometry_preserved": true,
+  "all_final_page_pngs_inspected": true,
+  "rendered_with": "packaged render_docx.py using native Microsoft Word PDF hook",
+  "template_original_unchanged": true,
+  "template_sha256": "53828e21127f5d4e305f9fc65500efb1301a18847c16dd273534ae10c7bd5d26",
+  "retained_reference_sha256": "c1746b7bc73f2d21edec6efe6177f510523abbe4eff6cbd2e3826b7a6012557e",
+  "filled_member_rows": 3,
+  "member_fields_match_private_metadata": true,
+  "personal_metadata_stored_in_ignored_local_work": true,
+  "grade_cells_blank": true,
+  "required_chapters_present": 5,
+  "platform_submission_rows_verified": 13,
+  "current_best": 0.81318,
+  "stale_missing_value_and_adversarial_results_corrected": true,
+  "old_report_preserved": true,
+  "pending": [
+    "leader identity",
+    "classes",
+    "contribution rates",
+    "real four-person Team screenshot"
+  ],
+  "source_manifest_sha256": "886064938ba598dea6d884afffef5f0788f6801838dbea150af90141544e17d6",
+  "builder_sha256": "7d9f2a9c549b55a0ec882aa3a47587b7698e65d60bdc1bcc690cbc72b791c2cf",
+  "word_and_pdf_match_latest_visual_review": true,
+  "no_new_training": true
+}
