@@ -27,7 +27,7 @@
     "real four-person Team screenshot"
   ],
   "source_manifest_sha256": "886064938ba598dea6d884afffef5f0788f6801838dbea150af90141544e17d6",
-  "builder_sha256": "7d9f2a9c549b55a0ec882aa3a47587b7698e65d60bdc1bcc690cbc72b791c2cf",
+  "builder_sha256": "232fb3ac130e4a4244e0a48ce7ce51b32fb9a054de02704cdf3f7e130e29cd08",
   "word_and_pdf_match_latest_visual_review": true,
   "no_new_training": true
 }
