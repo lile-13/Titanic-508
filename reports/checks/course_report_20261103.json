@@ -2,7 +2,7 @@
   "passed": true,
   "date": "2026-11-03",
   "report": "outputs/report_20261102_4690/大作业综合报告-待填班级-待填学号-待填姓名.docx",
-  "report_sha256": "db5f7edc2f09d71eb1fbcd57d97eae6587f59cef7ec1daf72981b0e2f4246e93",
+  "report_sha256": "26fb30c4b14690cf7a4ddd54b4aa2b6cc11eba415b890e834a9549b81f2e5ed7",
   "pages": 17,
   "sections": 4,
   "section_geometry_preserved": true,
@@ -27,7 +27,11 @@
     "real four-person Team screenshot"
   ],
   "source_manifest_sha256": "886064938ba598dea6d884afffef5f0788f6801838dbea150af90141544e17d6",
-  "builder_sha256": "232fb3ac130e4a4244e0a48ce7ce51b32fb9a054de02704cdf3f7e130e29cd08",
+  "builder_sha256": "e70020962565042889fd12e17485441a8ad755ad28a58e9768ed4ae60598c79c",
   "word_and_pdf_match_latest_visual_review": true,
-  "no_new_training": true
+  "no_new_training": true,
+  "all_original_cover_choices_preserved": true,
+  "selected_topic": "√ Spaceship Titanic",
+  "only_topic_cell_changed_in_latest_edit": true,
+  "latest_visual_review": "render_v6 page 1 inspected; pages 2-17 pixel-identical to reviewed render_v5"
 }

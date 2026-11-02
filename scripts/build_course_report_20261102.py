@@ -19,6 +19,20 @@ SOURCE=ROOT/"outputs/delivery_20261028_4690/work/reference_report.docx"
 FINAL=DEST/"大作业综合报告-待填班级-待填学号-待填姓名.docx"
 
 
+def mark_cover_topic(cell,styles):
+    """Retain every template choice and mark Spaceship Titanic only."""
+    for paragraph in cell.paragraphs:
+        paragraph.style=styles["Normal"]
+        outline=OxmlElement("w:outlineLvl");outline.set(qn("w:val"),"9")
+        paragraph._p.get_or_add_pPr().append(outline)
+        for run in paragraph.runs:run.bold=True
+    boxes=cell._tc.xpath(".//w:sym")
+    assert len(boxes)==5
+    selected=boxes[1]
+    tick=OxmlElement("w:t");tick.text="√"
+    selected.getparent().replace(selected,tick)
+
+
 def draw_workflow():
     canvas=Image.new("RGB",(1860,390),"white");draw=ImageDraw.Draw(canvas)
     font=ImageFont.truetype("C:/Windows/Fonts/msyh.ttc",34)
@@ -57,11 +71,7 @@ def main():
         if fmt is not None:r._r.insert(0,fmt)
         for old in list(cell._tc)[2:]:
             if old.tag==qn("w:p"):cell._tc.remove(old)
-    cell_text(cover.cell(1,1),"Spaceship Titanic 乘客传送预测")
-    selection=cover.cell(1,1).paragraphs[0]
-    selection.style=doc.styles["Normal"]
-    outline=OxmlElement("w:outlineLvl");outline.set(qn("w:val"),"9");selection._p.get_or_add_pPr().append(outline)
-    for run in selection.runs:run.font.color.rgb=__import__('docx').shared.RGBColor(0,0,0)
+    mark_cover_topic(cover.cell(1,1),doc.styles)
     for row in range(6,10):
         for col in range(1,5):cell_text(cover.cell(row,col),"待填")
         cell_text(cover.cell(row,5),"")
