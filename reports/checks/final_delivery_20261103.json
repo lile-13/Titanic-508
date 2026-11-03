@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "tests_passed": 66,
+  "fixed_rebuild_completed": true,
+  "tree_members": 45,
+  "tabicl_contexts": 5,
+  "rebuild_csv_byte_identical": true,
+  "isolated_archive_replay_completed": true,
+  "isolated_replay_csv_byte_identical": true,
+  "submission_sha256": "abd9924480c5ab75bb677384e9251b81ab3195bc25c6e750834b48f55ac807cf",
+  "rows": 4277,
+  "archive_manifest_entries_verified": 1420,
+  "original_report_preserved": true,
+  "cover_values_preserved": true,
+  "existing_images_preserved": true,
+  "new_figures": 2,
+  "report_pages_rendered_and_inspected": 19,
+  "report_sections_preserved": true,
+  "readme_local_links_valid": true,
+  "team_screenshot_still_required": true,
+  "kaggle_submitted": false,
+  "limitation": "Isolated extracted source and model directory, same installed GPU environment; no fresh-machine claim"
+}

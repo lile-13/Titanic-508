@@ -41,3 +41,4 @@
 /src/tabpfn_diverse_models.py text eol=lf
 /scripts/audit_tabpfn_diversity.py text eol=lf
 /scripts/build_course_report_20261102.py text eol=lf
+/scripts/rebuild_final.py text eol=lf

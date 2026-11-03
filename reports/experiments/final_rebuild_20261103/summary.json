@@ -1,0 +1,13 @@
+{
+  "status": "fixed_model_rebuilt",
+  "tree_models": 45,
+  "tabicl_contexts": 5,
+  "oof_accuracy": 0.8212354768204302,
+  "oof_log_loss": 0.370771516356684,
+  "model_sha256": "21584fb9362ae79304b10d1658f668f6bb46d2f44d470f9ebf76b03cfc234559",
+  "submission_sha256": "abd9924480c5ab75bb677384e9251b81ab3195bc25c6e750834b48f55ac807cf",
+  "rows": 4277,
+  "serialized_model_prediction_completed": true,
+  "kaggle_score": null,
+  "note": "Historical .81318 belongs to the recorded submission; this rebuild has not been submitted"
+}
