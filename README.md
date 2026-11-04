@@ -2,6 +2,8 @@
 
 使用乘客属性、舱位和消费记录预测 `Transported`。最终模型融合 **CatBoost、LightGBM与TabICLv2**，已观测的最高Kaggle公开评分为 **0.81318（81.318%）**，相比首次提交0.80313提高 **1.005个百分点**。成绩依据见[提交台账与原始截图](docs/Kaggle提交记录.md)。
 
+项目全部源码、实验记录及[课程报告](docs/course_report/README.md)已上传至本仓库。报告包含问题简介、小组分工、实验方法和结果；模型复现方法见下文。
+
 ## 最终模型是怎样得到的
 
 ![最终模型结构](reports/figures/final_model_architecture_20261103.png)
