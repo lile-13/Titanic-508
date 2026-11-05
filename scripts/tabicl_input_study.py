@@ -48,7 +48,7 @@ def main():
         data_hashes=json.loads((old.report/"protocol.json").read_text(encoding="utf-8"))["data_hashes"],
         caveat="Adaptive input hypotheses after historical error inspection. New partitions do not create independent rows or a new blind holdout; candidate Kaggle score remains unknown.",
         sources={p:sha(PROJECT_ROOT/p) for p in ["scripts/tabicl_input_study.py","src/tabicl_inputs.py","src/tabicl_models.py",
-            "src/focused_features.py","src/competition_features.py","src/optimization.py","src/preprocess.py","scripts/tabicl_study.py","features/folds.csv","requirements-tabicl.txt"]},
+            "src/focused_features.py","src/competition_features.py","src/optimization.py","src/preprocess.py","scripts/tabicl_study.py","features/folds.csv","requirements/requirements-tabicl.txt"]},
         environment={p:importlib.metadata.version(p) for p in ["tabicl","torch","catboost","lightgbm","numpy","pandas","scikit-learn"]})
     path=report/"protocol.json"
     if path.exists():

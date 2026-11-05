@@ -223,9 +223,9 @@ def main():
     p("预测结果按sample_submission.csv的PassengerId顺序生成，包含PassengerId和Transported两列，共4277行。提交前核对ID唯一、顺序一致、无缺失，Transported为True或False。输出文件的SHA256保存在提交清单中；本地复制文件已核验一致，但平台截图不能证明服务器接收字节与本地文件哈希相同。")
 
     p("5. 运行与复现",3,newpage=True)
-    p("Python依赖版本固定在requirements.txt。项目保存数据、折划分、核心源码和冻结配置哈希。对最终模型先执行序列化，再从文件重载并独立计算测试概率；比较浮点误差与最终分类，避免只验证内存中模型。")
+    p("Python依赖版本固定在requirements/requirements.txt。项目保存数据、折划分、核心源码和冻结配置哈希。对最终模型先执行序列化，再从文件重载并独立计算测试概率；比较浮点误差与最终分类，避免只验证内存中模型。")
     p("从源码重新训练历史冻结方案：以下命令使用全新的run-name，不重复参数搜索，也不将已有摘要误当作本机已经生成模型。")
-    for text in ["python -m venv .venv",r".venv\Scripts\python -m pip install -r requirements.txt",r".venv\Scripts\python -m unittest discover -s tests -v",r".venv\Scripts\python -m scripts.refit_frozen --run-name my_refit --threads 4"]:
+    for text in ["python -m venv .venv",r".venv\Scripts\python -m pip install -r requirements/requirements.txt",r".venv\Scripts\python -m unittest discover -s tests -v",r".venv\Scripts\python -m scripts.refit_frozen --run-name my_refit --threads 4"]:
         item=p(text,size=9.5);item.paragraph_format.first_line_indent=Pt(0)
     p("若使用附带模型，可直接运行scripts.predict_ensemble并指定bundle和新的输出目录。复现命令检查原始数据及冻结源码；Git的LF/CRLF换行差异允许规范化，其他内容变化必须另开实验，不能冒充原方案复现。")
     repro=ROOT/"reports/checks/isolated_reproduction_20261028.json"

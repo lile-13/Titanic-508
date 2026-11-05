@@ -13,14 +13,14 @@ NAME="大作业源代码-待填班级-待填学号-待填姓名"
 def main():
     DEST.mkdir(parents=True,exist_ok=True)
     files={}
-    allowed={"src","scripts","tests","notebooks","docs","features","reports"}
+    allowed={"src","scripts","tests","notebooks","docs","features","reports","requirements"}
     for folder in allowed:
         for path in (ROOT/folder).rglob("*"):
             if not path.is_file():continue
             if any(part in {"__pycache__",".ipynb_checkpoints"} for part in path.parts):continue
             if path.suffix in {".pyc",".pyo"}:continue
             files[path.relative_to(ROOT).as_posix()]=path.read_bytes()
-    for relative in ["README.md","requirements.txt",".gitignore",
+    for relative in ["README.md","requirements/requirements.txt",".gitignore",
         "data/raw/train.csv","data/raw/test.csv","data/raw/sample_submission.csv",
         "models/optimization_20261025/ensemble.joblib",
         "models/full_data_candidate_20261028/ensemble.joblib",
@@ -46,7 +46,7 @@ def main():
 在解压后的本目录执行：
 ```powershell
 python -m venv .venv
-.venv\\Scripts\\python -m pip install -r requirements.txt
+.venv\\Scripts\\python -m pip install -r requirements/requirements.txt
 .venv\\Scripts\\python -m unittest discover -s tests -v
 .venv\\Scripts\\python -m scripts.predict_ensemble --bundle models/optimization_20261025/ensemble.joblib --output-dir outputs/reload_best
 .venv\\Scripts\\python -m scripts.predict_ensemble --bundle models/full_data_candidate_20261028/ensemble.joblib --output-dir outputs/reload_comparison
@@ -56,7 +56,7 @@ python -m venv .venv
 ```powershell
 .venv\\Scripts\\python -m scripts.refit_frozen --run-name fresh_refit --threads 4
 ```
-每次使用新的run-name，避免覆盖已有产物。测试通过环境为Windows、Python3.14.6，完整依赖见requirements.txt。隔离复现使用同机同环境，不代表已经由其他成员或另一台机器复现。
+每次使用新的run-name，避免覆盖已有产物。测试通过环境为Windows、Python3.14.6，完整依赖见requirements/requirements.txt。隔离复现使用同机同环境，不代表已经由其他成员或另一台机器复现。
 
 所有文件哈希见MANIFEST.sha256；包内原始数据属于竞赛公开数据，只用于课程项目。保留原始PassengerId字符串前导零。模型训练依赖不包含报告排版库；报告如需从模板重建，额外需要python-docx与Pillow，并使用Word更新目录。脚本默认使用课程模板资源。最终报告DOCX在本ZIP之外作为单独课程材料提交。
 

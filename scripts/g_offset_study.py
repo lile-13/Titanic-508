@@ -34,7 +34,7 @@ def main():
         source_plan_hash=hashlib.sha256((old.report/"frozen_plan.json").read_bytes()).hexdigest(),
         sources={p:hashlib.sha256((PROJECT_ROOT/p).read_bytes()).hexdigest() for p in
             ["scripts/g_offset_study.py","scripts/g_deck_study.py","scripts/calibration_study.py","src/g_offset_models.py",
-             "src/g_deck_models.py","src/focused_features.py","src/competition_features.py","src/optimization.py","src/preprocess.py","features/folds.csv","requirements.txt"]})
+             "src/g_deck_models.py","src/focused_features.py","src/competition_features.py","src/optimization.py","src/preprocess.py","features/folds.csv","requirements/requirements.txt"]})
     path=report/"protocol.json"
     if path.exists():
         if json.loads(path.read_text(encoding="utf-8"))!=protocol:raise ValueError("Protocol changed")

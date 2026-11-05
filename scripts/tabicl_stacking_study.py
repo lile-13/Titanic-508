@@ -49,7 +49,7 @@ def main():
         parent_results={name:sha(EXPERIMENTS_DIR/name/"summary.json") for name in ["tabicl_20261030","tabicl_paired_20261030"]},
         original_plan_sha256=sha(old.report/"frozen_plan.json"),
         sources={p:sha(PROJECT_ROOT/p) for p in ["scripts/tabicl_stacking_study.py","src/logit_stacking.py","scripts/calibration_study.py",
-            "scripts/tabicl_study.py","src/tabicl_models.py","src/focused_features.py","src/competition_features.py","src/optimization.py","src/preprocess.py","features/folds.csv","requirements-tabicl.txt"]})
+            "scripts/tabicl_study.py","src/tabicl_models.py","src/focused_features.py","src/competition_features.py","src/optimization.py","src/preprocess.py","features/folds.csv","requirements/requirements-tabicl.txt"]})
     path=report/"protocol.json"
     if path.exists():
         if json.loads(path.read_text(encoding="utf-8"))!=protocol:raise ValueError("Nested stacking protocol changed")

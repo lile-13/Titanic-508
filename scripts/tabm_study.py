@@ -54,7 +54,7 @@ def main():
         parent_protocol_sha256=sha(parent/"protocol.json"),
         reference_files={f"fresh_repeat_{r}_predictions.csv":sha(parent/f"fresh_repeat_{r}_predictions.csv") for r in [1,2]},
         data_hashes=json.loads((old.report/"protocol.json").read_text(encoding="utf-8"))["data_hashes"],
-        source_hashes={p:sha(PROJECT_ROOT/p) for p in ["scripts/tabm_study.py", "src/tabm_models.py", "requirements-tabm.txt",
+        source_hashes={p:sha(PROJECT_ROOT/p) for p in ["scripts/tabm_study.py", "src/tabm_models.py", "requirements/requirements-tabm.txt",
             "src/tabicl_inputs.py", "src/focused_features.py", "src/competition_features.py", "src/preprocess.py", "src/optimization.py",
             "src/tabicl_aggregation.py", "src/tabicl_models.py", "src/frozen_reference.py", "scripts/tabicl_study.py"]},
         environment={p:importlib.metadata.version(p) for p in ["tabm", "rtdl_num_embeddings", "torch", "numpy", "pandas", "scikit-learn", "catboost", "lightgbm"]},

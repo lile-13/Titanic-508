@@ -122,7 +122,7 @@ def main():
 
 最好三种子混合为原集成50%与精简特征12项交互的EBM50%。概率损失下降，但分类准确率下降，所以不生成新提交。EBM自然处理缺失值；库中关于缺失值图形显示的提示不表示训练失败。
 
-本轮可选依赖为interpret-core==0.7.8，单独记录在requirements-ebm.txt。原requirements.txt及历史模型源码保持不变。方法参考：[InterpretML EBM文档](https://interpret.ml/docs/ebm.html)、[分组bag参数](https://interpret.ml/docs/python/api/ExplainableBoostingClassifier.html)。
+本轮可选依赖为interpret-core==0.7.8，单独记录在requirements/requirements-ebm.txt。原requirements/requirements.txt及历史模型源码保持不变。方法参考：[InterpretML EBM文档](https://interpret.ml/docs/ebm.html)、[分组bag参数](https://interpret.ml/docs/python/api/ExplainableBoostingClassifier.html)。
 
 ## 邻近舱位目标统计
 
@@ -145,7 +145,7 @@ LightGBM和CatBoost各设置有/无邻近统计两组，共4项初始配置，�
 36项测试通过，其中7项新增测试覆盖内部整组隔离、邻近统计的自身标签排除、未知区域回退及阈值变换。独立核验重建了开发指标、源码哈希、分组隔离和阈值结果；原最佳CSV哈希及四次平台成绩账本保持不变。详见reports/checks/gain_exploration_20261029.json。
 
 ```powershell
-python -m pip install -r requirements-ebm.txt
+python -m pip install -r requirements/requirements-ebm.txt
 python -m unittest discover -s tests -q
 python -m scripts.additive_study
 python -m scripts.spatial_study

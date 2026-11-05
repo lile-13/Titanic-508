@@ -58,7 +58,7 @@ def main():
         data_hashes=json.loads((old.report/"protocol.json").read_text(encoding="utf-8"))["data_hashes"],
         sources={p:hashlib.sha256((PROJECT_ROOT/p).read_bytes()).hexdigest() for p in
             ["scripts/spatial_study.py","src/spatial_features.py","src/focused_features.py","src/competition_features.py",
-             "src/optimization.py","src/preprocess.py","features/folds.csv","requirements.txt"]})
+             "src/optimization.py","src/preprocess.py","features/folds.csv","requirements/requirements.txt"]})
     path=report/"protocol.json"
     if path.exists():
         if json.loads(path.read_text(encoding="utf-8"))!=protocol:raise ValueError("Protocol changed; use a new run")

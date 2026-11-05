@@ -24,14 +24,14 @@ def main(destination, archive_name):
     if target.exists():
         raise FileExistsError(target)
     files = {}
-    for folder in ["src", "scripts", "tests", "notebooks", "docs", "features", "reports", "third_party"]:
+    for folder in ["src", "scripts", "tests", "notebooks", "docs", "features", "reports", "third_party", "requirements"]:
         for path in (ROOT / folder).rglob("*"):
             if not path.is_file() or any(p in {"__pycache__", ".ipynb_checkpoints"} for p in path.parts):
                 continue
             if path.suffix in {".pyc", ".pyo"}:
                 continue
             files[path.relative_to(ROOT).as_posix()] = path.read_bytes()
-    for path in [ROOT / "README.md", ROOT / ".gitignore", ROOT / ".gitattributes", *ROOT.glob("requirements*.txt")]:
+    for path in [ROOT / "README.md", ROOT / ".gitignore", ROOT / ".gitattributes"]:
         files[path.name] = path.read_bytes()
     for relative in ["data/raw/train.csv", "data/raw/test.csv", "data/raw/sample_submission.csv", BUNDLE, CHECKPOINT, BEST]:
         files[relative] = (ROOT / relative).read_bytes()
@@ -41,7 +41,7 @@ def main(destination, archive_name):
 
 本包包含源码、公开原始数据、固定折划分、实验记录、最终最佳组合模型及作者TabICLv2检查点。报告DOCX单独提交。历史0.81318来自已登记的平台提交，本包不产生新的平台分数。
 
-从解压后的本目录运行。按README安装GPU环境与requirements-final.txt；作者检查点已经附带，不必再次下载。训练、推理所需代码与权重均在包内，不依赖原开发目录的搜索缓存。
+从解压后的本目录运行。按README安装GPU环境与requirements/requirements-final.txt；作者检查点已经附带，不必再次下载。训练、推理所需代码与权重均在包内，不依赖原开发目录的搜索缓存。
 
 ```powershell
 python -B -m scripts.predict_ensemble --bundle {BUNDLE} --output-dir outputs/final_replay

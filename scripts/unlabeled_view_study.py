@@ -65,7 +65,7 @@ def main():
                     baseline_protocol_sha256=sha(EXPERIMENTS_DIR / "fixed_weight_confirmation_20261029/protocol.json"),
                     data_hashes=json.loads((old.report / "protocol.json").read_text(encoding="utf-8"))["data_hashes"],
                     sources={p: sha(PROJECT_ROOT / p) for p in ["scripts/unlabeled_view_study.py", "src/unlabeled_views.py",
-                        "src/competition_features.py", "src/preprocess.py", "src/optimization.py", "features/folds.csv", "requirements.txt"]},
+                        "src/competition_features.py", "src/preprocess.py", "src/optimization.py", "features/folds.csv", "requirements/requirements.txt"]},
                     references=["https://www.kaggle.com/c/spaceship-titanic/data",
                                 "https://catboost.ai/docs/en/concepts/algorithm-main-stages_cat-to-numberic"],
                     rejected_leads="Public combined data have zero cross-group CabinKey sharing and zero train/test CabinKey overlap; no cabin-mate label propagation. No inferred gender labels or external benchmark answers.")

@@ -46,7 +46,7 @@ def main():
         context="Public unlabeled train+test pool for consistent surname/deck HomePlanet lookup; target never enters lookup",
         caveat="All folds are historically inspected. Repartitioning checks sensitivity, not independent blind validation. Initial diagnostic included historical full OOF.",
         sources={p:hashlib.sha256((PROJECT_ROOT/p).read_bytes()).hexdigest() for p in
-                 ["scripts/domain_study.py","src/domain_models.py","src/focused_features.py","src/competition_features.py","src/optimization.py","src/preprocess.py","features/folds.csv","requirements.txt"]},
+                 ["scripts/domain_study.py","src/domain_models.py","src/focused_features.py","src/competition_features.py","src/optimization.py","src/preprocess.py","features/folds.csv","requirements/requirements.txt"]},
         data_hashes=json.loads((old.report/"protocol.json").read_text(encoding="utf-8"))["data_hashes"])
     path=report/"protocol.json"
     if path.exists():

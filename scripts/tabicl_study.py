@@ -54,7 +54,7 @@ def main():
                     baseline_protocol_sha256=sha(EXPERIMENTS_DIR / "fixed_weight_confirmation_20261029/protocol.json"),
                     data_hashes=json.loads((old.report / "protocol.json").read_text(encoding="utf-8"))["data_hashes"],
                     sources={p:sha(PROJECT_ROOT / p) for p in ["scripts/tabicl_study.py", "scripts/prepare_tabicl.py", "src/tabicl_models.py",
-                        "src/focused_features.py", "src/competition_features.py", "src/preprocess.py", "src/optimization.py", "features/folds.csv", "requirements-tabicl.txt"]},
+                        "src/focused_features.py", "src/competition_features.py", "src/preprocess.py", "src/optimization.py", "features/folds.csv", "requirements/requirements-tabicl.txt"]},
                     environment={p:importlib.metadata.version(p) for p in ["torch","tabicl","numpy","pandas","scikit-learn","scipy"]},
                     gpu=torch.cuda.get_device_name(0), context="Public unlabeled features only; entire validation groups absent from in-context training labels; all inference stays local")
     path = report / "protocol.json"

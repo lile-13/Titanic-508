@@ -47,7 +47,7 @@ def main():
         data_hashes=json.loads((old.report/"protocol.json").read_text(encoding="utf-8"))["data_hashes"],
         checkpoint_sha256=CHECKPOINT_SHA256,
         sources={p:sha(PROJECT_ROOT/p) for p in ["scripts/tabicl_probability_mean_study.py","src/tabicl_aggregation.py","src/frozen_reference.py",
-            "src/tabicl_models.py","src/focused_features.py","src/competition_features.py","src/optimization.py","src/preprocess.py","scripts/tabicl_study.py","features/folds.csv","requirements-tabicl.txt"]},
+            "src/tabicl_models.py","src/focused_features.py","src/competition_features.py","src/optimization.py","src/preprocess.py","scripts/tabicl_study.py","features/folds.csv","requirements/requirements-tabicl.txt"]},
         environment={p:importlib.metadata.version(p) for p in ["tabicl","torch","catboost","lightgbm","numpy","pandas","scikit-learn"]})
     path=report/"protocol.json"
     if path.exists():

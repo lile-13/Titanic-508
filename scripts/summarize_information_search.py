@@ -46,7 +46,7 @@ def main():
 
 模型仅在本机NVIDIA GeForce RTX 5060 Laptop GPU上运行，8GB显存；未向外部模型服务发送竞赛数据。固定8个内部集成视图，batch_size=2，random_state=42，无微调。输入为FocusedBuilder(compact)的18列，保留原五项消费、年龄、位置及基础组统计。它与旧方案的输入矩阵也不同，故结果属于模型与输入组合对照，不能全部归因于单一架构。
 
-依赖单独安装在被忽略的outputs/tabicl_env：torch==2.14.1+cu130、tabicl==2.2.0。原项目环境未安装torch，requirements.txt保持原冻结内容。共享一份经哈希校验的作者权重；每个已保存上下文只包含该折训练特征、训练标签和无标签预处理器，不存机器专属绝对路径或GPU运行缓存。
+依赖单独安装在被忽略的outputs/tabicl_env：torch==2.14.1+cu130、tabicl==2.2.0。原项目环境未安装torch，requirements/requirements.txt保持原冻结内容。共享一份经哈希校验的作者权重；每个已保存上下文只包含该折训练特征、训练标签和无标签预处理器，不存机器专属绝对路径或GPU运行缓存。
 
 ## 同口径结果
 
@@ -89,7 +89,7 @@ outputs/tabicl_env/Scripts/python.exe -B -m scripts.audit_tabicl_round
 
 全新机器需下载原始数据，依原模型优化流程重建confirmation开发缓存、两次固定权重分组基准，以及calibration_study内部教师缓存。嵌套TFM组合还读取G分群研究的第一轮内部教师缓存；该来源此前已审计，失败结论保持不变。models/outputs不随Git推送，只有源码和报告不能直接读出本机实验缓存。源码哈希按字节核对，克隆应保留LF换行。
 
-GPU环境可在单独venv中先安装requirements.txt，再从PyTorch官方索引安装torch==2.14.1+cu130（--index-url https://download.pytorch.org/whl/cu130），然后安装tabicl==2.2.0；`python -m scripts.prepare_tabicl`下载固定作者权重，网络需要代理时可加--proxy参数。首次检查只使用合成数据，不依据外层标签选择硬件参数。
+GPU环境可在单独venv中先安装requirements/requirements.txt，再从PyTorch官方索引安装torch==2.14.1+cu130（--index-url https://download.pytorch.org/whl/cu130），然后安装tabicl==2.2.0；`python -m scripts.prepare_tabicl`下载固定作者权重，网络需要代理时可加--proxy参数。首次检查只使用合成数据，不依据外层标签选择硬件参数。
 
 课程报告DOCX、源码ZIP继续按用户要求暂停整理。本轮没有自动提交Kaggle，也没有推断或填写四人个人信息。
 """

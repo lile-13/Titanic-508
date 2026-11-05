@@ -101,7 +101,7 @@ def make_model(config: TrainingConfig):
     try:
         from catboost import CatBoostClassifier
     except ImportError as exc:
-        raise ImportError("请先在项目环境安装 requirements.txt 中的 CatBoost") from exc
+        raise ImportError("请先在项目环境安装 requirements/requirements.txt 中的 CatBoost") from exc
     # 固定迭代数，不用外层验证折选择 best_iteration，保持首次五折比较口径清晰。
     return CatBoostClassifier(
         iterations=config.iterations, depth=config.depth,

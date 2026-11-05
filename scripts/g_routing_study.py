@@ -65,7 +65,7 @@ def main():
         source_choices={n:sha(EXPERIMENTS_DIR/n/"frozen_choice.json") for n in ["g_deck_roles_20261029_v2","g_deck_offset_20261029"]},
         data_hashes=json.loads((old.report/"protocol.json").read_text(encoding="utf-8"))["data_hashes"],
         sources={p:sha(PROJECT_ROOT/p) for p in ["scripts/g_routing_study.py","src/g_routing.py","src/g_deck_models.py",
-            "src/g_offset_models.py","src/focused_features.py","src/competition_features.py","src/optimization.py","src/preprocess.py","features/folds.csv","requirements.txt"]})
+            "src/g_offset_models.py","src/focused_features.py","src/competition_features.py","src/optimization.py","src/preprocess.py","features/folds.csv","requirements/requirements.txt"]})
     path=report/"protocol.json"
     if path.exists():
         if json.loads(path.read_text(encoding="utf-8"))!=protocol:raise ValueError("Routing protocol changed; use a new run")

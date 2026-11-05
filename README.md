@@ -48,12 +48,12 @@ test.csv
 sample_submission.csv
 ```
 
-最终模型使用的已验证环境为Windows、Python 3.14.6、RTX 5060 Laptop 8GB、torch 2.14.1+cu130、tabicl 2.2.0、CatBoost 1.2.10和LightGBM 4.7.0。GPU模型的固定实现需要CUDA；普通树模型及分析任务可使用`requirements.txt`。
+最终模型使用的已验证环境为Windows、Python 3.14.6、RTX 5060 Laptop 8GB、torch 2.14.1+cu130、tabicl 2.2.0、CatBoost 1.2.10和LightGBM 4.7.0。GPU模型的固定实现需要CUDA；普通树模型及分析任务可使用`requirements/requirements.txt`。
 
 ```powershell
 py -3.14 -m venv .venv-final
 .\.venv-final\Scripts\python.exe -m pip install torch==2.14.1+cu130 --index-url https://download.pytorch.org/whl/cu130
-.\.venv-final\Scripts\python.exe -m pip install -r requirements-final.txt
+.\.venv-final\Scripts\python.exe -m pip install -r requirements/requirements-final.txt
 .\.venv-final\Scripts\python.exe -B -m scripts.prepare_tabicl
 ```
 
@@ -99,6 +99,7 @@ Git仓库不包含原始数据、训练权重和大型本地产物。仅clone源
 
 | 路径 | 用途 |
 |---|---|
+| `requirements/` | 集中保存基础环境、最终模型和可选实验的依赖清单，见[安装说明](requirements/README.md) |
 | `scripts/rebuild_final.py` | 固定方案的完整重建入口 |
 | `scripts/predict_ensemble.py` | 加载组合模型并生成预测 |
 | `src/preprocess.py`、`src/competition_features.py` | 基础预处理、统一特征池与树模型输入 |
