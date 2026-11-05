@@ -95,7 +95,7 @@ Git仓库不包含原始数据、训练权重和大型本地产物。仅clone源
 .\.venv-final\Scripts\python.exe -B -m unittest discover -s tests -q
 ```
 
-已有66项测试通过；最终重建、课程包独立解压重载与CSV核验见[最终交付检查](reports/checks/final_delivery_20261103.json)。[课程源码包说明](docs/最终模型与课程交付_20261103.md)包含打包入口。提交前检查4277行、PassengerId顺序、True/False标签和无缺失，Kaggle由组长手动提交。
+源码包解压后66项测试通过，包内模型重新生成的4277行CSV与历史最佳文件字节一致；报告、命名及运行核验见[课程提交检查](reports/checks/course_submission_20261105.json)。[课程源码包说明](docs/最终模型与课程交付_20261103.md)包含打包入口。提交前检查PassengerId顺序、True/False标签和无缺失，Kaggle由组长手动提交。
 
 | 路径 | 用途 |
 |---|---|
